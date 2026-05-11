@@ -1,0 +1,20 @@
+# Theseus Phase 0 — crontab template (NJT-aware)
+# Install on VPS:  crontab crontab.example
+# Verify:          crontab -l
+#
+# All times are interpreted in the system TZ. Set:
+#   export TZ=America/New_York
+# in /etc/environment (or set CRON_TZ below).
+CRON_TZ=America/New_York
+
+# Backup — daily 00:00 NJT
+0 0 * * *  $HOME/Theseus_Phase0/ops/backup.sh >> $HOME/Theseus_Phase0/logs/backup.log 2>&1
+
+# Crawler orchestrator — daily 02:00 NJT (Batch 2 wires this in)
+# 0 2 * * *  cd $HOME/Theseus_Phase0 && $HOME/Theseus_Phase0/venv/bin/python -m crawler.orchestrator >> $HOME/Theseus_Phase0/logs/crawler.log 2>&1
+
+# Daily briefing — 07:00 NJT (Batch 2 wires this in)
+# 0 7 * * *  cd $HOME/Theseus_Phase0 && $HOME/Theseus_Phase0/venv/bin/python -m briefing.daily_briefing >> $HOME/Theseus_Phase0/logs/briefing.log 2>&1
+
+# Health check — every 15min (Batch 3 wires this in)
+# */15 * * * *  cd $HOME/Theseus_Phase0 && $HOME/Theseus_Phase0/venv/bin/python -m ops.health_check >> $HOME/Theseus_Phase0/logs/health.log 2>&1

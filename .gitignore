@@ -1,0 +1,30 @@
+# Secrets
+.env
+.env.local
+*.pem
+*.key
+
+# Kill switch state
+control/.killed
+control/.killed.cleared_*
+
+# Backups (never commit DB dumps)
+backups/
+*.dump
+*.sql.gz
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Editor
+.vscode/
+.idea/
+*.swp
+.DS_Store
