@@ -1,0 +1,14 @@
+{
+  "store_id": "OBP_NY",
+  "store_name": "One Bryant Park",
+  "voice_style": "institutional_team_voice",
+  "team_pairing_notes_uri": null,
+  "_compass_notes": "voice_style MUST be institutional, never individual; field naming must use team_* prefix (see project_theseus_compass.md). Personal-name fields are forbidden here.",
+  "items": [
+    {"cuvee_id": "cuvee:krug-grande-cuvee-170eme-edition", "format": "750ml", "available": true, "price_usd": 350, "team_note": ""},
+    {"cuvee_id": "cuvee:bollinger-special-cuvee", "format": "750ml", "available": true, "price_usd": 145, "team_note": ""},
+    {"cuvee_id": "cuvee:ruinart-blanc-de-blancs", "format": "750ml", "available": true, "price_usd": 195, "team_note": ""},
+    {"cuvee_id": "cuvee:louis-roederer-cristal-2015", "format": "750ml", "available": true, "price_usd": 695, "team_note": ""},
+    {"cuvee_id": "cuvee:dom-perignon-2013", "format": "750ml", "available": true, "price_usd": 425, "team_note": ""}
+  ]
+}
