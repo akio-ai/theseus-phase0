@@ -28,3 +28,4 @@ venv/
 .idea/
 *.swp
 .DS_Store
+style_engine/private/
