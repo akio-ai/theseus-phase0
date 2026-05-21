@@ -20,8 +20,10 @@ step() { printf '\n%s>> %s%s\n' "${C_BOLD}" "$*" "${C_RESET}"; }
 cd /opt/theseus || fail "Cannot cd to /opt/theseus"
 
 # ----------------------------------------------------------------------------
-step "Asking for ANTHROPIC_API_KEY"
-read -r -p "Paste your ANTHROPIC_API_KEY (sk-ant-...): " ANTHROPIC_API_KEY
+step "Checking ANTHROPIC_API_KEY"
+if [ -z "${ANTHROPIC_API_KEY:-}" ]; then
+    read -r -p "Paste your ANTHROPIC_API_KEY (sk-ant-...): " ANTHROPIC_API_KEY
+fi
 if [ -z "${ANTHROPIC_API_KEY}" ] || [ "${ANTHROPIC_API_KEY}" = "PLACEHOLDER" ]; then
     fail "ANTHROPIC_API_KEY is empty"
 fi
