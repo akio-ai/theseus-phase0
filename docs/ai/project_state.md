@@ -44,6 +44,21 @@ In progress
 
 Implement and verify Phase 3B-U2 only.
 
+## Execution Source of Truth
+
+The **THÉSEUS Development** GitHub Project (default repository `akio-ai/theseus-phase0`, private).
+Status, Gate, Health and Priority live there; this file records the surrounding state.
+
+The operating model is documented in
+[`github_projects_operations.md`](github_projects_operations.md).
+
+**Execution boundary:** implementation may begin only when **Status = Ready** and
+**Gate = None or Approved**. **Gate = CTO Review or CEO Decision prohibits implementation.**
+
+**Done** means merged **and** validated **and** required documentation updated **and** acceptance
+criteria satisfied. A merged pull request alone does not produce Done, and the
+`Pull request merged → Done` workflow is disabled for that reason.
+
 ## Operating Rules
 
 - One unit per implementation commit
