@@ -2,66 +2,89 @@
 
 ## Task
 
-Issue #2 — [TASK] Document GitHub Projects operating model
+Establish the AI Autonomous Execution Policy (v1) as one complete governance task.
 
 ## Branch / Base
 
-Branch **`docs/issue-2-clean`**, based directly on **`origin/main` at `5a4a85a`**, carrying a
-single commit. `main` is untouched and nothing has been pushed.
+Branch **`docs/ai-autonomous-execution-policy`**, cut from canonical **`origin/main` at
+`30d90d1`**, carrying a single commit.
 
-The branch is intended to be reviewed as an Issue #2-only pull request: its entire diff against
-`origin/main` is the five documentation files below.
+Local `main` and `origin/main` are **divergent** (local +30, origin +11). Nothing was merged,
+rebased, reset, or overwritten: this branch was created directly from `origin/main`, which is what
+keeps the diff to the approved files only.
 
-## What was produced
+## Summary
+
+Records how work is executed on THÉSEUS: the three roles and what each owns, the nine steps the
+Execution Agent runs without intermediate approval, the approval envelope for push and PR
+creation, the ten mandatory stop conditions, Git safety rules, PR keyword rules, the Projects
+permission position, and the reporting contract.
+
+## Diff
 
 | File | Change |
 |---|---|
-| `docs/ai/github_projects_operations.md` | **New.** The operating model: Status lifecycle and semantics, Priority, Workstream, Size, Risk, Health, Gate, the six views with their filters, enabled and disabled workflows, the execution boundary, and what Done requires |
-| `docs/ai/README.md` | **Populated** (was empty). Index of the workspace, with the execution boundary stated up front |
-| `docs/ai/project_state.md` | **Added** an execution-source-of-truth section pointing at the Project and the operating model. Existing state fields left as they were |
-| `docs/ai/work_queue.md` | **Added** the source-of-truth note and Issue #2 under In Review. Existing entries left as they were |
-| `docs/ai/claude_report.md` | **Populated** (was empty) — this file |
+| `docs/ai/ai_autonomous_execution_policy.md` | **New.** The policy — roles, autonomous scope, approval envelope, stop conditions, Git safety, PR rules, Projects authority, reporting, unresolved matters |
+| `docs/ai/README.md` | Policy added to the index and to "Start here"; the execution boundary note now covers the autonomous run and the approval envelope |
+| `docs/ai/github_projects_operations.md` | One row added to §9 pointing at the policy |
+| `docs/ai/project_state.md` | Execution-source-of-truth section now references the policy, the autonomous scope, and the Project field authority |
+| `docs/ai/work_queue.md` | Header references the policy; this task listed under In Review; Issue #2 moved to Completed |
+| `docs/ai/claude_report.md` | This file |
 
-No application code, tests, GitHub configuration, issue or PR templates, or `CODEOWNERS` were
-touched. `cto_review.md` and `ceo_decisions.md` were not modified.
+Documentation only. No application code, no GitHub configuration, no test changes.
 
-## The rules this documents
+## Tests
 
-- Implementation may begin **only** at **Status = Ready** with **Gate = None or Approved**.
-- **Gate = CTO Review or CEO Decision prohibits implementation.**
-- **Done** requires merge **and** validation **and** required documentation updates **and**
-  satisfaction of the acceptance criteria — all four.
-- A merged pull request must not automatically produce Done; `Pull request merged → Done` is
-  disabled, and a human or authorized review confirms the other three before Done is set.
-- `Health = Blocked` is an attribute, not a Status: a blocked item keeps its Status and must name
-  the blocker, the required decision or owner, and the unblock condition.
+`python3 -m pytest -q` — **85 passed**. Unchanged from the pre-existing baseline on `origin/main`;
+a documentation-only change cannot affect it, and it was run to confirm exactly that.
 
-## Inconsistencies found, not corrected
+## Risks
 
-Reported rather than repaired, because repairing them would mean rewriting records this task has
-no authority over.
+- **Divergent local `main`.** Local `main` carries 30 unpushed commits that `origin/main` does not
+  have. This task did not touch it. Any future attempt to reconcile the two is a separate,
+  explicitly-approved decision.
+- **Untracked local research data.** On a branch based on `origin/main`, this repository's
+  gitignored working data appears as untracked, because the `.gitignore` protecting it lives on a
+  branch that is not checked out. It was not staged, moved or deleted. The policy's Git rules
+  exist to keep it that way.
+- **Policy scope.** The policy governs execution only. It does not alter the Project's fields,
+  views or workflows, and does not change any approved architecture decision.
 
-1. **`project_state.md` cites commits that do not exist in this repository.** `0358138` is given
-   as both Latest Approved Commit and Current Base Commit; it resolves in `akio-ai/theseus-project`,
-   not here. The same holds for the later Phase 3B commits. The reference is meaningful — that is
-   where the U1/U2 work lives — but the repository is not named, so the hashes cannot be resolved
-   from this repository alone.
+## Decisions
 
-2. **`project_state.md` records "Current Blockers: None" and "Open Questions: None"** while an
-   Implementation Question raised during Phase 3B-U2 remains undecided, and U2 has not been finally
-   accepted. Correcting this is a governance-state judgement, not a documentation edit.
+| Decision | Source |
+|---|---|
+| Branch cut from `origin/main`, not from local `main` | The instruction to work from canonical `origin/main` and not reconcile divergent history |
+| `project` scope neither requested nor granted; `read:project` recommended as the next step | Instructed, and consistent with the existing CTO position |
+| Gate recorded as a human-authorized field | Instructed |
+| The PR body does not carry `Tracks #N` | No Issue exists for this task — see Stop conditions |
+| Issue #2 moved to Completed in `work_queue.md` | It is merged (`30d90d1`) and closed; leaving it under In Review would have been stale |
 
-3. **`work_queue.md` lists Phase 3B-U2 under Ready** although its implementation has been written
-   and is awaiting review. Left as-is: this task's scope for that file was Issue #2 and the
-   source-of-truth reference only.
+## Required Project field transitions
 
-None of these contradicts the new operating model; they are drift between the existing records and
-the current state.
+The Execution Agent cannot write Project fields. A human needs to set, for this task's item:
 
-## Validation
+| Field | Value |
+|---|---|
+| Status | **In Review** |
+| Gate | **Approved** |
+| Health | **On Track** |
 
-Only documentation paths changed — verified by diff. The repository's documented test suite was
-run and is unaffected.
+## Stop conditions encountered
+
+**One, and it did not block delivery.**
+
+**No Issue exists for this task.** The only open Issue is `#1 [TASK] Phase 3B-U3`. The instruction
+was to open the PR with `Tracks #<issue-number>`, and there is no number to use. Creating an Issue
+was not in the approved external-action envelope, which authorized push and pull-request creation
+only, so no Issue was created and no number was invented. The PR states this in its body; adding
+`Tracks #N` later is a one-line edit once a number exists.
+
+## Existing unresolved matters
+
+- **IQ-6** — open in the `theseus-project` repository, concerning `required_for_complete`. Not
+  inspected, decided, or modified.
+- **U1 / U2 behaviour** — unchanged.
 
 ## Last Updated
 

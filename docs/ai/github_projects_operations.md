@@ -200,6 +200,7 @@ If any one is unmet, the correct Status is **In Review**, not Done.
 
 | File | Role |
 |---|---|
+| [`ai_autonomous_execution_policy.md`](ai_autonomous_execution_policy.md) | How work is executed against this model — roles, autonomous scope, stop conditions, Git safety, PR keyword rules, and who may write Project fields |
 | `project_state.md` | Where the programme stands right now |
 | `work_queue.md` | What is queued, in progress, gated or finished |
 | `claude_report.md` | Claude's report for the current task |
