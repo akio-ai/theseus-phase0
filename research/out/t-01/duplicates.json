@@ -1,0 +1,2158 @@
+[
+  {
+    "shell_id": "rs:pro:362e120e4dc98662",
+    "level": "product",
+    "identity_basis": "source_exact",
+    "appearances": 13,
+    "sections": [
+      "FRANCE | RED | BORDEAUX"
+    ],
+    "lines": [
+      "2020\t\tPauillac\t\t\t\t\t\t\t\t3600",
+      "2019\t\tPauillac\t\t\t\t\t\t\t\t3600",
+      "2018\t\tPauillac\t\t\t\t\t\t\t\t5400",
+      "2016\t\tPauillac\t\t\t\t\t\t\t\t4820",
+      "2015\t\tPauillac\t\t\t\t\t\t\t\t4380",
+      "2014\t\tPauillac\t\t\t\t\t\t\t\t3800",
+      "2012\t\tPauillac\t\t\t\t\t\t\t\t4160",
+      "2011\t\tPauillac\t\t\t\t\t\t\t\t3900",
+      "2008\t\tPauillac\t\t\t\t\t\t\t\t4820",
+      "2007\t\tPauillac\t\t\t\t\t\t\t\t3840",
+      "2006\t\tPauillac\t\t\t\t\t\t\t\t4780",
+      "2004\t\tPauillac\t\t\t\t\t\t\t\t3980",
+      "2003\t\tPauillac\t\t\t\t\t\t\t\t5200"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:d41479f9827b9131",
+    "level": "producer",
+    "identity_basis": "source_exact",
+    "appearances": 10,
+    "sections": [
+      "UNITED STATES | RED | SONOMA"
+    ],
+    "lines": [
+      "2022\t\tNapa-Sonoma Counties Cabernet Sauvignon\t\t\t\t260",
+      "2019\t\tNapa-Sonoma Counties Cabernet Sauvignon\t\t\t\t300",
+      "2018\t\tNapa-Sonoma Counties Cabernet Sauvignon\t\t\t\t300",
+      "2017\t\tNapa-Sonoma Counties Cabernet Sauvignon\t\t\t\t300",
+      "2022\t\tNapa County Merlot\t\t\t\t\t\t\t210",
+      "2019\t\tNapa-Sonoma Counties Merlot\t\t\t\t\t260",
+      "2018\t\tNapa-Sonoma Counties Merlot\t\t\t\t\t260",
+      "2017\t\tNapa Valley Merlot\t\t\t\t\t\t\t260",
+      "2019\t\t‘Reserve,’ Napa-Sonoma Counties Cabernet Sauvignon\t\t560",
+      "2018\t\t‘Reserve,’ Napa-Sonoma Counties Cabernet Sauvignon\t\t540"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:f00b930cb19b5b23",
+    "level": "product",
+    "identity_basis": "source_exact",
+    "appearances": 8,
+    "sections": [
+      "FRANCE | RED | RHÔNE",
+      "FRANCE | WHITE | RHÔNE"
+    ],
+    "lines": [
+      "2023\t\tHermitage\t\t\t\t\t\t\t\t1400",
+      "2022\t\tHermitage\t\t\t\t\t\t\t\t1400",
+      "2021\t\tHermitage\t\t\t\t\t\t\t\t1400",
+      "2020\t\tHermitage\t\t\t\t\t\t\t\t1400",
+      "2019\t\tHermitage\t\t\t\t\t\t\t\t960",
+      "2013\t\tHermitage\t\t\t\t\t\t\t\t1480",
+      "2023\t\tHermitage\t\t\t\t\t\t\t\t1400",
+      "2022\t\tHermitage\t\t\t\t\t\t\t\t1400"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:fd889d0a9bbd01dc",
+    "level": "product",
+    "identity_basis": "source_exact",
+    "appearances": 8,
+    "sections": [
+      "FRANCE | RED | BORDEAUX"
+    ],
+    "lines": [
+      "2019\t\tMargaux\t\t\t\t\t\t\t\t3760",
+      "2016\t\tMargaux\t\t\t\t\t\t\t\t3380",
+      "2015\t\tMargaux\t\t\t\t\t\t\t\t6890",
+      "2012\t\tMargaux\t\t\t\t\t\t\t\t2440",
+      "2010\t\tMargaux\t\t\t\t\t\t\t\t5120",
+      "2006\t\tMargaux\t\t\t\t\t\t\t\t3375",
+      "2005\t\tMargaux\t\t\t\t\t\t\t\t5120",
+      "1995\t\tMargaux\t\t\t\t\t\t\t\t4800"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:1304a39b86c2c511",
+    "level": "producer",
+    "identity_basis": "source_exact",
+    "appearances": 8,
+    "sections": [
+      "UNITED STATES | RED | NAPA",
+      "UNITED STATES | WHITE | NAPA"
+    ],
+    "lines": [
+      "2022\t\t‘Essence,’ Napa Valley Sauvignon Blanc\t\t\t\t200",
+      "2023\t\t‘Estate,’ Napa Valley Chardonnay\t\t\t\t\t155",
+      "2023\t\t‘Paris ’76,’ Napa Valley Chardonnay\t\t\t\t\t440",
+      "2021\t\t‘Estate,’ Napa Valley Cabernet Sauvignon\t\t\t\t220",
+      "2014\t\t‘Estate,’ Napa Valley Cabernet Sauvignon\t\t\t\t500",
+      "2013\t\t‘Estate,’ Napa Valley Cabernet Sauvignon\t\t\t\t500",
+      "2012\t\t‘Estate,’ Napa Valley Cabernet Sauvignon\t\t\t\t500",
+      "2021\t\t‘Paradise Block,’ Yountville Cabernet Sauvignon\t\t\t880"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:91b48df84fd79f30",
+    "level": "producer",
+    "identity_basis": "source_exact",
+    "appearances": 6,
+    "sections": [
+      "NAMA | JUNMAI GINJO & GINJO",
+      "NAMA | RESERVE"
+    ],
+    "lines": [
+      "Jikon, 'Hattan Nishiki'\t\t\t\t\t\t\t\t165",
+      "Jikon, ‘Omachi’\t\t\t\t\t\t\t\t165",
+      "Jikon, ‘Senbon Nishiki’\t\t\t\t\t\t\t165",
+      "Jikon, ‘Yamada Nishiki’\t\t\t\t\t\t\t165",
+      "Jikon, Nabari,’ Junmai Daiginjo\t\t\t\t\t\t425",
+      "Jikon, ‘Tokuto Omachi,’ Junmai Daiginjo\t\t\t\t\t2000"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:2d3a267693fa6f7d",
+    "level": "product",
+    "identity_basis": "source_exact",
+    "appearances": 6,
+    "sections": [
+      "CHAMPAGNE | BLENDS",
+      "CHAMPAGNE | ROSÉ"
+    ],
+    "lines": [
+      "2016\t\tGrand Cru Extra Brut\t\t\t\t\t\t\t1860",
+      "2015\t\tGrand Cru Extra Brut\t\t\t\t\t\t\t1580",
+      "2014\t\tGrand Cru Extra Brut\t\t\t\t\t\t\t1740",
+      "2013\t\tGrand Cru Extra Brut\t\t\t\t\t\t\t1985",
+      "2012\t\tGrand Cru Extra Brut\t\t\t\t\t\t\t1985",
+      "Grand Cru Extra Brut\t\t\t\t\t\t\t680"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:20b41819554d2605",
+    "level": "producer",
+    "identity_basis": "source_exact",
+    "appearances": 6,
+    "sections": [
+      "FRANCE | RED | BURGUNDY",
+      "FRANCE | WHITE | BURGUNDY"
+    ],
+    "lines": [
+      "2023\t\t‘Les Perclos,’ Chassagne-Montrachet\t\t\t\t500",
+      "2023\t\t‘Porusots,’ Meursault Premier Cru\t\t\t\t\t1080",
+      "2023\t\tMontrachet Grand Cru\t\t\t\t\t\t5520",
+      "2023\t\tVosne-Romanée\t\t\t\t\t\t\t580",
+      "2022\t\tClos Vougeot Grand Cru\t\t\t\t\t\t2000",
+      "2022\t\tÉchézeaux Grand Cru\t\t\t\t\t\t\t2200"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:434164aa9498d56f",
+    "level": "product",
+    "identity_basis": "source_exact",
+    "appearances": 6,
+    "sections": [
+      "FRANCE | WHITE | BORDEAUX"
+    ],
+    "lines": [
+      "2017\t\tSauternes (375 mL)\t\t\t\t\t\t\t1180",
+      "2016\t\tSauternes (375 mL)\t\t\t\t\t\t\t850",
+      "2014\t\tSauternes (375 mL)\t\t\t\t\t\t\t980",
+      "2013\t\tSauternes (375 mL)\t\t\t\t\t\t\t980",
+      "2011\t\tSauternes (375 mL)\t\t\t\t\t\t\t980",
+      "2010\t\tSauternes (375 mL)\t\t\t\t\t\t\t980"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:f03295ce7c3d1982",
+    "level": "producer",
+    "identity_basis": "source_exact",
+    "appearances": 6,
+    "sections": [
+      "FRANCE | RED | JURA",
+      "FRANCE | WHITE | JURA"
+    ],
+    "lines": [
+      "2018\t\t‘Les Grands Teppes,’ Côtes du Jura\t\t\t\t\t600",
+      "2021\t\t‘Les Survivants,’ Côtes du Jura\t\t\t\t\t480",
+      "2023\t\t‘Cuvée de l’Enfant Terrible,’ Côtes du Jura\t\t\t\t360",
+      "2022\t\t‘Cuvée de l’Enfant Terrible,’ Côtes du Jura\t\t\t\t360",
+      "2024\t\t‘Julien en Billat – L’Enfant Terrible du Sud,’ Côtes du Jura \t440",
+      "2023\t\t‘Les Grands Teppes,’ Côtes du Jura\t\t\t\t\t440"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:96abd2a7c2917ba2",
+    "level": "product",
+    "identity_basis": "source_exact",
+    "appearances": 6,
+    "sections": [
+      "FRANCE | RED | BORDEAUX"
+    ],
+    "lines": [
+      "2020\t\tMargaux\t\t\t\t\t\t\t\t300",
+      "2019\t\tMargaux\t\t\t\t\t\t\t\t280",
+      "2018\t\tMargaux\t\t\t\t\t\t\t\t335",
+      "2017\t\tMargaux\t\t\t\t\t\t\t\t300",
+      "2011\t\tMargaux\t\t\t\t\t\t\t\t335",
+      "2010\t\tMargaux\t\t\t\t\t\t\t\t460"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:7e4577c3f98cf640",
+    "level": "product",
+    "identity_basis": "source_exact",
+    "appearances": 6,
+    "sections": [
+      "FRANCE | RED | BORDEAUX"
+    ],
+    "lines": [
+      "2019\t\tPessac-Léognan\t\t\t\t\t\t\t2740",
+      "2018\t\tPessac-Léognan\t\t\t\t\t\t\t2820",
+      "2015\t\tPessac-Léognan\t\t\t\t\t\t\t2820",
+      "2011\t\tPessac-Léognan\t\t\t\t\t\t\t2440",
+      "1993\t\tPessac-Léognan\t\t\t\t\t\t\t1800",
+      "1987\t\tPessac-Léognan\t\t\t\t\t\t\t2400"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:0f869da4ced5c8eb",
+    "level": "product",
+    "identity_basis": "source_exact",
+    "appearances": 6,
+    "sections": [
+      "FRANCE | RED | BORDEAUX"
+    ],
+    "lines": [
+      "2017\t\tPauillac\t\t\t\t\t\t\t\t2325",
+      "2014\t\tPauillac\t\t\t\t\t\t\t\t2580",
+      "2010\t\tPauillac\t\t\t\t\t\t\t\t6340",
+      "2009\t\tPauillac\t\t\t\t\t\t\t\t5500",
+      "2000\t\tPauillac\t\t\t\t\t\t\t\t5240",
+      "1996\t\tPauillac\t\t\t\t\t\t\t\t2640"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:e18861214f703025",
+    "level": "product",
+    "identity_basis": "source_exact",
+    "appearances": 6,
+    "sections": [
+      "FRANCE | RED | BORDEAUX"
+    ],
+    "lines": [
+      "2019\t\tPauillac\t\t\t\t\t\t\t\t2880",
+      "2015\t\tPauillac\t\t\t\t\t\t\t\t2920",
+      "2010\t\tPauillac\t\t\t\t\t\t\t\t3700",
+      "2009\t\tPauillac\t\t\t\t\t\t\t\t3580",
+      "2001\t\tPauillac\t\t\t\t\t\t\t\t1800",
+      "1996\t\tPauillac\t\t\t\t\t\t\t\t2200"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:fbc2b74bd8242710",
+    "level": "product",
+    "identity_basis": "source_exact",
+    "appearances": 5,
+    "sections": [
+      "CHAMPAGNE | BLANC DE BLANCS",
+      "CHAMPAGNE | ROSÉ"
+    ],
+    "lines": [
+      "2014\t\t‘Comtes de Champagne,’ Grand Cru Brut\t\t\t\t760",
+      "2013\t\t‘Comtes de Champagne,’ Grand Cru Brut\t\t\t\t700",
+      "2011\t\t‘Comtes de Champagne,’ Grand Cru Brut\t\t\t\t680",
+      "2005\t\t‘Comtes de Champagne,’ Grand Cru Brut\t\t\t\t1000",
+      "2012\t\t‘Comtes de Champagne,’ Grand Cru Brut\t\t\t\t955"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:cb44171cbfdcc19c",
+    "level": "product",
+    "identity_basis": "source_exact",
+    "appearances": 5,
+    "sections": [
+      "FRANCE | WHITE | BURGUNDY"
+    ],
+    "lines": [
+      "2023\t\t‘Sous le Dos d’Ane,’ Meursault Premier Cru\t\t\t\t1280",
+      "2019\t\t‘Sous le Dos d’Ane,’ Meursault Premier Cru\t\t\t\t1280",
+      "2016\t\t‘Sous le Dos d’Ane,’ Meursault Premier Cru\t\t\t\t1280",
+      "2015\t\t‘Sous le Dos d’Ane,’ Meursault Premier Cru\t\t\t\t1280",
+      "2014\t\t‘Sous le Dos d’Ane,’ Meursault Premier Cru\t\t\t\t1280"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:9dd83f4373ceb5ad",
+    "level": "product",
+    "identity_basis": "source_exact",
+    "appearances": 5,
+    "sections": [
+      "FRANCE | RED | BURGUNDY"
+    ],
+    "lines": [
+      "2022\t\tRomanée-Saint-Vivant Grand Cru\t\t\t\t\t8200",
+      "2021\t\tRomanée-Saint-Vivant Grand Cru\t\t\t\t\t7800",
+      "2019\t\tRomanée-Saint-Vivant Grand Cru\t\t\t\t\t8000",
+      "2009\t\tRomanée-Saint-Vivant Grand Cru\t\t\t\t\t15000",
+      "1993\t\tRomanée-Saint-Vivant Grand Cru\t\t\t\t\t15980"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:3120af88eefdb99f",
+    "level": "product",
+    "identity_basis": "source_exact",
+    "appearances": 5,
+    "sections": [
+      "FRANCE | RED | BURGUNDY"
+    ],
+    "lines": [
+      "2023\t\t‘Clos des Cortons Faiveley,’ Corton Grand Cru\t\t\t1360",
+      "2022\t\t‘Clos des Cortons Faiveley,’ Corton Grand Cru \t\t\t1360",
+      "2021\t\t‘Clos des Cortons Faiveley,’ Corton Grand Cru \t\t\t1360",
+      "2020\t\t‘Clos des Cortons Faiveley,’ Corton Grand Cru \t\t\t1360",
+      "2017\t\t‘Clos des Cortons Faiveley,’ Corton Grand Cru \t\t\t1360"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:b5811421e1908911",
+    "level": "product",
+    "identity_basis": "source_exact",
+    "appearances": 5,
+    "sections": [
+      "FRANCE | RED | BORDEAUX"
+    ],
+    "lines": [
+      "2017\t\tMargaux\t\t\t\t\t\t\t\t1280",
+      "2014\t\tMargaux\t\t\t\t\t\t\t\t1280",
+      "2013\t\tMargaux\t\t\t\t\t\t\t\t960",
+      "2012\t\tMargaux\t\t\t\t\t\t\t\t1400",
+      "1996\t\tMargaux\t\t\t\t\t\t\t\t2080"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:2e7cb762f81886b2",
+    "level": "producer",
+    "identity_basis": "source_exact",
+    "appearances": 5,
+    "sections": [
+      "UNITED STATES | RED | NAPA"
+    ],
+    "lines": [
+      "2021\t\t‘Las Posadas,’ Howell Mountain Cabernet Sauvignon\t\t2640",
+      "2019\t\t‘Las Posadas,’ Howell Mountain Cabernet Sauvignon\t\t2505",
+      "2021\t\t‘Madrona,’ Saint Helena Cabernet Sauvignon\t\t\t2640",
+      "2019\t\t‘Madrona,’ Saint Helena Cabernet Sauvignon\t\t\t2505",
+      "2021\t\t‘Thorevilos,’ Napa Valley Cabernet Sauvignon\t\t\t2640"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:f3777ffa589f76a9",
+    "level": "producer",
+    "identity_basis": "source_exact",
+    "appearances": 5,
+    "sections": [
+      "UNITED STATES | RED | WILLAMETTE"
+    ],
+    "lines": [
+      "2023\t\t‘Cumberland Reserve,’ Willamette Valley Pinot Noir\t\t160",
+      "2021\t\t‘Silice,’ Chehalem Mountains Pinot Noir\t\t\t\t305",
+      "2019\t\t‘Silice,’ Chehalem Mountains Pinot Noir\t\t\t\t305",
+      "2018\t\t‘Silice,’ Chehalem Mountains Pinot Noir\t\t\t\t280",
+      "2023\t\tDundee Hills Pinot Noir\t\t\t\t\t\t440"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:ac512797ba5e5189",
+    "level": "producer",
+    "identity_basis": "source_exact",
+    "appearances": 4,
+    "sections": [
+      "NAMA | JUNMAI DAIGINJO & DAIGINJO",
+      "NAMA | NIGORI, KOSHU, UMESHU, SPARKLING"
+    ],
+    "lines": [
+      "Ohmine, '3 Grain Yamadanishiki'\t\t\t\t\t\t125",
+      "Ohmine, ‘3 Grain Summer’s Arrival”\t\t\t\t\t200",
+      "Ohmine, '2 Grain Yamadanishiki'\t\t\t\t\t\t340",
+      "Ohmine, ‘3 Grain Winter’s Arrival”\t\t\t\t\t\t150"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:c84408d3f508b9dd",
+    "level": "producer",
+    "identity_basis": "source_exact",
+    "appearances": 4,
+    "sections": [
+      "FRANCE | RED | BURGUNDY",
+      "FRANCE | WHITE | BURGUNDY"
+    ],
+    "lines": [
+      "2023\t\tPernand Vergelesses\t\t\t\t\t\t\t265",
+      "2019\t\t‘En la Rue de Vergy,’ Morey-Saint-Denis\t\t\t\t370",
+      "2023\t\t‘La Charme Aux Prêtres,’ Marsannay\t\t\t\t265",
+      "2021\t\tBonnes-Mares Grand Cru\t\t\t\t\t\t2225"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:0fa68ba7107c939b",
+    "level": "producer",
+    "identity_basis": "source_exact",
+    "appearances": 4,
+    "sections": [
+      "FRANCE | WHITE | BURGUNDY"
+    ],
+    "lines": [
+      "2023\t\t‘Chambrees,’ Chassagne-Montrachet\t\t\t\t\t515",
+      "2020\t\t‘Chambrees,’ Chassagne-Montrachet\t\t\t\t\t640",
+      "2019\t\t‘Chambrees,’ Chassagne-Montrachet\t\t\t\t\t640",
+      "2018\t\t‘Chambrees,’ Chassagne-Montrachet\t\t\t\t\t600"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:cd7ba897a86c3b0f",
+    "level": "product",
+    "identity_basis": "source_exact",
+    "appearances": 4,
+    "sections": [
+      "FRANCE | WHITE | BURGUNDY"
+    ],
+    "lines": [
+      "2023\t\t‘Chambrees,’ Chassagne-Montrachet\t\t\t\t\t515",
+      "2020\t\t‘Chambrees,’ Chassagne-Montrachet\t\t\t\t\t640",
+      "2019\t\t‘Chambrees,’ Chassagne-Montrachet\t\t\t\t\t640",
+      "2018\t\t‘Chambrees,’ Chassagne-Montrachet\t\t\t\t\t600"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:d4df235c89616923",
+    "level": "product",
+    "identity_basis": "source_exact",
+    "appearances": 4,
+    "sections": [
+      "FRANCE | WHITE | BURGUNDY"
+    ],
+    "lines": [
+      "2023\t\t‘Clavoillon,’ Puligny-Montrachet Premier Cru\t\t\t1660",
+      "2022\t\t‘Clavoillon,’ Puligny-Montrachet Premier Cru\t\t\t1440",
+      "2019\t\t‘Clavoillon,’ Puligny-Montrachet Premier Cru\t\t\t1440",
+      "2014\t\t‘Clavoillon,’ Puligny-Montrachet Premier Cru\t\t\t1440"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:825b815318ffe6f0",
+    "level": "product",
+    "identity_basis": "source_exact",
+    "appearances": 4,
+    "sections": [
+      "FRANCE | WHITE | BURGUNDY"
+    ],
+    "lines": [
+      "2022\t\t‘Les Pucelles,’ Puligny-Montrachet Premier Cru\t\t\t3400",
+      "2019\t\t‘Les Pucelles,’ Puligny-Montrachet Premier Cru\t\t\t3400",
+      "2017\t\t‘Les Pucelles,’ Puligny-Montrachet Premier Cru\t\t\t3400",
+      "2014\t\t‘Les Pucelles,’ Puligny-Montrachet Premier Cru\t\t\t3400"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:29cab5c232001817",
+    "level": "product",
+    "identity_basis": "source_exact",
+    "appearances": 4,
+    "sections": [
+      "FRANCE | RED | BORDEAUX",
+      "FRANCE | WHITE | BORDEAUX"
+    ],
+    "lines": [
+      "2019\t\tSaint-Estèphe\t\t\t\t\t\t\t\t520",
+      "2018\t\tSaint-Estèphe\t\t\t\t\t\t\t\t680",
+      "2018\t\tSaint-Estèphe\t\t\t\t\t\t\t\t900",
+      "2015\t\tSaint-Estèphe\t\t\t\t\t\t\t\t800"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:f1e759b2affc509d",
+    "level": "product",
+    "identity_basis": "source_exact",
+    "appearances": 4,
+    "sections": [
+      "FRANCE | RED | BURGUNDY"
+    ],
+    "lines": [
+      "2022\t\tLa Tâche Grand Cru\t\t\t\t\t\t\t9900",
+      "2020\t\tLa Tâche Grand Cru\t\t\t\t\t\t\t10000",
+      "2018\t\tLa Tâche Grand Cru\t\t\t\t\t\t\t9900",
+      "2017\t\tLa Tâche Grand Cru\t\t\t\t\t\t\t9900"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:cf86d6f30355abf5",
+    "level": "product",
+    "identity_basis": "source_exact",
+    "appearances": 4,
+    "sections": [
+      "FRANCE | RED | BURGUNDY"
+    ],
+    "lines": [
+      "2022\t\tClos-de-la-Roche Grand Cru\t\t\t\t\t\t3180",
+      "2019\t\tClos-de-la-Roche Grand Cru\t\t\t\t\t\t3580",
+      "2018\t\tClos-de-la-Roche Grand Cru\t\t\t\t\t\t3180",
+      "2013\t\tClos-de-la-Roche Grand Cru\t\t\t\t\t\t4400"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:216c7fd2a39e23ad",
+    "level": "product",
+    "identity_basis": "source_exact",
+    "appearances": 4,
+    "sections": [
+      "FRANCE | RED | BURGUNDY"
+    ],
+    "lines": [
+      "2018\t\tClos-Saint-Denis Grand Cru\t\t\t\t\t\t3180",
+      "2016\t\tClos-Saint-Denis Grand Cru\t\t\t\t\t\t3580",
+      "2001\t\tClos-Saint-Denis Grand Cru\t\t\t\t\t\t5580",
+      "1996\t\tClos-Saint-Denis Grand Cru\t\t\t\t\t\t6800"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:0db1569a87eb05f8",
+    "level": "product",
+    "identity_basis": "source_exact",
+    "appearances": 4,
+    "sections": [
+      "FRANCE | RED | BURGUNDY"
+    ],
+    "lines": [
+      "2023\t\t‘Les Cazetiers,’ Gevrey-Chambertin Premier Cru\t\t\t780",
+      "2021\t\t‘Les Cazetiers,’ Gevrey-Chambertin Premier Cru\t\t\t680",
+      "2020\t\t‘Les Cazetiers,’ Gevrey-Chambertin Premier Cru\t\t\t690",
+      "2017\t\t‘Les Cazetiers,’ Gevrey-Chambertin Premier Cru\t\t\t690"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:868e246448fe98cf",
+    "level": "product",
+    "identity_basis": "source_exact",
+    "appearances": 4,
+    "sections": [
+      "UNITED STATES | RED | NAPA"
+    ],
+    "lines": [
+      "2021\t\t‘Estate,’ Napa Valley Cabernet Sauvignon\t\t\t\t220",
+      "2014\t\t‘Estate,’ Napa Valley Cabernet Sauvignon\t\t\t\t500",
+      "2013\t\t‘Estate,’ Napa Valley Cabernet Sauvignon\t\t\t\t500",
+      "2012\t\t‘Estate,’ Napa Valley Cabernet Sauvignon\t\t\t\t500"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:d7fd7ef07f25a8c6",
+    "level": "product",
+    "identity_basis": "source_exact",
+    "appearances": 4,
+    "sections": [
+      "UNITED STATES | RED | SONOMA"
+    ],
+    "lines": [
+      "2022\t\tNapa-Sonoma Counties Cabernet Sauvignon\t\t\t\t260",
+      "2019\t\tNapa-Sonoma Counties Cabernet Sauvignon\t\t\t\t300",
+      "2018\t\tNapa-Sonoma Counties Cabernet Sauvignon\t\t\t\t300",
+      "2017\t\tNapa-Sonoma Counties Cabernet Sauvignon\t\t\t\t300"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:dd3951b1b32fa40d",
+    "level": "producer",
+    "identity_basis": "source_exact",
+    "appearances": 3,
+    "sections": [
+      "NAMA",
+      "NAMA | RESERVE"
+    ],
+    "lines": [
+      "Heiwa, 'Kid, Natsu No Shippu,' Junmai Ginjo\t\t\t\t125",
+      "Heiwa, ‘Kid, Muryozan 30,’ Junmai Daiginjo\t\t\t\t1400",
+      "Heiwa, 'Kid, Muryozan 20,' Junmai Daiginjo\t\t\t\t\t8000"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:102dd75a4f5d3bde",
+    "level": "producer",
+    "identity_basis": "source_exact",
+    "appearances": 3,
+    "sections": [
+      "NAMA",
+      "NAMA | JUNMAI DAIGINJO & DAIGINJO",
+      "NAMA | RESERVE"
+    ],
+    "lines": [
+      "\tKirinzan, ‘Potari Potari Blue,’ Junmai Ginjo\t\t\t\t\t150",
+      "Kirinzan\t\t\t\t\t\t\t\t\t210",
+      "Kirinzan, ‘Kagayaki,’ Daiginjo Genshu 440"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:5d9717dbbf4f6273",
+    "level": "producer",
+    "identity_basis": "source_exact",
+    "appearances": 3,
+    "sections": [
+      "NAMA | JUNMAI & HONJOZO",
+      "NAMA | JUNMAI DAIGINJO & DAIGINJO",
+      "NAMA | RESERVE"
+    ],
+    "lines": [
+      "Isojiman\t\t\t\t\t\t\t\t\t220",
+      "Isojiman\t\t\t\t\t\t\t\t\t125",
+      "Isojiman, ‘Nakadori 35,’ Junmai Daiginjo\t\t\t\t\t3000"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:4d6e9f5ca4d1bc2a",
+    "level": "producer",
+    "identity_basis": "source_exact",
+    "appearances": 3,
+    "sections": [
+      "NAMA | JUNMAI & HONJOZO",
+      "NAMA | RESERVE",
+      "NAMA | UNCLASSIFIED"
+    ],
+    "lines": [
+      "Akabu\t\t\t\t\t\t\t\t\t\t125",
+      "Akabu, ‘Sea’\t\t\t\t\t\t\t\t\t250",
+      "Akabu, ‘Gokujo No Kire,’ Junmai Daiginjo 430"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:24d8b5462f1d2be0",
+    "level": "producer",
+    "identity_basis": "source_exact",
+    "appearances": 3,
+    "sections": [
+      "NAMA | BODAIMOTO/MIZUMOTO, KIMOTO, YAMAHAI",
+      "NAMA | NIGORI, KOSHU, UMESHU, SPARKLING",
+      "NAMA | RESERVE"
+    ],
+    "lines": [
+      "Masumi, ‘Nanago,’ Yamahai Junmai Daiginjo 325",
+      "Masumi, Sparkling\t\t\t\t\t\t\t\t320",
+      "Masumi, ‘Yumedono,’ Daiginjo Genshu\t\t\t\t\t610"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:35c20cb02240e2e6",
+    "level": "producer",
+    "identity_basis": "source_exact",
+    "appearances": 3,
+    "sections": [
+      "NAMA | RESERVE"
+    ],
+    "lines": [
+      "Kokuryu ‘Shizuku,' Daiginjo\t\t\t\t\t\t\t450",
+      "Kokuryu 'Ishidaya,’ Junmai Daiginjo\t\t\t\t\t\t880",
+      "Kokuryu, ‘Nizaemon,’ Junmai Daiginjo\t\t\t\t\t880"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:56ac840a31dbf3f7",
+    "level": "producer",
+    "identity_basis": "source_exact",
+    "appearances": 3,
+    "sections": [
+      "NAMA | RESERVE"
+    ],
+    "lines": [
+      "Tatenokawa, ‘Sakerise Gyo-Kou,” Junmai Daiginjo\t\t\t\t620",
+      "Tatenokawa, ‘Kyokugen,’ Junmai Daiginjo\t\t\t\t\t1200",
+      "Tatenokawa, ‘Komyo,’ Junmai Daiginjo\t\t\t\t\t5000"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:3305210fe8d19062",
+    "level": "producer",
+    "identity_basis": "source_exact",
+    "appearances": 3,
+    "sections": [
+      "CHAMPAGNE | BLANC DE NOIRS"
+    ],
+    "lines": [
+      "2012\t\t“Empreinte Noire”\t\t\t\t\t\t\t720",
+      "2011\t\t“Empreinte Noire”\t\t\t\t\t\t\t720",
+      "2010\t\t“Empreinte Noire”\t\t\t\t\t\t\t720"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:e01eb23f4bb23228",
+    "level": "product",
+    "identity_basis": "source_exact",
+    "appearances": 3,
+    "sections": [
+      "CHAMPAGNE | BLANC DE NOIRS"
+    ],
+    "lines": [
+      "2012\t\t“Empreinte Noire”\t\t\t\t\t\t\t720",
+      "2011\t\t“Empreinte Noire”\t\t\t\t\t\t\t720",
+      "2010\t\t“Empreinte Noire”\t\t\t\t\t\t\t720"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:ab72715cedec1f47",
+    "level": "producer",
+    "identity_basis": "source_exact",
+    "appearances": 3,
+    "sections": [
+      "FRANCE | WHITE | BURGUNDY"
+    ],
+    "lines": [
+      "2023\t\t‘Hommage a Marguerite,’ Saint-Aubin Premier Cru\t\t\t440",
+      "2023\t\t‘Grandes Ruchottes,’ Chassagne-Montrachet Premier Cru\t\t1360",
+      "2023\t\tCorton-Charlemagne Grand Cru\t\t\t\t\t2400"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:8b7eb6ddfa86cca9",
+    "level": "product",
+    "identity_basis": "source_exact",
+    "appearances": 3,
+    "sections": [
+      "FRANCE | RED | BURGUNDY"
+    ],
+    "lines": [
+      "2023\t\tBonnes-Mares Grand Cru\t\t\t\t\t\t3090",
+      "2022\t\tBonnes-Mares Grand Cru\t\t\t\t\t\t2880",
+      "2018\t\tBonnes-Mares Grand Cru\t\t\t\t\t\t2600"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:8b9cbe304a4e8a09",
+    "level": "producer",
+    "identity_basis": "source_exact",
+    "appearances": 3,
+    "sections": [
+      "FRANCE | RED | BURGUNDY"
+    ],
+    "lines": [
+      "2021\t\tChambolle-Musigny\t\t\t\t\t\t\t1360",
+      "2023\t\tBonnes-Mares Grand Cru\t\t\t\t\t\t4580",
+      "2017\t\tMusigny Grand Cru\t\t\t\t\t\t\t9280"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:02604a2ed107571b",
+    "level": "product",
+    "identity_basis": "source_exact",
+    "appearances": 3,
+    "sections": [
+      "FRANCE | RED | BURGUNDY"
+    ],
+    "lines": [
+      "2021\t\tLatricières-Chambertin Grand Cru\t\t\t\t\t1400",
+      "1999\t\tLatricières-Chambertin Grand Cru\t\t\t\t\t1720",
+      "1998\t\tLatricières-Chambertin Grand Cru\t\t\t\t\t1360"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:d78a3ac398ccf2a0",
+    "level": "producer",
+    "identity_basis": "source_exact",
+    "appearances": 3,
+    "sections": [
+      "FRANCE | RED | BORDEAUX"
+    ],
+    "lines": [
+      "2018\t\tSaint-Émilion Grand Cru\t\t\t\t\t\t1220",
+      "2010\t\tSaint-Émilion Grand Cru\t\t\t\t\t\t1380",
+      "2009\t\tSaint-Émilion Grand Cru\t\t\t\t\t\t1320"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:b09c040b1a130c26",
+    "level": "product",
+    "identity_basis": "source_exact",
+    "appearances": 3,
+    "sections": [
+      "FRANCE | RED | BORDEAUX"
+    ],
+    "lines": [
+      "2018\t\tSaint-Émilion Grand Cru\t\t\t\t\t\t1220",
+      "2010\t\tSaint-Émilion Grand Cru\t\t\t\t\t\t1380",
+      "2009\t\tSaint-Émilion Grand Cru\t\t\t\t\t\t1320"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:f12aef83d5a5cd68",
+    "level": "product",
+    "identity_basis": "source_exact",
+    "appearances": 3,
+    "sections": [
+      "FRANCE | RED | RHÔNE"
+    ],
+    "lines": [
+      "2023\t\tSaint-Joseph\t\t\t\t\t\t\t\t440",
+      "2022\t\tSaint-Joseph\t\t\t\t\t\t\t\t400",
+      "2021\t\tSaint-Joseph\t\t\t\t\t\t\t\t400"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:75146aef2fee516f",
+    "level": "product",
+    "identity_basis": "source_exact",
+    "appearances": 3,
+    "sections": [
+      "FRANCE | RED | RHÔNE"
+    ],
+    "lines": [
+      "2022\t\tSaint-Joseph\t\t\t\t\t\t\t\t440",
+      "2018\t\tSaint-Joseph\t\t\t\t\t\t\t\t660",
+      "2015\t\tSaint-Joseph\t\t\t\t\t\t\t\t760"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:10a79d86dc7be856",
+    "level": "producer",
+    "identity_basis": "source_exact",
+    "appearances": 3,
+    "sections": [
+      "UNITED STATES | SPARKLING | SONOMA"
+    ],
+    "lines": [
+      "2018\t\t‘Charles Heintz Vineyard,’ Sonoma Coast Blanc de Noirs\t\t520",
+      "2018\t\t‘Keefer Ranch Vineyard,’ Sonoma Coast Blanc de Blancs\t\t520",
+      "2018\t\t‘Michael Mara Vineyard,’ Sonoma Coast Blanc de Blancs\t\t520"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:f08ae2b2291a3489",
+    "level": "producer",
+    "identity_basis": "source_exact",
+    "appearances": 3,
+    "sections": [
+      "UNITED STATES | RED | NAPA",
+      "UNITED STATES | WHITE | NAPA"
+    ],
+    "lines": [
+      "2023\t\tNapa Valley Koshu\t\t\t\t\t\t\t175",
+      "2024\t\tNapa Valley Sauvignon Blanc\t\t\t\t\t140",
+      "2023\t\t‘Skellenger Vineyard,’ Oakville Cabernet Sauvignon\t\t290"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:0d7f6d0b11811254",
+    "level": "product",
+    "identity_basis": "source_exact",
+    "appearances": 3,
+    "sections": [
+      "UNITED STATES | RED | NAPA"
+    ],
+    "lines": [
+      "2023\t\tNapa Valley Proprietary Blend\t\t\t\t\t920",
+      "2021\t\tNapa Valley Proprietary Blend\t\t\t\t\t1120",
+      "2020\t\tNapa Valley Proprietary Blend\t\t\t\t\t1080"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:0cef02e3452b31e6",
+    "level": "product",
+    "identity_basis": "source_exact",
+    "appearances": 3,
+    "sections": [
+      "UNITED STATES | RED | NAPA"
+    ],
+    "lines": [
+      "2021\t\t‘The Mascot,’ Napa Valley Cabernet Sauvignon\t\t\t560",
+      "2019\t\t‘The Mascot,’ Napa Valley Cabernet Sauvignon\t\t\t520",
+      "2018\t\t‘The Mascot,’ Napa Valley Cabernet Sauvignon\t\t\t595"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:81ba336e3c111405",
+    "level": "product",
+    "identity_basis": "source_exact",
+    "appearances": 3,
+    "sections": [
+      "UNITED STATES | RED | NAPA"
+    ],
+    "lines": [
+      "2021\t\tNapa Valley Cabernet Sauvignon\t\t\t\t\t3600",
+      "2020\t\tNapa Valley Cabernet Sauvignon\t\t\t\t\t3420",
+      "2017\t\tNapa Valley Cabernet Sauvignon\t\t\t\t\t3720"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:dc6fd1375ad68716",
+    "level": "producer",
+    "identity_basis": "source_exact",
+    "appearances": 3,
+    "sections": [
+      "UNITED STATES | RED | NAPA"
+    ],
+    "lines": [
+      "2023\t\t‘Estate,’ Saint Helena Zinfandel\t\t\t\t\t135",
+      "2023\t\t‘Hayne Vineyard,’ Saint Helena Zinfandel\t\t\t\t260",
+      "2023\t\t‘Rattlesnake Ridge,’ Howell Mountain Zinfandel\t\t\t200"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:7d377355793761f4",
+    "level": "product",
+    "identity_basis": "source_exact",
+    "appearances": 3,
+    "sections": [
+      "UNITED STATES | RED | WILLAMETTE"
+    ],
+    "lines": [
+      "2021\t\t‘Silice,’ Chehalem Mountains Pinot Noir\t\t\t\t305",
+      "2019\t\t‘Silice,’ Chehalem Mountains Pinot Noir\t\t\t\t305",
+      "2018\t\t‘Silice,’ Chehalem Mountains Pinot Noir\t\t\t\t280"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:7db24106655f12d9",
+    "level": "producer",
+    "identity_basis": "source_exact",
+    "appearances": 2,
+    "sections": [
+      "NAMA | BODAIMOTO/MIZUMOTO, KIMOTO, YAMAHAI",
+      "NAMA | JUNMAI DAIGINJO & DAIGINJO"
+    ],
+    "lines": [
+      "Tedorigawa, ‘Iki Na Onna’\t\t\t\t\t\t\t140",
+      "Tedorigawa, 'U,' Yamahai Junmai\t\t\t\t\t\t125"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:b07bec103f879c6b",
+    "level": "producer",
+    "identity_basis": "source_exact",
+    "appearances": 2,
+    "sections": [
+      "NAMA | BODAIMOTO/MIZUMOTO, KIMOTO, YAMAHAI",
+      "NAMA | RESERVE"
+    ],
+    "lines": [
+      "Daishichi, ‘Rakutenmei,’ Kimoto Tokubetsu Junmai\t\t\t\t165",
+      "Daishichi, ‘Myoka Rangyoku,’ Kimoto Junmai Daiginjo Shizuku Genshu\t900"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:c5e9f493dfad49b1",
+    "level": "producer",
+    "identity_basis": "source_exact",
+    "appearances": 2,
+    "sections": [
+      "NAMA | BODAIMOTO/MIZUMOTO, KIMOTO, YAMAHAI",
+      "NAMA | RESERVE"
+    ],
+    "lines": [
+      "Sohomare, Kimoto Junmai Daiginjo 205",
+      "Sohomare, ‘Ki-Itsu,’ Kimoto Junmai Daiginjo\t\t\t\t570"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:d7c64c0cf46fb3be",
+    "level": "producer",
+    "identity_basis": "source_exact",
+    "appearances": 2,
+    "sections": [
+      "NAMA | NIGORI, KOSHU, UMESHU, SPARKLING",
+      "NAMA | RESERVE"
+    ],
+    "lines": [
+      "Nanbu Bijin, Junmai Ginjo Awa\t\t\t\t\t\t225",
+      "Nanbu Bijin, ‘10 Years,’ Daiginjo\t\t\t\t\t\t2000"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:2e57792aa2a41ce1",
+    "level": "product",
+    "identity_basis": "source_exact",
+    "appearances": 2,
+    "sections": [
+      "CHAMPAGNE | BLENDS"
+    ],
+    "lines": [
+      "2015\t\tBrut\t\t\t\t\t\t\t\t\t600",
+      "2013\t\tBrut\t\t\t\t\t\t\t\t\t600"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:bd7010e42c63872a",
+    "level": "product",
+    "identity_basis": "source_exact",
+    "appearances": 2,
+    "sections": [
+      "CHAMPAGNE | BLANC DE BLANCS",
+      "CHAMPAGNE | BLENDS"
+    ],
+    "lines": [
+      "2008\t\tPremier Cru Extra Brut\t\t\t\t\t\t500",
+      "\t\tPremier Cru Extra Brut\t\t\t\t\t\t380"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:6c9cd573d213418b",
+    "level": "product",
+    "identity_basis": "source_exact",
+    "appearances": 2,
+    "sections": [
+      "CHAMPAGNE | BLENDS"
+    ],
+    "lines": [
+      "2012\t\t‘Celebris,’ Extra Brut\t\t\t\t\t\t\t700",
+      "2002\t\t‘Celebris,’ Extra Brut\t\t\t\t\t\t\t700"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:df15f72573d4b585",
+    "level": "product",
+    "identity_basis": "source_exact",
+    "appearances": 2,
+    "sections": [
+      "CHAMPAGNE | BLENDS"
+    ],
+    "lines": [
+      "2023\t\t‘La Closerie, &,’ Extra Brut\t\t\t\t\t\t780",
+      "2021\t\t‘La Closerie, &,’ Extra Brut\t\t\t\t\t\t820"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:295e6dca7115d91f",
+    "level": "product",
+    "identity_basis": "source_exact",
+    "appearances": 2,
+    "sections": [
+      "CHAMPAGNE | BLENDS"
+    ],
+    "lines": [
+      "2023\t\t‘La Closerie,’ Grand Cru Extra Brut\t\t\t\t\t1400",
+      "2022\t\t‘La Closerie,’ Grand Cru Extra Brut\t\t\t\t\t1780"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:700625fa84636a1e",
+    "level": "product",
+    "identity_basis": "source_exact",
+    "appearances": 2,
+    "sections": [
+      "CHAMPAGNE | BLENDS"
+    ],
+    "lines": [
+      "2017\t\t‘Coeur de Cuvée,’ Premier Cru Brut\t\t\t\t\t535",
+      "2016\t\t‘Coeur de Cuvée,’ Premier Cru Brut\t\t\t\t\t440"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:6cd0dd373e4d1f47",
+    "level": "product",
+    "identity_basis": "source_exact",
+    "appearances": 2,
+    "sections": [
+      "CHAMPAGNE | BLANC DE BLANCS"
+    ],
+    "lines": [
+      "2012\t\t‘Les Chétillons,’ Grand Cru Brut\t\t\t\t\t1580",
+      "2007\t\t‘Les Chétillons,’ Grand Cru Brut\t\t\t\t\t1580"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:672aebc328109662",
+    "level": "product",
+    "identity_basis": "source_exact",
+    "appearances": 2,
+    "sections": [
+      "CHAMPAGNE | BLANC DE BLANCS"
+    ],
+    "lines": [
+      "2017\t\t‘Volupté Millésime,’ Premier Cru Extra Brut\t\t\t270",
+      "2014\t\t‘Volupté Millésime,’ Premier Cru Extra Brut\t\t\t250"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:95ec69e7cd8a3fcb",
+    "level": "product",
+    "identity_basis": "source_exact",
+    "appearances": 2,
+    "sections": [
+      "CHAMPAGNE | BLANC DE BLANCS"
+    ],
+    "lines": [
+      "2016\t\t‘Les Chétillons,’ Grand Cru Extra Brut\t\t\t\t500",
+      "2015\t\t‘Les Chétillons,’ Grand Cru Extra Brut\t\t\t\t500"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:d63514fed601a08e",
+    "level": "product",
+    "identity_basis": "source_exact",
+    "appearances": 2,
+    "sections": [
+      "CHAMPAGNE | BLANC DE NOIRS"
+    ],
+    "lines": [
+      "2020\t\t‘Terre d’Illite,’ Extra Brut\t\t\t\t\t\t275",
+      "2019\t\t‘Terre d’Illite,’ Extra Brut\t\t\t\t\t\t275"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:70bbaaca877530b7",
+    "level": "product",
+    "identity_basis": "source_exact",
+    "appearances": 2,
+    "sections": [
+      "CHAMPAGNE | SPÉCIAL CLUB"
+    ],
+    "lines": [
+      "2018\t\tPremier Cru Brut\t\t\t\t\t\t\t345",
+      "2014\t\tPremier Cru Brut\t\t\t\t\t\t\t295"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:9ff376bc7ed616f9",
+    "level": "product",
+    "identity_basis": "source_exact",
+    "appearances": 2,
+    "sections": [
+      "CHAMPAGNE | SPÉCIAL CLUB"
+    ],
+    "lines": [
+      "2016\t\tPremier Cru Brut\t\t\t\t\t\t\t280",
+      "2015\t\tPremier Cru Brut\t\t\t\t\t\t\t265"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:c6caaf1eb2957db1",
+    "level": "product",
+    "identity_basis": "source_exact",
+    "appearances": 2,
+    "sections": [
+      "CHAMPAGNE | SPÉCIAL CLUB"
+    ],
+    "lines": [
+      "2015\t\tGrand Cru Brut\t\t\t\t\t\t\t400",
+      "2012\t\tGrand Cru Brut\t\t\t\t\t\t\t350"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:a39496eb463431cc",
+    "level": "product",
+    "identity_basis": "source_exact",
+    "appearances": 2,
+    "sections": [
+      "CHAMPAGNE | SPÉCIAL CLUB"
+    ],
+    "lines": [
+      "2016\t\t‘Grand Terriors de Chardonnay,’ Premier Cru Brut\t\t\t350",
+      "2014\t\t‘Grand Terriors de Chardonnay,’ Premier Cru Brut\t\t\t435"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:a4a69f3b843ed8e7",
+    "level": "product",
+    "identity_basis": "source_exact",
+    "appearances": 2,
+    "sections": [
+      "CHAMPAGNE | SPÉCIAL CLUB"
+    ],
+    "lines": [
+      "2021\t\tPremier Cru Brut\t\t\t\t\t\t\t335",
+      "2019\t\tPremier Cru Brut\t\t\t\t\t\t\t310"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:c141d7f9fad8c79d",
+    "level": "producer",
+    "identity_basis": "source_exact",
+    "appearances": 2,
+    "sections": [
+      "FRANCE | WHITE | BURGUNDY"
+    ],
+    "lines": [
+      "2023\t\tBourgogne\t\t\t\t\t\t\t\t180",
+      "2023\t\tChassagne-Montrachet Premier Cru\t\t\t\t\t440"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:3b2de71b94633613",
+    "level": "product",
+    "identity_basis": "source_exact",
+    "appearances": 2,
+    "sections": [
+      "FRANCE | WHITE | BURGUNDY"
+    ],
+    "lines": [
+      "2023\t\tPuligny-Montrachet\t\t\t\t\t\t\t380",
+      "2022\t\tPuligny-Montrachet\t\t\t\t\t\t\t320"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:635eaa90cdc0c3a7",
+    "level": "producer",
+    "identity_basis": "source_exact",
+    "appearances": 2,
+    "sections": [
+      "FRANCE | WHITE | BURGUNDY"
+    ],
+    "lines": [
+      "2024\t\tChablis\t\t\t\t\t\t\t\t125",
+      "2023\t\tChassagne-Montrachet\t\t\t\t\t\t335"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:32e63ac9a67f5be0",
+    "level": "product",
+    "identity_basis": "source_exact",
+    "appearances": 2,
+    "sections": [
+      "FRANCE | WHITE | BURGUNDY"
+    ],
+    "lines": [
+      "2023\t\tBienvenues-Bâtard-Montrachet Grand Cru\t\t\t\t2240",
+      "2022\t\tBienvenues-Bâtard-Montrachet Grand Cru\t\t\t\t2240"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:e6c7aead7b6ea536",
+    "level": "product",
+    "identity_basis": "source_exact",
+    "appearances": 2,
+    "sections": [
+      "FRANCE | WHITE | BURGUNDY"
+    ],
+    "lines": [
+      "2021\t\tBâtard-Montrachet Grand Cru\t\t\t\t\t3550",
+      "2020\t\tBâtard-Montrachet Grand Cru\t\t\t\t\t3600"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:ca840b88cca55608",
+    "level": "product",
+    "identity_basis": "source_exact",
+    "appearances": 2,
+    "sections": [
+      "FRANCE | RED | BURGUNDY",
+      "FRANCE | WHITE | BURGUNDY"
+    ],
+    "lines": [
+      "2023\t\tCôte de Beaune\t\t\t\t\t\t\t240",
+      "2023\t\tCôte de Beaune\t\t\t\t\t\t\t240"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:rel:a1e9d1d17d351bdf",
+    "level": "release",
+    "identity_basis": "source_exact",
+    "appearances": 2,
+    "sections": [
+      "FRANCE | RED | BURGUNDY",
+      "FRANCE | WHITE | BURGUNDY"
+    ],
+    "lines": [
+      "2023\t\tCôte de Beaune\t\t\t\t\t\t\t240",
+      "2023\t\tCôte de Beaune\t\t\t\t\t\t\t240"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:6407dc962c3faca3",
+    "level": "product",
+    "identity_basis": "source_exact",
+    "appearances": 2,
+    "sections": [
+      "FRANCE | WHITE | BURGUNDY"
+    ],
+    "lines": [
+      "2023\t\t‘Les Bouguerots,’ Chablis Grand Cru\t\t\t\t440",
+      "2019\t\t‘Les Bouguerots,’ Chablis Grand Cru\t\t\t\t400"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:d97ad6519f285423",
+    "level": "product",
+    "identity_basis": "source_exact",
+    "appearances": 2,
+    "sections": [
+      "FRANCE | WHITE | BURGUNDY"
+    ],
+    "lines": [
+      "2022\t\t‘Les Blanchots, La Réserve de l’Obédience,’ Chablis Grand Cru\t760",
+      "2021\t\t‘Les Blanchots, La Réserve de l’Obédience,’ Chablis Grand Cru\t760"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:b3f1fc6bcd6df017",
+    "level": "product",
+    "identity_basis": "source_exact",
+    "appearances": 2,
+    "sections": [
+      "FRANCE | WHITE | BURGUNDY"
+    ],
+    "lines": [
+      "2024\t\tMâcon-Verzé\t\t\t\t\t\t\t\t250",
+      "2023\t\tMâcon-Verzé\t\t\t\t\t\t\t\t225"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:56ba6bedd2fcdaed",
+    "level": "product",
+    "identity_basis": "source_exact",
+    "appearances": 2,
+    "sections": [
+      "FRANCE | WHITE | BURGUNDY"
+    ],
+    "lines": [
+      "2023\t\t‘Les Folatières,’ Puligny-Montrachet Premier Cru\t\t\t2160",
+      "2018\t\t‘Les Folatières,’ Puligny-Montrachet Premier Cru\t\t\t1900"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:6adaf778a4687391",
+    "level": "product",
+    "identity_basis": "source_exact",
+    "appearances": 2,
+    "sections": [
+      "FRANCE | WHITE | BURGUNDY"
+    ],
+    "lines": [
+      "2021\t\tBâtard-Montrachet Grand Cru\t\t\t\t\t7000",
+      "2014\t\tBâtard-Montrachet Grand Cru\t\t\t\t\t7480"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:26b727c4b3f1eb5d",
+    "level": "producer",
+    "identity_basis": "source_exact",
+    "appearances": 2,
+    "sections": [
+      "FRANCE | WHITE | BURGUNDY"
+    ],
+    "lines": [
+      "2023\t\tPernand Vergelesses\t\t\t\t\t\t\t205",
+      "2023\t\tMeursault\t\t\t\t\t\t\t\t375"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:5a0a6e34233e79ed",
+    "level": "producer",
+    "identity_basis": "source_exact",
+    "appearances": 2,
+    "sections": [
+      "FRANCE | WHITE | BURGUNDY"
+    ],
+    "lines": [
+      "Chassagne-Montrachet Premier Cru\t\t\t\t665",
+      "2023\t\tBâtard-Montrachet Grand Cru\t\t\t\t\t2975"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:0fd9eceabf35dc93",
+    "level": "producer",
+    "identity_basis": "source_exact",
+    "appearances": 2,
+    "sections": [
+      "FRANCE | WHITE | BURGUNDY"
+    ],
+    "lines": [
+      "2023\t\tBourgogne\t\t\t\t\t\t\t\t150",
+      "2023\t\t‘Charmois,’ Saint-Aubin Premier Cru\t\t\t\t320"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:79d9b3726a6c56b0",
+    "level": "producer",
+    "identity_basis": "source_exact",
+    "appearances": 2,
+    "sections": [
+      "FRANCE | WHITE | BURGUNDY"
+    ],
+    "lines": [
+      "2019\t\tChablis\t\t\t\t\t\t\t\t400",
+      "2021\t\t‘La Forest,’ Chablis Premier Cru\t\t\t\t\t700"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:1ee3a9b5ac91d381",
+    "level": "product",
+    "identity_basis": "source_exact",
+    "appearances": 2,
+    "sections": [
+      "FRANCE | WHITE | BURGUNDY"
+    ],
+    "lines": [
+      "2019\t\t‘Clos de Bouchères,’ Meursault Premier Cru\t\t\t\t1980",
+      "2018\t\t‘Clos de Bouchères,’ Meursault Premier Cru\t\t\t\t2480"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:b5a684dc2166931b",
+    "level": "producer",
+    "identity_basis": "source_exact",
+    "appearances": 2,
+    "sections": [
+      "FRANCE | RED | BURGUNDY",
+      "FRANCE | WHITE | BURGUNDY"
+    ],
+    "lines": [
+      "2017\t\tCorton-Charlemagne Grand Cru\t\t\t\t\t5200",
+      "2017\t\tBonnes-Mares\tGrand Cru\t\t\t\t\t\t6780"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:c08629227cadaac1",
+    "level": "product",
+    "identity_basis": "source_exact",
+    "appearances": 2,
+    "sections": [
+      "FRANCE | WHITE | BURGUNDY"
+    ],
+    "lines": [
+      "2022\t\tSavigny-les-Beaune\t\t\t\t\t\t\t220",
+      "2020\t\tSavigny-les-Beaune\t\t\t\t\t\t\t220"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:rel:1354e538b20bd449",
+    "level": "release",
+    "identity_basis": "source_exact",
+    "appearances": 2,
+    "sections": [
+      "FRANCE | RED | BORDEAUX",
+      "FRANCE | WHITE | BORDEAUX"
+    ],
+    "lines": [
+      "2018\t\tSaint-Estèphe\t\t\t\t\t\t\t\t680",
+      "2018\t\tSaint-Estèphe\t\t\t\t\t\t\t\t900"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:0c5afe128954345f",
+    "level": "product",
+    "identity_basis": "source_exact",
+    "appearances": 2,
+    "sections": [
+      "FRANCE | RED | JURA",
+      "FRANCE | WHITE | JURA"
+    ],
+    "lines": [
+      "2018\t\t‘Les Grands Teppes,’ Côtes du Jura\t\t\t\t\t600",
+      "2023\t\t‘Les Grands Teppes,’ Côtes du Jura\t\t\t\t\t440"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:fc888e1c58211837",
+    "level": "producer",
+    "identity_basis": "source_exact",
+    "appearances": 2,
+    "sections": [
+      "FRANCE | WHITE | LOIRE"
+    ],
+    "lines": [
+      "2023\t\t‘Les Vieux Clos,’ Savennières\t\t\t\t\t240",
+      "2020\t\t‘Les Vieux Clos,’ Savennières\t\t\t\t\t200"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:fc1686e9012e8c26",
+    "level": "product",
+    "identity_basis": "source_exact",
+    "appearances": 2,
+    "sections": [
+      "FRANCE | WHITE | LOIRE"
+    ],
+    "lines": [
+      "2023\t\t‘Les Vieux Clos,’ Savennières\t\t\t\t\t240",
+      "2020\t\t‘Les Vieux Clos,’ Savennières\t\t\t\t\t200"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:6cce2a8b5243e899",
+    "level": "producer",
+    "identity_basis": "source_exact",
+    "appearances": 2,
+    "sections": [
+      "FRANCE | WHITE | LOIRE"
+    ],
+    "lines": [
+      "2024\t\t‘La Grande Cote,’ Chavignol\t\t\t\t\t\t320",
+      "2024\t\t‘Mont Damnes,’ Chavignol\t\t\t\t\t\t320"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:770a7f2af62e7c6a",
+    "level": "producer",
+    "identity_basis": "source_exact",
+    "appearances": 2,
+    "sections": [
+      "FRANCE | RED | RHÔNE",
+      "FRANCE | WHITE | RHÔNE"
+    ],
+    "lines": [
+      "2022\t\t“Le Boisrenard,” Châteauneuf-du-Pape\t\t\t\t340",
+      "2021\t\t‘Le Boisrenard,’ Châteauneuf-du-Pape\t\t\t\t320"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:83b6b35dba37bdac",
+    "level": "product",
+    "identity_basis": "source_exact",
+    "appearances": 2,
+    "sections": [
+      "FRANCE | RED | RHÔNE",
+      "FRANCE | WHITE | RHÔNE"
+    ],
+    "lines": [
+      "2022\t\t“Le Boisrenard,” Châteauneuf-du-Pape\t\t\t\t340",
+      "2021\t\t‘Le Boisrenard,’ Châteauneuf-du-Pape\t\t\t\t320"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:rel:553ebd516975cafc",
+    "level": "release",
+    "identity_basis": "source_exact",
+    "appearances": 2,
+    "sections": [
+      "FRANCE | RED | RHÔNE",
+      "FRANCE | WHITE | RHÔNE"
+    ],
+    "lines": [
+      "2023\t\tHermitage\t\t\t\t\t\t\t\t1400",
+      "2023\t\tHermitage\t\t\t\t\t\t\t\t1400"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:rel:39cbe0a8e191c75d",
+    "level": "release",
+    "identity_basis": "source_exact",
+    "appearances": 2,
+    "sections": [
+      "FRANCE | RED | RHÔNE",
+      "FRANCE | WHITE | RHÔNE"
+    ],
+    "lines": [
+      "2022\t\tHermitage\t\t\t\t\t\t\t\t1400",
+      "2022\t\tHermitage\t\t\t\t\t\t\t\t1400"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:a7be4861bf4a799b",
+    "level": "product",
+    "identity_basis": "source_exact",
+    "appearances": 2,
+    "sections": [
+      "FRANCE | RED | BURGUNDY"
+    ],
+    "lines": [
+      "2023\t\t‘Les Fuées,’ Chambolle-Musigny Premier Cru\t\t\t500",
+      "2022\t\t‘Les Fuées,’ Chambolle-Musigny Premier Cru\t\t\t450"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:7e39a7e90d99dd11",
+    "level": "product",
+    "identity_basis": "source_exact",
+    "appearances": 2,
+    "sections": [
+      "FRANCE | RED | BURGUNDY"
+    ],
+    "lines": [
+      "2022\t\tChames-Chambertin Grand Cru\t\t\t\t\t2400",
+      "2017\t\tChames-Chambertin Grand Cru\t\t\t\t\t3600"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:37a2124eeba471cc",
+    "level": "product",
+    "identity_basis": "source_exact",
+    "appearances": 2,
+    "sections": [
+      "FRANCE | RED | BURGUNDY"
+    ],
+    "lines": [
+      "2019\t\tClos-de-la-Roche Grand Cru\t\t\t\t\t\t2070",
+      "2007\t\tClos-de-la-Roche Grand Cru\t\t\t\t\t\t3600"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:8b62b9cf17ab172d",
+    "level": "product",
+    "identity_basis": "source_exact",
+    "appearances": 2,
+    "sections": [
+      "FRANCE | RED | BURGUNDY"
+    ],
+    "lines": [
+      "2022\t\tClos de Tart Grand Cru\t\t\t\t\t\t3720",
+      "2018\t\tClos de Tart Grand Cru\t\t\t\t\t\t3260"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:0fae15762b77d949",
+    "level": "product",
+    "identity_basis": "source_exact",
+    "appearances": 2,
+    "sections": [
+      "FRANCE | RED | BURGUNDY"
+    ],
+    "lines": [
+      "2023\t\t‘Les Pezerolles,’ Pommard Premier Cru\t\t\t\t635\t",
+      "2022\t\t‘Les Pezerolles,’ Pommard Premier Cru\t\t\t\t585"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:7e6cb2d2eddce4d4",
+    "level": "product",
+    "identity_basis": "source_exact",
+    "appearances": 2,
+    "sections": [
+      "FRANCE | RED | BURGUNDY"
+    ],
+    "lines": [
+      "2023\t\t‘Lavaux Saint Jacques,’ Gevrey-Chambertin Premier Cru\t\t1100",
+      "2022\t\t‘Lavaux Saint Jacques,’ Gevrey-Chambertin Premier Cru\t\t1040"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:b2177afdb6878c77",
+    "level": "product",
+    "identity_basis": "source_exact",
+    "appearances": 2,
+    "sections": [
+      "FRANCE | RED | BURGUNDY"
+    ],
+    "lines": [
+      "2023\t\tÉchézeaux Grand Cru\t\t\t\t\t\t\t3480",
+      "2022\t\tÉchézeaux Grand Cru\t\t\t\t\t\t\t3040"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:18d2c3e996e2ecf6",
+    "level": "product",
+    "identity_basis": "source_exact",
+    "appearances": 2,
+    "sections": [
+      "FRANCE | RED | BURGUNDY"
+    ],
+    "lines": [
+      "2023\t\tGrands Échézeaux Grand Cru\t\t\t\t\t\t5600",
+      "2015\t\tGrands Échézeaux Grand Cru\t\t\t\t\t\t16000"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:b018cf23bd36125b",
+    "level": "product",
+    "identity_basis": "source_exact",
+    "appearances": 2,
+    "sections": [
+      "FRANCE | RED | BURGUNDY"
+    ],
+    "lines": [
+      "2022\t\tRichebourg Grand Cru\t\t\t\t\t\t8200",
+      "2017\t\tRichebourg Grand Cru\t\t\t\t\t\t8200"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:e464690048c3549d",
+    "level": "product",
+    "identity_basis": "source_exact",
+    "appearances": 2,
+    "sections": [
+      "FRANCE | RED | BURGUNDY"
+    ],
+    "lines": [
+      "2022\t\tRomanée-Conti Grand Cru\t\t\t\t\t\t30600",
+      "2020\t\tRomanée-Conti Grand Cru\t\t\t\t\t\t21000"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:ccbe00745bb082ff",
+    "level": "product",
+    "identity_basis": "source_exact",
+    "appearances": 2,
+    "sections": [
+      "FRANCE | RED | BURGUNDY"
+    ],
+    "lines": [
+      "2022\t\tLatricières-Chambertin Grand Cru\t\t\t\t\t1580",
+      "2021\t\tLatricières-Chambertin Grand Cru\t\t\t\t\t1500"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:309bec159435af70",
+    "level": "producer",
+    "identity_basis": "source_exact",
+    "appearances": 2,
+    "sections": [
+      "FRANCE | RED | BURGUNDY"
+    ],
+    "lines": [
+      "2006\t\tChambertin-Clos-de-Bèze Grand Cru\t\t\t\t\t1000",
+      "2005\t\tChambertin-Clos-de-Bèze Grand Cru\t\t\t\t\t1400"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:62cf5485948b6eff",
+    "level": "product",
+    "identity_basis": "source_exact",
+    "appearances": 2,
+    "sections": [
+      "FRANCE | RED | BURGUNDY"
+    ],
+    "lines": [
+      "2006\t\tChambertin-Clos-de-Bèze Grand Cru\t\t\t\t\t1000",
+      "2005\t\tChambertin-Clos-de-Bèze Grand Cru\t\t\t\t\t1400"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:5518fcd8b4ad8c43",
+    "level": "producer",
+    "identity_basis": "source_exact",
+    "appearances": 2,
+    "sections": [
+      "FRANCE | RED | BURGUNDY"
+    ],
+    "lines": [
+      "2023\t\t‘Clos du Chapeau,’ Côte de Nuits Villages\t\t\t\t210",
+      "2023\t\tRomanée-Saint-Vivant Grand Cru\t\t\t\t\t3700"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:4719c3e221a76e1f",
+    "level": "product",
+    "identity_basis": "source_exact",
+    "appearances": 2,
+    "sections": [
+      "FRANCE | RED | BURGUNDY"
+    ],
+    "lines": [
+      "2022\t\tNuits-Saint-Georges\t\t\t\t\t\t\t180",
+      "2020\t\tNuits-Saint-Georges\t\t\t\t\t\t\t180"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:c4836fa043270e6d",
+    "level": "product",
+    "identity_basis": "source_exact",
+    "appearances": 2,
+    "sections": [
+      "FRANCE | RED | BURGUNDY"
+    ],
+    "lines": [
+      "2022\t\t‘Le Suchot,’ Aloxe-Corton\t\t\t\t\t\t315",
+      "2018\t\t‘Le Suchot,’ Aloxe-Corton\t\t\t\t\t\t320"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:088489f2ac0a2f4d",
+    "level": "producer",
+    "identity_basis": "source_exact",
+    "appearances": 2,
+    "sections": [
+      "FRANCE | RED | BURGUNDY"
+    ],
+    "lines": [
+      "2023\t\t‘Les Dames Huguette,’ Bourgogne Hautes Côtes de Nuits\t\t330",
+      "2023\t\t‘Aux Thorey,’ Nuits-Saint-Georges Premier Cru\t\t\t1300"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:7d73b0c3451ead28",
+    "level": "producer",
+    "identity_basis": "source_exact",
+    "appearances": 2,
+    "sections": [
+      "FRANCE | RED | BORDEAUX"
+    ],
+    "lines": [
+      "2018\t\tSaint-Émilion Grand Cru\t\t\t\t\t\t2920",
+      "2014\t\tSaint-Émilion Grand Cru\t\t\t\t\t\t2320"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:ec096e4aa0f16313",
+    "level": "product",
+    "identity_basis": "source_exact",
+    "appearances": 2,
+    "sections": [
+      "FRANCE | RED | BORDEAUX"
+    ],
+    "lines": [
+      "2018\t\tSaint-Émilion Grand Cru\t\t\t\t\t\t2920",
+      "2014\t\tSaint-Émilion Grand Cru\t\t\t\t\t\t2320"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:0582bd5a01f5bb90",
+    "level": "product",
+    "identity_basis": "source_exact",
+    "appearances": 2,
+    "sections": [
+      "FRANCE | RED | JURA"
+    ],
+    "lines": [
+      "2023\t\t‘Cuvée de l’Enfant Terrible,’ Côtes du Jura\t\t\t\t360",
+      "2022\t\t‘Cuvée de l’Enfant Terrible,’ Côtes du Jura\t\t\t\t360"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:344ff19be0010f1c",
+    "level": "product",
+    "identity_basis": "source_exact",
+    "appearances": 2,
+    "sections": [
+      "FRANCE | RED | RHÔNE"
+    ],
+    "lines": [
+      "2015\t\tCornas\t\t\t\t\t\t\t\t\t1520",
+      "2014\t\tCornas\t\t\t\t\t\t\t\t\t1760"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:5272d0f70e40c9dd",
+    "level": "producer",
+    "identity_basis": "source_exact",
+    "appearances": 2,
+    "sections": [
+      "UNITED STATES | RED | NAPA",
+      "UNITED STATES | WHITE | NAPA"
+    ],
+    "lines": [
+      "2023\t\tLos Carneros Chardonnay\t\t\t\t\t\t230",
+      "2021\t\t‘Phoenix,’ Los Carneros Proprietary Blend\t\t\t\t250"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:29a0c0fe5ebbca3e",
+    "level": "producer",
+    "identity_basis": "source_exact",
+    "appearances": 2,
+    "sections": [
+      "UNITED STATES | RED | WILLAMETTE",
+      "UNITED STATES | WHITE | WILLAMETTE"
+    ],
+    "lines": [
+      "2022\t\t‘Litera,’ Eola-Amita Hills Chardonnay\t\t\t\t880",
+      "2023\t\t“Adiona,” Eola-Amity Hills Pinot Noir\t\t\t\t1020"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:508d424378389d54",
+    "level": "producer",
+    "identity_basis": "source_exact",
+    "appearances": 2,
+    "sections": [
+      "UNITED STATES | RED | WILLAMETTE",
+      "UNITED STATES | WHITE | WILLAMETTE"
+    ],
+    "lines": [
+      "2023\t\tEola-Amity Hills Chardonnay\t\t\t\t\t280",
+      "2023\t\tChehalem Mountains Pinot Noir\t\t\t\t\t280"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:fb822a9cb6e3bd31",
+    "level": "producer",
+    "identity_basis": "source_exact",
+    "appearances": 2,
+    "sections": [
+      "UNITED STATES | RED | WILLAMETTE",
+      "UNITED STATES | WHITE | WILLAMETTE"
+    ],
+    "lines": [
+      "2022\t\t‘Estates,’ Willamette Valley Chardonnay\t\t\t\t170",
+      "2023\t\t‘Mineral Springs Ranch,’ Yamhill-Carlton Pinot Noir\t\t235"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:5e36915c44805a23",
+    "level": "product",
+    "identity_basis": "source_exact",
+    "appearances": 2,
+    "sections": [
+      "UNITED STATES | RED | NAPA"
+    ],
+    "lines": [
+      "2021\t\t‘Las Posadas,’ Howell Mountain Cabernet Sauvignon\t\t2640",
+      "2019\t\t‘Las Posadas,’ Howell Mountain Cabernet Sauvignon\t\t2505"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:620bbe2b8910973d",
+    "level": "product",
+    "identity_basis": "source_exact",
+    "appearances": 2,
+    "sections": [
+      "UNITED STATES | RED | NAPA"
+    ],
+    "lines": [
+      "2021\t\t‘Madrona,’ Saint Helena Cabernet Sauvignon\t\t\t2640",
+      "2019\t\t‘Madrona,’ Saint Helena Cabernet Sauvignon\t\t\t2505"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:9ba0258b510cea40",
+    "level": "product",
+    "identity_basis": "source_exact",
+    "appearances": 2,
+    "sections": [
+      "UNITED STATES | RED | NAPA"
+    ],
+    "lines": [
+      "2021\t\t“The Montelena Estate,” Calistoga Cabernet Sauvignon\t\t625",
+      "2011\t\t“The Montelena Estate,” Calistoga Cabernet Sauvignon\t\t800"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:ae2086a02e700f29",
+    "level": "producer",
+    "identity_basis": "source_exact",
+    "appearances": 2,
+    "sections": [
+      "UNITED STATES | RED | NAPA"
+    ],
+    "lines": [
+      "2022\t\t“Jubilation,” Napa Valley Cabernet Sauvignon\t\t\t800",
+      "2022\t\t“Cariad,” Napa Valley Proprietary Blend\t\t\t\t2340"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:1e850396fd9f97a6",
+    "level": "producer",
+    "identity_basis": "source_exact",
+    "appearances": 2,
+    "sections": [
+      "UNITED STATES | RED | NAPA"
+    ],
+    "lines": [
+      "2022\t\tNapa Valley Cabernet Sauvignon\t\t\t\t\t435",
+      "2022\t\tHowell Mountain Cabernet Sauvignon\t\t\t\t670"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:34d8f4383448805c",
+    "level": "producer",
+    "identity_basis": "source_exact",
+    "appearances": 2,
+    "sections": [
+      "UNITED STATES | RED | NAPA"
+    ],
+    "lines": [
+      "2018\t\t‘5500 Estate,’ Stags Leap District Cabernet Sauvignon\t\t1760",
+      "2019\t\t‘Estate,’ Oakville Cabernet Sauvignon\t\t\t\t2160"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:fde627ad0aa1495d",
+    "level": "product",
+    "identity_basis": "source_exact",
+    "appearances": 2,
+    "sections": [
+      "UNITED STATES | RED | NAPA"
+    ],
+    "lines": [
+      "2021\t\tOakville Proprietary Blend\t\t\t\t\t\t5600",
+      "2020\t\tOakville Proprietary Blend\t\t\t\t\t\t5515"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:fc50bfb0203056ff",
+    "level": "product",
+    "identity_basis": "source_exact",
+    "appearances": 2,
+    "sections": [
+      "UNITED STATES | RED | NAPA"
+    ],
+    "lines": [
+      "2021\t\tMount Veeder Cabernet Sauvignon\t\t\t\t\t520 ",
+      "2003\t\tMount Veeder Cabernet Sauvignon\t\t\t\t\t960 "
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:6819e3c4d072949b",
+    "level": "product",
+    "identity_basis": "source_exact",
+    "appearances": 2,
+    "sections": [
+      "UNITED STATES | RED | NAPA"
+    ],
+    "lines": [
+      "2022\t\tMount Veeder Proprietary Blend\t\t\t\t\t270 ",
+      "2013\t\tMount Veeder Proprietary Blend\t\t\t\t\t700"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:4c534c0907d60214",
+    "level": "product",
+    "identity_basis": "source_exact",
+    "appearances": 2,
+    "sections": [
+      "UNITED STATES | RED | SONOMA"
+    ],
+    "lines": [
+      "2019\t\tNapa-Sonoma Counties Merlot\t\t\t\t\t260",
+      "2018\t\tNapa-Sonoma Counties Merlot\t\t\t\t\t260"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  },
+  {
+    "shell_id": "rs:pro:9c148a50b87c260f",
+    "level": "product",
+    "identity_basis": "source_exact",
+    "appearances": 2,
+    "sections": [
+      "UNITED STATES | RED | SONOMA"
+    ],
+    "lines": [
+      "2019\t\t‘Reserve,’ Napa-Sonoma Counties Cabernet Sauvignon\t\t560",
+      "2018\t\t‘Reserve,’ Napa-Sonoma Counties Cabernet Sauvignon\t\t540"
+    ],
+    "reason": "printed identity (と必要なら section) が一致したため 1 shell に集約"
+  }
+]

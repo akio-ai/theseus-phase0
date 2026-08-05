@@ -1,0 +1,6068 @@
+[
+  {
+    "source_line_no": 5,
+    "original_raw_line": "\tHakugyokko, Yamahai Junmai Muroka Genshu\t\t\t\t125",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:7ab37e4281cf77c4",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 6,
+    "original_raw_line": "Kaze No Mori, ‘Alpha Type 3,’ Junmai Daiginjo Muroka Genshu\t\t125",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:143b628427bef4ef",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 7,
+    "original_raw_line": "Chikurin, ‘Otoro,’ Junmai Ginjo Genshu\t\t\t\t\t125",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:0a1533bed90b4afd",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 8,
+    "original_raw_line": "Heiwa, 'Kid, Natsu No Shippu,' Junmai Ginjo\t\t\t\t125",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:4588d61fc4074b39",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 9,
+    "original_raw_line": "\tKirinzan, ‘Potari Potari Blue,’ Junmai Ginjo\t\t\t\t\t150",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:720f034d10f90f10",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 10,
+    "original_raw_line": "Fukuda, ‘Fukuumi Omachi,’ Junmai\t\t\t\t\t\t180",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:210f7a1116f5d95f",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 14,
+    "original_raw_line": "Ohmine, '3 Grain Yamadanishiki'\t\t\t\t\t\t125",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:d9716166102317af",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 15,
+    "original_raw_line": "Tedorigawa, ‘Iki Na Onna’\t\t\t\t\t\t\t140",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:d4aed38d596294d1",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 16,
+    "original_raw_line": "Azumaichi\t\t\t\t\t\t\t\t\t160",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:385841ebfaa55640",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 17,
+    "original_raw_line": "Toyo Bijin, ‘Ichiban Matoi’\t\t\t\t\t\t\t160",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:47fa8e4a25a444ae",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 18,
+    "original_raw_line": "Date Seven, ‘Season II Episode 4 – Hakurakusei Style’\t\t\t170",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:b7294db95dc57339",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 20,
+    "original_raw_line": "Hakkaisan, ‘Snow-Aged 3 Years’\t\t\t\t\t\t185",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:aed8b6c6e649f1b6",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 21,
+    "original_raw_line": "Kuzuryu, ‘Silk Dragon’\t\t\t\t\t\t\t185",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:0cac68e058213acd",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 22,
+    "original_raw_line": "Jozen Mizuno Gotoshi, ‘Indigo’\t\t\t\t\t\t200",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:7611f8fc8d4df0e3",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 23,
+    "original_raw_line": "Ohmine, ‘3 Grain Summer’s Arrival”\t\t\t\t\t200",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:9b181857e50b5ef4",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 24,
+    "original_raw_line": "Zaku, ‘Kaizan Ittekisui’\t\t\t\t\t\t\t205",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:2427451ee4cb667e",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 25,
+    "original_raw_line": "Kirinzan\t\t\t\t\t\t\t\t\t210",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:cf5a9427a0e1197f",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 26,
+    "original_raw_line": "Isojiman\t\t\t\t\t\t\t\t\t220",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:799943bc67b9aa8d",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 27,
+    "original_raw_line": "Tonoike, ‘Iki’\t\t\t\t\t\t\t\t\t240",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:b918863c552fd4b1",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 28,
+    "original_raw_line": "Gangi\t\t\t\t\t\t\t\t\t\t245",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:09774446f7159258",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 29,
+    "original_raw_line": "Morishima, ’25 Plus, Modern Classic’\t\t\t\t\t275",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:e9ebf9ecb548b628",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 30,
+    "original_raw_line": "Watari Bune\t\t\t\t\t\t\t\t\t320",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:acc7a2165491c8ee",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 31,
+    "original_raw_line": "Ohmine, '2 Grain Yamadanishiki'\t\t\t\t\t\t340",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:7c1c66dcb849ff98",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 32,
+    "original_raw_line": "Hakurakusei, ‘Yashiro, Celestial’\t\t\t\t\t\t385",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:c3e15cb1f22fbd9a",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 36,
+    "original_raw_line": "Nagurayama, ‘Yokikana’\t\t\t\t\t\t\t125",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:3d034d65eec24108",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 37,
+    "original_raw_line": "Sawaya Matsumoto, 'Shuhari, Omachi'\t\t\t\t\t125",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:9a2f4c3bba5e4dd6",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 38,
+    "original_raw_line": "Koshi No Kanbai, ‘Sai’\t\t\t\t\t\t\t125",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:28cc03fc175695e6",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 39,
+    "original_raw_line": "Dewazakura, ‘Omachi’\t\t\t\t\t\t\t125",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:854e147655d7e449",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 40,
+    "original_raw_line": "Abe\t\t\t\t\t\t\t\t\t\t140",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:ad161934666c3ed0",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 41,
+    "original_raw_line": "Jikon, 'Hattan Nishiki'\t\t\t\t\t\t\t\t165",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:8bbba72eb018bc6e",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 42,
+    "original_raw_line": "Jikon, ‘Omachi’\t\t\t\t\t\t\t\t165",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:8763f5ce413c8a66",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 43,
+    "original_raw_line": "Jikon, ‘Senbon Nishiki’\t\t\t\t\t\t\t165",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:5e36c6dd307246e1",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 44,
+    "original_raw_line": "Jikon, ‘Yamada Nishiki’\t\t\t\t\t\t\t165",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:ef97f09b68189cc0",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 48,
+    "original_raw_line": "Isojiman\t\t\t\t\t\t\t\t\t125",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:91e3b065bd8b8544",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 49,
+    "original_raw_line": "Taiheikai, ‘Pacific Ocean’\t\t\t\t\t\t\t125",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:e979d357d956750e",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 50,
+    "original_raw_line": "Akabu\t\t\t\t\t\t\t\t\t\t125",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:8183b535ca764549",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 51,
+    "original_raw_line": "Aizu Otokoyama, ‘Kai’\t\t\t\t\t\t\t160",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:ae0b9a38a45798a0",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 55,
+    "original_raw_line": "Tedorigawa, 'U,' Yamahai Junmai\t\t\t\t\t\t125",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:47c5d3adfa810275",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 56,
+    "original_raw_line": "Tae No Hana, 'Sublime Beauty,' Kimoto Junmai Muroka Nama Genshu\t125",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:8ee1889cacaa9c80",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 57,
+    "original_raw_line": "Yucho Takacho, 'Regal Hawk,' Bodaimoto Junmai Muroka Genshu\t\t125",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:769e7d49fa52bbc5",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 58,
+    "original_raw_line": "Daishichi, ‘Rakutenmei,’ Kimoto Tokubetsu Junmai\t\t\t\t165",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:8efbc1c4c12a687f",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 59,
+    "original_raw_line": "Sohomare, Kimoto Junmai Daiginjo 205",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:d5795466a873b841",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 59,
+    "original_raw_line": "Masumi, ‘Nanago,’ Yamahai Junmai Daiginjo 325",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:3c455075669fed3f",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 63,
+    "original_raw_line": "Kakurei, Junmai Ginjo Umeshu\t\t\t\t\t\t150",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:727bedaceee6e1f7",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 64,
+    "original_raw_line": "Ohmine, ‘3 Grain Winter’s Arrival”\t\t\t\t\t\t150",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:fd1f4d2feb82757d",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 65,
+    "original_raw_line": "Nanbu Bijin, Junmai Ginjo Awa\t\t\t\t\t\t225",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:16538b414ca54c82",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 66,
+    "original_raw_line": "Masumi, Sparkling\t\t\t\t\t\t\t\t320",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:f0097f0c6105a269",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 70,
+    "original_raw_line": "Hyaku Moku, ‘Alt.3'\t\t\t\t\t\t\t\t150",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:cd119ab91f3f7ae7",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 71,
+    "original_raw_line": "Akabu, ‘Sea’\t\t\t\t\t\t\t\t\t250",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:6cc1352daa74d3da",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 75,
+    "original_raw_line": "2024\tIwa 5, 'Assemblage 6,' Junmai Daiginjo Genshu\t\t\t\t375",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:4de6f26f58fde6ac",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 76,
+    "original_raw_line": "2023\tIwa 5, 'Assemblage 5,' Junmai Daiginjo Genshu\t\t\t\t385",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:e40bfa2d7262702e",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 77,
+    "original_raw_line": "2022\tIwa 5, 'Assemblage 4,' Junmai Daiginjo Genshu\t\t\t\t395",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:a1b65eb8071d9def",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 78,
+    "original_raw_line": "2021\tIwa 5, 'Assemblage 3,' Junmai Daiginjo Genshu\t\t\t\t405",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:398537c76a550fe0",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 79,
+    "original_raw_line": "2020\tIwa 5, 'Assemblage 2,' Junmai Daiginjo Genshu\t\t\t\t415",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:013367fbbe5359cf",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 80,
+    "original_raw_line": "2019\tIwa 5, 'Assemblage 1,' Junmai Daiginjo Genshu\t\t\t\t425",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:4d2290073f8a72c5",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 81,
+    "original_raw_line": "Hiroki, Junmai Daiginjo Nama\t\t\t\t\t\t425",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:a264e9af01fefcd9",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 82,
+    "original_raw_line": "Jikon, Nabari,’ Junmai Daiginjo\t\t\t\t\t\t425",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:d2d817159be57d64",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 83,
+    "original_raw_line": "Nishide, ‘100 Year Old,’ Junmai Daiginjo\t\t\t\t\t425",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:67bc3e82fafeac44",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 84,
+    "original_raw_line": "Akabu, ‘Gokujo No Kire,’ Junmai Daiginjo 430",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:1aa77da880c1d679",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 84,
+    "original_raw_line": "Kirinzan, ‘Kagayaki,’ Daiginjo Genshu 440",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:d2d4497acff34533",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 85,
+    "original_raw_line": "Kokuryu ‘Shizuku,' Daiginjo\t\t\t\t\t\t\t450",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:3d61149fe81d8ce8",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 86,
+    "original_raw_line": "Nishibori, ‘Élan Vital,’ Junmai Daiginjo\t\t\t\t\t480",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:b077e17a7faeee1a",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 87,
+    "original_raw_line": "Maboroshi, Junmai Daiginjo\t\t\t\t\t\t\t505",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:0ea75a68590da18b",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 88,
+    "original_raw_line": "Sohomare, ‘Ki-Itsu,’ Kimoto Junmai Daiginjo\t\t\t\t570",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:90dca73ec159a95b",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 89,
+    "original_raw_line": "Yuki No Bosha, ‘Kachou Gesseki,’ Daiginjo\t\t\t\t\t605",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:633563e48da2cd9b",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 90,
+    "original_raw_line": "Masumi, ‘Yumedono,’ Daiginjo Genshu\t\t\t\t\t610",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:70017704b59f9fd9",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 91,
+    "original_raw_line": "Midorikawa, Daiginjo\t\t\t\t\t\t\t\t610",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:349d7009612a9945",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 92,
+    "original_raw_line": "Tatenokawa, ‘Sakerise Gyo-Kou,” Junmai Daiginjo\t\t\t\t620",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:37f1d3ca7fc8e149",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 93,
+    "original_raw_line": "Dassai, Junmai Daiginjo Umeshu\t\t\t\t\t\t720",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:d3de1e0610b57bd0",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 95,
+    "original_raw_line": "Daishinsyu, Junmai Daiginjo\t\t\t\t\t\t\t720",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:2791ad8450f01ec5",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 96,
+    "original_raw_line": "Aratana, Junmai Daiginjo\t\t\t\t\t\t\t755",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:98537e021278a1b5",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 97,
+    "original_raw_line": "Kikuhime, Nama Yamahai Ginjo Genshu\t\t\t\t\t790",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:aef20ad64cdcc342",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 98,
+    "original_raw_line": "Juyondai, ‘Bessen,’ Junmai Daiginjo\t\t\t\t\t\t875",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:57b783fe92f659e5",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 99,
+    "original_raw_line": "Kokuryu 'Ishidaya,’ Junmai Daiginjo\t\t\t\t\t\t880",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:5fc6e1605310ae50",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 100,
+    "original_raw_line": "Kokuryu, ‘Nizaemon,’ Junmai Daiginjo\t\t\t\t\t880",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:c6b24494a1abf855",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 101,
+    "original_raw_line": "Daishichi, ‘Myoka Rangyoku,’ Kimoto Junmai Daiginjo Shizuku Genshu\t900",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:ba849a05810968ea",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 102,
+    "original_raw_line": "2002-3\tKikuhime, B.Y. Daiginjo\t\t\t\t\t\t\t940",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:67d2f82d189afe94",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 103,
+    "original_raw_line": "\tIwa 5, ‘Reserves,’ Junmai Daiginjo Genshu\t\t\t\t\t1010",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:e94b2fb03f8ae95f",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 104,
+    "original_raw_line": "2020\tKuheiji, 'Hi No Kishi,' Junmai Daiginjo\t\t\t\t\t1040",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:d9e9fa88723b5a87",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 105,
+    "original_raw_line": "Tatenokawa, ‘Kyokugen,’ Junmai Daiginjo\t\t\t\t\t1200",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:106577b620986ad1",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 106,
+    "original_raw_line": "Zankyo, ‘Super 7,’ Junmai Daiginjo\t\t\t\t\t\t1250",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:7ab8b76c2daa43c1",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 107,
+    "original_raw_line": "Heiwa, ‘Kid, Muryozan 30,’ Junmai Daiginjo\t\t\t\t1400",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:37aed564678eda45",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 108,
+    "original_raw_line": "Katsuyama, ‘Diamond Akatsuki,’ Junmai Daiginjo\t\t\t\t1500",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:d5f31f492bb329e6",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 109,
+    "original_raw_line": "Jikon, ‘Tokuto Omachi,’ Junmai Daiginjo\t\t\t\t\t2000",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:99a321e77b8d1b8b",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 110,
+    "original_raw_line": "Nanbu Bijin, ‘10 Years,’ Daiginjo\t\t\t\t\t\t2000",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:cd6f25d643243504",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 111,
+    "original_raw_line": "Isojiman, ‘Nakadori 35,’ Junmai Daiginjo\t\t\t\t\t3000",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:522a0a0807238da9",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 112,
+    "original_raw_line": "Tatenokawa, ‘Komyo,’ Junmai Daiginjo\t\t\t\t\t5000",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:0b52409da15fb997",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 113,
+    "original_raw_line": "Heiwa, 'Kid, Muryozan 20,' Junmai Daiginjo\t\t\t\t\t8000",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:07aab8fc4d124cbe",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 114,
+    "original_raw_line": "Reikyo, ‘Absolute 0,’ Junmai Daiginjo\t\t\t\t\t10000",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:6d543f6ad1155d26",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 123,
+    "original_raw_line": "\t\t‘Le Réserve,’ Extra Brut\t\t\t\t\t\t200",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:38b45190e3bd2a90",
+    "canonical": {
+      "producer": "producer:billecart-salmon"
+    }
+  },
+  {
+    "source_line_no": 135,
+    "original_raw_line": "2015\t\tBrut\t\t\t\t\t\t\t\t\t600",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:2e57792aa2a41ce1",
+    "canonical": {
+      "producer": "producer:dom-perignon"
+    }
+  },
+  {
+    "source_line_no": 136,
+    "original_raw_line": "2013\t\tBrut\t\t\t\t\t\t\t\t\t600",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:2e57792aa2a41ce1",
+    "canonical": {
+      "producer": "producer:dom-perignon"
+    }
+  },
+  {
+    "source_line_no": 137,
+    "original_raw_line": "2003\t\t‘Plénitude 2,’ Brut\t\t\t\t\t\t\t1800",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:0cb83f459ad19ff7",
+    "canonical": {
+      "producer": "producer:dom-perignon"
+    }
+  },
+  {
+    "source_line_no": 140,
+    "original_raw_line": "\t\t‘Clarevallis,’ Extra Brut\t\t\t\t\t\t230",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:53e163d9f034ead3",
+    "canonical": {
+      "producer": "producer:drappier"
+    }
+  },
+  {
+    "source_line_no": 143,
+    "original_raw_line": "\t‘Père Pinot 2,’ Extra Brut\t\t\t\t\t\t455",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:08b0326d53c291c7",
+    "canonical": {
+      "producer": "producer:drappier",
+      "cuvee": "cuvee:drappier-pere-pinot-2"
+    }
+  },
+  {
+    "source_line_no": 145,
+    "original_raw_line": "2012\t\t‘Éclose,’ Extra Brut\t\t\t\t\t\t\t1520",
+    "resolved_to": "canonical_release",
+    "canonical": {
+      "producer": "producer:drappier",
+      "cuvee": "cuvee:drappier-eclose",
+      "vintage": "vintage:drappier-eclose-2012"
+    }
+  },
+  {
+    "source_line_no": 148,
+    "original_raw_line": "\t\t‘Vieillissement Prolongé,’ Grand Cru Extra Brut\t\t\t680",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:f32b03a4396a1ed7",
+    "canonical": {
+      "producer": "producer:egly-ouriet"
+    }
+  },
+  {
+    "source_line_no": 149,
+    "original_raw_line": "2016\t\tGrand Cru Extra Brut\t\t\t\t\t\t\t1860",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:2d3a267693fa6f7d",
+    "canonical": {
+      "producer": "producer:egly-ouriet"
+    }
+  },
+  {
+    "source_line_no": 150,
+    "original_raw_line": "2015\t\tGrand Cru Extra Brut\t\t\t\t\t\t\t1580",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:2d3a267693fa6f7d",
+    "canonical": {
+      "producer": "producer:egly-ouriet"
+    }
+  },
+  {
+    "source_line_no": 151,
+    "original_raw_line": "2014\t\tGrand Cru Extra Brut\t\t\t\t\t\t\t1740",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:2d3a267693fa6f7d",
+    "canonical": {
+      "producer": "producer:egly-ouriet"
+    }
+  },
+  {
+    "source_line_no": 152,
+    "original_raw_line": "2013\t\tGrand Cru Extra Brut\t\t\t\t\t\t\t1985",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:2d3a267693fa6f7d",
+    "canonical": {
+      "producer": "producer:egly-ouriet"
+    }
+  },
+  {
+    "source_line_no": 153,
+    "original_raw_line": "2012\t\tGrand Cru Extra Brut\t\t\t\t\t\t\t1985",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:2d3a267693fa6f7d",
+    "canonical": {
+      "producer": "producer:egly-ouriet"
+    }
+  },
+  {
+    "source_line_no": 156,
+    "original_raw_line": "2008\t\tPremier Cru Extra Brut\t\t\t\t\t\t500",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:bd7010e42c63872a",
+    "canonical": {
+      "producer": "producer:frederic-savart"
+    }
+  },
+  {
+    "source_line_no": 157,
+    "original_raw_line": "2020\t\t‘Le Mont Benoit,’ Premier Cru Extra Brut\t\t\t\t580",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:c014b9049ef96a08",
+    "canonical": {
+      "producer": "producer:frederic-savart"
+    }
+  },
+  {
+    "source_line_no": 160,
+    "original_raw_line": "\t\t‘Tradition,’ Grand Cru Brut\t\t\t\t\t\t150",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:351b382572eb2f9b",
+    "canonical": {
+      "producer": "producer:gatinois"
+    }
+  },
+  {
+    "source_line_no": 165,
+    "original_raw_line": "2012\t\t‘Celebris,’ Extra Brut\t\t\t\t\t\t\t700",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:6c9cd573d213418b",
+    "canonical": {
+      "producer": "producer:gosset"
+    }
+  },
+  {
+    "source_line_no": 166,
+    "original_raw_line": "2002\t\t‘Celebris,’ Extra Brut\t\t\t\t\t\t\t700",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:6c9cd573d213418b",
+    "canonical": {
+      "producer": "producer:gosset"
+    }
+  },
+  {
+    "source_line_no": 170,
+    "original_raw_line": "\t‘Esprit Nature,’ Brut Nature\t\t\t\t\t\t250",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:e8e9ffc9e3a08527",
+    "canonical": {
+      "producer": "producer:henri-giraud",
+      "cuvee": "cuvee:henri-giraud-esprit-nature"
+    }
+  },
+  {
+    "source_line_no": 171,
+    "original_raw_line": "Grand Cru Brut\t\t\t\t\t\t\t800",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:f88e4374f22dba12",
+    "canonical": {
+      "producer": "producer:henri-giraud"
+    }
+  },
+  {
+    "source_line_no": 172,
+    "original_raw_line": "2016\t\t‘Argonne,’ Grand Cru Brut\t\t\t\t\t\t2640",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:f067dcfc366c7957",
+    "canonical": {
+      "producer": "producer:henri-giraud"
+    }
+  },
+  {
+    "source_line_no": 175,
+    "original_raw_line": "2015\t\t“Temoignage”\t\t\t\t\t\t\t\t215",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:ec7393ece1d41f6a",
+    "canonical": {
+      "producer": "producer:jean-velut"
+    }
+  },
+  {
+    "source_line_no": 178,
+    "original_raw_line": "2023\t\t‘La Closerie, &,’ Extra Brut\t\t\t\t\t\t780",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:df15f72573d4b585",
+    "canonical": {
+      "producer": "producer:jerome-prevost"
+    }
+  },
+  {
+    "source_line_no": 179,
+    "original_raw_line": "2021\t\t‘La Closerie, &,’ Extra Brut\t\t\t\t\t\t820",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:df15f72573d4b585",
+    "canonical": {
+      "producer": "producer:jerome-prevost"
+    }
+  },
+  {
+    "source_line_no": 181,
+    "original_raw_line": "2023\t\t‘La Closerie,’ Grand Cru Extra Brut\t\t\t\t\t1400",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:295e6dca7115d91f",
+    "canonical": {
+      "producer": "producer:jerome-prevost"
+    }
+  },
+  {
+    "source_line_no": 182,
+    "original_raw_line": "2022\t\t‘La Closerie,’ Grand Cru Extra Brut\t\t\t\t\t1780",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:295e6dca7115d91f",
+    "canonical": {
+      "producer": "producer:jerome-prevost"
+    }
+  },
+  {
+    "source_line_no": 185,
+    "original_raw_line": "\t\t‘Grande Cuvée, 173ème Édition,’ Brut\t\t\t\t850",
+    "resolved_to": "canonical_release",
+    "canonical": {
+      "producer": "producer:krug",
+      "cuvee": "cuvee:krug-grande-cuvee",
+      "vintage": "vintage:krug-grande-cuvee-nv-2017-173eme-edition"
+    }
+  },
+  {
+    "source_line_no": 186,
+    "original_raw_line": "‘Grande Cuvée, 172ème Édition,’ Brut\t\t\t\t850",
+    "resolved_to": "canonical_release",
+    "canonical": {
+      "producer": "producer:krug",
+      "cuvee": "cuvee:krug-grande-cuvee",
+      "vintage": "vintage:krug-grande-cuvee-nv-2016-172eme-edition"
+    }
+  },
+  {
+    "source_line_no": 187,
+    "original_raw_line": "‘Grande Cuvée, 171ème Édition,’ Brut\t\t\t\t850",
+    "resolved_to": "canonical_release",
+    "canonical": {
+      "producer": "producer:krug",
+      "cuvee": "cuvee:krug-grande-cuvee",
+      "vintage": "vintage:krug-grande-cuvee-nv-2015-171eme-edition"
+    }
+  },
+  {
+    "source_line_no": 190,
+    "original_raw_line": "\t\t‘Ultradition,’ Extra Brut\t\t\t\t\t\t180",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:bcfd0be6bb097632",
+    "canonical": {
+      "producer": "producer:laherte-freres"
+    }
+  },
+  {
+    "source_line_no": 195,
+    "original_raw_line": "\t\t‘Grand Siècle Grande Cuvée No. 27,’ Brut\t\t\t\t920",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:b79b8118a4f437ec",
+    "canonical": {
+      "producer": "producer:laurent-perrier"
+    }
+  },
+  {
+    "source_line_no": 196,
+    "original_raw_line": "‘Grand Siècle Grande Cuvée No. 26,’ Brut\t\t\t\t800",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:719e51a45cf036d8",
+    "canonical": {
+      "producer": "producer:laurent-perrier"
+    }
+  },
+  {
+    "source_line_no": 199,
+    "original_raw_line": "\t\t‘Réserve,’ Brut\t\t\t\t\t\t\t230",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:9cf72f1c917062f3",
+    "canonical": {
+      "producer": "producer:leclerc-briant"
+    }
+  },
+  {
+    "source_line_no": 202,
+    "original_raw_line": "2013\t\t‘Montagne,’ Grand Cru Extra Brut\t\t\t\t\t620",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:eeb8e5d07a8cb99c",
+    "canonical": {
+      "producer": "producer:domaine-les-monts-fournois"
+    }
+  },
+  {
+    "source_line_no": 203,
+    "original_raw_line": "2013\t\t‘Vallée,’ Grand Cru Extra Brut\t\t\t\t\t620",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:758ad3276842a5d0",
+    "canonical": {
+      "producer": "producer:domaine-les-monts-fournois"
+    }
+  },
+  {
+    "source_line_no": 206,
+    "original_raw_line": "\t\t‘Collection 246,’ Brut\t\t\t\t\t\t\t250",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:bf6682d8f126cb17",
+    "canonical": {
+      "producer": "producer:louis-roederer"
+    }
+  },
+  {
+    "source_line_no": 211,
+    "original_raw_line": "2015\t\tGrand Cru Extra Brut\t\t\t\t\t\t\t400",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:b0955aa6948b8b6a",
+    "canonical": {
+      "producer": "producer:marie-noelle-ledru"
+    }
+  },
+  {
+    "source_line_no": 214,
+    "original_raw_line": "\t\t‘L’Ascendant Solera,’ Grand Cru Extra Brut\t\t\t\t240",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:c1459245483e6907",
+    "canonical": {
+      "producer": "producer:mouzon-leroux"
+    }
+  },
+  {
+    "source_line_no": 230,
+    "original_raw_line": "\t\t‘Grand Cellier,’ Premier Cru Brut\t\t\t\t\t235",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:00bdbccef33b61e7",
+    "canonical": {
+      "producer": "producer:vilmart-and-cie"
+    }
+  },
+  {
+    "source_line_no": 231,
+    "original_raw_line": "2017\t\t‘Coeur de Cuvée,’ Premier Cru Brut\t\t\t\t\t535",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:700625fa84636a1e",
+    "canonical": {
+      "producer": "producer:vilmart-and-cie"
+    }
+  },
+  {
+    "source_line_no": 232,
+    "original_raw_line": "2016\t\t‘Coeur de Cuvée,’ Premier Cru Brut\t\t\t\t\t440",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:700625fa84636a1e",
+    "canonical": {
+      "producer": "producer:vilmart-and-cie"
+    }
+  },
+  {
+    "source_line_no": 237,
+    "original_raw_line": "2012\t\t‘Louis Salmon,’ Grand Cru Brut\t\t\t\t\t640",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:bb3af74af593ade6",
+    "canonical": {
+      "producer": "producer:billecart-salmon"
+    }
+  },
+  {
+    "source_line_no": 243,
+    "original_raw_line": "2015\t\t‘L’Artiste,’ Premier Cru Extra Brut\t\t\t\t\t550",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:571c3fa2d13b129c",
+    "canonical": {
+      "producer": "producer:david-leclapart"
+    }
+  },
+  {
+    "source_line_no": 246,
+    "original_raw_line": "2021\t\t‘Cramant,’ Grand Cru Extra Brut\t\t\t\t\t440",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:b919e2e5b12e49cf",
+    "canonical": {
+      "producer": "producer:dhondt-grellet"
+    }
+  },
+  {
+    "source_line_no": 249,
+    "original_raw_line": "\t\t‘Cuveé Vendémiaire,’ Premier Cru Brut\t\t\t\t200",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:a8b40008c3b1d2f4",
+    "canonical": {
+      "producer": "producer:doyard"
+    }
+  },
+  {
+    "source_line_no": 250,
+    "original_raw_line": "2015\t\tGrand Cru Extra Brut\t\t\t\t\t\t\t455",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:d0a948923437d05c",
+    "canonical": {
+      "producer": "producer:doyard"
+    }
+  },
+  {
+    "source_line_no": 251,
+    "original_raw_line": "2016\t\t‘Voie d’Oger,’ Grand Cru Extra Brut\t\t\t\t\t700",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:455eeb4d0cb9acd8",
+    "canonical": {
+      "producer": "producer:doyard"
+    }
+  },
+  {
+    "source_line_no": 254,
+    "original_raw_line": "2015\t\tPremier Cru Extra Brut\t\t\t\t\t\t200",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:1ed7876e5e52fc55",
+    "canonical": {
+      "producer": "producer:dunoyer-de-segonzac"
+    }
+  },
+  {
+    "source_line_no": 260,
+    "original_raw_line": "\t\tPremier Cru Extra Brut\t\t\t\t\t\t380",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:bd7010e42c63872a",
+    "canonical": {
+      "producer": "producer:frederic-savart"
+    }
+  },
+  {
+    "source_line_no": 266,
+    "original_raw_line": "‘Initial,’ Grand Cru Brut (disgorged 2025)\t\t\t\t1980",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:9c1c40517a598157",
+    "canonical": {
+      "producer": "producer:jacques-selosse"
+    }
+  },
+  {
+    "source_line_no": 267,
+    "original_raw_line": "‘Initial,’ Grand Cru Brut (disgorged ?)\t\t\t\t1920",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:70f4b9591e82f5f5",
+    "canonical": {
+      "producer": "producer:jacques-selosse"
+    }
+  },
+  {
+    "source_line_no": 268,
+    "original_raw_line": "\t\t‘Substance,’ Grand Cru Brut (disgorged 2025)\t\t\t3240",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:a33332e5e2bab14b",
+    "canonical": {
+      "producer": "producer:jacques-selosse"
+    }
+  },
+  {
+    "source_line_no": 271,
+    "original_raw_line": "\t\t‘Latitude,’ Premier Cru Extra Brut\t\t\t\t\t220",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:33dff9e948beee81",
+    "canonical": {
+      "producer": "producer:larmandier-bernier"
+    }
+  },
+  {
+    "source_line_no": 272,
+    "original_raw_line": "\t\t‘Longitude,’ Premier Cru Extra Brut\t\t\t\t\t240",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:1699fcabf53c1e4d",
+    "canonical": {
+      "producer": "producer:larmandier-bernier"
+    }
+  },
+  {
+    "source_line_no": 273,
+    "original_raw_line": "2014\t\t‘Vieille Vigne du Levant,’ Grand Cru Extra Brut\t\t\t535",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:469661b9ca422616",
+    "canonical": {
+      "producer": "producer:larmandier-bernier"
+    }
+  },
+  {
+    "source_line_no": 276,
+    "original_raw_line": "\t\t‘Côte Avize,’ Grand Cru Brut\t\t\t\t\t\t400",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:1f4347bd9f7cc4e5",
+    "canonical": {
+      "producer": "producer:domaine-les-monts-fournois"
+    }
+  },
+  {
+    "source_line_no": 277,
+    "original_raw_line": "2017\t\t‘Côte Oger,’ Grand Cru Extra Brut\t\t\t\t\t420",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:726ac669944fc196",
+    "canonical": {
+      "producer": "producer:domaine-les-monts-fournois"
+    }
+  },
+  {
+    "source_line_no": 280,
+    "original_raw_line": "\t\t‘Vindey-Montgueux,’ Extra Brut\t\t\t\t\t160",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:0601e9a2824344e4",
+    "canonical": {
+      "producer": "producer:michel-gonet"
+    }
+  },
+  {
+    "source_line_no": 281,
+    "original_raw_line": "2016\t\t‘Mesnil-sur-Oger,’ Grand Cru Extra Brut\t\t\t\t220",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:6d109e63d2e05d02",
+    "canonical": {
+      "producer": "producer:michel-gonet"
+    }
+  },
+  {
+    "source_line_no": 282,
+    "original_raw_line": "2018\t\t‘Les Hautes Mottes,’ Brut Nature\t\t\t\t\t345",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:83fddec535fc7eb0",
+    "canonical": {
+      "producer": "producer:michel-gonet"
+    }
+  },
+  {
+    "source_line_no": 285,
+    "original_raw_line": "2015\t\t‘Minéral,’ Grand Cru\t\t\t\t\t\t\t520",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:4644bafa7676e2cb",
+    "canonical": {
+      "producer": "producer:pascal-agrapart"
+    }
+  },
+  {
+    "source_line_no": 286,
+    "original_raw_line": "2015\t\t‘Experience,’ Grand Cru Brut Nature\t\t\t\t\t960 ",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:85a4115581ea8722",
+    "canonical": {
+      "producer": "producer:pascal-agrapart"
+    }
+  },
+  {
+    "source_line_no": 289,
+    "original_raw_line": "\t\t‘Cuvée de Réserve,’ Grand Cru Brut\t\t\t\t\t235",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:fa8300dc383d7ab9",
+    "canonical": {
+      "producer": "producer:pierre-peters"
+    }
+  },
+  {
+    "source_line_no": 290,
+    "original_raw_line": "2018\t\t‘L’Esprit,’ Grand Cru Brut\t\t\t\t\t\t390",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:e8c6755f06743cec",
+    "canonical": {
+      "producer": "producer:pierre-peters"
+    }
+  },
+  {
+    "source_line_no": 291,
+    "original_raw_line": "2015\t\t‘Les Montjolys,’ Grand Cru Brut\t\t\t\t\t800",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:40388d3319cf6cd6",
+    "canonical": {
+      "producer": "producer:pierre-peters"
+    }
+  },
+  {
+    "source_line_no": 292,
+    "original_raw_line": "\t\t‘L’Étonnant Monsieur Victor, Edition TB.17,’ Grand Cru Brut\t860",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:14789b9215b09468",
+    "canonical": {
+      "producer": "producer:pierre-peters"
+    }
+  },
+  {
+    "source_line_no": 293,
+    "original_raw_line": "2012\t\t‘Les Chétillons,’ Grand Cru Brut\t\t\t\t\t1580",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:6cd0dd373e4d1f47",
+    "canonical": {
+      "producer": "producer:pierre-peters"
+    }
+  },
+  {
+    "source_line_no": 294,
+    "original_raw_line": "2007\t\t‘Les Chétillons,’ Grand Cru Brut\t\t\t\t\t1580",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:6cd0dd373e4d1f47",
+    "canonical": {
+      "producer": "producer:pierre-peters"
+    }
+  },
+  {
+    "source_line_no": 300,
+    "original_raw_line": "2015\t\t‘Terre Millésime,’ Premier Cru Extra Brut\t\t\t\t495",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:5020ce7c2e8bb61d",
+    "canonical": {
+      "producer": "producer:rene-geoffroy"
+    }
+  },
+  {
+    "source_line_no": 301,
+    "original_raw_line": "2017\t\t‘Volupté Millésime,’ Premier Cru Extra Brut\t\t\t270",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:672aebc328109662",
+    "canonical": {
+      "producer": "producer:rene-geoffroy"
+    }
+  },
+  {
+    "source_line_no": 302,
+    "original_raw_line": "2014\t\t‘Volupté Millésime,’ Premier Cru Extra Brut\t\t\t250",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:672aebc328109662",
+    "canonical": {
+      "producer": "producer:rene-geoffroy"
+    }
+  },
+  {
+    "source_line_no": 305,
+    "original_raw_line": "\t\t‘Les Grands Blancs,’ Grand Cru Extra Brut\t\t\t\t255",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:d540380d4bbabf47",
+    "canonical": {
+      "producer": "producer:robert-moncuit"
+    }
+  },
+  {
+    "source_line_no": 306,
+    "original_raw_line": "2016\t\t‘Les Chétillons,’ Grand Cru Extra Brut\t\t\t\t500",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:95ec69e7cd8a3fcb",
+    "canonical": {
+      "producer": "producer:robert-moncuit"
+    }
+  },
+  {
+    "source_line_no": 307,
+    "original_raw_line": "2015\t\t‘Les Chétillons,’ Grand Cru Extra Brut\t\t\t\t500",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:95ec69e7cd8a3fcb",
+    "canonical": {
+      "producer": "producer:robert-moncuit"
+    }
+  },
+  {
+    "source_line_no": 310,
+    "original_raw_line": "\t\t‘Oiry,’ Grand Cru Extra Brut\t\t\t\t\t\t320",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:84ed294c9959e00d",
+    "canonical": {
+      "producer": "producer:suenen"
+    }
+  },
+  {
+    "source_line_no": 311,
+    "original_raw_line": "2015\t\t‘C+C,’ Grand Cru Extra Brut\t\t\t\t\t\t735",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:7025f2ece2720e56",
+    "canonical": {
+      "producer": "producer:suenen"
+    }
+  },
+  {
+    "source_line_no": 314,
+    "original_raw_line": "2014\t\t‘Comtes de Champagne,’ Grand Cru Brut\t\t\t\t760",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:fbc2b74bd8242710",
+    "canonical": {
+      "producer": "producer:taittinger"
+    }
+  },
+  {
+    "source_line_no": 315,
+    "original_raw_line": "2013\t\t‘Comtes de Champagne,’ Grand Cru Brut\t\t\t\t700",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:fbc2b74bd8242710",
+    "canonical": {
+      "producer": "producer:taittinger"
+    }
+  },
+  {
+    "source_line_no": 316,
+    "original_raw_line": "2011\t\t‘Comtes de Champagne,’ Grand Cru Brut\t\t\t\t680",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:fbc2b74bd8242710",
+    "canonical": {
+      "producer": "producer:taittinger"
+    }
+  },
+  {
+    "source_line_no": 317,
+    "original_raw_line": "2005\t\t‘Comtes de Champagne,’ Grand Cru Brut\t\t\t\t1000",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:fbc2b74bd8242710",
+    "canonical": {
+      "producer": "producer:taittinger"
+    }
+  },
+  {
+    "source_line_no": 320,
+    "original_raw_line": "2014\t\t‘Les Enfers,’ Extra Brut\t\t\t\t\t\t1800",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:952193a2d7964123",
+    "canonical": {
+      "producer": "producer:ulysse-collin"
+    }
+  },
+  {
+    "source_line_no": 323,
+    "original_raw_line": "\t\t‘Les Blanches Voies,’ Premier Cru Extra Brut\t\t\t1040",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:da29d60a7ffaa33a",
+    "canonical": {
+      "producer": "producer:vilmart-and-cie"
+    }
+  },
+  {
+    "source_line_no": 328,
+    "original_raw_line": "2022\t\t‘Les Monts de la Vallée,’ Extra Brut\t\t\t\t\t280",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:c540f5fb04fe0cc9",
+    "canonical": {
+      "producer": "producer:antoine-bouvet"
+    }
+  },
+  {
+    "source_line_no": 329,
+    "original_raw_line": "2021\t\t‘Bisseuil,’ Extra Brut\t\t\t\t\t\t\t360",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:0a47fdbb8ded4a8f",
+    "canonical": {
+      "producer": "producer:antoine-bouvet"
+    }
+  },
+  {
+    "source_line_no": 332,
+    "original_raw_line": "\t\t‘Cuvée de L’Orme,’ Brut Nature\t\t\t\t\t470\t\t\t\t\t",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:64b4df1cde8c553b",
+    "canonical": {
+      "producer": "producer:benoit-dehu"
+    }
+  },
+  {
+    "source_line_no": 334,
+    "original_raw_line": "2017\t\t‘Rive Gauche,’ Extra Brut\t\t\t\t\t\t440",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:b0f6605d22330ea8",
+    "canonical": {
+      "producer": "producer:bereche-et-fils"
+    }
+  },
+  {
+    "source_line_no": 335,
+    "original_raw_line": "2019\t\t‘Rilly La Montagne,’ Premier Cru Extra Brut\t\t\t540",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:7b26cb7bc47c5884",
+    "canonical": {
+      "producer": "producer:bereche-et-fils"
+    }
+  },
+  {
+    "source_line_no": 344,
+    "original_raw_line": "2019\t\t“Eclipsis,” Extra Brut\t\t\t\t\t\t\t375",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:727cff5f1652a074",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 348,
+    "original_raw_line": "\t\t‘Les Crayeres,’ Grand Cru Extra Brut\t\t\t\t1280",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:c2a5943d45af6b29",
+    "canonical": {
+      "producer": "producer:egly-ouriet"
+    }
+  },
+  {
+    "source_line_no": 351,
+    "original_raw_line": "2013\t\t‘Les Hauts Meuniers,’ Premier Cru Extra Brut\t\t\t1560",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:6a7c17fc6025267c",
+    "canonical": {
+      "producer": "producer:emmanuel-brochet"
+    }
+  },
+  {
+    "source_line_no": 354,
+    "original_raw_line": "2012\t\t“Empreinte Noire”\t\t\t\t\t\t\t720",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:e01eb23f4bb23228",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 355,
+    "original_raw_line": "2011\t\t“Empreinte Noire”\t\t\t\t\t\t\t720",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:e01eb23f4bb23228",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 356,
+    "original_raw_line": "2010\t\t“Empreinte Noire”\t\t\t\t\t\t\t720",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:e01eb23f4bb23228",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 359,
+    "original_raw_line": "2020\t\t‘Terre d’Illite,’ Extra Brut\t\t\t\t\t\t275",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:d63514fed601a08e",
+    "canonical": {
+      "producer": "producer:famille-mousse"
+    }
+  },
+  {
+    "source_line_no": 360,
+    "original_raw_line": "2019\t\t‘Terre d’Illite,’ Extra Brut\t\t\t\t\t\t275",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:d63514fed601a08e",
+    "canonical": {
+      "producer": "producer:famille-mousse"
+    }
+  },
+  {
+    "source_line_no": 363,
+    "original_raw_line": "\t‘L’Ouverture,’ Premier Cru Brut\t\t\t\t\t280",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:3169eaf2c1f40d90",
+    "canonical": {
+      "producer": "producer:frederic-savart"
+    }
+  },
+  {
+    "source_line_no": 366,
+    "original_raw_line": "2017\t\t‘Les Hauts Chèvres,’ Premier Cru Brut Nature\t\t\t960",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:82759b311724cb50",
+    "canonical": {
+      "producer": "producer:georges-laval"
+    }
+  },
+  {
+    "source_line_no": 372,
+    "original_raw_line": "2020\t\t‘Les Vignes d’Autrefois,’ Extra Brut\t\t\t\t\t270",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:9c663290728769f5",
+    "canonical": {
+      "producer": "producer:laherte-freres"
+    }
+  },
+  {
+    "source_line_no": 373,
+    "original_raw_line": "2021\t\t‘Bouzy,’ Grand Cru Extra Brut\t\t\t\t\t285",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:bb9c52dce8be56bc",
+    "canonical": {
+      "producer": "producer:laherte-freres"
+    }
+  },
+  {
+    "source_line_no": 376,
+    "original_raw_line": "2020\t\tGrand Cru Extra Brut\t\t\t\t\t\t\t400",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:ae37401af471e9d8",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 381,
+    "original_raw_line": "\t\tBrut\t\t\t\t\t\t\t\t\t280",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:b558d4370a4cc771",
+    "canonical": {
+      "producer": "producer:billecart-salmon"
+    }
+  },
+  {
+    "source_line_no": 382,
+    "original_raw_line": "2012\t\t‘Elizabeth Salmon,’ Brut\t\t\t\t\t\t700",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:54cd5c3740ea450a",
+    "canonical": {
+      "producer": "producer:billecart-salmon"
+    }
+  },
+  {
+    "source_line_no": 385,
+    "original_raw_line": "\t\t‘Bistrøtage Rosé B.11,’ Extra Brut\t\t\t\t\t560",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:0116ad26d3f79a08",
+    "canonical": {
+      "producer": "producer:charles-dufour-francoise-martinot"
+    }
+  },
+  {
+    "source_line_no": 388,
+    "original_raw_line": "\t\t‘Les Riceys,’ Brut Nature\t\t\t\t\t\t295",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:c3ca3f0b2462bbf3",
+    "canonical": {
+      "producer": "producer:drappier"
+    }
+  },
+  {
+    "source_line_no": 391,
+    "original_raw_line": "Grand Cru Extra Brut\t\t\t\t\t\t\t680",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:2d3a267693fa6f7d",
+    "canonical": {
+      "producer": "producer:egly-ouriet"
+    }
+  },
+  {
+    "source_line_no": 394,
+    "original_raw_line": "\t\t‘Rosé d’Assemblage,’ Extra Brut\t\t\t\t\t640",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:abd8aff70627ead8",
+    "canonical": {
+      "producer": "producer:emmanuel-brochet"
+    }
+  },
+  {
+    "source_line_no": 397,
+    "original_raw_line": "\t\t‘Bulle de Rosé,’ Premier Cru Extra Brut\t\t\t\t360",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:7fac9a43b3ff9777",
+    "canonical": {
+      "producer": "producer:frederic-savart"
+    }
+  },
+  {
+    "source_line_no": 400,
+    "original_raw_line": "2022\t\tGrand Cru Brut Rosé\t\t\t\t\t\t\t735",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:3079ebea09b3afa5",
+    "canonical": {
+      "producer": "producer:henri-giraud"
+    }
+  },
+  {
+    "source_line_no": 403,
+    "original_raw_line": "\t\tBrut (disgorged 2025)\t\t\t\t\t\t\t3040",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:d65c95de27358376",
+    "canonical": {
+      "producer": "producer:jacques-selosse"
+    }
+  },
+  {
+    "source_line_no": 410,
+    "original_raw_line": "2012\t\t‘Alexandra,’ Brut \t\t\t\t\t\t\t1255",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:94bc4151a5565c0d",
+    "canonical": {
+      "producer": "producer:laurent-perrier"
+    }
+  },
+  {
+    "source_line_no": 413,
+    "original_raw_line": "\t\tBrut\t\t\t\t\t\t\t\t\t255",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:50ab3c94a208dae8",
+    "canonical": {
+      "producer": "producer:leclerc-briant"
+    }
+  },
+  {
+    "source_line_no": 422,
+    "original_raw_line": "2012\t\t‘Comtes de Champagne,’ Grand Cru Brut\t\t\t\t955",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:fbc2b74bd8242710",
+    "canonical": {
+      "producer": "producer:taittinger"
+    }
+  },
+  {
+    "source_line_no": 427,
+    "original_raw_line": "2018\t\tPremier Cru Brut\t\t\t\t\t\t\t345",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:70bbaaca877530b7",
+    "canonical": {
+      "producer": "producer:a-margaine"
+    }
+  },
+  {
+    "source_line_no": 428,
+    "original_raw_line": "2014\t\tPremier Cru Brut\t\t\t\t\t\t\t295",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:70bbaaca877530b7",
+    "canonical": {
+      "producer": "producer:a-margaine"
+    }
+  },
+  {
+    "source_line_no": 431,
+    "original_raw_line": "2016\t\tPremier Cru Brut\t\t\t\t\t\t\t280",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:9ff376bc7ed616f9",
+    "canonical": {
+      "producer": "producer:gaston-chiquet"
+    }
+  },
+  {
+    "source_line_no": 432,
+    "original_raw_line": "2015\t\tPremier Cru Brut\t\t\t\t\t\t\t265",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:9ff376bc7ed616f9",
+    "canonical": {
+      "producer": "producer:gaston-chiquet"
+    }
+  },
+  {
+    "source_line_no": 433,
+    "original_raw_line": "2017\t\t‘Vauzelle,’ Grand Cru Brut\t\t\t\t\t\t400",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:63a5a87af9ea2a51",
+    "canonical": {
+      "producer": "producer:gaston-chiquet"
+    }
+  },
+  {
+    "source_line_no": 436,
+    "original_raw_line": "2015\t\tGrand Cru Brut\t\t\t\t\t\t\t400",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:c6caaf1eb2957db1",
+    "canonical": {
+      "producer": "producer:h-goutorbe"
+    }
+  },
+  {
+    "source_line_no": 437,
+    "original_raw_line": "2012\t\tGrand Cru Brut\t\t\t\t\t\t\t350",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:c6caaf1eb2957db1",
+    "canonical": {
+      "producer": "producer:h-goutorbe"
+    }
+  },
+  {
+    "source_line_no": 440,
+    "original_raw_line": "2016\t\t‘Chouilly,’ Grand Cru Brut\t\t\t\t\t\t415",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:15f3fe51b7cbbfe8",
+    "canonical": {
+      "producer": "producer:pierre-gimonnet-and-fils"
+    }
+  },
+  {
+    "source_line_no": 441,
+    "original_raw_line": "2017\t\t‘Cramant’ Grand Cru Brut\t\t\t\t\t\t465",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:c7f49d4151f29a6e",
+    "canonical": {
+      "producer": "producer:pierre-gimonnet-and-fils"
+    }
+  },
+  {
+    "source_line_no": 442,
+    "original_raw_line": "2019\t\t‘Cuis,’ Premier Cru Brut\t\t\t\t\t\t360",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:84181e6f164d5435",
+    "canonical": {
+      "producer": "producer:pierre-gimonnet-and-fils"
+    }
+  },
+  {
+    "source_line_no": 443,
+    "original_raw_line": "2016\t\t‘Grand Terriors de Chardonnay,’ Premier Cru Brut\t\t\t350",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:a39496eb463431cc",
+    "canonical": {
+      "producer": "producer:pierre-gimonnet-and-fils"
+    }
+  },
+  {
+    "source_line_no": 444,
+    "original_raw_line": "2014\t\t‘Grand Terriors de Chardonnay,’ Premier Cru Brut\t\t\t435",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:a39496eb463431cc",
+    "canonical": {
+      "producer": "producer:pierre-gimonnet-and-fils"
+    }
+  },
+  {
+    "source_line_no": 445,
+    "original_raw_line": "2017\t\t‘Oger,’ Grand Cru Brut\t\t\t\t\t\t440",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:16c1d77020f20793",
+    "canonical": {
+      "producer": "producer:pierre-gimonnet-and-fils"
+    }
+  },
+  {
+    "source_line_no": 448,
+    "original_raw_line": "2021\t\tPremier Cru Brut\t\t\t\t\t\t\t335",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:a4a69f3b843ed8e7",
+    "canonical": {
+      "producer": "producer:marc-hebrart"
+    }
+  },
+  {
+    "source_line_no": 449,
+    "original_raw_line": "2019\t\tPremier Cru Brut\t\t\t\t\t\t\t310",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:a4a69f3b843ed8e7",
+    "canonical": {
+      "producer": "producer:marc-hebrart"
+    }
+  },
+  {
+    "source_line_no": 461,
+    "original_raw_line": "1995\t\t‘Clos Jebsal, Sélection de Grains Nobles,’ Pinot Gris\t\t800",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:c10616d3f08da8d0",
+    "canonical": {
+      "producer": "producer:domaine-zind-humbrecht"
+    }
+  },
+  {
+    "source_line_no": 466,
+    "original_raw_line": "2023\t\tBourgogne\t\t\t\t\t\t\t\t180",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:edec6a05645131fa",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 467,
+    "original_raw_line": "2023\t\tChassagne-Montrachet Premier Cru\t\t\t\t\t440",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:af50a8f6c18800d9",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 470,
+    "original_raw_line": "2023\t\t‘Les Vignes de Mon Père,’ Puligny-Montrachet\t\t\t360",
+    "resolved_to": "canonical_release",
+    "canonical": {
+      "producer": "producer:alvina-pernot",
+      "cuvee": "cuvee:alvina-pernot-les-vignes-de-mon-pere",
+      "vintage": "vintage:alvina-pernot-les-vignes-de-mon-pere-2023"
+    }
+  },
+  {
+    "source_line_no": 471,
+    "original_raw_line": "2022\t\t‘La Pièce sous le Bois,’ Meursault Premier Cru\t\t\t640",
+    "resolved_to": "canonical_release",
+    "canonical": {
+      "producer": "producer:alvina-pernot",
+      "cuvee": "cuvee:alvina-pernot-la-piece-sous-le-bois",
+      "vintage": "vintage:alvina-pernot-la-piece-sous-le-bois-2022"
+    }
+  },
+  {
+    "source_line_no": 472,
+    "original_raw_line": "2022\t\t‘La Garenne,’ Puligny-Montrachet Premier Cru\t\t\t720",
+    "resolved_to": "canonical_release",
+    "canonical": {
+      "producer": "producer:alvina-pernot",
+      "cuvee": "cuvee:alvina-pernot-la-garenne",
+      "vintage": "vintage:alvina-pernot-la-garenne-2022"
+    }
+  },
+  {
+    "source_line_no": 473,
+    "original_raw_line": "2022\t\t‘Les Folatières,’ Puligny-Montrachet Premier Cru\t\t\t720",
+    "resolved_to": "canonical_release",
+    "canonical": {
+      "producer": "producer:alvina-pernot",
+      "cuvee": "cuvee:alvina-pernot-les-folatieres",
+      "vintage": "vintage:alvina-pernot-les-folatieres-2022"
+    }
+  },
+  {
+    "source_line_no": 476,
+    "original_raw_line": "2023\t\t‘Travers de Chez Édouard,’ Saint-Aubin\t\t\t\t190",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:d35ec3539e79422b",
+    "canonical": {
+      "producer": "producer:armand-heitz"
+    }
+  },
+  {
+    "source_line_no": 477,
+    "original_raw_line": "2021\t\tMeursault\t\t\t\t\t\t\t\t295",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:87bab81b4f06185a",
+    "canonical": {
+      "producer": "producer:armand-heitz"
+    }
+  },
+  {
+    "source_line_no": 478,
+    "original_raw_line": "2022\t\t‘Chenevottes,’ Chassagne-Montrachet Premier Cru\t\t\t400",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:841ed224f23c10e2",
+    "canonical": {
+      "producer": "producer:armand-heitz"
+    }
+  },
+  {
+    "source_line_no": 479,
+    "original_raw_line": "2022\t\t‘Les Perrières,’ Meursault Premier Cru\t\t\t\t640 ",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:f9ec7cedb4bc812f",
+    "canonical": {
+      "producer": "producer:armand-heitz"
+    }
+  },
+  {
+    "source_line_no": 480,
+    "original_raw_line": "?\t\tChevalier-Montrachet Grand Cru\t\t\t\t\t3400",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:33009d269df93f0c",
+    "canonical": {
+      "producer": "producer:armand-heitz"
+    }
+  },
+  {
+    "source_line_no": 483,
+    "original_raw_line": "2023\t\tPuligny-Montrachet\t\t\t\t\t\t\t380",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:3b2de71b94633613",
+    "canonical": {
+      "producer": "producer:domaine-bachelet-monnot"
+    }
+  },
+  {
+    "source_line_no": 484,
+    "original_raw_line": "2022\t\tPuligny-Montrachet\t\t\t\t\t\t\t320",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:3b2de71b94633613",
+    "canonical": {
+      "producer": "producer:domaine-bachelet-monnot"
+    }
+  },
+  {
+    "source_line_no": 485,
+    "original_raw_line": "2023\t\t‘Les Folatières,’ Puligny-Montrachet Premier Cru\t\t\t880",
+    "resolved_to": "canonical_release",
+    "canonical": {
+      "producer": "producer:domaine-bachelet-monnot",
+      "cuvee": "cuvee:domaine-bachelet-monnot-les-folatieres",
+      "vintage": "vintage:domaine-bachelet-monnot-les-folatieres-2023"
+    }
+  },
+  {
+    "source_line_no": 486,
+    "original_raw_line": "2022\t\t‘Les Folatières,’ Puligny-Montrachet Premier Cru\t\t\t680",
+    "resolved_to": "canonical_release",
+    "canonical": {
+      "producer": "producer:domaine-bachelet-monnot",
+      "cuvee": "cuvee:domaine-bachelet-monnot-les-folatieres",
+      "vintage": "vintage:domaine-bachelet-monnot-les-folatieres-2022"
+    }
+  },
+  {
+    "source_line_no": 487,
+    "original_raw_line": "2022\t\t‘Les Referts,’ Puligny-Montrachet Premier Cru\t\t\t640",
+    "resolved_to": "canonical_release",
+    "canonical": {
+      "producer": "producer:domaine-bachelet-monnot",
+      "cuvee": "cuvee:domaine-bachelet-monnot-les-referts",
+      "vintage": "vintage:domaine-bachelet-monnot-les-referts-2022"
+    }
+  },
+  {
+    "source_line_no": 490,
+    "original_raw_line": "2020\t\tBourgogne\t\t\t\t\t\t\t\t200",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:00e1039d49ad8de9",
+    "canonical": {
+      "producer": "producer:bernard-moreau-et-fils"
+    }
+  },
+  {
+    "source_line_no": 493,
+    "original_raw_line": "2023\t\t‘Tete d’Or,’ Chablis\t\t\t\t\t\t\t175",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:9bf5f4c0a80056af",
+    "canonical": {
+      "producer": "producer:domaine-billaud-simon"
+    }
+  },
+  {
+    "source_line_no": 494,
+    "original_raw_line": "2023\t\t‘Les Vaillons,’ Chablis Premier Cru\t\t\t\t\t220",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:39a0c49c2c17db21",
+    "canonical": {
+      "producer": "producer:domaine-billaud-simon"
+    }
+  },
+  {
+    "source_line_no": 495,
+    "original_raw_line": "2022\t\t‘Mont de Milieu,’ Chablis Premier Cru\t\t\t\t235",
+    "resolved_to": "canonical_release",
+    "canonical": {
+      "producer": "producer:domaine-billaud-simon",
+      "cuvee": "cuvee:domaine-billaud-simon-mont-de-milieu",
+      "vintage": "vintage:domaine-billaud-simon-mont-de-milieu-2022"
+    }
+  },
+  {
+    "source_line_no": 496,
+    "original_raw_line": "2023\t\t‘Montée de Tonnerre,’ Chablis Premier Cru\t\t\t\t275",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:a240202e413311b9",
+    "canonical": {
+      "producer": "producer:domaine-billaud-simon"
+    }
+  },
+  {
+    "source_line_no": 497,
+    "original_raw_line": "2023\t\t‘Les Clos’ Chablis Grand Cru\t\t\t\t\t\t520",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:0c115d399e78fd5e",
+    "canonical": {
+      "producer": "producer:domaine-billaud-simon"
+    }
+  },
+  {
+    "source_line_no": 498,
+    "original_raw_line": "2022\t\t‘Les Preuses’ Chablis Grand Cru\t\t\t\t\t520",
+    "resolved_to": "canonical_release",
+    "canonical": {
+      "producer": "producer:domaine-billaud-simon",
+      "cuvee": "cuvee:domaine-billaud-simon-les-preuses",
+      "vintage": "vintage:domaine-billaud-simon-les-preuses-2022"
+    }
+  },
+  {
+    "source_line_no": 499,
+    "original_raw_line": "2023\t\t‘Vaudesir,’ Chablis Grand Cru\t\t\t\t\t440",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:b8ae5a4d3cadec52",
+    "canonical": {
+      "producer": "producer:domaine-billaud-simon"
+    }
+  },
+  {
+    "source_line_no": 502,
+    "original_raw_line": "2023\t\tPernand Vergelesses\t\t\t\t\t\t\t265",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:1cf64471f803911c",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 503,
+    "original_raw_line": "2019\t\t‘En la Rue de Vergy,’ Morey-Saint-Denis\t\t\t\t370",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:21c88360bad6348c",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 506,
+    "original_raw_line": "2023\t\t‘Chambrees,’ Chassagne-Montrachet\t\t\t\t\t515",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:cd7ba897a86c3b0f",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 507,
+    "original_raw_line": "2020\t\t‘Chambrees,’ Chassagne-Montrachet\t\t\t\t\t640",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:cd7ba897a86c3b0f",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 508,
+    "original_raw_line": "2019\t\t‘Chambrees,’ Chassagne-Montrachet\t\t\t\t\t640",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:cd7ba897a86c3b0f",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 509,
+    "original_raw_line": "2018\t\t‘Chambrees,’ Chassagne-Montrachet\t\t\t\t\t600",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:cd7ba897a86c3b0f",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 514,
+    "original_raw_line": "2024\t\tChablis\t\t\t\t\t\t\t\t125",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:44c688495deb2f39",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 515,
+    "original_raw_line": "2023\t\tChassagne-Montrachet\t\t\t\t\t\t335",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:4c1ae5539dc74c7a",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 518,
+    "original_raw_line": "2020\t\t‘Les Morgeots,’ Chassagne-Montrachet Premier Cru\t\t880",
+    "resolved_to": "canonical_release",
+    "canonical": {
+      "producer": "producer:maison-chantereves",
+      "cuvee": "cuvee:maison-chantereves-les-morgeots",
+      "vintage": "vintage:maison-chantereves-les-morgeots-2020"
+    }
+  },
+  {
+    "source_line_no": 521,
+    "original_raw_line": "2013\t\tMeursault\t\t\t\t\t\t\t\t4400",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:2101782ac944524b",
+    "canonical": {
+      "producer": "producer:domaine-coche-dury"
+    }
+  },
+  {
+    "source_line_no": 524,
+    "original_raw_line": "2023\t\t‘Hommage a Marguerite,’ Saint-Aubin Premier Cru\t\t\t440",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:97da3bab6f984d3d",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 525,
+    "original_raw_line": "2023\t\t‘Grandes Ruchottes,’ Chassagne-Montrachet Premier Cru\t\t1360",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:492378c00433ae92",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 526,
+    "original_raw_line": "2023\t\tCorton-Charlemagne Grand Cru\t\t\t\t\t2400",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:683e95b31cae5949",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 532,
+    "original_raw_line": "2018\t\tMontrachet\t\t\t\t\t\t\t\t17000",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:5ec0ec577a2abadf",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 535,
+    "original_raw_line": "2023\t\tCorton-Charlemagne Grand Cru\t\t\t\t\t7200",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:097280ca99c3e399",
+    "canonical": {
+      "producer": "producer:domaine-de-la-romanee-conti"
+    }
+  },
+  {
+    "source_line_no": 538,
+    "original_raw_line": "2022\t\tChablis Premier Cru\t\t\t\t\t\t\t175",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:d9087db4695034bc",
+    "canonical": {
+      "producer": "producer:domaine-drouhin-vaudon"
+    }
+  },
+  {
+    "source_line_no": 539,
+    "original_raw_line": "2023\t\t‘Vaudésir,’ Chablis Grand Cru\t\t\t\t\t400",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:88d3bd1acf44dc0e",
+    "canonical": {
+      "producer": "producer:domaine-drouhin-vaudon"
+    }
+  },
+  {
+    "source_line_no": 542,
+    "original_raw_line": "2023\t\tBourgogne Blanc\t\t\t\t\t\t\t135",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:75bda970bd64be8a",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 545,
+    "original_raw_line": "2023\t\t‘Les Perclos,’ Chassagne-Montrachet\t\t\t\t500",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:499ae996f999951c",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 546,
+    "original_raw_line": "2023\t\t‘Porusots,’ Meursault Premier Cru\t\t\t\t\t1080",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:f10f9437957fc354",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 547,
+    "original_raw_line": "2023\t\tMontrachet Grand Cru\t\t\t\t\t\t5520",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:3319cb3acfa09978",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 550,
+    "original_raw_line": "2023\t\t‘Charmes,’ Meursault Premier Cru\t\t\t\t\t560",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:407cfe5abb16def1",
+    "canonical": {
+      "producer": "producer:domaine-faiveley"
+    }
+  },
+  {
+    "source_line_no": 551,
+    "original_raw_line": "2023\t\t‘Champ Gain,’ Puligny-Montrachet Premier Cru\t\t\t520",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:98e6a960a2bd756e",
+    "canonical": {
+      "producer": "producer:domaine-faiveley"
+    }
+  },
+  {
+    "source_line_no": 552,
+    "original_raw_line": "2021\t\t‘Les Referts,’ Puligny-Montrachet Premier Cru\t\t\t540",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:8e6b7e9545a85b6b",
+    "canonical": {
+      "producer": "producer:domaine-faiveley"
+    }
+  },
+  {
+    "source_line_no": 553,
+    "original_raw_line": "2023\t\tBienvenues-Bâtard-Montrachet Grand Cru\t\t\t\t2240",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:32e63ac9a67f5be0",
+    "canonical": {
+      "producer": "producer:domaine-faiveley"
+    }
+  },
+  {
+    "source_line_no": 554,
+    "original_raw_line": "2022\t\tBienvenues-Bâtard-Montrachet Grand Cru\t\t\t\t2240",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:32e63ac9a67f5be0",
+    "canonical": {
+      "producer": "producer:domaine-faiveley"
+    }
+  },
+  {
+    "source_line_no": 557,
+    "original_raw_line": "2021\t\t‘Montée de Tonnerre,’ Chablis Premier Cru\t\t\t\t1680",
+    "resolved_to": "canonical_release",
+    "canonical": {
+      "producer": "producer:domaine-francois-raveneau",
+      "cuvee": "cuvee:domaine-francois-raveneau-montee-de-tonnerre",
+      "vintage": "vintage:domaine-francois-raveneau-montee-de-tonnerre-2021"
+    }
+  },
+  {
+    "source_line_no": 560,
+    "original_raw_line": "2022\t\t‘Garenne,’ Puligny-Montrachet Premier Cru\t\t\t\t400",
+    "resolved_to": "canonical_release",
+    "canonical": {
+      "producer": "producer:frederic-leprince",
+      "cuvee": "cuvee:frederic-leprince-garenne",
+      "vintage": "vintage:frederic-leprince-garenne-2022"
+    }
+  },
+  {
+    "source_line_no": 563,
+    "original_raw_line": "2020\t\t‘Les Graviers,’ Bourgogne\t\t\t\t\t\t170",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:89e3446dc80824fe",
+    "canonical": {
+      "producer": "producer:domaine-ghislaine-barthod"
+    }
+  },
+  {
+    "source_line_no": 566,
+    "original_raw_line": "2021\t\tChassagne-Montrachet\t\t\t\t\t\t380",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:4278cfd2371f684b",
+    "canonical": {
+      "producer": "producer:jean-claude-ramonet"
+    }
+  },
+  {
+    "source_line_no": 567,
+    "original_raw_line": "2020\t\t‘Boudriotte,’ Chassagne-Montrachet Premier Cru\t\t\t600",
+    "resolved_to": "canonical_release",
+    "canonical": {
+      "producer": "producer:jean-claude-ramonet",
+      "cuvee": "cuvee:jean-claude-ramonet-boudriotte",
+      "vintage": "vintage:jean-claude-ramonet-boudriotte-2020"
+    }
+  },
+  {
+    "source_line_no": 568,
+    "original_raw_line": "2021\t\t‘Morgeot,’ Chassagne-Montrachet Premier Cru\t\t\t780",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:f89a0e5a4d3649c7",
+    "canonical": {
+      "producer": "producer:jean-claude-ramonet"
+    }
+  },
+  {
+    "source_line_no": 569,
+    "original_raw_line": "2021\t\tBâtard-Montrachet Grand Cru\t\t\t\t\t3550",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:e6c7aead7b6ea536",
+    "canonical": {
+      "producer": "producer:jean-claude-ramonet"
+    }
+  },
+  {
+    "source_line_no": 570,
+    "original_raw_line": "2020\t\tBâtard-Montrachet Grand Cru\t\t\t\t\t3600",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:e6c7aead7b6ea536",
+    "canonical": {
+      "producer": "producer:jean-claude-ramonet"
+    }
+  },
+  {
+    "source_line_no": 571,
+    "original_raw_line": "2020\t\tMontrachet Grand Cru\t\t\t\t\t\t10000",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:1c43611a145d196c",
+    "canonical": {
+      "producer": "producer:jean-claude-ramonet"
+    }
+  },
+  {
+    "source_line_no": 574,
+    "original_raw_line": "2023\t\tCôte de Beaune\t\t\t\t\t\t\t240",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:ca840b88cca55608",
+    "canonical": {
+      "producer": "producer:joseph-drouhin"
+    }
+  },
+  {
+    "source_line_no": 575,
+    "original_raw_line": "2020\t\tPuligny-Montrachet\t\t\t\t\t\t\t395",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:963bfa0a390aee65",
+    "canonical": {
+      "producer": "producer:joseph-drouhin"
+    }
+  },
+  {
+    "source_line_no": 576,
+    "original_raw_line": "2023\t\t‘Les Folatières,’ Puligny-Montrachet Premier Cru\t\t\t665",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:de16ecd2ca6b29b7",
+    "canonical": {
+      "producer": "producer:joseph-drouhin"
+    }
+  },
+  {
+    "source_line_no": 577,
+    "original_raw_line": "2021\t\t‘Marquis de Laguiche,’ Montrachet Grand Cru\t\t\t4000",
+    "resolved_to": "canonical_release",
+    "canonical": {
+      "producer": "producer:joseph-drouhin",
+      "cuvee": "cuvee:joseph-drouhin-marquis-de-laguiche",
+      "vintage": "vintage:joseph-drouhin-marquis-de-laguiche-2021"
+    }
+  },
+  {
+    "source_line_no": 580,
+    "original_raw_line": "2021\t\t‘Le Concis du Champs,’ Chassagne-Montrachet\t\t\t580",
+    "resolved_to": "canonical_release",
+    "canonical": {
+      "producer": "producer:domaine-hubert-lamy",
+      "cuvee": "cuvee:domaine-hubert-lamy-le-concis-du-champs",
+      "vintage": "vintage:domaine-hubert-lamy-le-concis-du-champs-2021"
+    }
+  },
+  {
+    "source_line_no": 581,
+    "original_raw_line": "2021\t\t‘Derrière Chez Edouard-Haute Densité,’ Saint-Aubin Premier Cru\t3200",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:a5b2efaf49fd3864",
+    "canonical": {
+      "producer": "producer:domaine-hubert-lamy"
+    }
+  },
+  {
+    "source_line_no": 584,
+    "original_raw_line": "2023\t\t‘Les Butteaux,’ Chablis Premier Cru\t\t\t\t\t220",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:42dd0503833582bd",
+    "canonical": {
+      "producer": "producer:domaine-laroche"
+    }
+  },
+  {
+    "source_line_no": 585,
+    "original_raw_line": "2023\t\t‘Les Fourchaumes,’ Chablis Premier Cru\t\t\t\t210",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:e1612e551a4a0ced",
+    "canonical": {
+      "producer": "producer:domaine-laroche",
+      "cuvee": "cuvee:domaine-laroche-les-fourchaumes"
+    }
+  },
+  {
+    "source_line_no": 586,
+    "original_raw_line": "2023\t\t‘Les Bouguerots,’ Chablis Grand Cru\t\t\t\t440",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:6407dc962c3faca3",
+    "canonical": {
+      "producer": "producer:domaine-laroche"
+    }
+  },
+  {
+    "source_line_no": 587,
+    "original_raw_line": "2019\t\t‘Les Bouguerots,’ Chablis Grand Cru\t\t\t\t400",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:6407dc962c3faca3",
+    "canonical": {
+      "producer": "producer:domaine-laroche"
+    }
+  },
+  {
+    "source_line_no": 588,
+    "original_raw_line": "2022\t\t‘Les Blanchots, La Réserve de l’Obédience,’ Chablis Grand Cru\t760",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:d97ad6519f285423",
+    "canonical": {
+      "producer": "producer:domaine-laroche"
+    }
+  },
+  {
+    "source_line_no": 589,
+    "original_raw_line": "2021\t\t‘Les Blanchots, La Réserve de l’Obédience,’ Chablis Grand Cru\t760",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:d97ad6519f285423",
+    "canonical": {
+      "producer": "producer:domaine-laroche"
+    }
+  },
+  {
+    "source_line_no": 592,
+    "original_raw_line": "2023\t\t‘Esprit,’ Auxey-Duresses\t\t\t\t\t\t380",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:8d0a4e8571748e4d",
+    "canonical": {
+      "producer": "producer:domaine-leflaive"
+    }
+  },
+  {
+    "source_line_no": 593,
+    "original_raw_line": "2022\t\tAuxey-Duresses\t\t\t\t\t\t\t340",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:90d9fd274e46f3f0",
+    "canonical": {
+      "producer": "producer:domaine-leflaive"
+    }
+  },
+  {
+    "source_line_no": 594,
+    "original_raw_line": "2024\t\tMâcon-Verzé\t\t\t\t\t\t\t\t250",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:b3f1fc6bcd6df017",
+    "canonical": {
+      "producer": "producer:domaine-leflaive"
+    }
+  },
+  {
+    "source_line_no": 595,
+    "original_raw_line": "2023\t\tMâcon-Verzé\t\t\t\t\t\t\t\t225",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:b3f1fc6bcd6df017",
+    "canonical": {
+      "producer": "producer:domaine-leflaive"
+    }
+  },
+  {
+    "source_line_no": 596,
+    "original_raw_line": "2023\t\tPuligny-Montrachet\t\t\t\t\t\t\t720",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:e1ff6496ac97fd89",
+    "canonical": {
+      "producer": "producer:domaine-leflaive"
+    }
+  },
+  {
+    "source_line_no": 597,
+    "original_raw_line": "2023\t\t‘Sous le Dos d’Ane,’ Meursault Premier Cru\t\t\t\t1280",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:cb44171cbfdcc19c",
+    "canonical": {
+      "producer": "producer:domaine-leflaive"
+    }
+  },
+  {
+    "source_line_no": 598,
+    "original_raw_line": "2019\t\t‘Sous le Dos d’Ane,’ Meursault Premier Cru\t\t\t\t1280",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:cb44171cbfdcc19c",
+    "canonical": {
+      "producer": "producer:domaine-leflaive"
+    }
+  },
+  {
+    "source_line_no": 599,
+    "original_raw_line": "2016\t\t‘Sous le Dos d’Ane,’ Meursault Premier Cru\t\t\t\t1280",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:cb44171cbfdcc19c",
+    "canonical": {
+      "producer": "producer:domaine-leflaive"
+    }
+  },
+  {
+    "source_line_no": 600,
+    "original_raw_line": "2015\t\t‘Sous le Dos d’Ane,’ Meursault Premier Cru\t\t\t\t1280",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:cb44171cbfdcc19c",
+    "canonical": {
+      "producer": "producer:domaine-leflaive"
+    }
+  },
+  {
+    "source_line_no": 601,
+    "original_raw_line": "2014\t\t‘Sous le Dos d’Ane,’ Meursault Premier Cru\t\t\t\t1280",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:cb44171cbfdcc19c",
+    "canonical": {
+      "producer": "producer:domaine-leflaive"
+    }
+  },
+  {
+    "source_line_no": 602,
+    "original_raw_line": "2023\t\t‘Clavoillon,’ Puligny-Montrachet Premier Cru\t\t\t1660",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:d4df235c89616923",
+    "canonical": {
+      "producer": "producer:domaine-leflaive",
+      "cuvee": "cuvee:domaine-leflaive-clavoillon"
+    }
+  },
+  {
+    "source_line_no": 603,
+    "original_raw_line": "2022\t\t‘Clavoillon,’ Puligny-Montrachet Premier Cru\t\t\t1440",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:d4df235c89616923",
+    "canonical": {
+      "producer": "producer:domaine-leflaive",
+      "cuvee": "cuvee:domaine-leflaive-clavoillon"
+    }
+  },
+  {
+    "source_line_no": 604,
+    "original_raw_line": "2019\t\t‘Clavoillon,’ Puligny-Montrachet Premier Cru\t\t\t1440",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:d4df235c89616923",
+    "canonical": {
+      "producer": "producer:domaine-leflaive",
+      "cuvee": "cuvee:domaine-leflaive-clavoillon"
+    }
+  },
+  {
+    "source_line_no": 605,
+    "original_raw_line": "2014\t\t‘Clavoillon,’ Puligny-Montrachet Premier Cru\t\t\t1440",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:d4df235c89616923",
+    "canonical": {
+      "producer": "producer:domaine-leflaive",
+      "cuvee": "cuvee:domaine-leflaive-clavoillon"
+    }
+  },
+  {
+    "source_line_no": 606,
+    "original_raw_line": "2013\t\t‘Clavoillon,’ Puligny-Montrachet Premier Cru\t\t\t2000",
+    "resolved_to": "canonical_release",
+    "canonical": {
+      "producer": "producer:domaine-leflaive",
+      "cuvee": "cuvee:domaine-leflaive-clavoillon",
+      "vintage": "vintage:domaine-leflaive-clavoillon-2013"
+    }
+  },
+  {
+    "source_line_no": 607,
+    "original_raw_line": "2023\t\t‘Les Folatières,’ Puligny-Montrachet Premier Cru\t\t\t2160",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:56ba6bedd2fcdaed",
+    "canonical": {
+      "producer": "producer:domaine-leflaive"
+    }
+  },
+  {
+    "source_line_no": 608,
+    "original_raw_line": "2018\t\t‘Les Folatières,’ Puligny-Montrachet Premier Cru\t\t\t1900",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:56ba6bedd2fcdaed",
+    "canonical": {
+      "producer": "producer:domaine-leflaive"
+    }
+  },
+  {
+    "source_line_no": 609,
+    "original_raw_line": "2022\t\t‘Les Pucelles,’ Puligny-Montrachet Premier Cru\t\t\t3400",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:825b815318ffe6f0",
+    "canonical": {
+      "producer": "producer:domaine-leflaive"
+    }
+  },
+  {
+    "source_line_no": 610,
+    "original_raw_line": "2019\t\t‘Les Pucelles,’ Puligny-Montrachet Premier Cru\t\t\t3400",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:825b815318ffe6f0",
+    "canonical": {
+      "producer": "producer:domaine-leflaive"
+    }
+  },
+  {
+    "source_line_no": 611,
+    "original_raw_line": "2017\t\t‘Les Pucelles,’ Puligny-Montrachet Premier Cru\t\t\t3400",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:825b815318ffe6f0",
+    "canonical": {
+      "producer": "producer:domaine-leflaive"
+    }
+  },
+  {
+    "source_line_no": 612,
+    "original_raw_line": "2014\t\t‘Les Pucelles,’ Puligny-Montrachet Premier Cru\t\t\t3400",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:825b815318ffe6f0",
+    "canonical": {
+      "producer": "producer:domaine-leflaive"
+    }
+  },
+  {
+    "source_line_no": 613,
+    "original_raw_line": "2018\t\tBienvenues-Bâtard Grand Cru\t\t\t\t\t6520",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:3ad56565c2c3ec63",
+    "canonical": {
+      "producer": "producer:domaine-leflaive"
+    }
+  },
+  {
+    "source_line_no": 614,
+    "original_raw_line": "?\t\tBienvenues-Bâtard-Montrachet Grand Cru\t\t\t\t6520",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:3a779ca66bc9b966",
+    "canonical": {
+      "producer": "producer:domaine-leflaive"
+    }
+  },
+  {
+    "source_line_no": 615,
+    "original_raw_line": "2021\t\tBâtard-Montrachet Grand Cru\t\t\t\t\t7000",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:6adaf778a4687391",
+    "canonical": {
+      "producer": "producer:domaine-leflaive"
+    }
+  },
+  {
+    "source_line_no": 616,
+    "original_raw_line": "2014\t\tBâtard-Montrachet Grand Cru\t\t\t\t\t7480",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:6adaf778a4687391",
+    "canonical": {
+      "producer": "producer:domaine-leflaive"
+    }
+  },
+  {
+    "source_line_no": 617,
+    "original_raw_line": "2017\t\tChevalier-Montrachet Grand Cru\t\t\t\t\t8520",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:16756f4dcf4d356a",
+    "canonical": {
+      "producer": "producer:domaine-leflaive"
+    }
+  },
+  {
+    "source_line_no": 641,
+    "original_raw_line": "Chassagne-Montrachet Premier Cru\t\t\t\t520",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:ba4077c0a19c521f",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 648,
+    "original_raw_line": "2023\t\tPernand Vergelesses\t\t\t\t\t\t\t205",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:de97be54332afc06",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 649,
+    "original_raw_line": "2023\t\tMeursault\t\t\t\t\t\t\t\t375",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:6b738027378275b6",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 651,
+    "original_raw_line": "Chassagne-Montrachet Premier Cru\t\t\t\t665",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:eb2df595bb27be70",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 652,
+    "original_raw_line": "2023\t\tBâtard-Montrachet Grand Cru\t\t\t\t\t2975",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:8af353e4cd761da8",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 655,
+    "original_raw_line": "2023\t\tBourgogne\t\t\t\t\t\t\t\t150",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:1612173f33b9dc3b",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 656,
+    "original_raw_line": "2023\t\t‘Charmois,’ Saint-Aubin Premier Cru\t\t\t\t320",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:bc61a7d42478e6b8",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 671,
+    "original_raw_line": "2020\t\tBourgogne\t\t\t\t\t\t\t\t360",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:fd2ec57f685b1ca4",
+    "canonical": {
+      "producer": "producer:pierre-yves-colin-morey"
+    }
+  },
+  {
+    "source_line_no": 672,
+    "original_raw_line": "2018\t\t‘Sous Frétilles,’ Pernand-Vergelesses Premier Cru\t\t\t480",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:3a3301f4c1cdf164",
+    "canonical": {
+      "producer": "producer:pierre-yves-colin-morey"
+    }
+  },
+  {
+    "source_line_no": 673,
+    "original_raw_line": "2018\t\t‘Hommage à Marguerite,’ Saint-Aubin Premier Cru\t\t\t520\t",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:232ee10807bd2179",
+    "canonical": {
+      "producer": "producer:pierre-yves-colin-morey"
+    }
+  },
+  {
+    "source_line_no": 676,
+    "original_raw_line": "2019\t\tChablis\t\t\t\t\t\t\t\t400",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:cb1c4fa66ce5f6b8",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 677,
+    "original_raw_line": "2021\t\t‘La Forest,’ Chablis Premier Cru\t\t\t\t\t700",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:1ddeeaf00e3e4112",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 682,
+    "original_raw_line": "2018\t\tMeursault\t\t\t\t\t\t\t\t1280",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:e4e4f4cd2ac292b2",
+    "canonical": {
+      "producer": "producer:domaine-roulot"
+    }
+  },
+  {
+    "source_line_no": 683,
+    "original_raw_line": "2019\t\t‘Les Luchets,’ Meursault\t\t\t\t\t\t1580",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:acaac528310e2fa3",
+    "canonical": {
+      "producer": "producer:domaine-roulot"
+    }
+  },
+  {
+    "source_line_no": 684,
+    "original_raw_line": "2022\t\t‘Clos de Bouchères,’ Meursault Premier Cru\t\t\t\t2000",
+    "resolved_to": "canonical_release",
+    "canonical": {
+      "producer": "producer:domaine-roulot",
+      "cuvee": "cuvee:domaine-roulot-clos-de-boucheres",
+      "vintage": "vintage:domaine-roulot-clos-de-boucheres-2022"
+    }
+  },
+  {
+    "source_line_no": 685,
+    "original_raw_line": "2019\t\t‘Clos de Bouchères,’ Meursault Premier Cru\t\t\t\t1980",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:1ee3a9b5ac91d381",
+    "canonical": {
+      "producer": "producer:domaine-roulot",
+      "cuvee": "cuvee:domaine-roulot-clos-de-boucheres"
+    }
+  },
+  {
+    "source_line_no": 686,
+    "original_raw_line": "2018\t\t‘Clos de Bouchères,’ Meursault Premier Cru\t\t\t\t2480",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:1ee3a9b5ac91d381",
+    "canonical": {
+      "producer": "producer:domaine-roulot",
+      "cuvee": "cuvee:domaine-roulot-clos-de-boucheres"
+    }
+  },
+  {
+    "source_line_no": 689,
+    "original_raw_line": "2017\t\tCorton-Charlemagne Grand Cru\t\t\t\t\t5200",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:43945b6a41fc5521",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 692,
+    "original_raw_line": "2022\t\t‘Les Champlains,’ Bourgogne\t\t\t\t\t180",
+    "resolved_to": "canonical_release",
+    "canonical": {
+      "producer": "producer:domaine-simon-bize-et-fils",
+      "cuvee": "cuvee:domaine-simon-bize-et-fils-les-champlains",
+      "vintage": "vintage:domaine-simon-bize-et-fils-les-champlains-2022"
+    }
+  },
+  {
+    "source_line_no": 693,
+    "original_raw_line": "2022\t\tSavigny-les-Beaune\t\t\t\t\t\t\t220",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:c08629227cadaac1",
+    "canonical": {
+      "producer": "producer:domaine-simon-bize-et-fils"
+    }
+  },
+  {
+    "source_line_no": 694,
+    "original_raw_line": "2020\t\tSavigny-les-Beaune\t\t\t\t\t\t\t220",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:c08629227cadaac1",
+    "canonical": {
+      "producer": "producer:domaine-simon-bize-et-fils"
+    }
+  },
+  {
+    "source_line_no": 697,
+    "original_raw_line": "2024\t\t‘Champs Royaux,’ Chablis\t\t\t\t\t\t125",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:80bdf17f146362c3",
+    "canonical": {
+      "producer": "producer:domaine-william-fevre"
+    }
+  },
+  {
+    "source_line_no": 702,
+    "original_raw_line": "2019\t\tSaint-Estèphe\t\t\t\t\t\t\t\t520",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:29cab5c232001817",
+    "canonical": {
+      "producer": "producer:chateau-cos-d-estournel"
+    }
+  },
+  {
+    "source_line_no": 703,
+    "original_raw_line": "2018\t\tSaint-Estèphe\t\t\t\t\t\t\t\t680",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:29cab5c232001817",
+    "canonical": {
+      "producer": "producer:chateau-cos-d-estournel"
+    }
+  },
+  {
+    "source_line_no": 706,
+    "original_raw_line": "2017\t\tSauternes (375 mL)\t\t\t\t\t\t\t1180",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:434164aa9498d56f",
+    "canonical": {
+      "producer": "producer:chateau-d-yquem"
+    }
+  },
+  {
+    "source_line_no": 707,
+    "original_raw_line": "2016\t\tSauternes (375 mL)\t\t\t\t\t\t\t850",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:434164aa9498d56f",
+    "canonical": {
+      "producer": "producer:chateau-d-yquem"
+    }
+  },
+  {
+    "source_line_no": 708,
+    "original_raw_line": "2014\t\tSauternes (375 mL)\t\t\t\t\t\t\t980",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:434164aa9498d56f",
+    "canonical": {
+      "producer": "producer:chateau-d-yquem"
+    }
+  },
+  {
+    "source_line_no": 709,
+    "original_raw_line": "2013\t\tSauternes (375 mL)\t\t\t\t\t\t\t980",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:434164aa9498d56f",
+    "canonical": {
+      "producer": "producer:chateau-d-yquem"
+    }
+  },
+  {
+    "source_line_no": 710,
+    "original_raw_line": "2011\t\tSauternes (375 mL)\t\t\t\t\t\t\t980",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:434164aa9498d56f",
+    "canonical": {
+      "producer": "producer:chateau-d-yquem"
+    }
+  },
+  {
+    "source_line_no": 711,
+    "original_raw_line": "2010\t\tSauternes (375 mL)\t\t\t\t\t\t\t980",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:434164aa9498d56f",
+    "canonical": {
+      "producer": "producer:chateau-d-yquem"
+    }
+  },
+  {
+    "source_line_no": 714,
+    "original_raw_line": "2020\t\tSauternes\t\t\t\t\t\t\t\t430",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:266bbd0a999dbc17",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 719,
+    "original_raw_line": "2018\t\t‘Les Grands Teppes,’ Côtes du Jura\t\t\t\t\t600",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:0c5afe128954345f",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 721,
+    "original_raw_line": "2021\t\t‘Les Survivants,’ Côtes du Jura\t\t\t\t\t480",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:3a8cb4ea45fd27f2",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 726,
+    "original_raw_line": "2022\t\t‘Clau de Nell,’ Chenin Blanc\t\t\t\t\t\t255",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:891236e7c0c0116c",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 729,
+    "original_raw_line": "2023\t\t‘Les Vieux Clos,’ Savennières\t\t\t\t\t240",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:fc1686e9012e8c26",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 730,
+    "original_raw_line": "2020\t\t‘Les Vieux Clos,’ Savennières\t\t\t\t\t200",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:fc1686e9012e8c26",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 740,
+    "original_raw_line": "2024\t\t‘La Grande Cote,’ Chavignol\t\t\t\t\t\t320",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:ae3399805c8216eb",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 741,
+    "original_raw_line": "2024\t\t‘Mont Damnes,’ Chavignol\t\t\t\t\t\t320",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:d8816398396e5f38",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 744,
+    "original_raw_line": "2024\t\tSancerre\t\t\t\t\t\t\t\t125",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:da5f7e3bd939e1b7",
+    "canonical": {
+      "producer": "producer:pascal-jolivet"
+    }
+  },
+  {
+    "source_line_no": 745,
+    "original_raw_line": "2022\t\t‘Indigène,’ Pouilly-Fumé\t\t\t\t\t\t310",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:c52101fc30d84712",
+    "canonical": {
+      "producer": "producer:pascal-jolivet"
+    }
+  },
+  {
+    "source_line_no": 750,
+    "original_raw_line": "2022\t\t“Le Boisrenard,” Châteauneuf-du-Pape\t\t\t\t340",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:83b6b35dba37bdac",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 753,
+    "original_raw_line": "2023\t\tHermitage\t\t\t\t\t\t\t\t1400",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:f00b930cb19b5b23",
+    "canonical": {
+      "producer": "producer:domaine-jean-louis-chave"
+    }
+  },
+  {
+    "source_line_no": 754,
+    "original_raw_line": "2022\t\tHermitage\t\t\t\t\t\t\t\t1400",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:f00b930cb19b5b23",
+    "canonical": {
+      "producer": "producer:domaine-jean-louis-chave"
+    }
+  },
+  {
+    "source_line_no": 755,
+    "original_raw_line": "2021\t\tHermitage\t\t\t\t\t\t\t\t1400",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:f00b930cb19b5b23",
+    "canonical": {
+      "producer": "producer:domaine-jean-louis-chave"
+    }
+  },
+  {
+    "source_line_no": 756,
+    "original_raw_line": "2020\t\tHermitage\t\t\t\t\t\t\t\t1400",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:f00b930cb19b5b23",
+    "canonical": {
+      "producer": "producer:domaine-jean-louis-chave"
+    }
+  },
+  {
+    "source_line_no": 757,
+    "original_raw_line": "2019\t\tHermitage\t\t\t\t\t\t\t\t960",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:f00b930cb19b5b23",
+    "canonical": {
+      "producer": "producer:domaine-jean-louis-chave"
+    }
+  },
+  {
+    "source_line_no": 758,
+    "original_raw_line": "2013\t\tHermitage\t\t\t\t\t\t\t\t1480",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:f00b930cb19b5b23",
+    "canonical": {
+      "producer": "producer:domaine-jean-louis-chave"
+    }
+  },
+  {
+    "source_line_no": 768,
+    "original_raw_line": "2022\t\tChambolle-Musigny\t\t\t\t\t\t\t240",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:8878a86c06d43928",
+    "canonical": {
+      "producer": "producer:domaine-anne-et-herve-sigaut"
+    }
+  },
+  {
+    "source_line_no": 769,
+    "original_raw_line": "2023\t\t‘Les Fuées,’ Chambolle-Musigny Premier Cru\t\t\t500",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:a7be4861bf4a799b",
+    "canonical": {
+      "producer": "producer:domaine-anne-et-herve-sigaut"
+    }
+  },
+  {
+    "source_line_no": 770,
+    "original_raw_line": "2022\t\t‘Les Fuées,’ Chambolle-Musigny Premier Cru\t\t\t450",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:a7be4861bf4a799b",
+    "canonical": {
+      "producer": "producer:domaine-anne-et-herve-sigaut"
+    }
+  },
+  {
+    "source_line_no": 771,
+    "original_raw_line": "2023\t\t‘Les Sentiers,’ Chambolle-Musigny Premier Cru\t\t\t520",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:53e1297edbe0f8ee",
+    "canonical": {
+      "producer": "producer:domaine-anne-et-herve-sigaut"
+    }
+  },
+  {
+    "source_line_no": 774,
+    "original_raw_line": "2021\t\t‘Les Sentiers,’ Chambolle-Musigny Premier Cru\t\t\t760",
+    "resolved_to": "canonical_release",
+    "canonical": {
+      "producer": "producer:domaine-arlaud",
+      "cuvee": "cuvee:domaine-arlaud-les-sentiers",
+      "vintage": "vintage:domaine-arlaud-les-sentiers-2021"
+    }
+  },
+  {
+    "source_line_no": 777,
+    "original_raw_line": "2013\t\tGevrey-Chambertin\t\t\t\t\t\t\t1800",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:a3411a9950278590",
+    "canonical": {
+      "producer": "producer:domaine-armand-rousseau"
+    }
+  },
+  {
+    "source_line_no": 778,
+    "original_raw_line": "2022\t\tChames-Chambertin Grand Cru\t\t\t\t\t2400",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:7e39a7e90d99dd11",
+    "canonical": {
+      "producer": "producer:domaine-armand-rousseau"
+    }
+  },
+  {
+    "source_line_no": 779,
+    "original_raw_line": "2017\t\tChames-Chambertin Grand Cru\t\t\t\t\t3600",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:7e39a7e90d99dd11",
+    "canonical": {
+      "producer": "producer:domaine-armand-rousseau"
+    }
+  },
+  {
+    "source_line_no": 780,
+    "original_raw_line": "2019\t\tClos-de-la-Roche Grand Cru\t\t\t\t\t\t2070",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:37a2124eeba471cc",
+    "canonical": {
+      "producer": "producer:domaine-armand-rousseau"
+    }
+  },
+  {
+    "source_line_no": 781,
+    "original_raw_line": "2007\t\tClos-de-la-Roche Grand Cru\t\t\t\t\t\t3600",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:37a2124eeba471cc",
+    "canonical": {
+      "producer": "producer:domaine-armand-rousseau"
+    }
+  },
+  {
+    "source_line_no": 783,
+    "original_raw_line": "2022\t\tChambertin Grand Cru\t\t\t\t\t\t7825",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:40ec14e2353957b4",
+    "canonical": {
+      "producer": "producer:domaine-armand-rousseau"
+    }
+  },
+  {
+    "source_line_no": 786,
+    "original_raw_line": "2023\t\t‘La Charme Aux Prêtres,’ Marsannay\t\t\t\t265",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:154e532b667787cb",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 789,
+    "original_raw_line": "2021\t\tBonnes-Mares Grand Cru\t\t\t\t\t\t2225",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:df00b94ce4f9852c",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 796,
+    "original_raw_line": "2022\t\t‘Les Godeaux,’ Savigny-les-Beaune\t\t\t\t\t280",
+    "resolved_to": "canonical_release",
+    "canonical": {
+      "producer": "producer:maison-chantereves",
+      "cuvee": "cuvee:maison-chantereves-les-godeaux",
+      "vintage": "vintage:maison-chantereves-les-godeaux-2022"
+    }
+  },
+  {
+    "source_line_no": 797,
+    "original_raw_line": "2022\t\t‘Aux Chaignots,’ Nuits-Saint-Georges Premier Cru\t\t\t640",
+    "resolved_to": "canonical_release",
+    "canonical": {
+      "producer": "producer:maison-chantereves",
+      "cuvee": "cuvee:maison-chantereves-aux-chaignots",
+      "vintage": "vintage:maison-chantereves-aux-chaignots-2022"
+    }
+  },
+  {
+    "source_line_no": 800,
+    "original_raw_line": "2015\t\tGriotte-Chambertin Grand Cru\t\t\t\t\t4800",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:d059a337924b36f0",
+    "canonical": {
+      "producer": "producer:claude-dugat"
+    }
+  },
+  {
+    "source_line_no": 803,
+    "original_raw_line": "2023\t\tMorey-Saint-Denis\t\t\t\t\t\t\t600",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:197951b8afe2e608",
+    "canonical": {
+      "producer": "producer:clos-de-tart"
+    }
+  },
+  {
+    "source_line_no": 806,
+    "original_raw_line": "2022\t\tClos de Tart Grand Cru\t\t\t\t\t\t3720",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:8b62b9cf17ab172d",
+    "canonical": {
+      "producer": "producer:clos-de-tart"
+    }
+  },
+  {
+    "source_line_no": 807,
+    "original_raw_line": "2018\t\tClos de Tart Grand Cru\t\t\t\t\t\t3260",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:8b62b9cf17ab172d",
+    "canonical": {
+      "producer": "producer:clos-de-tart"
+    }
+  },
+  {
+    "source_line_no": 818,
+    "original_raw_line": "2023\t\t‘Les Sizies,’ Beaune Premier Cru\t\t\t\t\t250",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:01995c40289eeef6",
+    "canonical": {
+      "producer": "producer:domaine-de-montille",
+      "cuvee": "cuvee:domaine-de-montille-les-sizies"
+    }
+  },
+  {
+    "source_line_no": 819,
+    "original_raw_line": "2021\t\t‘Les Sizies,’ Beaune Premier Cru\t\t\t\t\t250",
+    "resolved_to": "canonical_release",
+    "canonical": {
+      "producer": "producer:domaine-de-montille",
+      "cuvee": "cuvee:domaine-de-montille-les-sizies",
+      "vintage": "vintage:domaine-de-montille-les-sizies-2021"
+    }
+  },
+  {
+    "source_line_no": 820,
+    "original_raw_line": "2023\t\t‘Les Pezerolles,’ Pommard Premier Cru\t\t\t\t635\t",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:0fae15762b77d949",
+    "canonical": {
+      "producer": "producer:domaine-de-montille"
+    }
+  },
+  {
+    "source_line_no": 821,
+    "original_raw_line": "2022\t\t‘Les Pezerolles,’ Pommard Premier Cru\t\t\t\t585",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:0fae15762b77d949",
+    "canonical": {
+      "producer": "producer:domaine-de-montille"
+    }
+  },
+  {
+    "source_line_no": 828,
+    "original_raw_line": "2006\t\tCôte de Nuits\t\t\t\t\t\t\t\t380",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:be36847c8e3f0fc0",
+    "canonical": {
+      "producer": "producer:domaine-denis-bachelet"
+    }
+  },
+  {
+    "source_line_no": 829,
+    "original_raw_line": "1991\t\tGevrey-Chambertin\t\t\t\t\t\t\t720",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:4a0a7b439dd7cd99",
+    "canonical": {
+      "producer": "producer:domaine-denis-bachelet"
+    }
+  },
+  {
+    "source_line_no": 832,
+    "original_raw_line": "2023\t\t‘Mes Cinq Terroirs,’ Gevrey-Chambertin\t\t\t\t355",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:a0f33edb6280ba03",
+    "canonical": {
+      "producer": "producer:domaine-denis-mortet"
+    }
+  },
+  {
+    "source_line_no": 833,
+    "original_raw_line": "2023\t\t‘Lavaux Saint Jacques,’ Gevrey-Chambertin Premier Cru\t\t1100",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:7e6cb2d2eddce4d4",
+    "canonical": {
+      "producer": "producer:domaine-denis-mortet",
+      "cuvee": "cuvee:domaine-denis-mortet-lavaux-saint-jacques"
+    }
+  },
+  {
+    "source_line_no": 834,
+    "original_raw_line": "2022\t\t‘Lavaux Saint Jacques,’ Gevrey-Chambertin Premier Cru\t\t1040",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:7e6cb2d2eddce4d4",
+    "canonical": {
+      "producer": "producer:domaine-denis-mortet",
+      "cuvee": "cuvee:domaine-denis-mortet-lavaux-saint-jacques"
+    }
+  },
+  {
+    "source_line_no": 835,
+    "original_raw_line": "2015\t\t‘Lavaux Saint Jacques,’ Gevrey-Chambertin Premier Cru\t\t1600",
+    "resolved_to": "canonical_release",
+    "canonical": {
+      "producer": "producer:domaine-denis-mortet",
+      "cuvee": "cuvee:domaine-denis-mortet-lavaux-saint-jacques",
+      "vintage": "vintage:domaine-denis-mortet-lavaux-saint-jacques-2015"
+    }
+  },
+  {
+    "source_line_no": 836,
+    "original_raw_line": "2023\t\tBonnes-Mares Grand Cru\t\t\t\t\t\t3090",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:8b7eb6ddfa86cca9",
+    "canonical": {
+      "producer": "producer:domaine-denis-mortet"
+    }
+  },
+  {
+    "source_line_no": 837,
+    "original_raw_line": "2022\t\tBonnes-Mares Grand Cru\t\t\t\t\t\t2880",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:8b7eb6ddfa86cca9",
+    "canonical": {
+      "producer": "producer:domaine-denis-mortet"
+    }
+  },
+  {
+    "source_line_no": 838,
+    "original_raw_line": "2018\t\tBonnes-Mares Grand Cru\t\t\t\t\t\t2600",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:8b7eb6ddfa86cca9",
+    "canonical": {
+      "producer": "producer:domaine-denis-mortet"
+    }
+  },
+  {
+    "source_line_no": 839,
+    "original_raw_line": "2023\t\tChambertin Grand Cru\t\t\t\t\t\t4800",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:e39468a2d715582e",
+    "canonical": {
+      "producer": "producer:domaine-denis-mortet"
+    }
+  },
+  {
+    "source_line_no": 842,
+    "original_raw_line": "2023\t\tCorton Grand Cru\t\t\t\t\t\t\t3380",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:73444e1bd86bb33e",
+    "canonical": {
+      "producer": "producer:domaine-de-la-romanee-conti"
+    }
+  },
+  {
+    "source_line_no": 843,
+    "original_raw_line": "2023\t\tÉchézeaux Grand Cru\t\t\t\t\t\t\t3480",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:b2177afdb6878c77",
+    "canonical": {
+      "producer": "producer:domaine-de-la-romanee-conti"
+    }
+  },
+  {
+    "source_line_no": 844,
+    "original_raw_line": "2022\t\tÉchézeaux Grand Cru\t\t\t\t\t\t\t3040",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:b2177afdb6878c77",
+    "canonical": {
+      "producer": "producer:domaine-de-la-romanee-conti"
+    }
+  },
+  {
+    "source_line_no": 845,
+    "original_raw_line": "2023\t\tGrands Échézeaux Grand Cru\t\t\t\t\t\t5600",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:18d2c3e996e2ecf6",
+    "canonical": {
+      "producer": "producer:domaine-de-la-romanee-conti"
+    }
+  },
+  {
+    "source_line_no": 846,
+    "original_raw_line": "2015\t\tGrands Échézeaux Grand Cru\t\t\t\t\t\t16000",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:18d2c3e996e2ecf6",
+    "canonical": {
+      "producer": "producer:domaine-de-la-romanee-conti"
+    }
+  },
+  {
+    "source_line_no": 847,
+    "original_raw_line": "2022\t\tLa Tâche Grand Cru\t\t\t\t\t\t\t9900",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:f1e759b2affc509d",
+    "canonical": {
+      "producer": "producer:domaine-de-la-romanee-conti"
+    }
+  },
+  {
+    "source_line_no": 848,
+    "original_raw_line": "2020\t\tLa Tâche Grand Cru\t\t\t\t\t\t\t10000",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:f1e759b2affc509d",
+    "canonical": {
+      "producer": "producer:domaine-de-la-romanee-conti"
+    }
+  },
+  {
+    "source_line_no": 849,
+    "original_raw_line": "2018\t\tLa Tâche Grand Cru\t\t\t\t\t\t\t9900",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:f1e759b2affc509d",
+    "canonical": {
+      "producer": "producer:domaine-de-la-romanee-conti"
+    }
+  },
+  {
+    "source_line_no": 850,
+    "original_raw_line": "2017\t\tLa Tâche Grand Cru\t\t\t\t\t\t\t9900",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:f1e759b2affc509d",
+    "canonical": {
+      "producer": "producer:domaine-de-la-romanee-conti"
+    }
+  },
+  {
+    "source_line_no": 851,
+    "original_raw_line": "2022\t\tRichebourg Grand Cru\t\t\t\t\t\t8200",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:b018cf23bd36125b",
+    "canonical": {
+      "producer": "producer:domaine-de-la-romanee-conti"
+    }
+  },
+  {
+    "source_line_no": 852,
+    "original_raw_line": "2017\t\tRichebourg Grand Cru\t\t\t\t\t\t8200",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:b018cf23bd36125b",
+    "canonical": {
+      "producer": "producer:domaine-de-la-romanee-conti"
+    }
+  },
+  {
+    "source_line_no": 853,
+    "original_raw_line": "2022\t\tRomanée-Saint-Vivant Grand Cru\t\t\t\t\t8200",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:9dd83f4373ceb5ad",
+    "canonical": {
+      "producer": "producer:domaine-de-la-romanee-conti"
+    }
+  },
+  {
+    "source_line_no": 854,
+    "original_raw_line": "2021\t\tRomanée-Saint-Vivant Grand Cru\t\t\t\t\t7800",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:9dd83f4373ceb5ad",
+    "canonical": {
+      "producer": "producer:domaine-de-la-romanee-conti"
+    }
+  },
+  {
+    "source_line_no": 855,
+    "original_raw_line": "2019\t\tRomanée-Saint-Vivant Grand Cru\t\t\t\t\t8000",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:9dd83f4373ceb5ad",
+    "canonical": {
+      "producer": "producer:domaine-de-la-romanee-conti"
+    }
+  },
+  {
+    "source_line_no": 856,
+    "original_raw_line": "2009\t\tRomanée-Saint-Vivant Grand Cru\t\t\t\t\t15000",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:9dd83f4373ceb5ad",
+    "canonical": {
+      "producer": "producer:domaine-de-la-romanee-conti"
+    }
+  },
+  {
+    "source_line_no": 857,
+    "original_raw_line": "1993\t\tRomanée-Saint-Vivant Grand Cru\t\t\t\t\t15980",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:9dd83f4373ceb5ad",
+    "canonical": {
+      "producer": "producer:domaine-de-la-romanee-conti"
+    }
+  },
+  {
+    "source_line_no": 858,
+    "original_raw_line": "2022\t\tRomanée-Conti Grand Cru\t\t\t\t\t\t30600",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:e464690048c3549d",
+    "canonical": {
+      "producer": "producer:domaine-de-la-romanee-conti"
+    }
+  },
+  {
+    "source_line_no": 859,
+    "original_raw_line": "2020\t\tRomanée-Conti Grand Cru\t\t\t\t\t\t21000",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:e464690048c3549d",
+    "canonical": {
+      "producer": "producer:domaine-de-la-romanee-conti"
+    }
+  },
+  {
+    "source_line_no": 862,
+    "original_raw_line": "2021\t\tGevrey-Chambertin\t\t\t\t\t\t\t600",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:6f0cec6a11e3e101",
+    "canonical": {
+      "producer": "producer:domaine-dugat-py"
+    }
+  },
+  {
+    "source_line_no": 865,
+    "original_raw_line": "1996\t\t‘Aux Combottes,’ Gevrey-Chambertin Premier Cru\t\t\t3400",
+    "resolved_to": "canonical_release",
+    "canonical": {
+      "producer": "producer:domaine-dujac",
+      "cuvee": "cuvee:domaine-dujac-aux-combottes",
+      "vintage": "vintage:domaine-dujac-aux-combottes-1996"
+    }
+  },
+  {
+    "source_line_no": 867,
+    "original_raw_line": "2022\t\tClos-de-la-Roche Grand Cru\t\t\t\t\t\t3180",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:cf86d6f30355abf5",
+    "canonical": {
+      "producer": "producer:domaine-dujac"
+    }
+  },
+  {
+    "source_line_no": 868,
+    "original_raw_line": "2019\t\tClos-de-la-Roche Grand Cru\t\t\t\t\t\t3580",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:cf86d6f30355abf5",
+    "canonical": {
+      "producer": "producer:domaine-dujac"
+    }
+  },
+  {
+    "source_line_no": 869,
+    "original_raw_line": "2018\t\tClos-de-la-Roche Grand Cru\t\t\t\t\t\t3180",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:cf86d6f30355abf5",
+    "canonical": {
+      "producer": "producer:domaine-dujac"
+    }
+  },
+  {
+    "source_line_no": 870,
+    "original_raw_line": "2013\t\tClos-de-la-Roche Grand Cru\t\t\t\t\t\t4400",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:cf86d6f30355abf5",
+    "canonical": {
+      "producer": "producer:domaine-dujac"
+    }
+  },
+  {
+    "source_line_no": 871,
+    "original_raw_line": "2018\t\tClos-Saint-Denis Grand Cru\t\t\t\t\t\t3180",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:216c7fd2a39e23ad",
+    "canonical": {
+      "producer": "producer:domaine-dujac"
+    }
+  },
+  {
+    "source_line_no": 872,
+    "original_raw_line": "2016\t\tClos-Saint-Denis Grand Cru\t\t\t\t\t\t3580",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:216c7fd2a39e23ad",
+    "canonical": {
+      "producer": "producer:domaine-dujac"
+    }
+  },
+  {
+    "source_line_no": 873,
+    "original_raw_line": "2001\t\tClos-Saint-Denis Grand Cru\t\t\t\t\t\t5580",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:216c7fd2a39e23ad",
+    "canonical": {
+      "producer": "producer:domaine-dujac"
+    }
+  },
+  {
+    "source_line_no": 874,
+    "original_raw_line": "1996\t\tClos-Saint-Denis Grand Cru\t\t\t\t\t\t6800",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:216c7fd2a39e23ad",
+    "canonical": {
+      "producer": "producer:domaine-dujac"
+    }
+  },
+  {
+    "source_line_no": 877,
+    "original_raw_line": "2023\t\tVosne-Romanée\t\t\t\t\t\t\t580",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:543e18a017cb4d68",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 878,
+    "original_raw_line": "2022\t\tClos Vougeot Grand Cru\t\t\t\t\t\t2000",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:a3b5c55a0389db4c",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 879,
+    "original_raw_line": "2022\t\tÉchézeaux Grand Cru\t\t\t\t\t\t\t2200",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:4f903ac122761966",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 882,
+    "original_raw_line": "2022\t\t‘Clos des Myglands,’ Mercurey Premier Cru\t\t\t\t200",
+    "resolved_to": "canonical_release",
+    "canonical": {
+      "producer": "producer:domaine-faiveley",
+      "cuvee": "cuvee:domaine-faiveley-clos-des-myglands",
+      "vintage": "vintage:domaine-faiveley-clos-des-myglands-2022"
+    }
+  },
+  {
+    "source_line_no": 883,
+    "original_raw_line": "2023\t\t‘Les Cazetiers,’ Gevrey-Chambertin Premier Cru\t\t\t780",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:0db1569a87eb05f8",
+    "canonical": {
+      "producer": "producer:domaine-faiveley"
+    }
+  },
+  {
+    "source_line_no": 884,
+    "original_raw_line": "2021\t\t‘Les Cazetiers,’ Gevrey-Chambertin Premier Cru\t\t\t680",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:0db1569a87eb05f8",
+    "canonical": {
+      "producer": "producer:domaine-faiveley"
+    }
+  },
+  {
+    "source_line_no": 885,
+    "original_raw_line": "2020\t\t‘Les Cazetiers,’ Gevrey-Chambertin Premier Cru\t\t\t690",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:0db1569a87eb05f8",
+    "canonical": {
+      "producer": "producer:domaine-faiveley"
+    }
+  },
+  {
+    "source_line_no": 886,
+    "original_raw_line": "2017\t\t‘Les Cazetiers,’ Gevrey-Chambertin Premier Cru\t\t\t690",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:0db1569a87eb05f8",
+    "canonical": {
+      "producer": "producer:domaine-faiveley"
+    }
+  },
+  {
+    "source_line_no": 887,
+    "original_raw_line": "2023\t\t‘Clos des Cortons Faiveley,’ Corton Grand Cru\t\t\t1360",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:3120af88eefdb99f",
+    "canonical": {
+      "producer": "producer:domaine-faiveley"
+    }
+  },
+  {
+    "source_line_no": 888,
+    "original_raw_line": "2022\t\t‘Clos des Cortons Faiveley,’ Corton Grand Cru \t\t\t1360",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:3120af88eefdb99f",
+    "canonical": {
+      "producer": "producer:domaine-faiveley"
+    }
+  },
+  {
+    "source_line_no": 889,
+    "original_raw_line": "2021\t\t‘Clos des Cortons Faiveley,’ Corton Grand Cru \t\t\t1360",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:3120af88eefdb99f",
+    "canonical": {
+      "producer": "producer:domaine-faiveley"
+    }
+  },
+  {
+    "source_line_no": 890,
+    "original_raw_line": "2020\t\t‘Clos des Cortons Faiveley,’ Corton Grand Cru \t\t\t1360",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:3120af88eefdb99f",
+    "canonical": {
+      "producer": "producer:domaine-faiveley"
+    }
+  },
+  {
+    "source_line_no": 891,
+    "original_raw_line": "2017\t\t‘Clos des Cortons Faiveley,’ Corton Grand Cru \t\t\t1360",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:3120af88eefdb99f",
+    "canonical": {
+      "producer": "producer:domaine-faiveley"
+    }
+  },
+  {
+    "source_line_no": 892,
+    "original_raw_line": "2022\t\tLatricières-Chambertin Grand Cru\t\t\t\t\t1580",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:ccbe00745bb082ff",
+    "canonical": {
+      "producer": "producer:domaine-faiveley"
+    }
+  },
+  {
+    "source_line_no": 893,
+    "original_raw_line": "2021\t\tLatricières-Chambertin Grand Cru\t\t\t\t\t1500",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:ccbe00745bb082ff",
+    "canonical": {
+      "producer": "producer:domaine-faiveley"
+    }
+  },
+  {
+    "source_line_no": 894,
+    "original_raw_line": "2022\t\tChambertin-Clos-de-Bèze Grand Cru\t\t\t\t\t2500",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:e7836b034ed8046d",
+    "canonical": {
+      "producer": "producer:domaine-faiveley"
+    }
+  },
+  {
+    "source_line_no": 897,
+    "original_raw_line": "2020\t\tVolnay Premier Cru\t\t\t\t\t\t\t340",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:8a0299b69735a526",
+    "canonical": {
+      "producer": "producer:frederic-leprince"
+    }
+  },
+  {
+    "source_line_no": 900,
+    "original_raw_line": "2018\t\t‘Les Champeaux,’ Gevrey-Chambertin Premier Cru\t\t\t1200",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:ad00b1abd62df8b3",
+    "canonical": {
+      "producer": "producer:domaine-fourrier"
+    }
+  },
+  {
+    "source_line_no": 906,
+    "original_raw_line": "2022\t\tSavigny-lès-Beaune\t\t\t\t\t\t\t420",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:e8ead5f2955f02dc",
+    "canonical": {
+      "producer": "producer:guilbert-gillet"
+    }
+  },
+  {
+    "source_line_no": 907,
+    "original_raw_line": "2022\t\t‘Les Planchots du Nord,’ Savigny-lès-Beaune\t\t\t460",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:5426b4542b1a69c5",
+    "canonical": {
+      "producer": "producer:guilbert-gillet"
+    }
+  },
+  {
+    "source_line_no": 910,
+    "original_raw_line": "2021\t\tChambolle-Musigny\t\t\t\t\t\t\t1360",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:15abc419b2522eeb",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 916,
+    "original_raw_line": "2023\t\tBonnes-Mares Grand Cru\t\t\t\t\t\t4580",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:073f53467aec3239",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 917,
+    "original_raw_line": "2017\t\tMusigny Grand Cru\t\t\t\t\t\t\t9280",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:c11a9d78bcb80d63",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 920,
+    "original_raw_line": "2006\t\tChambertin-Clos-de-Bèze Grand Cru\t\t\t\t\t1000",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:62cf5485948b6eff",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 921,
+    "original_raw_line": "2005\t\tChambertin-Clos-de-Bèze Grand Cru\t\t\t\t\t1400",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:62cf5485948b6eff",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 924,
+    "original_raw_line": "2023\t\tCôte de Beaune\t\t\t\t\t\t\t240",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:ca840b88cca55608",
+    "canonical": {
+      "producer": "producer:joseph-drouhin"
+    }
+  },
+  {
+    "source_line_no": 925,
+    "original_raw_line": "2023\t\tChambolle-Musigny Premier Cru\t\t\t\t\t580",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:f65e97f90775a127",
+    "canonical": {
+      "producer": "producer:joseph-drouhin"
+    }
+  },
+  {
+    "source_line_no": 926,
+    "original_raw_line": "2021\t\tMusigny Grand Cru\t\t\t\t\t\t\t5865",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:1656ff4017989eb4",
+    "canonical": {
+      "producer": "producer:joseph-drouhin"
+    }
+  },
+  {
+    "source_line_no": 929,
+    "original_raw_line": "2023\t\t‘Clos du Chapeau,’ Côte de Nuits Villages\t\t\t\t210",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:cbff538025c2ee81",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 933,
+    "original_raw_line": "2023\t\tRomanée-Saint-Vivant Grand Cru\t\t\t\t\t3700",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:c59dd28284b54526",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 941,
+    "original_raw_line": "2021\t\tClos-de-la-Roche Grand Cru\t\t\t\t\t\t1270",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:da3eac0d6728f2ce",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 967,
+    "original_raw_line": "2022\t\t‘La Justice,’ Gevrey-Chambertin\t\t\t\t\t430",
+    "resolved_to": "canonical_release",
+    "canonical": {
+      "producer": "producer:domaine-marc-roy",
+      "cuvee": "cuvee:domaine-marc-roy-la-justice",
+      "vintage": "vintage:domaine-marc-roy-la-justice-2022"
+    }
+  },
+  {
+    "source_line_no": 970,
+    "original_raw_line": "2018\t\tBonnes-Mares Grand Cru\t\t\t\t\t\t1320",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:d20d9c6dcaa1a4cb",
+    "canonical": {
+      "producer": "producer:olivier-bernstein"
+    }
+  },
+  {
+    "source_line_no": 971,
+    "original_raw_line": "2018\t\tClos-de-Vougeot Grand Cru\t\t\t\t\t\t960",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:6406d266d135fe84",
+    "canonical": {
+      "producer": "producer:olivier-bernstein"
+    }
+  },
+  {
+    "source_line_no": 972,
+    "original_raw_line": "2018\t\tClos-de-la-Roche Grand Cru\t\t\t\t\t\t1120",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:6df8a436f6e079cc",
+    "canonical": {
+      "producer": "producer:olivier-bernstein"
+    }
+  },
+  {
+    "source_line_no": 973,
+    "original_raw_line": "2018\t\tMazis-Chambertin Grand Cru\t\t\t\t\t\t960",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:72bac9cd0ba5883f",
+    "canonical": {
+      "producer": "producer:olivier-bernstein"
+    }
+  },
+  {
+    "source_line_no": 974,
+    "original_raw_line": "2018\t\tChambertin-Clos-de-Bèze Grand Cru\t\t\t\t\t1320",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:9ce2c1c5814330df",
+    "canonical": {
+      "producer": "producer:olivier-bernstein"
+    }
+  },
+  {
+    "source_line_no": 975,
+    "original_raw_line": "2017\t\tCharmes-Chambertin Grand Cru\t\t\t\t\t1700",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:6fb6c6e60af118d5",
+    "canonical": {
+      "producer": "producer:olivier-bernstein"
+    }
+  },
+  {
+    "source_line_no": 976,
+    "original_raw_line": "2018\t\tChambertin Grand Cru\t\t\t\t\t\t1320",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:ae770a23777610da",
+    "canonical": {
+      "producer": "producer:olivier-bernstein"
+    }
+  },
+  {
+    "source_line_no": 979,
+    "original_raw_line": "2022\t\tNuits-Saint-Georges\t\t\t\t\t\t\t180",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:4719c3e221a76e1f",
+    "canonical": {
+      "producer": "producer:domaine-petitot"
+    }
+  },
+  {
+    "source_line_no": 980,
+    "original_raw_line": "2020\t\tNuits-Saint-Georges\t\t\t\t\t\t\t180",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:4719c3e221a76e1f",
+    "canonical": {
+      "producer": "producer:domaine-petitot"
+    }
+  },
+  {
+    "source_line_no": 983,
+    "original_raw_line": "2017\t\tBonnes-Mares Grand Cru\t\t\t\t\t\t2600",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:baaa717599976ecb",
+    "canonical": {
+      "producer": "producer:domaine-robert-groffier"
+    }
+  },
+  {
+    "source_line_no": 986,
+    "original_raw_line": "2017\t\tBonnes-Mares\tGrand Cru\t\t\t\t\t\t6780",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:1acdc1fa73d8e1e2",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 989,
+    "original_raw_line": "2022\t\t‘Les Perrières,’ Bourgogne\t\t\t\t\t\t220",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:c81364e1590b2796",
+    "canonical": {
+      "producer": "producer:domaine-simon-bize-et-fils"
+    }
+  },
+  {
+    "source_line_no": 990,
+    "original_raw_line": "2022\t\t‘Le Suchot,’ Aloxe-Corton\t\t\t\t\t\t315",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:c4836fa043270e6d",
+    "canonical": {
+      "producer": "producer:domaine-simon-bize-et-fils"
+    }
+  },
+  {
+    "source_line_no": 991,
+    "original_raw_line": "2018\t\t‘Le Suchot,’ Aloxe-Corton\t\t\t\t\t\t320",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:c4836fa043270e6d",
+    "canonical": {
+      "producer": "producer:domaine-simon-bize-et-fils"
+    }
+  },
+  {
+    "source_line_no": 992,
+    "original_raw_line": "2022\t\t‘Les Fournaux,’ Savigny-les-Beaune Premier Cru\t\t\t300",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:386a285a9038d43c",
+    "canonical": {
+      "producer": "producer:domaine-simon-bize-et-fils",
+      "cuvee": "cuvee:domaine-simon-bize-et-fils-les-fournaux"
+    }
+  },
+  {
+    "source_line_no": 993,
+    "original_raw_line": "2017\t\t‘Les Fournaux,’ Savigny-les-Beaune Premier Cru\t\t\t340",
+    "resolved_to": "canonical_release",
+    "canonical": {
+      "producer": "producer:domaine-simon-bize-et-fils",
+      "cuvee": "cuvee:domaine-simon-bize-et-fils-les-fournaux",
+      "vintage": "vintage:domaine-simon-bize-et-fils-les-fournaux-2017"
+    }
+  },
+  {
+    "source_line_no": 994,
+    "original_raw_line": "2022\t\t‘Les Marconnets,’ Savigny-les-Beaune Premier Cru\t\t\t400",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:255d938c9f1b3668",
+    "canonical": {
+      "producer": "producer:domaine-simon-bize-et-fils"
+    }
+  },
+  {
+    "source_line_no": 995,
+    "original_raw_line": "2022\t\t‘Les Talmettes,’ Savigny-les-Beaune Premier Cru\t\t\t400",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:2d4d927b787ba2c7",
+    "canonical": {
+      "producer": "producer:domaine-simon-bize-et-fils"
+    }
+  },
+  {
+    "source_line_no": 996,
+    "original_raw_line": "2021\t\tLatricières-Chambertin Grand Cru\t\t\t\t\t1400",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:02604a2ed107571b",
+    "canonical": {
+      "producer": "producer:domaine-simon-bize-et-fils"
+    }
+  },
+  {
+    "source_line_no": 997,
+    "original_raw_line": "1999\t\tLatricières-Chambertin Grand Cru\t\t\t\t\t1720",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:02604a2ed107571b",
+    "canonical": {
+      "producer": "producer:domaine-simon-bize-et-fils"
+    }
+  },
+  {
+    "source_line_no": 998,
+    "original_raw_line": "1998\t\tLatricières-Chambertin Grand Cru\t\t\t\t\t1360",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:02604a2ed107571b",
+    "canonical": {
+      "producer": "producer:domaine-simon-bize-et-fils"
+    }
+  },
+  {
+    "source_line_no": 1001,
+    "original_raw_line": "2023\t\t‘Les Dames Huguette,’ Bourgogne Hautes Côtes de Nuits\t\t330",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:48635cc68454683b",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 1002,
+    "original_raw_line": "2023\t\t‘Aux Thorey,’ Nuits-Saint-Georges Premier Cru\t\t\t1300",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:a65a6e10677673d8",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 1008,
+    "original_raw_line": "2018\t\tSaint-Émilion Grand Cru\t\t\t\t\t\t2920",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:ec096e4aa0f16313",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 1009,
+    "original_raw_line": "2014\t\tSaint-Émilion Grand Cru\t\t\t\t\t\t2320",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:ec096e4aa0f16313",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 1012,
+    "original_raw_line": "2017\t\tPomerol\t\t\t\t\t\t\t\t380\t\t\t\t\t\t",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:7a1169aaae6ffaec",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 1014,
+    "original_raw_line": "2018\t\tSaint-Estèphe\t\t\t\t\t\t\t\t900",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:29cab5c232001817",
+    "canonical": {
+      "producer": "producer:chateau-cos-d-estournel"
+    }
+  },
+  {
+    "source_line_no": 1015,
+    "original_raw_line": "2015\t\tSaint-Estèphe\t\t\t\t\t\t\t\t800",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:29cab5c232001817",
+    "canonical": {
+      "producer": "producer:chateau-cos-d-estournel"
+    }
+  },
+  {
+    "source_line_no": 1018,
+    "original_raw_line": "2018\t\tPomerol\t\t\t\t\t\t\t\t1320",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:ffd56c3e21734794",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 1021,
+    "original_raw_line": "2018\t\tSaint-Émilion Grand Cru\t\t\t\t\t\t1220",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:b09c040b1a130c26",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 1022,
+    "original_raw_line": "2010\t\tSaint-Émilion Grand Cru\t\t\t\t\t\t1380",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:b09c040b1a130c26",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 1023,
+    "original_raw_line": "2009\t\tSaint-Émilion Grand Cru\t\t\t\t\t\t1320",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:b09c040b1a130c26",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 1026,
+    "original_raw_line": "2020\t\tMargaux\t\t\t\t\t\t\t\t300",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:96abd2a7c2917ba2",
+    "canonical": {
+      "producer": "producer:chateau-giscours"
+    }
+  },
+  {
+    "source_line_no": 1027,
+    "original_raw_line": "2019\t\tMargaux\t\t\t\t\t\t\t\t280",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:96abd2a7c2917ba2",
+    "canonical": {
+      "producer": "producer:chateau-giscours"
+    }
+  },
+  {
+    "source_line_no": 1028,
+    "original_raw_line": "2018\t\tMargaux\t\t\t\t\t\t\t\t335",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:96abd2a7c2917ba2",
+    "canonical": {
+      "producer": "producer:chateau-giscours"
+    }
+  },
+  {
+    "source_line_no": 1029,
+    "original_raw_line": "2017\t\tMargaux\t\t\t\t\t\t\t\t300",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:96abd2a7c2917ba2",
+    "canonical": {
+      "producer": "producer:chateau-giscours"
+    }
+  },
+  {
+    "source_line_no": 1030,
+    "original_raw_line": "2011\t\tMargaux\t\t\t\t\t\t\t\t335",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:96abd2a7c2917ba2",
+    "canonical": {
+      "producer": "producer:chateau-giscours"
+    }
+  },
+  {
+    "source_line_no": 1031,
+    "original_raw_line": "2010\t\tMargaux\t\t\t\t\t\t\t\t460",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:96abd2a7c2917ba2",
+    "canonical": {
+      "producer": "producer:chateau-giscours"
+    }
+  },
+  {
+    "source_line_no": 1034,
+    "original_raw_line": "2019\t\tPessac-Léognan\t\t\t\t\t\t\t2740",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:7e4577c3f98cf640",
+    "canonical": {
+      "producer": "producer:chateau-haut-brion"
+    }
+  },
+  {
+    "source_line_no": 1035,
+    "original_raw_line": "2018\t\tPessac-Léognan\t\t\t\t\t\t\t2820",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:7e4577c3f98cf640",
+    "canonical": {
+      "producer": "producer:chateau-haut-brion"
+    }
+  },
+  {
+    "source_line_no": 1036,
+    "original_raw_line": "2015\t\tPessac-Léognan\t\t\t\t\t\t\t2820",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:7e4577c3f98cf640",
+    "canonical": {
+      "producer": "producer:chateau-haut-brion"
+    }
+  },
+  {
+    "source_line_no": 1037,
+    "original_raw_line": "2011\t\tPessac-Léognan\t\t\t\t\t\t\t2440",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:7e4577c3f98cf640",
+    "canonical": {
+      "producer": "producer:chateau-haut-brion"
+    }
+  },
+  {
+    "source_line_no": 1038,
+    "original_raw_line": "1993\t\tPessac-Léognan\t\t\t\t\t\t\t1800",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:7e4577c3f98cf640",
+    "canonical": {
+      "producer": "producer:chateau-haut-brion"
+    }
+  },
+  {
+    "source_line_no": 1039,
+    "original_raw_line": "1987\t\tPessac-Léognan\t\t\t\t\t\t\t2400",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:7e4577c3f98cf640",
+    "canonical": {
+      "producer": "producer:chateau-haut-brion"
+    }
+  },
+  {
+    "source_line_no": 1042,
+    "original_raw_line": "2017\t\tPomerol\t\t\t\t\t\t\t\t875",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:f70aee95eda915ec",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 1045,
+    "original_raw_line": "2020\t\tPauillac\t\t\t\t\t\t\t\t3600",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:362e120e4dc98662",
+    "canonical": {
+      "producer": "producer:chateau-lafite-rothschild"
+    }
+  },
+  {
+    "source_line_no": 1046,
+    "original_raw_line": "2019\t\tPauillac\t\t\t\t\t\t\t\t3600",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:362e120e4dc98662",
+    "canonical": {
+      "producer": "producer:chateau-lafite-rothschild"
+    }
+  },
+  {
+    "source_line_no": 1047,
+    "original_raw_line": "2018\t\tPauillac\t\t\t\t\t\t\t\t5400",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:362e120e4dc98662",
+    "canonical": {
+      "producer": "producer:chateau-lafite-rothschild"
+    }
+  },
+  {
+    "source_line_no": 1048,
+    "original_raw_line": "2016\t\tPauillac\t\t\t\t\t\t\t\t4820",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:362e120e4dc98662",
+    "canonical": {
+      "producer": "producer:chateau-lafite-rothschild"
+    }
+  },
+  {
+    "source_line_no": 1049,
+    "original_raw_line": "2015\t\tPauillac\t\t\t\t\t\t\t\t4380",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:362e120e4dc98662",
+    "canonical": {
+      "producer": "producer:chateau-lafite-rothschild"
+    }
+  },
+  {
+    "source_line_no": 1050,
+    "original_raw_line": "2014\t\tPauillac\t\t\t\t\t\t\t\t3800",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:362e120e4dc98662",
+    "canonical": {
+      "producer": "producer:chateau-lafite-rothschild"
+    }
+  },
+  {
+    "source_line_no": 1051,
+    "original_raw_line": "2012\t\tPauillac\t\t\t\t\t\t\t\t4160",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:362e120e4dc98662",
+    "canonical": {
+      "producer": "producer:chateau-lafite-rothschild"
+    }
+  },
+  {
+    "source_line_no": 1052,
+    "original_raw_line": "2011\t\tPauillac\t\t\t\t\t\t\t\t3900",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:362e120e4dc98662",
+    "canonical": {
+      "producer": "producer:chateau-lafite-rothschild"
+    }
+  },
+  {
+    "source_line_no": 1053,
+    "original_raw_line": "2008\t\tPauillac\t\t\t\t\t\t\t\t4820",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:362e120e4dc98662",
+    "canonical": {
+      "producer": "producer:chateau-lafite-rothschild"
+    }
+  },
+  {
+    "source_line_no": 1054,
+    "original_raw_line": "2007\t\tPauillac\t\t\t\t\t\t\t\t3840",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:362e120e4dc98662",
+    "canonical": {
+      "producer": "producer:chateau-lafite-rothschild"
+    }
+  },
+  {
+    "source_line_no": 1055,
+    "original_raw_line": "2006\t\tPauillac\t\t\t\t\t\t\t\t4780",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:362e120e4dc98662",
+    "canonical": {
+      "producer": "producer:chateau-lafite-rothschild"
+    }
+  },
+  {
+    "source_line_no": 1056,
+    "original_raw_line": "2004\t\tPauillac\t\t\t\t\t\t\t\t3980",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:362e120e4dc98662",
+    "canonical": {
+      "producer": "producer:chateau-lafite-rothschild"
+    }
+  },
+  {
+    "source_line_no": 1057,
+    "original_raw_line": "2003\t\tPauillac\t\t\t\t\t\t\t\t5200",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:362e120e4dc98662",
+    "canonical": {
+      "producer": "producer:chateau-lafite-rothschild"
+    }
+  },
+  {
+    "source_line_no": 1060,
+    "original_raw_line": "2017\t\tPauillac\t\t\t\t\t\t\t\t2325",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:0f869da4ced5c8eb",
+    "canonical": {
+      "producer": "producer:chateau-latour"
+    }
+  },
+  {
+    "source_line_no": 1061,
+    "original_raw_line": "2014\t\tPauillac\t\t\t\t\t\t\t\t2580",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:0f869da4ced5c8eb",
+    "canonical": {
+      "producer": "producer:chateau-latour"
+    }
+  },
+  {
+    "source_line_no": 1062,
+    "original_raw_line": "2010\t\tPauillac\t\t\t\t\t\t\t\t6340",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:0f869da4ced5c8eb",
+    "canonical": {
+      "producer": "producer:chateau-latour"
+    }
+  },
+  {
+    "source_line_no": 1063,
+    "original_raw_line": "2009\t\tPauillac\t\t\t\t\t\t\t\t5500",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:0f869da4ced5c8eb",
+    "canonical": {
+      "producer": "producer:chateau-latour"
+    }
+  },
+  {
+    "source_line_no": 1064,
+    "original_raw_line": "2000\t\tPauillac\t\t\t\t\t\t\t\t5240",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:0f869da4ced5c8eb",
+    "canonical": {
+      "producer": "producer:chateau-latour"
+    }
+  },
+  {
+    "source_line_no": 1065,
+    "original_raw_line": "1996\t\tPauillac\t\t\t\t\t\t\t\t2640",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:0f869da4ced5c8eb",
+    "canonical": {
+      "producer": "producer:chateau-latour"
+    }
+  },
+  {
+    "source_line_no": 1068,
+    "original_raw_line": "2019\t\tMargaux\t\t\t\t\t\t\t\t3760",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:fd889d0a9bbd01dc",
+    "canonical": {
+      "producer": "producer:chateau-margaux"
+    }
+  },
+  {
+    "source_line_no": 1069,
+    "original_raw_line": "2016\t\tMargaux\t\t\t\t\t\t\t\t3380",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:fd889d0a9bbd01dc",
+    "canonical": {
+      "producer": "producer:chateau-margaux"
+    }
+  },
+  {
+    "source_line_no": 1070,
+    "original_raw_line": "2015\t\tMargaux\t\t\t\t\t\t\t\t6890",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:fd889d0a9bbd01dc",
+    "canonical": {
+      "producer": "producer:chateau-margaux"
+    }
+  },
+  {
+    "source_line_no": 1071,
+    "original_raw_line": "2012\t\tMargaux\t\t\t\t\t\t\t\t2440",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:fd889d0a9bbd01dc",
+    "canonical": {
+      "producer": "producer:chateau-margaux"
+    }
+  },
+  {
+    "source_line_no": 1072,
+    "original_raw_line": "2010\t\tMargaux\t\t\t\t\t\t\t\t5120",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:fd889d0a9bbd01dc",
+    "canonical": {
+      "producer": "producer:chateau-margaux"
+    }
+  },
+  {
+    "source_line_no": 1073,
+    "original_raw_line": "2006\t\tMargaux\t\t\t\t\t\t\t\t3375",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:fd889d0a9bbd01dc",
+    "canonical": {
+      "producer": "producer:chateau-margaux"
+    }
+  },
+  {
+    "source_line_no": 1074,
+    "original_raw_line": "2005\t\tMargaux\t\t\t\t\t\t\t\t5120",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:fd889d0a9bbd01dc",
+    "canonical": {
+      "producer": "producer:chateau-margaux"
+    }
+  },
+  {
+    "source_line_no": 1075,
+    "original_raw_line": "1995\t\tMargaux\t\t\t\t\t\t\t\t4800",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:fd889d0a9bbd01dc",
+    "canonical": {
+      "producer": "producer:chateau-margaux"
+    }
+  },
+  {
+    "source_line_no": 1078,
+    "original_raw_line": "2019\t\tPauillac\t\t\t\t\t\t\t\t2880",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:e18861214f703025",
+    "canonical": {
+      "producer": "producer:chateau-mouton-rothschild"
+    }
+  },
+  {
+    "source_line_no": 1079,
+    "original_raw_line": "2015\t\tPauillac\t\t\t\t\t\t\t\t2920",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:e18861214f703025",
+    "canonical": {
+      "producer": "producer:chateau-mouton-rothschild"
+    }
+  },
+  {
+    "source_line_no": 1080,
+    "original_raw_line": "2010\t\tPauillac\t\t\t\t\t\t\t\t3700",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:e18861214f703025",
+    "canonical": {
+      "producer": "producer:chateau-mouton-rothschild"
+    }
+  },
+  {
+    "source_line_no": 1081,
+    "original_raw_line": "2009\t\tPauillac\t\t\t\t\t\t\t\t3580",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:e18861214f703025",
+    "canonical": {
+      "producer": "producer:chateau-mouton-rothschild"
+    }
+  },
+  {
+    "source_line_no": 1082,
+    "original_raw_line": "2001\t\tPauillac\t\t\t\t\t\t\t\t1800",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:e18861214f703025",
+    "canonical": {
+      "producer": "producer:chateau-mouton-rothschild"
+    }
+  },
+  {
+    "source_line_no": 1083,
+    "original_raw_line": "1996\t\tPauillac\t\t\t\t\t\t\t\t2200",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:e18861214f703025",
+    "canonical": {
+      "producer": "producer:chateau-mouton-rothschild"
+    }
+  },
+  {
+    "source_line_no": 1086,
+    "original_raw_line": "2017\t\tMargaux\t\t\t\t\t\t\t\t1280",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:b5811421e1908911",
+    "canonical": {
+      "producer": "producer:chateau-palmer"
+    }
+  },
+  {
+    "source_line_no": 1087,
+    "original_raw_line": "2014\t\tMargaux\t\t\t\t\t\t\t\t1280",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:b5811421e1908911",
+    "canonical": {
+      "producer": "producer:chateau-palmer"
+    }
+  },
+  {
+    "source_line_no": 1088,
+    "original_raw_line": "2013\t\tMargaux\t\t\t\t\t\t\t\t960",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:b5811421e1908911",
+    "canonical": {
+      "producer": "producer:chateau-palmer"
+    }
+  },
+  {
+    "source_line_no": 1089,
+    "original_raw_line": "2012\t\tMargaux\t\t\t\t\t\t\t\t1400",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:b5811421e1908911",
+    "canonical": {
+      "producer": "producer:chateau-palmer"
+    }
+  },
+  {
+    "source_line_no": 1090,
+    "original_raw_line": "1996\t\tMargaux\t\t\t\t\t\t\t\t2080",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:b5811421e1908911",
+    "canonical": {
+      "producer": "producer:chateau-palmer"
+    }
+  },
+  {
+    "source_line_no": 1095,
+    "original_raw_line": "2023\t\t‘Cuvée de l’Enfant Terrible,’ Côtes du Jura\t\t\t\t360",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:0582bd5a01f5bb90",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 1096,
+    "original_raw_line": "2022\t\t‘Cuvée de l’Enfant Terrible,’ Côtes du Jura\t\t\t\t360",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:0582bd5a01f5bb90",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 1097,
+    "original_raw_line": "2024\t\t‘Julien en Billat – L’Enfant Terrible du Sud,’ Côtes du Jura \t440",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:a176e6013aad742a",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 1098,
+    "original_raw_line": "2023\t\t‘Les Grands Teppes,’ Côtes du Jura\t\t\t\t\t440",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:0c5afe128954345f",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 1103,
+    "original_raw_line": "2021\t\t‘Le Boisrenard,’ Châteauneuf-du-Pape\t\t\t\t320",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:83b6b35dba37bdac",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 1106,
+    "original_raw_line": "2023\t\tHermitage\t\t\t\t\t\t\t\t1400",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:f00b930cb19b5b23",
+    "canonical": {
+      "producer": "producer:domaine-jean-louis-chave"
+    }
+  },
+  {
+    "source_line_no": 1107,
+    "original_raw_line": "2022\t\tHermitage\t\t\t\t\t\t\t\t1400",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:f00b930cb19b5b23",
+    "canonical": {
+      "producer": "producer:domaine-jean-louis-chave"
+    }
+  },
+  {
+    "source_line_no": 1108,
+    "original_raw_line": "2023\t\tSaint-Joseph\t\t\t\t\t\t\t\t440",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:f12aef83d5a5cd68",
+    "canonical": {
+      "producer": "producer:domaine-jean-louis-chave"
+    }
+  },
+  {
+    "source_line_no": 1109,
+    "original_raw_line": "2022\t\tSaint-Joseph\t\t\t\t\t\t\t\t400",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:f12aef83d5a5cd68",
+    "canonical": {
+      "producer": "producer:domaine-jean-louis-chave"
+    }
+  },
+  {
+    "source_line_no": 1110,
+    "original_raw_line": "2021\t\tSaint-Joseph\t\t\t\t\t\t\t\t400",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:f12aef83d5a5cd68",
+    "canonical": {
+      "producer": "producer:domaine-jean-louis-chave"
+    }
+  },
+  {
+    "source_line_no": 1113,
+    "original_raw_line": "2023\t\tCôte-Rôtie\t\t\t\t\t\t\t\t660",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:2aeb6d1d55d56f39",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 1116,
+    "original_raw_line": "2022\t\tSaint-Joseph\t\t\t\t\t\t\t\t440",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:75146aef2fee516f",
+    "canonical": {
+      "producer": "producer:pierre-gonon"
+    }
+  },
+  {
+    "source_line_no": 1117,
+    "original_raw_line": "2018\t\tSaint-Joseph\t\t\t\t\t\t\t\t660",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:75146aef2fee516f",
+    "canonical": {
+      "producer": "producer:pierre-gonon"
+    }
+  },
+  {
+    "source_line_no": 1118,
+    "original_raw_line": "2015\t\tSaint-Joseph\t\t\t\t\t\t\t\t760",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:75146aef2fee516f",
+    "canonical": {
+      "producer": "producer:pierre-gonon"
+    }
+  },
+  {
+    "source_line_no": 1121,
+    "original_raw_line": "2017\t\t‘Le Gréal,’ Hermitage\t\t\t\t\t\t\t800",
+    "resolved_to": "canonical_release",
+    "canonical": {
+      "producer": "producer:domaine-marc-sorrel",
+      "cuvee": "cuvee:domaine-marc-sorrel-le-greal",
+      "vintage": "vintage:domaine-marc-sorrel-le-greal-2017"
+    }
+  },
+  {
+    "source_line_no": 1124,
+    "original_raw_line": "2015\t\tCornas\t\t\t\t\t\t\t\t\t1520",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:344ff19be0010f1c",
+    "canonical": {
+      "producer": "producer:marcel-juge"
+    }
+  },
+  {
+    "source_line_no": 1125,
+    "original_raw_line": "2014\t\tCornas\t\t\t\t\t\t\t\t\t1760",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:344ff19be0010f1c",
+    "canonical": {
+      "producer": "producer:marcel-juge"
+    }
+  },
+  {
+    "source_line_no": 1134,
+    "original_raw_line": "2022\t\t‘Croix de Chabot,’ Saint-Joseph\t\t\t\t\t125",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:7f2a05b573ff04de",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 1141,
+    "original_raw_line": "2018\t\t‘Charles Heintz Vineyard,’ Sonoma Coast Blanc de Noirs\t\t520",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:6233e60dd2589ea7",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 1142,
+    "original_raw_line": "2018\t\t‘Keefer Ranch Vineyard,’ Sonoma Coast Blanc de Blancs\t\t520",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:55880d3e67da2e0b",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 1143,
+    "original_raw_line": "2018\t\t‘Michael Mara Vineyard,’ Sonoma Coast Blanc de Blancs\t\t520",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:dc5e174f3b458db3",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 1150,
+    "original_raw_line": "2023\t\tNapa Valley Chardonnay\t\t\t\t\t\t235\t",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:a996d4590eecfe55",
+    "canonical": {
+      "producer": "producer:chateau-montelena"
+    }
+  },
+  {
+    "source_line_no": 1156,
+    "original_raw_line": "2022\t\t‘Essence,’ Napa Valley Sauvignon Blanc\t\t\t\t200",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:7fd7dbe661c950e1",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 1157,
+    "original_raw_line": "2023\t\t‘Estate,’ Napa Valley Chardonnay\t\t\t\t\t155",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:505224ab27203236",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 1158,
+    "original_raw_line": "2023\t\t‘Paris ’76,’ Napa Valley Chardonnay\t\t\t\t\t440",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:a950e1695710fe4d",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 1161,
+    "original_raw_line": "2023\t\tLos Carneros Chardonnay\t\t\t\t\t\t230",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:684d77db0b2c4b0a",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 1165,
+    "original_raw_line": "Sonoma Coast Chardonnay\t\t\t\t\t325",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:cf8ae75795870905",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 1168,
+    "original_raw_line": "2023\t\tNapa Valley Koshu\t\t\t\t\t\t\t175",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:23b0fe4dc0a9ca25",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 1169,
+    "original_raw_line": "2024\t\tNapa Valley Sauvignon Blanc\t\t\t\t\t140",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:c76c21754c9ce39b",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 1175,
+    "original_raw_line": "2024\t\tMount Veeder Chardonnay\t\t\t\t\t\t185 ",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:8e9fcf84ff2a6bc9",
+    "canonical": {
+      "producer": "producer:mayacamas-vineyards"
+    }
+  },
+  {
+    "source_line_no": 1178,
+    "original_raw_line": "2023\t\t‘Reserve,’ Napa Valley Chardonnay\t\t\t\t\t555",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:e28a3b376a11f5b6",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 1183,
+    "original_raw_line": "2023\t\t‘Chloe,’ Russian River Valley Chardonnay\t\t\t\t240\t",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:52e234ed4fc89574",
+    "canonical": {
+      "producer": "producer:dumol"
+    }
+  },
+  {
+    "source_line_no": 1184,
+    "original_raw_line": "2023\t\t‘Isobel, Charles Heintz Vineyard,’ Sonoma Coast Chardonnay\t260",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:e3b7a395c42ae860",
+    "canonical": {
+      "producer": "producer:dumol"
+    }
+  },
+  {
+    "source_line_no": 1185,
+    "original_raw_line": "2023\t\t‘Estate,’ Sonoma Coast Chardonnay\t\t\t\t\t280",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:2594ed015c62ac1f",
+    "canonical": {
+      "producer": "producer:dumol"
+    }
+  },
+  {
+    "source_line_no": 1189,
+    "original_raw_line": "Sonoma Coast Sauvignon Blanc\t\t\t\t260",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:ff227e82730ab00a",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 1197,
+    "original_raw_line": "2022\t\t‘Litera,’ Eola-Amita Hills Chardonnay\t\t\t\t880",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:41c8345092d4cb43",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 1200,
+    "original_raw_line": "2023\t\tEola-Amity Hills Chardonnay\t\t\t\t\t280",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:b5ade6b4eff341b7",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 1206,
+    "original_raw_line": "2023\t\t‘X Omni Vineyard,’ Eola-Amity Hills Chardonnay\t\t\t435",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:c3da069d73de275e",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 1209,
+    "original_raw_line": "2022\t\t‘Estates,’ Willamette Valley Chardonnay\t\t\t\t170",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:f90020b68a3933f4",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 1216,
+    "original_raw_line": "2021\t\t‘Las Posadas,’ Howell Mountain Cabernet Sauvignon\t\t2640",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:5e36915c44805a23",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 1217,
+    "original_raw_line": "2019\t\t‘Las Posadas,’ Howell Mountain Cabernet Sauvignon\t\t2505",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:5e36915c44805a23",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 1218,
+    "original_raw_line": "2021\t\t‘Madrona,’ Saint Helena Cabernet Sauvignon\t\t\t2640",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:620bbe2b8910973d",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 1219,
+    "original_raw_line": "2019\t\t‘Madrona,’ Saint Helena Cabernet Sauvignon\t\t\t2505",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:620bbe2b8910973d",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 1220,
+    "original_raw_line": "2021\t\t‘Thorevilos,’ Napa Valley Cabernet Sauvignon\t\t\t2640",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:a2e61943a373dce3",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 1223,
+    "original_raw_line": "2022\t\tNapa Valley Cabernet Sauvignon\t\t\t\t\t255",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:bfa8f1e5b421da8b",
+    "canonical": {
+      "producer": "producer:chateau-montelena"
+    }
+  },
+  {
+    "source_line_no": 1224,
+    "original_raw_line": "2021\t\t“The Montelena Estate,” Calistoga Cabernet Sauvignon\t\t625",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:9ba0258b510cea40",
+    "canonical": {
+      "producer": "producer:chateau-montelena"
+    }
+  },
+  {
+    "source_line_no": 1225,
+    "original_raw_line": "2011\t\t“The Montelena Estate,” Calistoga Cabernet Sauvignon\t\t800",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:9ba0258b510cea40",
+    "canonical": {
+      "producer": "producer:chateau-montelena"
+    }
+  },
+  {
+    "source_line_no": 1230,
+    "original_raw_line": "2022\t\t“Pritchard Hill,” Napa Valley Cabernet Sauvignon\t\t\t940",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:af076ab4627d617f",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 1233,
+    "original_raw_line": "2022\t\t“Jubilation,” Napa Valley Cabernet Sauvignon\t\t\t800",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:d42af8bd746ce230",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 1234,
+    "original_raw_line": "2022\t\t“Cariad,” Napa Valley Proprietary Blend\t\t\t\t2340",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:0012e820884b05ec",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 1241,
+    "original_raw_line": "2023\t\tNapa Valley Proprietary Blend\t\t\t\t\t920",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:0d7f6d0b11811254",
+    "canonical": {
+      "producer": "producer:dominus-estate"
+    }
+  },
+  {
+    "source_line_no": 1242,
+    "original_raw_line": "2021\t\tNapa Valley Proprietary Blend\t\t\t\t\t1120",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:0d7f6d0b11811254",
+    "canonical": {
+      "producer": "producer:dominus-estate"
+    }
+  },
+  {
+    "source_line_no": 1243,
+    "original_raw_line": "2020\t\tNapa Valley Proprietary Blend\t\t\t\t\t1080",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:0d7f6d0b11811254",
+    "canonical": {
+      "producer": "producer:dominus-estate"
+    }
+  },
+  {
+    "source_line_no": 1246,
+    "original_raw_line": "2022\t\tNapa Valley Cabernet Sauvignon\t\t\t\t\t435",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:0e63c72a8f96fe9e",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 1247,
+    "original_raw_line": "2022\t\tHowell Mountain Cabernet Sauvignon\t\t\t\t670",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:a88ffa3a6004797c",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 1250,
+    "original_raw_line": "2018\t\t‘5500 Estate,’ Stags Leap District Cabernet Sauvignon\t\t1760",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:909e4fe2c985e2fc",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 1251,
+    "original_raw_line": "2019\t\t‘Estate,’ Oakville Cabernet Sauvignon\t\t\t\t2160",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:f71c595fe15c7715",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 1254,
+    "original_raw_line": "2021\t\t‘Estate,’ Napa Valley Cabernet Sauvignon\t\t\t\t220",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:868e246448fe98cf",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 1255,
+    "original_raw_line": "2014\t\t‘Estate,’ Napa Valley Cabernet Sauvignon\t\t\t\t500",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:868e246448fe98cf",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 1256,
+    "original_raw_line": "2013\t\t‘Estate,’ Napa Valley Cabernet Sauvignon\t\t\t\t500",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:868e246448fe98cf",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 1257,
+    "original_raw_line": "2012\t\t‘Estate,’ Napa Valley Cabernet Sauvignon\t\t\t\t500",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:868e246448fe98cf",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 1258,
+    "original_raw_line": "2021\t\t‘Paradise Block,’ Yountville Cabernet Sauvignon\t\t\t880",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:da7988b407e31a15",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 1261,
+    "original_raw_line": "2021\t\t‘The Mascot,’ Napa Valley Cabernet Sauvignon\t\t\t560",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:0cef02e3452b31e6",
+    "canonical": {
+      "producer": "producer:harlan-estate"
+    }
+  },
+  {
+    "source_line_no": 1262,
+    "original_raw_line": "2019\t\t‘The Mascot,’ Napa Valley Cabernet Sauvignon\t\t\t520",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:0cef02e3452b31e6",
+    "canonical": {
+      "producer": "producer:harlan-estate"
+    }
+  },
+  {
+    "source_line_no": 1263,
+    "original_raw_line": "2018\t\t‘The Mascot,’ Napa Valley Cabernet Sauvignon\t\t\t595",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:0cef02e3452b31e6",
+    "canonical": {
+      "producer": "producer:harlan-estate"
+    }
+  },
+  {
+    "source_line_no": 1264,
+    "original_raw_line": "2021\t\tOakville Proprietary Blend\t\t\t\t\t\t5600",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:fde627ad0aa1495d",
+    "canonical": {
+      "producer": "producer:harlan-estate"
+    }
+  },
+  {
+    "source_line_no": 1265,
+    "original_raw_line": "2020\t\tOakville Proprietary Blend\t\t\t\t\t\t5515",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:fde627ad0aa1495d",
+    "canonical": {
+      "producer": "producer:harlan-estate"
+    }
+  },
+  {
+    "source_line_no": 1268,
+    "original_raw_line": "2021\t\t‘Phoenix,’ Los Carneros Proprietary Blend\t\t\t\t250",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:8a250d75ea057bad",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 1271,
+    "original_raw_line": "2022\t\t‘Fortunate Son, The Dreamer,’ Napa Valley Cabernet Sauvignon\t520",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:00d8d28fbafaf9df",
+    "canonical": {
+      "producer": "producer:hundred-acre"
+    }
+  },
+  {
+    "source_line_no": 1272,
+    "original_raw_line": "2022\t\t‘Fortunate Son, The Warrior,’ Napa Valley Cabernet Sauvignon\t1200",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:9e44159419126c5a",
+    "canonical": {
+      "producer": "producer:hundred-acre"
+    }
+  },
+  {
+    "source_line_no": 1273,
+    "original_raw_line": "2022\t\t‘Ark,’\tHowell Mountain Cabernet Sauvignon\t\t\t2400",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:a4dbf1e5e6190afe",
+    "canonical": {
+      "producer": "producer:hundred-acre"
+    }
+  },
+  {
+    "source_line_no": 1276,
+    "original_raw_line": "2022\t\tNapa Valley Cabernet Sauvignon\t\t\t\t\t300",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:86813948e8013a1a",
+    "canonical": {
+      "producer": "producer:joseph-phelps"
+    }
+  },
+  {
+    "source_line_no": 1277,
+    "original_raw_line": "2022\t\t‘Insignia,’ Napa Valley Proprietary Blend\t\t\t\t1095",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:32c4c2a2bf254b65",
+    "canonical": {
+      "producer": "producer:joseph-phelps",
+      "cuvee": "cuvee:joseph-phelps-insignia"
+    }
+  },
+  {
+    "source_line_no": 1280,
+    "original_raw_line": "2023\t\t‘Skellenger Vineyard,’ Oakville Cabernet Sauvignon\t\t290",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:ae8d65cd70397b00",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 1283,
+    "original_raw_line": "2021\t\tMount Veeder Cabernet Sauvignon\t\t\t\t\t520 ",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:fc50bfb0203056ff",
+    "canonical": {
+      "producer": "producer:mayacamas-vineyards"
+    }
+  },
+  {
+    "source_line_no": 1284,
+    "original_raw_line": "2003\t\tMount Veeder Cabernet Sauvignon\t\t\t\t\t960 ",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:fc50bfb0203056ff",
+    "canonical": {
+      "producer": "producer:mayacamas-vineyards"
+    }
+  },
+  {
+    "source_line_no": 1285,
+    "original_raw_line": "2023\t\tMount Veeder Merlot\t\t\t\t\t\t\t210 ",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:499429b3e81ae25b",
+    "canonical": {
+      "producer": "producer:mayacamas-vineyards"
+    }
+  },
+  {
+    "source_line_no": 1286,
+    "original_raw_line": "2022\t\tMount Veeder Proprietary Blend\t\t\t\t\t270 ",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:6819e3c4d072949b",
+    "canonical": {
+      "producer": "producer:mayacamas-vineyards"
+    }
+  },
+  {
+    "source_line_no": 1287,
+    "original_raw_line": "2013\t\tMount Veeder Proprietary Blend\t\t\t\t\t700",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:6819e3c4d072949b",
+    "canonical": {
+      "producer": "producer:mayacamas-vineyards"
+    }
+  },
+  {
+    "source_line_no": 1290,
+    "original_raw_line": "2022\t\tNapa Valley Proprietary Blend\t\t\t\t\t1370",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:bc9423fba9b1056c",
+    "canonical": {
+      "producer": "producer:opus-one"
+    }
+  },
+  {
+    "source_line_no": 1293,
+    "original_raw_line": "2021\t\tNapa Valley Cabernet Sauvignon\t\t\t\t\t3600",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:81ba336e3c111405",
+    "canonical": {
+      "producer": "producer:promontory"
+    }
+  },
+  {
+    "source_line_no": 1294,
+    "original_raw_line": "2020\t\tNapa Valley Cabernet Sauvignon\t\t\t\t\t3420",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:81ba336e3c111405",
+    "canonical": {
+      "producer": "producer:promontory"
+    }
+  },
+  {
+    "source_line_no": 1295,
+    "original_raw_line": "2017\t\tNapa Valley Cabernet Sauvignon\t\t\t\t\t3720",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:81ba336e3c111405",
+    "canonical": {
+      "producer": "producer:promontory"
+    }
+  },
+  {
+    "source_line_no": 1298,
+    "original_raw_line": "2022\t\t‘The Leap,’ Stags Leap District Cabernet Sauvignon\t\t270",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:490d273cc51076f9",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 1301,
+    "original_raw_line": "2023\t\t‘Estate,’ Saint Helena Zinfandel\t\t\t\t\t135",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:b8eeb9ac3590e2b7",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 1302,
+    "original_raw_line": "2023\t\t‘Hayne Vineyard,’ Saint Helena Zinfandel\t\t\t\t260",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:90c2a743a718b6da",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 1303,
+    "original_raw_line": "2023\t\t‘Rattlesnake Ridge,’ Howell Mountain Zinfandel\t\t\t200",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:64122503af7e96d0",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 1308,
+    "original_raw_line": "2023\t\t‘Estate,’ Santa Cruz Mountains Cabernet Sauvignon\t\t\t300",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:1fb95eae56090068",
+    "canonical": {
+      "producer": "producer:ridge-vineyards"
+    }
+  },
+  {
+    "source_line_no": 1309,
+    "original_raw_line": "2022\t\t‘Monte Bello,’ Santa Cruz Mountains Cabernet Sauvignon\t\t990",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:80eb22e06c4c5c63",
+    "canonical": {
+      "producer": "producer:ridge-vineyards",
+      "cuvee": "cuvee:ridge-vineyards-monte-bello"
+    }
+  },
+  {
+    "source_line_no": 1314,
+    "original_raw_line": "2023\t\t“MacIntyre Estate Vineyard,” Sonoma Coast Pinot Noir\t\t300\t",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:01a6775224649d2b",
+    "canonical": {
+      "producer": "producer:dumol"
+    }
+  },
+  {
+    "source_line_no": 1315,
+    "original_raw_line": "2023\t\t“Ryan,” Russian River Valley Pinot Noir\t\t\t\t300\t",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:3e20a479bc325aba",
+    "canonical": {
+      "producer": "producer:dumol"
+    }
+  },
+  {
+    "source_line_no": 1316,
+    "original_raw_line": "2023\t\t“Estate,” Russian River Valley Pinot Noir\t\t\t\t320\t",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:6737c41d6f6a778d",
+    "canonical": {
+      "producer": "producer:dumol"
+    }
+  },
+  {
+    "source_line_no": 1319,
+    "original_raw_line": "2023\t\tRussian River Valley Pinot Noir\t\t\t\t\t220",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:52a18c7ad203a5f3",
+    "canonical": {
+      "producer": "producer:kistler-vineyards"
+    }
+  },
+  {
+    "source_line_no": 1322,
+    "original_raw_line": "2022\t\tNapa-Sonoma Counties Cabernet Sauvignon\t\t\t\t260",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:d7fd7ef07f25a8c6",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 1323,
+    "original_raw_line": "2019\t\tNapa-Sonoma Counties Cabernet Sauvignon\t\t\t\t300",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:d7fd7ef07f25a8c6",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 1324,
+    "original_raw_line": "2018\t\tNapa-Sonoma Counties Cabernet Sauvignon\t\t\t\t300",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:d7fd7ef07f25a8c6",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 1325,
+    "original_raw_line": "2017\t\tNapa-Sonoma Counties Cabernet Sauvignon\t\t\t\t300",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:d7fd7ef07f25a8c6",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 1326,
+    "original_raw_line": "2022\t\tNapa County Merlot\t\t\t\t\t\t\t210",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:37b1230c7aea1b29",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 1327,
+    "original_raw_line": "2019\t\tNapa-Sonoma Counties Merlot\t\t\t\t\t260",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:4c534c0907d60214",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 1328,
+    "original_raw_line": "2018\t\tNapa-Sonoma Counties Merlot\t\t\t\t\t260",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:4c534c0907d60214",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 1329,
+    "original_raw_line": "2017\t\tNapa Valley Merlot\t\t\t\t\t\t\t260",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:079931c9a34a8b1e",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 1330,
+    "original_raw_line": "2019\t\t‘Reserve,’ Napa-Sonoma Counties Cabernet Sauvignon\t\t560",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:9c148a50b87c260f",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 1331,
+    "original_raw_line": "2018\t\t‘Reserve,’ Napa-Sonoma Counties Cabernet Sauvignon\t\t540",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:9c148a50b87c260f",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 1334,
+    "original_raw_line": "2024\t\t‘Geyserville Vineyard,’ Alexander Valley Proprietary Blend\t175",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:1b810a969e7b2d5e",
+    "canonical": {
+      "producer": "producer:ridge-vineyards"
+    }
+  },
+  {
+    "source_line_no": 1339,
+    "original_raw_line": "2023\t\t“Adiona,” Eola-Amity Hills Pinot Noir\t\t\t\t1020",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:74bd902ac2e51505",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 1342,
+    "original_raw_line": "2023\t\t‘Cumberland Reserve,’ Willamette Valley Pinot Noir\t\t160",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:723c8a4b7649a21e",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 1343,
+    "original_raw_line": "2021\t\t‘Silice,’ Chehalem Mountains Pinot Noir\t\t\t\t305",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:7d377355793761f4",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 1344,
+    "original_raw_line": "2019\t\t‘Silice,’ Chehalem Mountains Pinot Noir\t\t\t\t305",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:7d377355793761f4",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 1345,
+    "original_raw_line": "2018\t\t‘Silice,’ Chehalem Mountains Pinot Noir\t\t\t\t280",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:7d377355793761f4",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 1346,
+    "original_raw_line": "2023\t\tDundee Hills Pinot Noir\t\t\t\t\t\t440",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:528dcadaa99d591b",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 1349,
+    "original_raw_line": "2023\t\tChehalem Mountains Pinot Noir\t\t\t\t\t280",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:eceab9053b296667",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 1352,
+    "original_raw_line": "2024\t\tDundee Hills Pinot Noir\t\t\t\t\t\t175\t",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:e01f0a7a9de27546",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 1359,
+    "original_raw_line": "2023\t\t‘Mineral Springs Ranch,’ Yamhill-Carlton Pinot Noir\t\t235",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:70561da0379bfbe7",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 1366,
+    "original_raw_line": "2019\t\t“Branca Pipa,” Yamanashi Koshu\t\t\t\t\t240",
+    "resolved_to": "canonical_release",
+    "canonical": {
+      "producer": "producer:aruga",
+      "cuvee": "cuvee:aruga-branca-pipa",
+      "vintage": "vintage:aruga-branca-pipa-2019"
+    }
+  },
+  {
+    "source_line_no": 1369,
+    "original_raw_line": "2020\t\tYamanashi Kai Noir\t\t\t\t\t\t\t250",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:f4ad137428ac58c4",
+    "canonical": {
+      "producer": "producer:chateau-mars"
+    }
+  },
+  {
+    "source_line_no": 1372,
+    "original_raw_line": "2020\t\tYamanashi Chardonnay\t\t\t\t\t\t420",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:ba70516226bcc6b1",
+    "canonical": {
+      "producer": "producer:domaine-mie-ikeno"
+    }
+  },
+  {
+    "source_line_no": 1373,
+    "original_raw_line": "2020\t\tYamanashi Merlot\t\t\t\t\t\t\t420",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:7c5cfe01f096e827",
+    "canonical": {
+      "producer": "producer:domaine-mie-ikeno"
+    }
+  },
+  {
+    "source_line_no": 1387,
+    "original_raw_line": " PAGE 1",
+    "resolved_to": "research_shell",
+    "shell_id": "rs:pro:d204a7c723edb152",
+    "canonical": {}
+  },
+  {
+    "source_line_no": 19,
+    "original_raw_line": "Kameizumi, ‘Le Grande Voyage’\t\t\t\t\t\t170",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 94,
+    "original_raw_line": "Eiheiji Hakuryu, ‘Black,’ Junmai Daiginjo\t\t\t\t\t720",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 126,
+    "original_raw_line": "\t\t‘Special Cuvée,’ Brut\t\t\t\t\t\t\t300",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 129,
+    "original_raw_line": "\t‘Bulles de Comptoir #12, Caché dans l’Evidence,’ Extra Brut\t280",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 132,
+    "original_raw_line": "2012\t\t‘L’Aphrodisiaque,’ Premier Cru Brut Nature\t\t\t\t900",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 141,
+    "original_raw_line": "2012\t\t‘Grand Sendrée,’ Brut\t\t\t\t\t\t\t400",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 142,
+    "original_raw_line": "2010\t\t‘Grand Sendrée,’ Brut\t\t\t\t\t\t\t395",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 144,
+    "original_raw_line": "2007\t\t‘Réserve de L’Oenothèque,’ Brut\t\t\t\t\t460",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 163,
+    "original_raw_line": "\t\t‘Grand Réserve,’ Brut\t\t\t\t\t\t\t200",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 164,
+    "original_raw_line": "2016\t\t‘Grand Millésime,’ Brut\t\t\t\t\t\t340",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 167,
+    "original_raw_line": "\t\t’21 Ans de Cave a Minima,’ Brut\t\t\t\t\t1200",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 180,
+    "original_raw_line": "2023\t\t‘La Closerie, Les Beguines,’ Extra Brut\t\t\t\t920",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 191,
+    "original_raw_line": "2019\t\t‘Les Empreintes,’ Extra Brut\t\t\t\t\t\t335",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 192,
+    "original_raw_line": "2017\t\t‘Les Empreintes,’ Extra Brut\t\t\t\t\t\t300",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 207,
+    "original_raw_line": "2016\t\t‘Cristal,’ Brut\t\t\t\t\t\t\t\t1120",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 208,
+    "original_raw_line": "2015\t\t‘Cristal,’ Brut\t\t\t\t\t\t\t\t1200",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 217,
+    "original_raw_line": "2014\t\t‘Clos des Goisses,’ Extra Brut\t\t\t\t\t1080",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 220,
+    "original_raw_line": "\t\t‘Réserve,’ Brut\t\t\t\t\t\t\t230",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 221,
+    "original_raw_line": "2018\t\t‘Vintage,’ Brut\t\t\t\t\t\t\t415",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 222,
+    "original_raw_line": "2004\t\t‘Cuvée de Réserve, Vinothéque,’ Brut\t\t\t\t980",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 223,
+    "original_raw_line": "2018\t\t‘Cuvée Sir Winston Churchill,’ Brut\t\t\t\t\t1155",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 224,
+    "original_raw_line": "2002\t\t‘Cuvée Sir Winston Churchill, Vinothéque,’ Brut\t\t\t2920",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 227,
+    "original_raw_line": "\t\t‘Y by Yoshiki,’ Brut\t\t\t\t\t\t\t675",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 240,
+    "original_raw_line": "2013\t\t“Quintile,” Grand Cru Extra Brut\t\t\t\t\t420",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 257,
+    "original_raw_line": "\t\t‘Les Vignes de Bisseuil,’ Premier Cru Extra Brut\t\t\t400",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 263,
+    "original_raw_line": "2018\t\t‘Les Chênes,’ Premier Cru Brut Nature\t\t\t\t920",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 297,
+    "original_raw_line": "2016\t\tBrut\t\t\t\t\t\t\t\t\t505",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 338,
+    "original_raw_line": "2015\t\t‘PN VZ15,’ Brut\t\t\t\t\t\t\t380",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 341,
+    "original_raw_line": "2020\t\t‘Roses de Jeanne, Côte de Val Vilaine,’ Brut Nature\t\t\t800",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 347,
+    "original_raw_line": "\t\t‘Les Vignes de Vrigny,’ Premier Cru Extra Brut\t\t\t350",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 369,
+    "original_raw_line": "\t\t‘Le Bout du Clos,’ Grand Cru Extra Brut (disgorged 2025)\t\t2840",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 406,
+    "original_raw_line": "\t\t‘Rosé de Meunier,’ Extra Brut\t\t\t\t\t175",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 409,
+    "original_raw_line": " \t‘Cuvée Rosé,’ Brut\t\t\t\t\t\t\t250",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 416,
+    "original_raw_line": "2014\t\t‘Cristal,’ Brut\t\t\t\t\t\t\t\t1985",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 419,
+    "original_raw_line": "2012\t\t‘1522,’ Grand Cru Extra Brut\t\t\t\t\t\t800",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 452,
+    "original_raw_line": "2020\t\t‘Les Fortes Terres,’ Extra Brut\t\t\t\t\t400",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 453,
+    "original_raw_line": "2019\t\t‘Les Fortes Terres,’ Extra Brut\t\t\t\t\t360",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 454,
+    "original_raw_line": "2018\t\t‘Les Fortes Terres,’ Extra Brut\t\t\t\t\t360",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 510,
+    "original_raw_line": "2023\t\t‘Champs Gains,’ Chassagne-Montrachet Premier Cru\t\t740",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 511,
+    "original_raw_line": "2017\t\t‘Les Chaumées,’ Chassagne-Montrachet Premier Cru\t\t1080",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 529,
+    "original_raw_line": "2009\t\t‘Clos de la Barre,’ Meursault\t\t\t\t\t\t1500",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 530,
+    "original_raw_line": "2007\t\t‘Clos de la Barre,’ Meursault\t\t\t\t\t\t1500",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 531,
+    "original_raw_line": "2010\t\t‘Les Charmes,’ Meursault Premier Cru\t\t\t\t2500",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 623,
+    "original_raw_line": "2022\t\t‘Château de Blagny,’ Meursault-Blagny Premier Cru\t\t350",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 637,
+    "original_raw_line": "2022\t\t‘Clos de la Maltroie,’ Chassagne-Montrachet Premier Cru\t\t520",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 638,
+    "original_raw_line": "2022\t\t‘Clos Saint Jean,’ Chassagne-Montrachet Premier Cru\t\t520",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 639,
+    "original_raw_line": "2022\t\t‘Les Champs Gains,’ Chassagne-Montrachet Premier Cru\t\t520",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 642,
+    "original_raw_line": "2022\t\t‘Les Chenevottes,’ Chassagne-Montrachet Premier Cru\t\t520",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 645,
+    "original_raw_line": "2016\t\t‘Perrières,’ Meursault Premier Cru\t\t\t\t\t700",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 657,
+    "original_raw_line": "2023\t\t‘Clos Saint Jean,’ Chassagne-Montrachet Premier Cru\t\t545",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 660,
+    "original_raw_line": "2024\t\t‘Éclat de Calcaire,’ Bourgogne\t\t\t\t\t170",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 661,
+    "original_raw_line": "2023\t\t‘Les Grandes Épenotes,’ Beaune Premier Cru\t\t\t360",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 662,
+    "original_raw_line": "2023\t\t‘Les Grands Charrons,’ Meursault\t\t\t\t\t465",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 663,
+    "original_raw_line": "2023\t\t‘Les Bressandes,’ Corton Grand Cru\t\t\t\t\t700",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 664,
+    "original_raw_line": "2023\t\tCorton-Charlemagne Grand Cru\t\t\t\t\t1300",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 665,
+    "original_raw_line": "2021\t\tBâtard-Montrachet Grand Cru\t\t\t\t\t3280",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 668,
+    "original_raw_line": "2022\t\t‘Perrières,’ Meursault Premier Cru\t\t\t\t\t1040",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 678,
+    "original_raw_line": "2021\t\t‘Montée de Tonnerre’ Chablis Premier Cru\t\t\t\t780",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 679,
+    "original_raw_line": "2021\t\t‘Les Clos,’ Chablis Grand Cru\t\t\t\t\t1560",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 720,
+    "original_raw_line": "2020\t\t‘Les Varrons’ Côtes du Jura\t\t\t\t\t\t560",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 731,
+    "original_raw_line": "2023\t\t‘Clos de la Coulée de Serrant,’ Savennières\t\t\t\t500",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 732,
+    "original_raw_line": "2019\t\t‘Clos de la Coulée de Serrant,’ Savennières\t\t\t\t400",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 733,
+    "original_raw_line": "2012\t\t‘Clos de la Coulée de Serrant,’ Savennières\t\t\t\t600",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 736,
+    "original_raw_line": "2023\t\t‘Les Caillottes,’ Sancerre\t\t\t\t\t\t210",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 737,
+    "original_raw_line": "2024\t\t‘Les Monts Damnes,’ Sancerre\t\t\t\t\t280",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 765,
+    "original_raw_line": "2014\t\t‘Les Charmes,’ Chambolle-Musigny Premier Cru\t\t\t1180",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 782,
+    "original_raw_line": "2022\t\t‘Clos des Ruchottes,’ Ruchottes-Chambertin Grand Cru\t\t3555",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 787,
+    "original_raw_line": "2023\t\t‘Les Véroilles,’ Chambolle-Musigny\t\t\t\t\t475",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 788,
+    "original_raw_line": "2023\t\t‘Les Charmes,’ Chambolle-Musigny Premier Cru\t\t\t935",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 792,
+    "original_raw_line": "2020\t\t‘Très Girard,’ Morey-Saint-Denis\t\t\t\t\t1920",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 793,
+    "original_raw_line": "2018\t\t‘Les Murgers,’ Nuits-Saint-Georges Premier Cru\t\t\t2640",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 804,
+    "original_raw_line": "2022\t\t‘La Forge de Tart,’ Morey-Saint-Denis Premier Cru\t\t\t1040",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 805,
+    "original_raw_line": "2021\t\t‘La Forge de Tart,’ Morey-Saint-Denis Premier Cru\t\t\t1020",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 810,
+    "original_raw_line": "2019\t\t‘Les Duresses,’ Monthélie Premier Cru\t\t\t\t260",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 811,
+    "original_raw_line": "2020\t\t‘Santenots du Milieu,’ Volnay Premier Cru\t\t\t\t580",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 814,
+    "original_raw_line": "2009\t\t‘Aux Cras,’ Nuits-Saint-Georges Premier Cru\t\t\t3980",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 815,
+    "original_raw_line": "2011\t\t‘Reignots,’ Vosne-Romanée Premier Cru\t\t\t\t11580",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 822,
+    "original_raw_line": "2023\t\t‘Clos de Roi,’ Corton Grand Cru\t\t\t\t\t900",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 823,
+    "original_raw_line": "2022\t\t‘Clos de Roi,’ Corton Grand Cru\t\t\t\t\t835",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 824,
+    "original_raw_line": "2021\t\t‘Clos de Roi,’ Corton Grand Cru\t\t\t\t\t840",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 825,
+    "original_raw_line": "2020\t\t‘Clos de Roi,’ Corton Grand Cru\t\t\t\t\t735",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 866,
+    "original_raw_line": "1996\t\t‘Les Beau Monts,’ Vosne-Romanée Premier Cru\t\t\t3600",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 903,
+    "original_raw_line": "2017\t\t‘Les Véroilles,’ Chambolle-Musigny Premier Cru\t\t\t1000",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 911,
+    "original_raw_line": "2023\t\t‘Clos des Fourches,’ Nuits-Saint-Georges\t\t\t\t435",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 912,
+    "original_raw_line": "2022\t\t‘Clos de la Maréchale,’ Nuits-Saint-Georges Premier Cru\t\t515",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 913,
+    "original_raw_line": "2013\t\t‘Clos de la Maréchale,’ Nuits-Saint-Georges Premier Cru\t\t515",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 914,
+    "original_raw_line": "2010\t\t‘Clos de la Maréchale,’ Nuits-Saint-Georges Premier Cru\t\t1040",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 915,
+    "original_raw_line": "2023\t\t‘Les Fuées,’ Chambolle-Musigny Premier Cru\t\t\t1635",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 930,
+    "original_raw_line": "2023\t\t‘Clos des Forets Saint Georges,’ Nuits-Saint-Georges Premier Cru\t515",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 931,
+    "original_raw_line": "2021\t\t‘Clos des Forets Saint Georges,’ Nuits-Saint-Georges Premier Cru\t515",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 932,
+    "original_raw_line": "2019\t\t‘Clos des Forets Saint Georges,’ Nuits-Saint-Georges Premier Cru\t550",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 936,
+    "original_raw_line": "2009\t\tFixin\t\t\t\t\t\t\t\t\t1600",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 939,
+    "original_raw_line": "2023\t\t‘Vieilles Vignes,’ Morey-Saint-Denis\t\t\t\t280",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 940,
+    "original_raw_line": "2020\t\t‘Les Faconnières,’ Morey-Saint-Denis Premier Cru\t\t\t400",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 945,
+    "original_raw_line": "2022\t\t‘Vignes Franches,’ Beaune Premier Cru\t\t\t\t250",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 948,
+    "original_raw_line": "2022\t\t‘Epenots,’ Pommard Premier Cru\t\t\t\t\t455",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 952,
+    "original_raw_line": "2022\t\t‘Les Charmes,’ Chambolle-Musigny Premier Cru\t\t\t520",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 963,
+    "original_raw_line": "2022\t\t‘Belissand,’ Beaune Premier Cru\t\t\t\t\t240",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 964,
+    "original_raw_line": "2013\t\t‘Le Millandes,’ Morey-Saint-Denis Premier Cru\t\t\t300",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 1128,
+    "original_raw_line": "2001\t\t‘Chaillot,’ Cornas\t\t\t\t\t\t\t2000",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 1129,
+    "original_raw_line": "1999\t\t‘Chaillot,’ Cornas\t\t\t\t\t\t\t2400",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 1130,
+    "original_raw_line": "2006\t\t‘Reynard,’ Cornas\t\t\t\t\t\t\t1600",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 1131,
+    "original_raw_line": "1998\t\t‘Reynard,’ Cornas\t\t\t\t\t\t\t2600",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 1153,
+    "original_raw_line": "2023\t\t‘Signature,’ Napa Valley Chardonnay\t\t\t\t230",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 1172,
+    "original_raw_line": "2023\t\tNapa Valley Chardonnay\t\t\t\t\t\t450",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 1192,
+    "original_raw_line": "2024\t\t‘Les Noisetiers,’ Russian River Valley Chardonnay\t\t\t210",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 1203,
+    "original_raw_line": "2023\t\t‘Estate,’ Dundee Hills Pinot Gris\t\t\t\t\t125",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 1228,
+    "original_raw_line": "2022\t\t“Signature,” Napa Valley Cabernet Sauvignon\t\t\t280",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 1229,
+    "original_raw_line": "2021\t\t“Signature,” Napa Valley Cabernet Sauvignon\t\t\t280",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 1237,
+    "original_raw_line": "2022\t\t‘Signature,’ Napa Valley Cabernet Sauvignon\t\t\t420",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 1238,
+    "original_raw_line": "2023\t\t‘Signature,’ Napa Valley Merlot\t\t\t\t\t280",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 1355,
+    "original_raw_line": "2022\t\t‘The Eyrie,’ Dundee Hills Pinot Noir\t\t\t\t\t280",
+    "resolved_to": "review_item"
+  },
+  {
+    "source_line_no": 1356,
+    "original_raw_line": "2014\t\t‘Original Vines,’ Dundee Hills Pinot Noir\t\t\t\t400",
+    "resolved_to": "review_item"
+  }
+]
