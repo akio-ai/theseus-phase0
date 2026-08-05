@@ -12,26 +12,45 @@
 
 ---
 
-## 1. 🔴 Approve Batch 5 (producer research)
+## 1. 🔴 Approve Batch 8 (producer research)
 
-Batch 4 is closed and committed. **Batch 5 is proposed but must not start without approval.**
+**Batches 5, 6 and 7 are closed and committed** (D-2026-08-05-07). Execution stopped after Batch 7
+as instructed. **Batch 8 is proposed but must not start without approval.**
 
-Proposed, ranked by OBP bottles unlocked (`obp_intake_normalized_20260804.json`, 704 rows):
+Coverage now **359 / 704 bottles (51.0%)** across **44 dossiers**. Remaining: **138 producers /
+345 bottles**. The curve is flat from here — no remaining producer unlocks more than 5 bottles.
 
-| Producer | OBP bottles | canonical record | current match states |
+Proposed, ranked by OBP bottles unlocked (`research/producers/coverage.py` reproduces the ranking):
+
+| Producer | OBP bottles | canonical | note |
 |---|---|---|---|
-| Armand Rousseau | 7 | exists | 2 exact / 1 alias / 4 unresolved |
-| **Ganevat** | 7 | **absent** | 7 unresolved |
-| Billaud-Simon | 7 | exists | 2 exact / 5 unresolved |
-| Joseph Drouhin | 7 | exists | 2 exact / 5 unresolved |
-| Olivier Bernstein | 7 | exists | 1 exact / 6 unresolved |
-| **Pol Roger** | 6 | **absent** | 6 unresolved |
+| **Jacques Selosse — finish** | (0 new) | exists | 🔴 see below |
+| Taittinger | 5 | exists | Champagne, blanc de blancs |
+| Domaine Roulot | 5 | exists | Meursault |
+| Domaine Bachelet-Monnot | 5 | exists | Côte de Beaune whites |
+| **Michel Niellon** | 5 | **absent** | Chassagne-Montrachet |
+| Domaine de L'Arlot | 5 | exists | Nuits-Saint-Georges |
+| **Clos de la Coulée de Serrant (Nicolas Joly)** | 5 | exists (alias) | Loire; the only non-Burgundy/Champagne block left at 5 |
 
-**Total 41 bottles** → would take coverage to roughly **42%**. Ganevat and Pol Roger satisfy both
-priority ① (unlock count) and ② (absent from THÉSEUS); Pol Roger also scores high on ③ (restaurant
-importance).
+**Total 30 bottles** → coverage to roughly **55%**.
 
-**Château Margaux (8 bottles) is again excluded**, per the standing reason below.
+**Alternative shape worth considering instead.** Six of the eighteen dossiers just delivered are
+below the 70% bar purely because a producer-authored source could not be found or could not be
+read. Four of those are recoverable with work already scoped:
+
+| Dossier | Current | Blocker | Fix |
+|---|---|---|---|
+| **Gosset** | ~35% | cuvée pages are JS-rendered | **browser rendering** — highest value per unit of work in the whole set |
+| **Mayacamas** | 70%+ | `trade_assets` blocked to scripts | browser rendering → per-vintage data for all 6 OBP bottles |
+| **DuMOL** | ~45% | two `/about/` sub-pages unread | fetch two pages |
+| **Domaine Laroche** | 70%+ | history page JS-rendered | browser rendering |
+
+A "repair batch" would add **0 bottles of coverage** but would lift four dossiers and close roughly
+half the outstanding `awaiting material from the team` items. **Which shape to run is Akio's call.**
+
+**Bordeaux remains excluded** (Margaux 8, Haut-Brion 6, Latour 6, Mouton-Rothschild 6, Giscours 6,
+d'Yquem 6, Palmer 5, Cos d'Estournel 4 — **47 bottles**), per the standing reason below. It is now
+by far the largest single block left.
 
 ## 2. ⚪ Bordeaux batch — proposed, explicitly not started
 
@@ -53,6 +72,36 @@ One sub-decision remains open:
   URLs in each dossier's `## Sources`.
   → See [`DECISIONS.md`](DECISIONS.md) D-2026-08-05-02. Reversing this later is cheap;
   reversing the opposite choice requires history rewriting.
+
+## 3c. 🔴 Questions raised by Batches 5–7 that research cannot answer
+
+1. 🔴 **Six dossiers are `awaiting material from the team`** — Ganevat (~55%), Comtes Lafon (~45%),
+   Ramonet (~35%), Pierre-Yves Colin-Morey (~30%), Caroline Morey (~30%), Pierre Girardin (~25%),
+   plus Selosse (~60%) and DuMOL (~45%) partially. **All need an importer technical sheet or a
+   working producer site.** This is a procurement task, not a research task.
+2. 🔴 **Domaine d'Eugénie's three OBP white bottles cannot be attributed.** The official wine list
+   is 11 wines, all Pinot Noir; the estate page claims holdings in Chassagne-Montrachet and
+   Meursault but publishes no white cuvées. **Needs a physical label check before canonical
+   registration.**
+3. 🔴 **Article and colour normalisation in the matcher** — Ramonet stalls at `candidate` on
+   canonical `Le Montrachet Grand Cru` vs menu `Montrachet Grand Cru` (leading article) and on
+   `Chassagne-Montrachet Blanc` vs `Chassagne-Montrachet` (colour word in the name). The first is
+   the same family as Batch 4's `Clos de Roi` / `Clos du Roi`; the second is solvable from the OBP
+   section. **Matcher fix, not a canonical addition.**
+4. 🔴 **Accent variants split one cuvée into two canonical records** — Gosset carries both
+   `Célébris …` and `Celebris Vintage`, which is what stalls the two OBP Celebris rows. Same shape
+   as **C-1**.
+5. 🔴 **Quote marks are embedded in 9 canonical cuvée names** across Batches 5–7 (7 double-quoted,
+   2 single-quoted). **A sweep of all 781 cuvées should establish the true count** before anyone
+   decides how to fix it. Recorded under **S-2**.
+6. 🔴 **Disgorgement date is an identifier for Selosse** — the menu prints `(disgorged 2025)` on
+   five bottles and lists `Initial` twice at different prices. Canonical vintages are all `nv` and
+   carry no date, so `cuvée × NV` cannot separate them. Same shape as **V-1** (Krug édition) and
+   **V-4** (Prévost lot).
+7. **Site authenticity is now a standing pre-check.** Four sites in Batches 6–7 looked like the
+   producer and were not (a self-declared fan page, a domain-for-sale page, a wedding photographer,
+   a Marseille photographer). Verify by legal notice, disclaimer text, reciprocal link from the
+   owner or appellation body, or an address matching a public register — before using any content.
 
 ## 3b. 🔴 Two model questions raised by Batch 4 (research cannot answer these)
 

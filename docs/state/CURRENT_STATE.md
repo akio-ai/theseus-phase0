@@ -48,14 +48,14 @@ with modified icon assets in the working tree.
 
 ## Active workstream — Producer Research Layer
 
-**Status: Batch 6 complete. Batch 7 in progress (Akio approved Batches 5–7 on 2026-08-05).**
+**Status: Batches 5, 6 and 7 complete. Stopped as instructed — Batch 8 is proposed, not started.**
 
 | | |
 |---|---|
-| Dossiers | **38** — `research/producers/*.md` |
-| OBP coverage | **325 / 704 bottles (46.2%)** — Batch 5 **+44**, Batch 6 **+36** |
-| Remaining | **144 producers / 379 bottles** |
-| Conflicts register | `research/canonical_conflicts/REGISTER.md` — 20 true conflicts, 54 false positives separated. **Batches 5 and 6 added no new entries** (they added evidence to C-4, C-5, S-2, P-1, P-7 and V-3) |
+| Dossiers | **44** — `research/producers/*.md` |
+| OBP coverage | **359 / 704 bottles (51.0%)** — Batch 5 **+44**, Batch 6 **+36**, Batch 7 **+34** |
+| Remaining | **138 producers / 345 bottles** |
+| Conflicts register | `research/canonical_conflicts/REGISTER.md` — 20 true conflicts, 54 false positives separated. **Batches 5, 6 and 7 added no new entries** (they added evidence to C-1, C-4, C-5, S-2, P-1, P-7, V-1, V-3 and V-4) |
 | Canonical writes | **Zero.** Read-only throughout |
 
 ⚠️ **Coverage figure corrected.** The pre-Batch-5 number was recorded as **256 / 704 (36.4%)**.
@@ -73,7 +73,8 @@ document use the recomputed basis.**
 | Batch 3 (6) | Egly-Ouriet, Drappier, Pierre Gimonnet & Fils, Laherte Frères, Jérôme Prévost, Frédéric Savart |
 | Batch 4 (6) | Pride Mountain Vineyards, Grgich Hills Estate, Domaine Dujac, Jacques-Frédéric Mugnier, Domaine Denis Mortet, Domaine de Montille |
 | Batch 5 (6) | Domaine Armand Rousseau, Ganevat, Domaine Billaud-Simon, Joseph Drouhin, Olivier Bernstein, Pol Roger |
-| **Batch 6 (6)** | **Domaine Bruno Clair, Domaine d'Eugénie, Domaine des Comtes Lafon, Jean-Claude Ramonet, Pierre-Yves Colin-Morey, Caroline Morey** |
+| Batch 6 (6) | Domaine Bruno Clair, Domaine d'Eugénie, Domaine des Comtes Lafon, Jean-Claude Ramonet, Pierre-Yves Colin-Morey, Caroline Morey |
+| **Batch 7 (6)** | **Domaine Laroche, Pierre Girardin, Mayacamas Vineyards, DuMOL, Jacques Selosse, Gosset** |
 
 **Batch 4 notes.** Two producers (Pride Mountain, Grgich Hills) had **no canonical producer record at
 all** — 18 OBP bottles were `producer_state = unresolved` purely for that reason. Both US dossiers
@@ -129,6 +130,29 @@ one-subregion-per-cuvée model cannot express; and de Montille's four Corton row
   menu `Montrachet Grand Cru` (leading article), and canonical `Chassagne-Montrachet Blanc` vs menu
   `Chassagne-Montrachet` (colour word in the name). The first is the same article-normalisation
   issue already recorded from Batch 4's de Montille; the second is solvable from the OBP section.
+
+**Batch 7 notes.**
+- **A fourth same-name trap**: `pierregirardin.com` is a Marseille photographer's portfolio. Not
+  used. Running total of sites that look like the producer and are not: **4** (Comtes Lafon,
+  Ramonet, Caroline Morey, Pierre Girardin).
+- **Mayacamas is the strongest winemaking record in the three batches** — per-varietal fermentation
+  vessel, maceration length, fermentation temperature, foudre volumes and wood origin, new-oak
+  percentage, total élevage and bottle conditioning, and *"Malolactic fermentation is prohibited"*
+  for the Chardonnay. Its site blocks scripted access outright (Cloudflare WAF), so the text was
+  read by ordinary browser viewing; no challenge was circumvented. Two internal contradictions are
+  preserved: estate size **475 vs 465 acres**, Cabernet blocks **12 vs 26**.
+- **`Mount Veeder Proprietary Blend` is not a cuvée name** — the producer calls it `Red Wine`. Same
+  shape as Batch 4's Grgich `'Estate,'`: the menu prints a category word as if it were the cuvée.
+- 🔴 **Selosse's `Le Bout du Clos` is on the menu under BLANC DE NOIRS, but the producer states the
+  parcel is 80% Pinot Noir / 20% Chardonnay** — the one exception among the six Lieux-Dits.
+- **Gosset's cuvée pages are entirely JS-rendered**, so only the official cuvée names could be
+  fixed. That was still decisive: the official name is **`Grande Réserve`** (both OBP *and*
+  canonical write `Grand Réserve`), `Celebris` **2002 is absent** from the official range, and
+  canonical carries **`Célébris` and `Celebris` as two accent variants** — which is exactly what
+  stalls the two OBP Celebris rows at `candidate`. Same shape as **C-1**.
+- **Three dossiers below the bar**: Selosse (~60%), DuMOL (~45%), Pierre Girardin (~25%).
+- **Quote-marks in canonical cuvée names reached 9 records** across Batches 5–7 (7 double-quoted,
+  2 single-quoted). A full sweep of all 781 cuvées is now warranted under **S-2**.
 
 Governing workflow: fixed template, **70% completeness bar**, four evidence layers never mixed
 (verified fact / source-derived / Akio's insight / unresolved), `## Akio's Insight` is

@@ -95,6 +95,36 @@ were composed by execution from the same ranking (OBP bottles unlocked, then abs
 canonical, then restaurant importance). **Bordeaux remained excluded** — the standing "do not start
 without instruction" on the Bordeaux batch was not lifted.
 
+**Outcome.** 18 dossiers delivered, **+114 OBP bottles (245 → 359 of 704; 34.8% → 51.0%)**.
+Canonical untouched. **No new conflict-register entries**; evidence added to C-1, C-4, C-5, S-2,
+P-1, P-7, V-1, V-3 and V-4. **Six dossiers are deliberately below the 70% bar and marked
+`awaiting material from the team`** — Ganevat, Comtes Lafon, Ramonet, Pierre-Yves Colin-Morey,
+Caroline Morey, Pierre Girardin (Selosse and DuMOL are partial). Execution stopped after Batch 7 as
+instructed; Batch 8 is proposed in `NEXT_ACTIONS.md`, not started.
+
+---
+
+## D-2026-08-05-09 — A site is not treated as official until its authenticity is checked
+
+**Date** 2026-08-05 · **Authority** Execution · **Status** In force
+
+**Decision.** Before any website is used as a producer's own source, confirm authenticity by at
+least one of: (a) a legal notice / mentions légales naming a publisher tied to the producer,
+(b) the absence of a disclaimer denying affiliation, (c) a reciprocal link from the owner or the
+appellation body, or (d) an address matching a public register such as Agence Bio. Cache anything
+rejected under a filename that says so (`FANPAGE_…`, `NOT_THE_PRODUCER_…`).
+
+**Reason.** Batches 6 and 7 hit four sites that carried the producer's exact name and were not the
+producer: `comtes-lafon.com` (self-declared "independent fan page … not affiliated with or endorsed
+by the official company", written in the first person with `/history` and `/philosophy` pages),
+`ramonet.fr` (Dovendi domain-for-sale page), `caroline-morey.com` (a Newport Beach wedding
+photographer), `pierregirardin.com` (a Marseille photographer). The first would have produced a
+plausible, detailed, entirely unusable dossier.
+
+**Consequence.** "Official sources only" is not satisfied by a matching domain name. Two sites
+passed the check in these batches: `brunoclair.com` (legal notice + contact) and
+`domaine-eugenie.com` (reciprocal link from Artémis Domaines, its owner).
+
 ---
 
 ## D-2026-08-05-08 — OBP coverage is recomputed from a checked-in script, not carried forward
@@ -111,8 +141,9 @@ likely cause (for example `Olivier Leflaive Frères` and `Anne-Claude Leflaive` 
 producers that a substring match folds into `Domaine Leflaive`). Rather than pick a number, the
 count is now derived by a script that lives next to the dossiers.
 
-**Applied as.** `research/producers/coverage.py`. Post-Batch-5: **289 / 704 (41.1%)**,
-32 dossiers, 150 producers / 415 bottles remaining.
+**Applied as.** `research/producers/coverage.py`. Post-Batch-5: **289 / 704 (41.1%)**, 32 dossiers.
+Post-Batch-6: **325 / 704 (46.2%)**, 38 dossiers. Post-Batch-7: **359 / 704 (51.0%)**, 44 dossiers,
+138 producers / 345 bottles remaining.
 
 ---
 

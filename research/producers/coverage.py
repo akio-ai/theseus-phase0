@@ -43,6 +43,13 @@ M={
  "jean-claude-ramonet":["Jean-Claude Ramonet"],
  "pierre-yves-colin-morey":["Pierre-Yves Colin-Morey"],
  "caroline-morey":["Caroline Morey"],
+    # Batch 7
+ "domaine-laroche":["Domaine Laroche"],
+ "pierre-girardin":["Pierre Girardin"],
+ "mayacamas-vineyards":["Mayacamas Vineyards"],
+ "dumol":["DuMOL"],
+ "jacques-selosse":["Jacques Selosse"],
+ "gosset":["Gosset"],
 }
 def key(r): return r.get('proposed_canonical_producer') or r.get('source_producer_raw')
 c=collections.Counter(key(r) for r in rows)
