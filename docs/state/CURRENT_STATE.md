@@ -48,14 +48,14 @@ with modified icon assets in the working tree.
 
 ## Active workstream — Producer Research Layer
 
-**Status: Batch 5 complete. Batch 6 in progress (Akio approved Batches 5–7 on 2026-08-05).**
+**Status: Batch 6 complete. Batch 7 in progress (Akio approved Batches 5–7 on 2026-08-05).**
 
 | | |
 |---|---|
-| Dossiers | **32** — `research/producers/*.md` |
-| OBP coverage | **289 / 704 bottles (41.1%)** — Batch 5 added **+44 bottles (+6.3 pts)** |
-| Remaining | **150 producers / 415 bottles** |
-| Conflicts register | `research/canonical_conflicts/REGISTER.md` — 20 true conflicts, 54 false positives separated. **Batch 5 added no new entries** (it added evidence to C-4, S-2, P-7 and V-3) |
+| Dossiers | **38** — `research/producers/*.md` |
+| OBP coverage | **325 / 704 bottles (46.2%)** — Batch 5 **+44**, Batch 6 **+36** |
+| Remaining | **144 producers / 379 bottles** |
+| Conflicts register | `research/canonical_conflicts/REGISTER.md` — 20 true conflicts, 54 false positives separated. **Batches 5 and 6 added no new entries** (they added evidence to C-4, C-5, S-2, P-1, P-7 and V-3) |
 | Canonical writes | **Zero.** Read-only throughout |
 
 ⚠️ **Coverage figure corrected.** The pre-Batch-5 number was recorded as **256 / 704 (36.4%)**.
@@ -72,7 +72,8 @@ document use the recomputed basis.**
 | Batch 2 (7) | Doyard, Dunoyer de Segonzac, Larmandier-Bernier, Les Monts Fournois, Michel Gonet, Pascal Agrapart, Pierre Péters |
 | Batch 3 (6) | Egly-Ouriet, Drappier, Pierre Gimonnet & Fils, Laherte Frères, Jérôme Prévost, Frédéric Savart |
 | Batch 4 (6) | Pride Mountain Vineyards, Grgich Hills Estate, Domaine Dujac, Jacques-Frédéric Mugnier, Domaine Denis Mortet, Domaine de Montille |
-| **Batch 5 (6)** | **Domaine Armand Rousseau, Ganevat, Domaine Billaud-Simon, Joseph Drouhin, Olivier Bernstein, Pol Roger** |
+| Batch 5 (6) | Domaine Armand Rousseau, Ganevat, Domaine Billaud-Simon, Joseph Drouhin, Olivier Bernstein, Pol Roger |
+| **Batch 6 (6)** | **Domaine Bruno Clair, Domaine d'Eugénie, Domaine des Comtes Lafon, Jean-Claude Ramonet, Pierre-Yves Colin-Morey, Caroline Morey** |
 
 **Batch 4 notes.** Two producers (Pride Mountain, Grgich Hills) had **no canonical producer record at
 all** — 18 OBP bottles were `producer_state = unresolved` purely for that reason. Both US dossiers
@@ -101,6 +102,33 @@ one-subregion-per-cuvée model cannot express; and de Montille's four Corton row
 - **A systematic canonical defect surfaced across three Batch-5 producers**: cuvée names stored with
   literal double quotes (`"Clos Saint-Jacques"`, `"Les Preuses"`, `"Mont de Milieu"`,
   `"Marquis de Laguiche"`). Recorded under **S-2**, not as new entries.
+
+**Batch 6 notes.**
+- 🔴🔴 **Three of the six had no usable producer source, and the failure mode was a trap, not an
+  absence.** `comtes-lafon.com` presents as the official site — first person, `/history`,
+  `/philosophy`, `/vineyards` — but its bundle carries the line *"This account is an independent fan
+  page … not affiliated with or endorsed by the official company."* `ramonet.fr` is a Dovendi
+  domain-for-sale page. `caroline-morey.com` is a Newport Beach wedding photographer. **None of
+  their content was used.**
+  → **New standing check before any site is treated as official: legal notice, disclaimer text,
+  reciprocal link from the owner/appellation body, or address matching a public register.**
+  In Batch 6 only `brunoclair.com` (legal notice + contact) and `domaine-eugenie.com` (reciprocal
+  link from Artémis Domaines) passed.
+- **Four dossiers are deliberately below the bar** — Comtes Lafon (~45%), Ramonet (~35%),
+  Pierre-Yves Colin-Morey (~30%), Caroline Morey (~30%). All are built from INAO cahiers des charges
+  and the Agence Bio register only, and all are marked **`awaiting material from the team`**.
+- **Bruno Clair states in writing why it is *not* certified organic** — to keep synthetic mildew
+  treatments available in years like 2016 — while using none in years like 2019–2020. It also
+  publishes a per-wine, per-vintage *drink now / lay down* table: **5 of the 6 OBP bottles are
+  `lay down` by the producer's own judgement.**
+- 🔴 **Domaine d'Eugénie's official wine list is 11 wines, all Pinot Noir — the three OBP whites
+  (Chassagne `Les Perclos`, Meursault 1er `Porusots`, Montrachet GC) are not on it**, although the
+  estate page does claim holdings in Chassagne-Montrachet and Meursault. **Their attribution is
+  unresolved and the dossier refuses to assert it.**
+- **Ramonet located the cause of two `candidate` stalls**: canonical `Le Montrachet Grand Cru` vs
+  menu `Montrachet Grand Cru` (leading article), and canonical `Chassagne-Montrachet Blanc` vs menu
+  `Chassagne-Montrachet` (colour word in the name). The first is the same article-normalisation
+  issue already recorded from Batch 4's de Montille; the second is solvable from the OBP section.
 
 Governing workflow: fixed template, **70% completeness bar**, four evidence layers never mixed
 (verified fact / source-derived / Akio's insight / unresolved), `## Akio's Insight` is
