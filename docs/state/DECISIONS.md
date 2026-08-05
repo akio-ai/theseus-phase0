@@ -104,6 +104,54 @@ instructed; Batch 8 is proposed in `NEXT_ACTIONS.md`, not started.
 
 ---
 
+## D-2026-08-05-10 — Batch 8 runs on the six proposed producers; stop after 8 unless capacity allows 9
+
+**Date** 2026-08-05 · **Authority** Akio · **Status** Applied
+
+**Decision.** Run **Batch 8** as the six producers already proposed in `NEXT_ACTIONS.md` —
+Taittinger, Domaine Roulot, Domaine Bachelet-Monnot, Michel Niellon, Domaine de L'Arlot,
+Clos de la Coulée de Serrant. On completion, **assess remaining context and usage**; continue
+directly into Batch 9 only if sufficient, otherwise **stop automatically**. **Batch 10 is
+prohibited.** All standing rules remain in force: the 70% bar, official sources only, technical
+sheet PDFs whenever available, preserve uncertainty, never invent, `## Akio's Insight` left empty,
+canonical read-only, canonical conflicts escalated only, **ADR-002 not started**, **Bordeaux batch
+not started**, and `docs/state/` updated after every completed batch.
+
+**Outcome.** 6 dossiers delivered, **+30 OBP bottles (359 → 389 of 704; 51.0% → 55.3%)**, 50
+dossiers total. Canonical untouched (`db_wine_canonical.json` mtime unchanged at 2026-07-28);
+`REGISTER.md` untouched. **Four cleared the bar** — L'Arlot ~88%, Coulée de Serrant ~88%,
+Taittinger ~85%, Bachelet-Monnot ~75%. **Two are deliberately below it** — Roulot ~60% and Michel
+Niellon ~60%, both marked `awaiting material from the team`.
+
+**Reason the two shortfalls are not execution failures.** In both cases the absence of a
+producer-authored source was **proved rather than assumed**: `domaineroulot.fr` is genuinely
+registered to Domaine Guy Roulot but serves an empty OVH placeholder; Michel Niellon has no domain
+at all and the village syndicat lists Instagram as the domaine's only channel. Padding either to
+70% would have required inventing winemaking and style, which the standing rules forbid. **A thin
+dossier with a heavy Must-Not-Say list is the correct deliverable here** — Niellon's list runs to
+12 entries, the longest in the batch.
+
+**What Batch 8 changed methodologically.** The no-official-site fallback established with Ganevat
+(Agence Bio → certifier → INAO) was extended with the **French state company register**
+(`recherche-entreprises.api.gouv.fr`) and the **DGFiP/Etalab cadastre**. That pairing settled
+`Les Luchets` — absent from the INAO Meursault cahier des charges, therefore **not** a Premier Cru,
+but present in the cadastre as a real lieu-dit. Two silent-failure traps are now on record:
+**INAO extranet filename conventions differ per appellation** (hyphenated, lowercase-unhyphenated,
+and fully unhyphenated forms all occur) and a wrong guess returns **HTTP 200 with HTML**; and
+**Coulée de Serrant's English pages are machine translations carrying different numbers from the
+French** — always take the French.
+
+**Escalated, not resolved.** Two new IDs are **proposed only** — `C-6` (colour-axis mis-assignment)
+and `P-8` (`founded_year = 1734` unsupported; the official origin is 1932). Three further shapes
+were left **deliberately unnumbered** because they fit no existing family: geographic
+*climat + sub-parcel* granularity, a non-year sentinel `vintage = '—'`, and classification drift
+within one cuvée. **`REGISTER.md` was not written to.** Numbering is CTO's call.
+
+**Applied as.** Six dossiers under `research/producers/`, plus the Batch 8 map in
+`research/producers/coverage.py`. **Reversal** is deletion of those files; nothing else was changed.
+
+---
+
 ## D-2026-08-05-09 — A site is not treated as official until its authenticity is checked
 
 **Date** 2026-08-05 · **Authority** Execution · **Status** In force
@@ -256,4 +304,4 @@ prohibited outright**; when no official source exists, record "awaiting material
 
 ## Last Updated
 
-2026-08-05 (updated after Batch 4)
+2026-08-05 (updated after Batch 8)

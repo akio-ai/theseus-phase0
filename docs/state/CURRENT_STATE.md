@@ -48,14 +48,14 @@ with modified icon assets in the working tree.
 
 ## Active workstream — Producer Research Layer
 
-**Status: Batches 5, 6 and 7 complete. Stopped as instructed — Batch 8 is proposed, not started.**
+**Status: Batch 8 complete.**
 
 | | |
 |---|---|
-| Dossiers | **44** — `research/producers/*.md` |
-| OBP coverage | **359 / 704 bottles (51.0%)** — Batch 5 **+44**, Batch 6 **+36**, Batch 7 **+34** |
-| Remaining | **138 producers / 345 bottles** |
-| Conflicts register | `research/canonical_conflicts/REGISTER.md` — 20 true conflicts, 54 false positives separated. **Batches 5, 6 and 7 added no new entries** (they added evidence to C-1, C-4, C-5, S-2, P-1, P-7, V-1, V-3 and V-4) |
+| Dossiers | **50** — `research/producers/*.md` |
+| OBP coverage | **389 / 704 bottles (55.3%)** — Batch 5 **+44**, Batch 6 **+36**, Batch 7 **+34**, Batch 8 **+30** |
+| Remaining | **132 producers / 315 bottles** |
+| Conflicts register | `research/canonical_conflicts/REGISTER.md` — 20 true conflicts, 54 false positives separated. **Batches 5–8 wrote no new entries.** Batch 8 added evidence to C-1, C-4 and S-2 and **proposes two new IDs (`C-6`, `P-8`) plus three unnumbered shapes — all awaiting CTO adjudication, none written** |
 | Canonical writes | **Zero.** Read-only throughout |
 
 ⚠️ **Coverage figure corrected.** The pre-Batch-5 number was recorded as **256 / 704 (36.4%)**.
@@ -74,7 +74,8 @@ document use the recomputed basis.**
 | Batch 4 (6) | Pride Mountain Vineyards, Grgich Hills Estate, Domaine Dujac, Jacques-Frédéric Mugnier, Domaine Denis Mortet, Domaine de Montille |
 | Batch 5 (6) | Domaine Armand Rousseau, Ganevat, Domaine Billaud-Simon, Joseph Drouhin, Olivier Bernstein, Pol Roger |
 | Batch 6 (6) | Domaine Bruno Clair, Domaine d'Eugénie, Domaine des Comtes Lafon, Jean-Claude Ramonet, Pierre-Yves Colin-Morey, Caroline Morey |
-| **Batch 7 (6)** | **Domaine Laroche, Pierre Girardin, Mayacamas Vineyards, DuMOL, Jacques Selosse, Gosset** |
+| Batch 7 (6) | Domaine Laroche, Pierre Girardin, Mayacamas Vineyards, DuMOL, Jacques Selosse, Gosset |
+| **Batch 8 (6)** | **Taittinger, Domaine Roulot, Domaine Bachelet-Monnot, Michel Niellon, Domaine de L'Arlot, Clos de la Coulée de Serrant (Famille Joly)** |
 
 **Batch 4 notes.** Two producers (Pride Mountain, Grgich Hills) had **no canonical producer record at
 all** — 18 OBP bottles were `producer_state = unresolved` purely for that reason. Both US dossiers
@@ -154,6 +155,102 @@ one-subregion-per-cuvée model cannot express; and de Montille's four Corton row
 - **Quote-marks in canonical cuvée names reached 9 records** across Batches 5–7 (7 double-quoted,
   2 single-quoted). A full sweep of all 781 cuvées is now warranted under **S-2**.
 
+**Batch 8 notes.**
+- **Four of six cleared the bar** — Domaine de L'Arlot (~88%), Clos de la Coulée de Serrant (~88%),
+  Taittinger (~85%), Bachelet-Monnot (~75%). **Two are deliberately below it and marked
+  `awaiting material from the team`**: Domaine Roulot (~60%) and Michel Niellon (~60%). In both
+  cases the blocker is the same and is now proven rather than assumed — **there is no
+  producer-authored text in existence to read.**
+- 🔴 **Absence of an official site was *proved*, not merely reported.** `domaineroulot.fr` is
+  genuinely registered to `Domaine Guy Roulot` (AFNIC WHOIS, since 2004) but serves an empty OVH
+  placeholder; `bachelet-monnot.com` resolves **MX-only** (Microsoft 365 + SPF, no A/AAAA record) —
+  an email-only domain; Michel Niellon has no domain at all (five candidates, all NXDOMAIN), and the
+  village syndicat lists **Instagram** as the domaine's "site internet". Agence Bio independently
+  corroborates each with an empty `siteWebs` field.
+- 🔴 **Public-register research now substitutes for a missing website, and it works.** The
+  Ganevat route (Agence Bio → certifier → INAO) was extended with the **French state company
+  register** (`recherche-entreprises.api.gouv.fr` — SIREN, address, officers, NAF) and the
+  **DGFiP/Etalab cadastre** (lieu-dit parcels). `Les Luchets` was settled by exactly this pairing:
+  **absent from the INAO Meursault cahier des charges** (therefore not a Premier Cru) but **present
+  in the cadastre** as a real lieu-dit of commune 21412. Farming for Roulot — no website at all —
+  is nonetheless the best-evidenced section in that dossier (Ecocert `FR-BIO-01`, first engagement
+  **2010-04-15**, `mixité: Non`, certificate covering *"Récoltes 2014 et suivantes"*).
+- 🔴 **Taittinger's canonical `founded_year = 1734` has no basis on the official site.** A full-site
+  scan found the only genuine 1734 refers to the **construction of the Château de la Marquetterie**,
+  a building. The house's own account of its origin is **1932** (Pierre Taittinger and Paul Evêque
+  acquiring Forest-Fourneaux, whose founding year the site never states). Proposed as **`P-8`**.
+  This one is floor-facing, which is what makes it urgent.
+- 🔴 **The matcher crossed a colour boundary.** OBP row 5 for Taittinger is printed in the **ROSÉ**
+  section but was proposed against the canonical **Blanc de Blancs** record. `Comtes de Champagne
+  Rosé` is a genuinely distinct wine — own product page, own technical sheet, Pinot-dominant with
+  Bouzy red, 12 years' ageing against 10. Canonical holds **only one** `Comtes de Champagne` record,
+  so the matcher has no structural means to discriminate colour. Proposed as **`C-6`**; same root
+  cause as **C-4**.
+- 🔴 **The OBP menu misstates the appellation on three bottles.** Coulée de Serrant's five rows all
+  print `Savennières`, but only `Les Vieux Clos` is AOC Savennières; the three `Coulée de Serrant`
+  bottles ($500 / $400 / $600) are **AOC Coulée de Serrant**, a standalone appellation. Triple-
+  sourced (domaine statement, INAO cahier des charges, Demeter product list). INAO further records
+  that the AOC was homologated as `Savennières Coulée de Serrant` in **November 2011** and
+  **renamed `Coulée de Serrant` in 2014** — so canonical's `classification` field carries the
+  **superseded** name. Same family as the Bordeaux `facts.subregion` trap.
+- 🔴 **Canonical prose is carrying unsourced assertions into floor-facing copy.** Verifying the
+  Coulée de Serrant record against official sources found `extended aging` **wrong** (official
+  élevage is **6–8 months**), `subregion` flattening three AOCs into one string, and the drinking
+  window, tasting notes and *"market price from $100"* resting on nothing — the domaine publishes no
+  per-vintage notes at all. INAO gives the vineyard as **6 ha 87 a**, not the 7 ha canonical states.
+  Bachelet-Monnot shows the same shape from the other side: its two village records carry a Vinous
+  score (`89〜91点（ヴィナス）`) inside `obp_note`, while the **$880 / $680 / $640 1er Crus are empty
+  shells**. The most expensive bottles are the hardest to talk about.
+- **Michel Niellon: only 1 of 5 printed climat names matches INAO.** `Les Chenevottes` is exact;
+  `Clos Saint Jean` → `Clos Saint-Jean`, `Les Chaumees` → `Les Chaumées`, `Les Champs Gains` →
+  `Les Champs gain` (singular, lowercase `g` — a **plural difference no normalisation rule bridges**,
+  requiring an explicit alias). 🔴 **`Clos de la Maltroie` is supported by no source whatsoever** —
+  INAO records `La Maltroie`, and the domaine's own list writes `« La Maltroie »`. Needs a physical
+  label. Confusion risk with the separate **Château de la Maltroye** is recorded in Must-Not-Say.
+- **A model gap on the geographic axis.** Niellon row 4 prints `'Les Chaumees, Clos de la
+  Truffiere,'` — a 1er Cru climat *plus* a named clos inside it. `Truffière` occurs **zero times**
+  anywhere in the Chassagne cahier des charges: it sits **below the appellation's legal
+  granularity**. A one-string cuvée model cannot express *climat + sub-parcel*. Structurally akin to
+  `V-3` (one key is insufficient) but on the geographic rather than the release axis. **No new
+  number was opened** — absorb-or-open is CTO's call.
+- **L'Arlot's monopole map corrects a likely floor assumption.** Three clos are monopoles —
+  `Clos des Forêts Saint Georges` (7.2 ha), `Clos de l'Arlot`, `Clos du Chapeau` (1.6 ha) — while
+  **Les Suchots and Romanée-Saint-Vivant are not.** The cheapest OBP row ($210 Clos du Chapeau)
+  *is* a monopole; the $3,700 Romanée-Saint-Vivant is not. **RSV 2023 is officially confirmed**
+  (producer-signed fiche technique; first Arlot vintage was **1991**).
+- ⚠️ **A producer can contradict itself, and both readings must be kept.** L'Arlot's website gives
+  three different organic dates in one sentence (practices since 2000 / AB certification 2014 /
+  organic farming initiated 2003); the Agence Bio register gives `datePremierEngagement`
+  **2010-07-16**. Neither is asserted alone. Similarly Roulot's two legal entities (SCEA 1983, GFA
+  2012) are reported as registry data and explicitly **not** interpreted as a succession story.
+- **Importer sheets were rejected on authorship, not on content.** A Kermit Lynch PDF for Roulot
+  carrying vineyard hectares, vine ages and a founding date was refused — third-person marketing,
+  no domaine byline — and cached as `IMPORTER_…`. The same test excluded Skurnik and Grand Cru
+  Selections for Bachelet-Monnot. **The importer-technical-sheet exception requires demonstrable
+  domaine authorship; none of these met it.**
+- ⚠️ **Two silent-failure traps to carry forward.** (1) **INAO extranet filenames are inconsistent
+  across appellations** — hyphenated works for Chassagne-Montrachet, all-lowercase-no-hyphen
+  (`pnocdcpuligny-montrachet.pdf`) for Puligny, and **no hyphens at all**
+  (`PNOCDCSavennieresCouleeDeSerrant.pdf`) for Savennières. A wrong guess returns **HTTP 200 with
+  HTML**, so it fails silently; always verify the body is a real PDF. (2) **Coulée de Serrant's
+  English pages are degraded machine translation** with *different numbers* from the French
+  (`Coulée`→"Casting", `rendement`→"output"). **Always take the French.**
+- **Site authenticity: zero look-alikes adopted, and one instructive near-miss.** No fake producer
+  site appeared in Batch 8. The Chassagne-Montrachet village syndicat site passed three of four
+  checks — its Niellon page's address matches the company register **exactly** — but has **no legal
+  notice**, so it was capped at `📄` and never `✅`, with every narrative claim drawn from it sealed
+  in Must-Not-Say. Two adjacency risks were held strictly separate: Nicolas Joly's
+  `renaissance-des-appellations.com` (his association, not the domaine) and his books, neither used
+  as a fact source.
+- ⚠️ **The intake file and the store-layer mapping disagree.** For Bachelet-Monnot,
+  `obp_intake_normalized_20260804.json` reports all five rows `match_state = exact`, but
+  `research/out/t-01/mapping.json` resolves only the three 1er Crus to `canonical_release`; both
+  village Pulignys fall to a `research_shell` (`rs:pro:3b2de71b94633613`) with only the producer
+  bound. Accurate phrasing is **producer 5/5, release 3/5**. Canonical records for the village wines
+  *do* exist, so this reads as a wiring gap rather than missing data. **Coverage figures in this
+  document are computed from the intake file** via `coverage.py` and are unaffected, but the
+  discrepancy needs adjudication before anyone reports "resolved" counts from the store layer.
+
 Governing workflow: fixed template, **70% completeness bar**, four evidence layers never mixed
 (verified fact / source-derived / Akio's insight / unresolved), `## Akio's Insight` is
 **Akio-only and never written or rewritten by anyone else**, official sources only
@@ -173,12 +270,22 @@ Governing workflow: fixed template, **70% completeness bar**, four evidence laye
 Everything below is **waiting on Akio**, not on execution capacity. See
 [`NEXT_ACTIONS.md`](NEXT_ACTIONS.md).
 
-1. Batch 5 approval (producer research)
+1. **Batch 9 approval** (producer research) — Batch 8 is complete; nothing auto-advances
 2. Review / merge of PR #5
-3. Hero artwork confirmation (ARIADNE)
-4. Schema-change permission (aroma intensity / complexity / 11-family taxonomy — all need migrations)
-5. Fruit Basket: ship or not
-6. `Les Hautes Mottes 2018` — physical bottle or importer sheet needed
+3. **Conflict-register adjudication from Batch 8** — accept or reject proposed `C-6` and `P-8`, and
+   decide whether three unnumbered shapes get numbers: the geographic *climat + sub-parcel* gap
+   (Niellon), a non-year sentinel `vintage = '—'` (Roulot), and classification drift within one
+   cuvée (`Premier Cru` vs `1er Cru`, Bachelet-Monnot)
+4. **Unsourced canonical prose in floor-facing copy** — `obp_note` fields carry critic scores and
+   claims contradicted by official sources (Coulée de Serrant, Bachelet-Monnot). Scope unknown; a
+   sweep is warranted before anyone treats `obp_note` as trustworthy
+5. Hero artwork confirmation (ARIADNE)
+6. Schema-change permission (aroma intensity / complexity / 11-family taxonomy — all need migrations)
+7. Fruit Basket: ship or not
+8. `Les Hautes Mottes 2018` — physical bottle or importer sheet needed
+9. **Physical-label checks now blocking four rows** — `Clos de la Maltroie` (Niellon, unsupported by
+   any source), `Clos de` vs `Clos des Bouchères` (Roulot), `La` vs `Clos de la Coulée de Serrant`,
+   and Taittinger row 5 Rosé-vs-BdB 2012. All are floor tasks, not research tasks
 
 ## Operating constraints in force
 
@@ -195,4 +302,4 @@ Everything below is **waiting on Akio**, not on execution capacity. See
 
 ## Last Updated
 
-2026-08-05
+2026-08-05 (updated after Batch 8)

@@ -12,45 +12,64 @@
 
 ---
 
-## 1. 🔴 Approve Batch 8 (producer research)
+## 1. 🔴 Approve Batch 9 (producer research)
 
-**Batches 5, 6 and 7 are closed and committed** (D-2026-08-05-07). Execution stopped after Batch 7
-as instructed. **Batch 8 is proposed but must not start without approval.**
+**Batch 8 is closed and committed** (D-2026-08-05-10). **Batch 9 is proposed but must not start
+without approval.**
 
-Coverage now **359 / 704 bottles (51.0%)** across **44 dossiers**. Remaining: **138 producers /
-345 bottles**. The curve is flat from here — no remaining producer unlocks more than 5 bottles.
+Coverage now **389 / 704 bottles (55.3%)** across **50 dossiers**. Remaining: **132 producers /
+315 bottles**. The curve is flat and getting flatter — **no remaining producer unlocks more than 5
+bottles**, and after the 5-bottle tier is exhausted the next tier is 4.
 
-Proposed, ranked by OBP bottles unlocked (`research/producers/coverage.py` reproduces the ranking):
+### Shape A — six more new producers (+30 bottles → ~59.6%)
+
+Ranked by OBP bottles unlocked (`research/producers/coverage.py` reproduces the ranking):
 
 | Producer | OBP bottles | canonical | note |
 |---|---|---|---|
-| **Jacques Selosse — finish** | (0 new) | exists | 🔴 see below |
-| Taittinger | 5 | exists | Champagne, blanc de blancs |
-| Domaine Roulot | 5 | exists | Meursault |
-| Domaine Bachelet-Monnot | 5 | exists | Côte de Beaune whites |
-| **Michel Niellon** | 5 | **absent** | Chassagne-Montrachet |
-| Domaine de L'Arlot | 5 | exists | Nuits-Saint-Georges |
-| **Clos de la Coulée de Serrant (Nicolas Joly)** | 5 | exists (alias) | Loire; the only non-Burgundy/Champagne block left at 5 |
+| **Harlan Estate** | 5 | to verify | Napa; publishes per-vintage data |
+| **Hundred Acre** | 5 | to verify | Napa |
+| **Abreu** | 5 | to verify | Napa |
+| **Clos de Tart** | 5 | to verify | Burgundy monopole Grand Cru |
+| **Armand Heitz** | 5 | to verify | Côte de Beaune |
+| **Bergström** | 5 | to verify | Oregon |
 
-**Total 30 bottles** → coverage to roughly **55%**.
+🔴 **Note the composition shift.** The 5-bottle tier is now **majority New World** (Harlan, Hundred
+Acre, Abreu, Bergström). On the Batch 4 evidence — Pride Mountain and Grgich Hills both reached
+**High** confidence because US wineries publish per-vintage technical data — this batch is likely to
+land *higher* than Batch 8, which was dominated by small Burgundian domaines that publish nothing.
+`Famille Mousse` (5, Champagne) is also available if a French producer is wanted in the mix.
 
-**Alternative shape worth considering instead.** Six of the eighteen dossiers just delivered are
-below the 70% bar purely because a producer-authored source could not be found or could not be
-read. Four of those are recoverable with work already scoped:
+### Shape B — repair batch (+0 bottles, lifts 6–8 existing dossiers)
+
+**Eight dossiers now sit below the bar.** Batch 8 added two, and both are **permanently blocked by
+absence of any producer-authored text** — no amount of browser rendering will fix them:
 
 | Dossier | Current | Blocker | Fix |
 |---|---|---|---|
-| **Gosset** | ~35% | cuvée pages are JS-rendered | **browser rendering** — highest value per unit of work in the whole set |
-| **Mayacamas** | 70%+ | `trade_assets` blocked to scripts | browser rendering → per-vintage data for all 6 OBP bottles |
+| **Gosset** | ~35% | cuvée pages JS-rendered | **browser rendering** — still the best value in the set |
+| **Mayacamas** | 70%+ | `trade_assets` blocked to scripts | browser rendering → per-vintage data, 6 bottles |
 | **DuMOL** | ~45% | two `/about/` sub-pages unread | fetch two pages |
 | **Domaine Laroche** | 70%+ | history page JS-rendered | browser rendering |
+| **Michel Niellon** | ~60% | 🔴 **no site exists**; Instagram is the only channel | render Instagram captions; query the syndicat |
+| **Domaine Roulot** | ~60% | 🔴 **no site exists** (OVH placeholder) | **procurement only** — domaine-authored sheet |
+| Ganevat / Comtes Lafon / Ramonet / PY Colin-Morey / Caroline Morey / Pierre Girardin | 25–55% | same | **procurement only** |
 
-A "repair batch" would add **0 bottles of coverage** but would lift four dossiers and close roughly
-half the outstanding `awaiting material from the team` items. **Which shape to run is Akio's call.**
+🔴 **Shape B is now mostly a procurement task, not a research task.** Only the top four rows are
+recoverable by execution. **Which shape to run is Akio's call.**
+
+### Shape C — data-integrity sweep (+0 bottles, unblocks the matcher)
+
+Batch 8 surfaced two defects whose **true scope is unknown** and which are cheap to measure:
+1. **Unsourced prose in `obp_note`** — critic scores and claims contradicted by official sources are
+   already reaching floor-facing copy (Coulée de Serrant, Bachelet-Monnot). **Nobody knows how many
+   records are affected.**
+2. **The `S-2` quote-mark sweep across all 781 cuvées**, still outstanding from Batch 7 and now
+   6 records larger.
 
 **Bordeaux remains excluded** (Margaux 8, Haut-Brion 6, Latour 6, Mouton-Rothschild 6, Giscours 6,
-d'Yquem 6, Palmer 5, Cos d'Estournel 4 — **47 bottles**), per the standing reason below. It is now
-by far the largest single block left.
+d'Yquem 6, Palmer 5, Cos d'Estournel 4 — **47 bottles**), per the standing reason below. It remains
+by far the largest single block left, and is now **15% of everything outstanding**.
 
 ## 2. ⚪ Bordeaux batch — proposed, explicitly not started
 
@@ -102,6 +121,50 @@ One sub-decision remains open:
    producer and were not (a self-declared fan page, a domain-for-sale page, a wedding photographer,
    a Marseille photographer). Verify by legal notice, disclaimer text, reciprocal link from the
    owner or appellation body, or an address matching a public register — before using any content.
+
+## 3d. 🔴 Questions raised by Batch 8 that research cannot answer
+
+1. 🔴 **Two new conflict IDs are proposed and unadjudicated — `REGISTER.md` was not written to.**
+   **`C-6`** (colour-axis mis-assignment: a ROSÉ-section row proposed against a Blanc de Blancs
+   record, because canonical holds only one `Comtes de Champagne` cuvée) and **`P-8`**
+   (`founded_year = 1734` for Taittinger has no basis on the official site; the house's own origin
+   is **1932**). Both are High confidence. **Accept, reject or renumber.**
+2. 🔴 **Three shapes were deliberately left unnumbered** because they fit no existing family:
+   (a) **geographic granularity** — `climat + sub-parcel` (`Les Chaumées, Clos de la Truffière`)
+   cannot be expressed by a one-string cuvée model; akin to `V-3` but on a different axis;
+   (b) **a non-year sentinel** — `roulot-perrieres` holds `vintage = '—'` (U+2014), which is neither
+   `V-1`/`V-4` (meaningful release identifiers) nor `S-2`; **a DB-wide sweep for non-4-digit
+   vintages should precede numbering**; (c) **classification drift inside one cuvée** —
+   `folatieres-2022` says `Puligny-Montrachet Premier Cru`, `folatieres-2023` says
+   `Puligny-Montrachet 1er Cru`.
+3. 🔴 **Unsourced canonical prose is reaching floor-facing copy, and the scope is unmeasured.**
+   Verifying the Coulée de Serrant record against official sources found `extended aging` **wrong**
+   (official élevage is 6–8 months), a `classification` carrying the **superseded** appellation name,
+   a `subregion` flattening three AOCs, and a market-price claim with no basis. Bachelet-Monnot
+   carries a **Vinous score inside `obp_note`**. **This is a canonical-quality question, not a
+   research one** — and it is the highest-severity finding of the batch, because this text is what
+   staff read.
+4. 🔴 **The intake file and the store-layer mapping disagree on what is resolved.** Bachelet-Monnot
+   is `match_state = exact` on all five rows in `obp_intake_normalized_20260804.json`, but
+   `research/out/t-01/mapping.json` binds only the three 1er Crus to `canonical_release` — the two
+   village Pulignys fall to a `research_shell` **despite their canonical records existing**. Reads
+   as a wiring gap. **Until adjudicated, "resolved" counts must state which artifact they came from.**
+5. 🔴 **Four rows now need a physical label** — no online source can settle them:
+   `Clos de la Maltroie` (Niellon; **supported by no source at all** — INAO and the domaine both
+   write `La Maltroie`), `Clos de` vs `Clos des Bouchères` (Roulot; INAO records neither, only
+   `Les Bouchères`), `La Coulée de Serrant` vs the menu's `Clos de la Coulée de Serrant` (the latter
+   **appears nowhere on the domaine's site**), and Taittinger row 5 (Rosé 2012 vs BdB 2012 — both
+   genuinely exist; only the menu's section heading distinguishes them).
+6. 🔴 **The OBP menu misstates the appellation on three Coulée de Serrant bottles** ($500 / $400 /
+   $600 print `Savennières`; they are **AOC Coulée de Serrant**). Triple-sourced. **Menu-side
+   correction, not a canonical edit.**
+7. **`Les Champs Gains` needs an explicit alias, not a normalisation rule.** INAO writes
+   `Les Champs gain` (singular, lowercase `g`), the syndicat writes `Le Champgains`, the menu writes
+   `Les Champs Gains` — **three variants, and a plural difference no rule bridges.**
+8. **Article normalisation must not be applied blindly.** Meursault's own 1er cru list is internally
+   inconsistent — INAO writes `Les Bouchères` **with** an article and `Perrières` **without** one —
+   so a blanket `de`/`des`/`Les` rule would introduce errors. Any fix must diff against the INAO
+   list per appellation. This qualifies the request in §3c-3 and §3b-2.
 
 ## 3b. 🔴 Two model questions raised by Batch 4 (research cannot answer these)
 
@@ -172,4 +235,4 @@ alcohol and disgorgement dates. Not attempted.
 
 ## Last Updated
 
-2026-08-05 (updated after Batch 4)
+2026-08-05 (updated after Batch 8)

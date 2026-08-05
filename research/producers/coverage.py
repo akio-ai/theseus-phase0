@@ -50,6 +50,13 @@ M={
  "dumol":["DuMOL"],
  "jacques-selosse":["Jacques Selosse"],
  "gosset":["Gosset"],
+    # Batch 8
+ "taittinger":["Taittinger"],
+ "domaine-roulot":["Domaine Roulot"],
+ "domaine-bachelet-monnot":["Domaine Bachelet-Monnot"],
+ "michel-niellon":["Michel Niellon"],
+ "domaine-de-l-arlot":["Domaine de L'Arlot"],
+ "clos-de-la-coulee-de-serrant":["Clos de la Coulée de Serrant (Nicolas Joly)"],
 }
 def key(r): return r.get('proposed_canonical_producer') or r.get('source_producer_raw')
 c=collections.Counter(key(r) for r in rows)
