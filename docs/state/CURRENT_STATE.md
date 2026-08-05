@@ -48,13 +48,16 @@ with modified icon assets in the working tree.
 
 ## Active workstream — Producer Research Layer
 
-**Status: Batch 8 complete.**
+**Status: Batch 8 complete. 🔴 Batch 9 stopped at 3 of 6 — the monthly API spend limit was
+reached mid-run.** Not an execution failure and not a research blocker: the three remaining
+producers have **full source caches already on disk**, so resuming is cheap once the limit is
+raised. See §"Batch 9 (partial)" below.
 
 | | |
 |---|---|
-| Dossiers | **50** — `research/producers/*.md` |
-| OBP coverage | **389 / 704 bottles (55.3%)** — Batch 5 **+44**, Batch 6 **+36**, Batch 7 **+34**, Batch 8 **+30** |
-| Remaining | **132 producers / 315 bottles** |
+| Dossiers | **53** — `research/producers/*.md` |
+| OBP coverage | **404 / 704 bottles (57.4%)** — Batch 5 **+44**, Batch 6 **+36**, Batch 7 **+34**, Batch 8 **+30**, Batch 9 (partial) **+15** |
+| Remaining | **129 producers / 300 bottles** |
 | Conflicts register | `research/canonical_conflicts/REGISTER.md` — 20 true conflicts, 54 false positives separated. **Batches 5–8 wrote no new entries.** Batch 8 added evidence to C-1, C-4 and S-2 and **proposes two new IDs (`C-6`, `P-8`) plus three unnumbered shapes — all awaiting CTO adjudication, none written** |
 | Canonical writes | **Zero.** Read-only throughout |
 
@@ -75,7 +78,8 @@ document use the recomputed basis.**
 | Batch 5 (6) | Domaine Armand Rousseau, Ganevat, Domaine Billaud-Simon, Joseph Drouhin, Olivier Bernstein, Pol Roger |
 | Batch 6 (6) | Domaine Bruno Clair, Domaine d'Eugénie, Domaine des Comtes Lafon, Jean-Claude Ramonet, Pierre-Yves Colin-Morey, Caroline Morey |
 | Batch 7 (6) | Domaine Laroche, Pierre Girardin, Mayacamas Vineyards, DuMOL, Jacques Selosse, Gosset |
-| **Batch 8 (6)** | **Taittinger, Domaine Roulot, Domaine Bachelet-Monnot, Michel Niellon, Domaine de L'Arlot, Clos de la Coulée de Serrant (Famille Joly)** |
+| Batch 8 (6) | Taittinger, Domaine Roulot, Domaine Bachelet-Monnot, Michel Niellon, Domaine de L'Arlot, Clos de la Coulée de Serrant (Famille Joly) |
+| **Batch 9 (3 of 6)** | **Harlan Estate, Clos de Tart, Armand Heitz** — 🔴 **Hundred Acre, Abreu, Bergström not written** (spend limit) |
 
 **Batch 4 notes.** Two producers (Pride Mountain, Grgich Hills) had **no canonical producer record at
 all** — 18 OBP bottles were `producer_state = unresolved` purely for that reason. Both US dossiers
@@ -251,6 +255,66 @@ one-subregion-per-cuvée model cannot express; and de Montille's four Corton row
   document are computed from the intake file** via `coverage.py` and are unaffected, but the
   discrepancy needs adjudication before anyone reports "resolved" counts from the store layer.
 
+**Batch 9 notes (partial — 3 of 6 delivered).**
+- **All three delivered dossiers cleared the bar comfortably**: Clos de Tart ~90%, Armand Heitz
+  ~90%, Harlan Estate ~85%. The New World / corporate-estate hypothesis in the Batch 9 proposal
+  held — these producers publish per-vintage technical data, and none of the three needed the
+  no-website fallback route.
+- 🔴 **Three producers were not written.** `hundred-acre`, `abreu-vineyards` and `bergstrom-wines`
+  have **source caches on disk** (122 / 42 / 70 files in `research/producers/_sources/`) but **no
+  dossier**. Their research is done; only the writing is missing. **They are deliberately absent
+  from `coverage.py`** — a cached source is not a dossier and must not count as coverage.
+- 🔴 **`Harlan Estate` and `The Mascot` are different legal entities.** `The Mascot, LLC.` is named
+  verbatim in its own legal terms, and draws fruit from the **younger vines of three separate
+  estates** (Harlan Estate, Promontory, the BOND vineyards), vinified at each winery and combined
+  only at the final blending table. `harlanestate.com` never mentions it. **3 of the 5 Harlan OBP
+  rows are therefore attributed to the wrong producer.** Escalated, not fixed.
+- 🔴 **A third instance of the menu printing a category word as a cuvée name.**
+  `Oakville Proprietary Blend` ($5,600) is not a name — the wine is simply **`Harlan Estate`**, and
+  the string `Proprietary Blend` appears in no official source. Identical to Batch 7's Mayacamas
+  (`Red Wine`) and Batch 4's Grgich (`'Estate,'`). Related catch: **`Oakville` must not be recorded
+  as the appellation** — 27 CFR §9.134 puts the AVA's western boundary at the 500-foot contour while
+  the producer's own geology essay places the vineyards at **325–550 feet**, straddling it, and the
+  official site states no appellation at all.
+- 🔴 **A producer/cuvée same-string collision — a new shape, left unnumbered.** For Clos de Tart the
+  `producer` and the cuvée `name` are the identical string, producing the entity
+  `cuvee:clos-de-tart-clos-de-tart`. Demonstrable harm: `La Forge de Tart` scores **0.7143** against
+  `Clos de Tart` on the tokens `de` + `Tart` — **both of them producer-name tokens** bleeding into
+  cuvée matching. A canonical-wide inventory is needed (`Clos des Lambrays`, `Château Latour` … are
+  the same shape) **before** anyone assigns a number.
+- **Clos de Tart's statutory basis for `La Forge de Tart` was found, not assumed.** Morey-Saint-Denis
+  cahier des charges **IV.2°c)** lets wine from the delimited Clos de Tart parcels claim MSD premier
+  cru ***sans nom du climat d'origine***. `La Forge` is an estate sub-plot name, not a classified
+  climat. Ownership is **Artémis Domaines since 2018** (Mommessin 1932–2018), and the Ecocert
+  registration `dateEngagement 2018-04-16` closes the prior Bureau Veritas registration **on the
+  same day** — a clean handover matching the ownership change.
+- 🔴 **Canonical prose failed verification for a third and fourth producer.** `clos-de-tart-2018`
+  states `aging: "new oak 50%"` against an official **80%**, `7.5ha` against **7.53**, names two
+  winemakers found in **no** official source, carries an unsourced `points: 96`, and its Japanese
+  description calls the owner a retail conglomerate rather than Artémis Domaines. This now spans
+  Coulée de Serrant, Bachelet-Monnot, Clos de Tart and (per Armand Heitz) canonical élevage months.
+  **`obp_note` and `description` are not trustworthy without verification.**
+- ⚠️ **Armand Heitz bounded an unanswerable question rather than guessing it.** OBP row 5
+  ($3,400 Chevalier-Montrachet) prints `?` for the vintage. The producer states 2013 was its first
+  millésime, so the candidate set is "2013 onward" — **the dossier establishes the ceiling and
+  refuses to name a year.** The parcel is **0.0966 ha**. Also confirmed: INAO *and* the producer
+  both write **`Perrières` without the article**; only the menu adds `Les`.
+- 🔴 **The intake ↔ mapping divergence is now confirmed three times** — Bachelet-Monnot (Batch 8),
+  Clos de Tart and Armand Heitz (Batch 9). In each case `obp_intake_normalized_20260804.json`
+  reports a cuvée-level `exact` match that `research/out/t-01/mapping.json` does not carry. **Two
+  independent agents flagged it unprompted, one of them pushing back on a briefing premise.** This
+  is systematic, not incidental. **Coverage figures in this document come from the intake file via
+  `coverage.py` and are unaffected**, but no "resolved" count should be quoted without naming its
+  artifact.
+- **A fifth look-alike site, and a refusal worth recording.** `themascotwine.com` is a GoDaddy
+  parking lander; the real site is **`mascotwine.com`** — a one-letter trap. Separately, when the
+  **TTB COLA registry** returned a bot challenge demanding a CAPTCHA, execution **declined to
+  bypass it** and recorded the label data as unverified rather than substituting a merchant source.
+- **Two more INAO filename forms** beyond Batch 8's three: `PNOCDCClos-de-Tart.pdf` and
+  `PNOCDC-MoreySaintDenis.pdf`. Seven wrong guesses again returned **HTTP 200 with HTML**. Also:
+  `clos-de-tart.com` publishes **no `robots.txt` and no sitemap**, and every unknown URL returns a
+  183 KB soft-404 at HTTP 200 — URL structure had to be read off the homepage navigation.
+
 Governing workflow: fixed template, **70% completeness bar**, four evidence layers never mixed
 (verified fact / source-derived / Akio's insight / unresolved), `## Akio's Insight` is
 **Akio-only and never written or rewritten by anyone else**, official sources only
@@ -302,4 +366,4 @@ Everything below is **waiting on Akio**, not on execution capacity. See
 
 ## Last Updated
 
-2026-08-05 (updated after Batch 8)
+2026-08-05 (updated after Batch 9, partial)

@@ -152,6 +152,76 @@ within one cuvée. **`REGISTER.md` was not written to.** Numbering is CTO's call
 
 ---
 
+## D-2026-08-05-11 — Batch 9 stops at 3 of 6; a cached source is not a dossier
+
+**Date** 2026-08-05 · **Authority** Execution (forced) · **Status** Applied
+
+**Decision.** Batch 9 was authorised to run directly after Batch 8 if context and usage allowed.
+It ran on six producers and **stopped at three**: the **monthly API spend limit** was reached while
+four agents were mid-run. **Count only the three dossiers actually written.** The three unwritten
+producers are **excluded from `coverage.py`** even though their source caches are complete.
+
+**Reason.** Coverage must mean "a sommelier can speak from this", not "bytes were fetched".
+`hundred-acre` (122 cached files), `bergstrom-wines` (70) and `abreu-vineyards` (42) have full
+research on disk and **no dossier**. Counting them would inflate the figure with work no one can
+read. This is the same discipline as the 70% bar: **the deliverable is the dossier.**
+
+**Outcome.** 3 dossiers delivered, **+15 OBP bottles (389 → 404 of 704; 55.3% → 57.4%)**, 53
+dossiers total. Canonical untouched; `REGISTER.md` untouched. Harlan Estate ~85%, Clos de Tart
+~90%, Armand Heitz ~90% — **all three cleared the bar**, supporting the proposal's hypothesis that
+New World and corporate-estate producers publish enough to score higher than small Burgundian
+domaines. **Armand Heitz's dossier was fully written before its agent died**; only the agent's
+report back was lost, and the file was verified independently.
+
+**Resumption is cheap and should be step 1.** All three surviving agents reported research complete
+and were composing the dossier when killed. **Resuming costs the writing pass, not the research.**
+
+**Escalated, not resolved.** A **new shape, deliberately unnumbered**: a producer/cuvée same-string
+collision (Clos de Tart), where `producer` and cuvée `name` are identical and producer-name tokens
+bleed into cuvée matching — `La Forge de Tart` scores 0.7143 against `Clos de Tart` on `de` + `Tart`.
+A canonical-wide inventory (`Clos des Lambrays`, `Château Latour`, …) must precede numbering. Also
+escalated: **`The Mascot` is a separate legal entity from Harlan Estate**, so 3 OBP rows are
+misattributed; and **`Oakville Proprietary Blend` is not a cuvée name** — the third instance of the
+menu printing a category word, after Mayacamas and Grgich.
+
+**Reversal.** Deletion of the three dossiers and their `coverage.py` entries; nothing else changed.
+
+---
+
+## D-2026-08-05-12 — The canonical integrity sweep is measurement, not adjudication
+
+**Date** 2026-08-05 · **Authority** Execution · **Status** Applied · **Reversible**
+
+**Decision.** Answer the two questions Batch 8 left open with a checked-in, reproducible script —
+`research/canonical_conflicts/sweep_integrity.py` — that **reads canonical and writes nothing.**
+`REGISTER.md` is not modified; numbering and remedy remain the CTO's call under D-2026-08-04-03.
+
+**Findings.** Both defects are an order of magnitude larger than the estimates that prompted them:
+
+| | Prior estimate | **Measured** | Share of canonical |
+|---|---|---|---|
+| `S-2` embedded quote marks in cuvée names | 9 (Batch 7) | **175** | **18.9%** |
+| `vintage = '—'` em-dash sentinel | 1 (Batch 8) | **328** across **182 producers** | **35.3%** |
+
+**Reason the numbers moved.** The Batch 7 figure of 9 was a **sample** of the producers then being
+researched, never a count. Nobody had swept the whole set.
+
+🔴 **The load-bearing finding is not the size — it is that the `vintage` field carries three
+different meanings at once.** `'—'` is a true null (328); `'NV'` is legitimate and correct for
+non-vintage Champagne (88); and **24 records encode a base year inside the vintage string in five
+mutually incompatible notations** — `NV · based on 2006`, `NV (Base: 2018)`, `NV · 2022 Base`,
+`NV (LC21)`, `NV（2022）` (full-width parentheses). That third group is family **`V-1`**, not a
+sentinel. **A single "fix the vintage field" migration would destroy the Krug base-year data.**
+
+The sweep also isolates **78 records whose names contain a legitimate French elision**
+(`L'Esprit`, `Réserve de l'Abbaye`). **These are correct and must not be caught by any `S-2` fix** —
+which is precisely why the script classifies paired quote marks separately from apostrophes rather
+than counting quote characters.
+
+**Reversal.** Delete the script; it has no side effects.
+
+---
+
 ## D-2026-08-05-09 — A site is not treated as official until its authenticity is checked
 
 **Date** 2026-08-05 · **Authority** Execution · **Status** In force
@@ -304,4 +374,4 @@ prohibited outright**; when no official source exists, record "awaiting material
 
 ## Last Updated
 
-2026-08-05 (updated after Batch 8)
+2026-08-05 (updated after Batch 9, partial)

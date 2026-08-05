@@ -12,33 +12,38 @@
 
 ---
 
-## 1. 🔴 Approve Batch 9 (producer research)
+## 1. 🔴 Finish Batch 9 — 3 of 6 delivered, blocked by the monthly spend limit
 
-**Batch 8 is closed and committed** (D-2026-08-05-10). **Batch 9 is proposed but must not start
-without approval.**
+**Batch 8 is closed and committed** (D-2026-08-05-10). **Batch 9 ran and stopped at 3 of 6**
+(D-2026-08-05-11): the **monthly API spend limit** was reached while four agents were mid-run.
 
-Coverage now **389 / 704 bottles (55.3%)** across **50 dossiers**. Remaining: **132 producers /
-315 bottles**. The curve is flat and getting flatter — **no remaining producer unlocks more than 5
-bottles**, and after the 5-bottle tier is exhausted the next tier is 4.
+Coverage now **404 / 704 bottles (57.4%)** across **53 dossiers**. Remaining: **129 producers /
+300 bottles**.
 
-### Shape A — six more new producers (+30 bottles → ~59.6%)
+**Delivered** — Harlan Estate (~85%), Clos de Tart (~90%), Armand Heitz (~90%). All three cleared
+the bar; the New World / corporate-estate hypothesis held.
 
-Ranked by OBP bottles unlocked (`research/producers/coverage.py` reproduces the ranking):
+🔴 **Outstanding, and cheap to resume — the research is already done:**
 
-| Producer | OBP bottles | canonical | note |
+| Producer | OBP bottles | `_sources` cached | state |
 |---|---|---|---|
-| **Harlan Estate** | 5 | to verify | Napa; publishes per-vintage data |
-| **Hundred Acre** | 5 | to verify | Napa |
-| **Abreu** | 5 | to verify | Napa |
-| **Clos de Tart** | 5 | to verify | Burgundy monopole Grand Cru |
-| **Armand Heitz** | 5 | to verify | Côte de Beaune |
-| **Bergström** | 5 | to verify | Oregon |
+| **Hundred Acre** | 5 | **122 files** | no dossier written |
+| **Bergström** | 5 | **70 files** | no dossier written |
+| **Abreu** | 5 | **42 files** | no dossier written |
 
-🔴 **Note the composition shift.** The 5-bottle tier is now **majority New World** (Harlan, Hundred
-Acre, Abreu, Bergström). On the Batch 4 evidence — Pride Mountain and Grgich Hills both reached
-**High** confidence because US wineries publish per-vintage technical data — this batch is likely to
-land *higher* than Batch 8, which was dominated by small Burgundian domaines that publish nothing.
-`Famille Mousse` (5, Champagne) is also available if a French producer is wanted in the mix.
+**All three agents reported having finished research and were writing the dossier when they were
+killed.** The sources are on disk. **Resuming costs the writing pass only, not the research** — this
+is the highest value-per-token work available and should be step 1 once the limit is raised
+(**+15 bottles → ~59.5%**).
+
+⚠️ **They are deliberately excluded from `coverage.py`.** A cached source is not a dossier.
+
+### Then — Batch 10 candidates (not approved; Batch 10 was explicitly prohibited for this run)
+
+The 5-bottle tier after the above: `Famille Mousse` (Champagne). Below that the tier drops to 4 —
+Vilmart & Cie, Thierry Allemand, René & Vincent Dauvissat, Olivier Leflaive Frères, Louis Roederer,
+Laurent-Perrier, Henri Giraud, Anne et Hervé Sigaut, Château Montelena, Billecart-Salmon,
+Alvina Pernot.
 
 ### Shape B — repair batch (+0 bottles, lifts 6–8 existing dossiers)
 
@@ -64,8 +69,8 @@ Batch 8 surfaced two defects whose **true scope is unknown** and which are cheap
 1. **Unsourced prose in `obp_note`** — critic scores and claims contradicted by official sources are
    already reaching floor-facing copy (Coulée de Serrant, Bachelet-Monnot). **Nobody knows how many
    records are affected.**
-2. **The `S-2` quote-mark sweep across all 781 cuvées**, still outstanding from Batch 7 and now
-   6 records larger.
+2. ✅ **The `S-2` quote-mark sweep is done** — `research/canonical_conflicts/sweep_integrity.py`.
+   **175 records, not 9.** See §3d-2. What remains is adjudication, not measurement.
 
 **Bordeaux remains excluded** (Margaux 8, Haut-Brion 6, Latour 6, Mouton-Rothschild 6, Giscours 6,
 d'Yquem 6, Palmer 5, Cos d'Estournel 4 — **47 bottles**), per the standing reason below. It remains
@@ -133,10 +138,30 @@ One sub-decision remains open:
    (a) **geographic granularity** — `climat + sub-parcel` (`Les Chaumées, Clos de la Truffière`)
    cannot be expressed by a one-string cuvée model; akin to `V-3` but on a different axis;
    (b) **a non-year sentinel** — `roulot-perrieres` holds `vintage = '—'` (U+2014), which is neither
-   `V-1`/`V-4` (meaningful release identifiers) nor `S-2`; **a DB-wide sweep for non-4-digit
-   vintages should precede numbering**; (c) **classification drift inside one cuvée** —
-   `folatieres-2022` says `Puligny-Montrachet Premier Cru`, `folatieres-2023` says
+   `V-1`/`V-4` (meaningful release identifiers) nor `S-2`; (c) **classification drift inside one
+   cuvée** — `folatieres-2022` says `Puligny-Montrachet Premier Cru`, `folatieres-2023` says
    `Puligny-Montrachet 1er Cru`.
+
+   ✅ **The sweep requested under (b) has now been run** —
+   `research/canonical_conflicts/sweep_integrity.py`, measurement only, register untouched.
+   **Both defects are an order of magnitude larger than the estimates they came from:**
+
+   | | Prior estimate | **Measured** | Share of canonical |
+   |---|---|---|---|
+   | **`S-2`** embedded quote marks in cuvée names | 9 (Batch 7) | **175** | **18.9%** |
+   | **`vintage = '—'`** em-dash sentinel | 1 (Batch 8) | **328**, across **182 producers** | **35.3%** |
+
+   The Batch 7 figure of 9 was a *sample* of the producers then researched, not a count. The sweep
+   also separates **78 records whose names contain a legitimate French elision**
+   (`L'Esprit`, `Réserve de l'Abbaye`) — **these are correct and must not be swept up in any fix.**
+
+   🔴 **The vintage field is carrying three different meanings at once**, which is the real finding:
+   `'—'` (a true null, 328), `'NV'` (legitimate for non-vintage Champagne, 88), and **24 records
+   encoding a base year inside the vintage string — in five mutually incompatible notations**:
+   `NV · based on 2006`, `NV (Base: 2018)`, `NV · 2022 Base`, `NV (LC21)`, and `NV（2022）`
+   (full-width parentheses). That last group is family **`V-1`**, not a sentinel. **Any migration
+   must treat the three cases separately**; a single "fix the vintage field" pass would destroy the
+   Krug base-year data. This materially raises the priority of the `V-1`/`V-3` adjudication.
 3. 🔴 **Unsourced canonical prose is reaching floor-facing copy, and the scope is unmeasured.**
    Verifying the Coulée de Serrant record against official sources found `extended aging` **wrong**
    (official élevage is 6–8 months), a `classification` carrying the **superseded** appellation name,
@@ -235,4 +260,4 @@ alcohol and disgorgement dates. Not attempted.
 
 ## Last Updated
 
-2026-08-05 (updated after Batch 8)
+2026-08-05 (updated after Batch 9, partial)
