@@ -76,6 +76,46 @@ propose, and stop. Never auto-advance.
 
 ---
 
+## D-2026-08-05-07 — Batches 5, 6 and 7 are approved as one run; stop after 7
+
+**Date** 2026-08-05 · **Authority** Akio · **Status** In force · **Supersedes** D-2026-08-05-06
+
+**Decision.** Run Batch 5, Batch 6 and Batch 7 back to back without pausing for approval between
+them, then **stop automatically after Batch 7**. All standing research rules remain in force: the
+70% bar, official sources only, technical-sheet PDFs whenever available, preserve uncertainty,
+`## Akio's Insight` left empty, canonical read-only, canonical conflicts escalated only, and
+`docs/state/` updated after every completed batch.
+
+**Consequence.** D-2026-08-05-06 ("Batch 5 does not start until approved") is satisfied and
+superseded for these three batches only. The rule itself — report, propose, stop, never
+auto-advance — resumes at the end of Batch 7.
+
+**Batch composition.** Batch 5 was the six already proposed in `NEXT_ACTIONS.md`. Batches 6 and 7
+were composed by execution from the same ranking (OBP bottles unlocked, then absence from
+canonical, then restaurant importance). **Bordeaux remained excluded** — the standing "do not start
+without instruction" on the Bordeaux batch was not lifted.
+
+---
+
+## D-2026-08-05-08 — OBP coverage is recomputed from a checked-in script, not carried forward
+
+**Date** 2026-08-05 · **Authority** Execution · **Status** Applied · **Reversible**
+
+**Decision.** Compute OBP coverage with `research/producers/coverage.py`, which holds an
+explicit hand-verified map from dossier slug to the producer strings used in
+`obp_intake_normalized_20260804.json`, and errors loudly on any name it cannot match.
+
+**Reason.** The pre-Batch-5 figure of record was **256 / 704 (36.4%)** for 26 dossiers. It could not
+be reproduced: the same 26 dossiers resolve to **245 / 704 (34.8%)**. Fuzzy name matching is the
+likely cause (for example `Olivier Leflaive Frères` and `Anne-Claude Leflaive` are separate
+producers that a substring match folds into `Domaine Leflaive`). Rather than pick a number, the
+count is now derived by a script that lives next to the dossiers.
+
+**Applied as.** `research/producers/coverage.py`. Post-Batch-5: **289 / 704 (41.1%)**,
+32 dossiers, 150 producers / 415 bottles remaining.
+
+---
+
 ## D-2026-08-05-05 — Batch 4 runs on six named producers; Bordeaux waits
 
 **Date** 2026-08-05 · **Authority** Akio · **Status** Applied

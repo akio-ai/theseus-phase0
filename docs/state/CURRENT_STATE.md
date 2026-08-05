@@ -48,15 +48,22 @@ with modified icon assets in the working tree.
 
 ## Active workstream — Producer Research Layer
 
-**Status: Batch 4 complete. Awaiting approval before Batch 5.**
+**Status: Batch 5 complete. Batch 6 in progress (Akio approved Batches 5–7 on 2026-08-05).**
 
 | | |
 |---|---|
-| Dossiers | **26** — `research/producers/*.md` |
-| OBP coverage | **256 / 704 bottles (36.4%)** — Batch 4 added **+52 bottles (+7.4 pts)** |
-| Remaining | **160 producers / 448 bottles** |
-| Conflicts register | `research/canonical_conflicts/REGISTER.md` — 20 true conflicts, 54 false positives separated. **Batch 4 added no new entries** (it confirmed C-3 with primary-source evidence) |
+| Dossiers | **32** — `research/producers/*.md` |
+| OBP coverage | **289 / 704 bottles (41.1%)** — Batch 5 added **+44 bottles (+6.3 pts)** |
+| Remaining | **150 producers / 415 bottles** |
+| Conflicts register | `research/canonical_conflicts/REGISTER.md` — 20 true conflicts, 54 false positives separated. **Batch 5 added no new entries** (it added evidence to C-4, S-2, P-7 and V-3) |
 | Canonical writes | **Zero.** Read-only throughout |
+
+⚠️ **Coverage figure corrected.** The pre-Batch-5 number was recorded as **256 / 704 (36.4%)**.
+Recomputing it from `obp_intake_normalized_20260804.json` with an explicit, hand-verified
+dossier→producer map gives **245 / 704 (34.8%)** for the same 26 dossiers. The 11-bottle gap could
+not be reproduced from the intake file; the counting script is now kept at
+`research/producers/coverage.py` so the figure is reproducible. **All numbers in this
+document use the recomputed basis.**
 
 | Batch | Producers |
 |---|---|
@@ -64,7 +71,8 @@ with modified icon assets in the working tree.
 | Batch 1 (5) | DRC, Faiveley, Simon Bize et Fils, Château Lafite-Rothschild, Jean-Louis Chave |
 | Batch 2 (7) | Doyard, Dunoyer de Segonzac, Larmandier-Bernier, Les Monts Fournois, Michel Gonet, Pascal Agrapart, Pierre Péters |
 | Batch 3 (6) | Egly-Ouriet, Drappier, Pierre Gimonnet & Fils, Laherte Frères, Jérôme Prévost, Frédéric Savart |
-| **Batch 4 (6)** | **Pride Mountain Vineyards, Grgich Hills Estate, Domaine Dujac, Jacques-Frédéric Mugnier, Domaine Denis Mortet, Domaine de Montille** |
+| Batch 4 (6) | Pride Mountain Vineyards, Grgich Hills Estate, Domaine Dujac, Jacques-Frédéric Mugnier, Domaine Denis Mortet, Domaine de Montille |
+| **Batch 5 (6)** | **Domaine Armand Rousseau, Ganevat, Domaine Billaud-Simon, Joseph Drouhin, Olivier Bernstein, Pol Roger** |
 
 **Batch 4 notes.** Two producers (Pride Mountain, Grgich Hills) had **no canonical producer record at
 all** — 18 OBP bottles were `producer_state = unresolved` purely for that reason. Both US dossiers
@@ -73,6 +81,26 @@ findings are recorded in the dossiers and **not acted on**: Pride Mountain's app
 changes per vintage (`64% Napa / 36% Sonoma` / `Napa County` / `Napa Valley`), which the current
 one-subregion-per-cuvée model cannot express; and de Montille's four Corton rows stall at
 `candidate` on a single character (`Clos de Roi` vs `Clos du Roi`).
+
+**Batch 5 notes.**
+- **Joseph Drouhin covers 10 bottles, not 7** — the same dossier resolves `Joseph Drouhin` (7),
+  `Drouhin-Vaudon` (2) and `Drouhin` = Domaine Drouhin Oregon (1), which are three separate
+  canonical producers. Drouhin publishes a per-wine **`Supply:`** field stating whether each wine is
+  estate fruit, estate + purchased, or **purchased only** — two OBP bottles are purchased-only.
+- 🔴 **Ganevat is the first dossier deliberately left below the bar: `reached_70: NO (~55%)`.**
+  Its official site (`ganevat.fr`) returns a maintenance page with no content, so there is no
+  producer-authored source at all. The dossier is built entirely from **Agence Bio** (French public
+  register), **Ecocert** and **Demeter France** (certifiers) and the **INAO cahier des charges**.
+  History, winemaking and style are recorded as unavailable rather than inferred. Treat as
+  **`awaiting material from the team`**.
+- **Billaud-Simon's legal notice names `Mrs Eve Faiveley` as Publication Director** — a direct link
+  to the existing `domaine-faiveley.md` dossier. The site says nothing about ownership, so the
+  dossier states only what the legal notice states.
+- **Two OBP rows printed `Joseph Drouhin | Côte de Beaune | 2023 | $240` are not a duplicate** —
+  one is in the WHITE section and one in RED, and Drouhin makes both.
+- **A systematic canonical defect surfaced across three Batch-5 producers**: cuvée names stored with
+  literal double quotes (`"Clos Saint-Jacques"`, `"Les Preuses"`, `"Mont de Milieu"`,
+  `"Marquis de Laguiche"`). Recorded under **S-2**, not as new entries.
 
 Governing workflow: fixed template, **70% completeness bar**, four evidence layers never mixed
 (verified fact / source-derived / Akio's insight / unresolved), `## Akio's Insight` is
