@@ -1,6 +1,7 @@
 # Current State
 
-> **Official state document.** Populated from verified repository state on **2026-08-05**.
+> **Official state document.** Populated from verified repository state on **2026-08-05**
+> (updated the same day after Batch 4).
 > Every SHA below was resolved with `git rev-parse` after `git fetch --all`, and every PR
 > with `gh pr list`, on the date above. Nothing here is carried over from memory unverified.
 >
@@ -24,10 +25,10 @@ before searching for a file. Assuming a single repo has previously produced fals
 |---|---|---|
 | `origin/main` | `30d90d1` | Baseline |
 | `origin/docs/ai-autonomous-execution-policy` | `625f8ea` | **PR #4 open** → `main` |
-| `research/producer-layer-batch1-3` (local only) | `cc9c1e1` | **Research Layer commit. Not pushed.** Branched from `origin/main` |
+| `research/producer-layer-batch1-3` | `6b4cc30` → | **PR #5 open** → `main`. Research Layer + `docs/state/`. Batch 4 commits sit on the same branch |
 
 Untracked and deliberately **not** committed: `migration/` (canonical DB — gitignored on the
-research branch), `intake/`, `research/producers/_sources/` (296MB source cache — gitignored).
+research branch), `intake/`, `research/producers/_sources/` (source cache — gitignored).
 
 ### `theseus-project` — verified refs (2026-08-05)
 
@@ -47,14 +48,14 @@ with modified icon assets in the working tree.
 
 ## Active workstream — Producer Research Layer
 
-**Status: Batch 1–3 complete. Committed. Awaiting approval before Batch 4.**
+**Status: Batch 4 complete. Awaiting approval before Batch 5.**
 
 | | |
 |---|---|
-| Dossiers | **20** — `research/producers/*.md` |
-| OBP coverage | **204 / 704 bottles (29%)** |
-| Remaining | **166 producers / 500 bottles** |
-| Conflicts register | `research/canonical_conflicts/REGISTER.md` — 9 true conflicts, 54 false positives separated |
+| Dossiers | **26** — `research/producers/*.md` |
+| OBP coverage | **256 / 704 bottles (36.4%)** — Batch 4 added **+52 bottles (+7.4 pts)** |
+| Remaining | **160 producers / 448 bottles** |
+| Conflicts register | `research/canonical_conflicts/REGISTER.md` — 20 true conflicts, 54 false positives separated. **Batch 4 added no new entries** (it confirmed C-3 with primary-source evidence) |
 | Canonical writes | **Zero.** Read-only throughout |
 
 | Batch | Producers |
@@ -63,6 +64,15 @@ with modified icon assets in the working tree.
 | Batch 1 (5) | DRC, Faiveley, Simon Bize et Fils, Château Lafite-Rothschild, Jean-Louis Chave |
 | Batch 2 (7) | Doyard, Dunoyer de Segonzac, Larmandier-Bernier, Les Monts Fournois, Michel Gonet, Pascal Agrapart, Pierre Péters |
 | Batch 3 (6) | Egly-Ouriet, Drappier, Pierre Gimonnet & Fils, Laherte Frères, Jérôme Prévost, Frédéric Savart |
+| **Batch 4 (6)** | **Pride Mountain Vineyards, Grgich Hills Estate, Domaine Dujac, Jacques-Frédéric Mugnier, Domaine Denis Mortet, Domaine de Montille** |
+
+**Batch 4 notes.** Two producers (Pride Mountain, Grgich Hills) had **no canonical producer record at
+all** — 18 OBP bottles were `producer_state = unresolved` purely for that reason. Both US dossiers
+reached **High** confidence because both wineries publish per-vintage technical data. Two structural
+findings are recorded in the dossiers and **not acted on**: Pride Mountain's appellation string
+changes per vintage (`64% Napa / 36% Sonoma` / `Napa County` / `Napa Valley`), which the current
+one-subregion-per-cuvée model cannot express; and de Montille's four Corton rows stall at
+`candidate` on a single character (`Clos de Roi` vs `Clos du Roi`).
 
 Governing workflow: fixed template, **70% completeness bar**, four evidence layers never mixed
 (verified fact / source-derived / Akio's insight / unresolved), `## Akio's Insight` is
@@ -83,8 +93,8 @@ Governing workflow: fixed template, **70% completeness bar**, four evidence laye
 Everything below is **waiting on Akio**, not on execution capacity. See
 [`NEXT_ACTIONS.md`](NEXT_ACTIONS.md).
 
-1. Batch 4 approval (producer research)
-2. Push / PR for the Research Layer commit
+1. Batch 5 approval (producer research)
+2. Review / merge of PR #5
 3. Hero artwork confirmation (ARIADNE)
 4. Schema-change permission (aroma intensity / complexity / 11-family taxonomy — all need migrations)
 5. Fruit Basket: ship or not

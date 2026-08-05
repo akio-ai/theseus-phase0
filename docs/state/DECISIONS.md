@@ -21,8 +21,8 @@
 
 **Applied as.** Branch `research/producer-layer-batch1-3` @ `cc9c1e1`, branched from
 `origin/main` @ `30d90d1`. Staged with explicit paths only. `migration/` (the canonical DB) is
-gitignored on this branch; `intake/` left untracked. **Not pushed** — pushing requires separate
-approval.
+gitignored on this branch; `intake/` left untracked. Not pushed at the time of this decision;
+push and PR were approved separately — see **D-2026-08-05-04**.
 
 **Reason.** The Research Layer precedes canonical promotion by design. Keeping the two apart in
 version control preserves that boundary rather than relying on discipline.
@@ -64,15 +64,48 @@ memory.** Applying this rule on 2026-08-05 corrected PR #10's head from `8d42c47
 
 ---
 
-## D-2026-08-05-04 — Batch 4 does not start until approved
+## D-2026-08-05-06 — Batch 5 does not start until approved
 
 **Date** 2026-08-05 · **Authority** Akio · **Status** In force
 
-**Decision.** Batch 1–3 is closed. Batch 4 is proposed but **must not begin** until Akio
-approves, after the commit.
+**Decision.** Batch 4 is closed. Batch 5 is proposed but **must not begin** until Akio approves.
+The Bordeaux batch is separately proposed and explicitly **not** started.
 
 **Reason.** Standing rule of the producer research workflow: after a batch completes, report,
 propose, and stop. Never auto-advance.
+
+---
+
+## D-2026-08-05-05 — Batch 4 runs on six named producers; Bordeaux waits
+
+**Date** 2026-08-05 · **Authority** Akio · **Status** Applied
+
+**Decision.** Research, in order: Pride Mountain, Grgich Hills, Dujac, Jacques-Frédéric Mugnier,
+Denis Mortet, De Montille. Keep all existing research rules. Do not begin the Bordeaux batch, do
+not modify canonical, do not begin ADR-002, **do not resolve canonical conflicts**.
+
+**Outcome.** Six dossiers delivered, all at `reached_70: YES` (four at High confidence). OBP
+coverage **204 → 256 of 704 bottles (29% → 36.4%)**. Canonical untouched. **No new canonical
+conflict was registered** — the one duplicate found (Denis Mortet's two `Lavaux-Saint-Jacques`
+cuvée records) is already registered as **C-3**, so the dossier adds primary-source evidence to
+the existing entry rather than opening a new one.
+
+---
+
+## D-2026-08-05-04 — The Research Layer branch is pushed and reviewed as one PR
+
+**Date** 2026-08-05 · **Authority** Akio · **Status** Applied
+
+**Decision.** Push `research/producer-layer-batch1-3` and open a single PR containing the producer
+dossiers, the canonical conflict register, the t-01 workspace, and the three `docs/state/`
+documents — and nothing else. Exclude canonical data, `migration/`, `intake/`, and
+`research/producers/_sources/`.
+
+**Applied as.** **PR #5** → `main` (base `30d90d1`).
+Verified: `git log --name-only origin/main..HEAD | grep -E "^(migration|intake)/"` returns nothing,
+and the PR file list contains no excluded path. The PR description states, as required, that
+canonical is unchanged, that the raw source cache is intentionally excluded, that the research
+layer is non-canonical, and how to roll back each layer.
 
 ---
 
@@ -115,9 +148,10 @@ items — conflicting IDs, why it looks duplicated, evidence, OBP impact, recomm
 
 **Reason.** A canonical conflict is an architecture problem, not a research problem.
 
-**Register.** `research/canonical_conflicts/REGISTER.md` — 9 true conflicts and 54 false
+**Register.** `research/canonical_conflicts/REGISTER.md` — **20 true conflicts** and 54 false
 positives (colour variants, different appellations, different châteaux) separated so the
-screening is not redone every time.
+screening is not redone every time. A batch that rediscovers an existing entry adds evidence to
+it; it does not open a new number.
 
 ---
 
@@ -151,4 +185,4 @@ prohibited outright**; when no official source exists, record "awaiting material
 
 ## Last Updated
 
-2026-08-05
+2026-08-05 (updated after Batch 4)
