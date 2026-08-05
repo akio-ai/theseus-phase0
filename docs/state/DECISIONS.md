@@ -186,6 +186,96 @@ menu printing a category word, after Mayacamas and Grgich.
 
 **Reversal.** Deletion of the three dossiers and their `coverage.py` entries; nothing else changed.
 
+**Superseded in part by `D-2026-08-05-14`**, which records the resumption and closes Batch 9 at 6
+of 6. The prediction above held exactly: resuming cost the writing pass, not the research.
+
+---
+
+## D-2026-08-05-13 — Research Verification Policy: verify only the scope that changed
+
+**Date** 2026-08-05 · **Authority** Akio · **Status** In force · **Default for all future batches**
+
+**Decision.** Producer-research verification is **scoped to what the task changed**.
+
+**Always verify** (every batch, no exceptions):
+- required dossier structure — the fixed `# Producer` → … → `## Open Questions` heading sequence
+- required sections present and filled to the 70% bar; `## Akio's Insight` left unwritten
+- **canonical remains untouched**
+- **`REGISTER.md` remains untouched**, unless conflicts were deliberately adjudicated in this task
+
+**Do not repeatedly perform**, unless the current task explicitly modifies those areas:
+- repository-wide `git` inspection
+- repository-wide integrity sweeps
+- repeated `REGISTER.md` verification
+- repeated mtime verification
+- repeated canonical-wide scans
+
+**Reason.** Producer Research has matured. The broad audits were correct while the workflow was
+being established — they are what caught the look-alike-site trap, the intake↔mapping divergence
+and the untrustworthy `obp_note` prose. They are now mostly **re-proving stable facts**: canonical
+has not been written to in nine consecutive batches, and each re-verification costs tokens that buy
+no new information. **Verification should protect quality, not re-audit the whole repository.**
+
+**What is traded away.** Drift *outside* the changed scope will be caught later rather than
+immediately — for instance, a canonical edit made by another workstream between batches. Accepted:
+canonical writes require CEO approval and would be announced, and the always-verify list still
+covers the one thing that would actually corrupt the Research Layer.
+
+**Applied as.** This entry; the constraint list in
+[`CURRENT_STATE.md`](CURRENT_STATE.md); and
+[`../ai-autonomous-execution-policy.md`](../ai-autonomous-execution-policy.md), which did not exist
+in the repository and was created to hold it. Also mirrored into the standing producer-research
+policy in Claude's memory, which is what loads at session start.
+
+**Reversal.** Delete this entry and the policy document, and restore full-sweep verification. No
+data is affected either way — this rule governs *checking*, not *writing*.
+
+---
+
+## D-2026-08-05-14 — Batch 9 resumed from cache and closed at 6 of 6
+
+**Date** 2026-08-05 · **Authority** Akio · **Status** Applied
+
+**Decision.** Resume **Batch 9 only** — Hundred Acre, Abreu, Bergström — from their existing
+`_sources` caches, at **maximum 2 agents in parallel**. Do not restart completed research, do not
+run repository-wide sweeps, do not investigate canonical prose globally, do not touch canonical or
+`REGISTER.md`, and do not work the five physical-label cases. Stop when Batch 9 is closed.
+
+**Reason.** All three agents killed by the spend limit had finished research and were composing
+when they died. The cheapest remaining coverage in the entire backlog was the writing pass on work
+already paid for.
+
+**Outcome.** 3 dossiers, **+15 OBP bottles (404 → 419 of 704; 57.4% → 59.5%)**, **56 dossiers**.
+All three cleared the bar: Bergström ~85%, Abreu ~82%, Hundred Acre ~78%. Caches left byte-intact;
+no new research sweep was run. Canonical untouched; `REGISTER.md` untouched.
+
+**Escalated, not resolved.**
+- **Hundred Acre: 4 of 5 OBP rows are not Hundred Acre wines** — `Fortunate Son` and `Summer Dreams`
+  are sibling brands of `One True Vine, LLC`, and Summer Dreams' 2025 labels file under a **separate
+  legal entity**. Second instance of the Harlan/Mascot brand-axis shape in one batch. Cited to the
+  **proposed** category `CAT-3 brand_axis`; no number opened, because `CAT-1`…`CAT-9` are still
+  proposals awaiting adjudication.
+- **Attribute provenance — a new shape, unnumbered.** Canonical gives the Hundred Acre `Ark` a
+  `subregion` of `Napa Valley — Howell Mountain`; the TTB-approved label and both COLAs say
+  **`NAPA VALLEY`**, and `Howell` appears in no producer source and none of 105 TTB records. Fits
+  none of `P-1`…`S-4` or `CAT-1`…`CAT-9` — those are naming, layer, key-design and entity-boundary
+  problems; this is an unsourced attribute.
+- **Abreu is a gap, not a conflict.** Absent from canonical entirely, along with all six of its
+  vineyard names. No register class covers "producer not present"; forcing one would be wrong.
+- **`Cabernet Sauvignon` as a menu-side classification** (Abreu) — fourth instance of the menu
+  printing a category word as fact, after Harlan, Mayacamas and Grgich.
+- **Canonical `region` has no Oregon** — all 79 USA records are `California`. Blocks Bergström.
+- **The intake↔mapping divergence is now four instances**, and Hundred Acre's is different in kind:
+  two rows are **parse-broken in `shells.json`** with no producer at all, where the intake package
+  reports `producer_state: exact`.
+
+**Three physical-label tasks added**, bringing the floor total to eight: Hundred Acre `'Ark'` 2022's
+printed appellation, Abreu's label brand and type designation, and Bergström row 5's cuvée name.
+**Bergström row 5 was deliberately left unresolved** despite four converging lines of evidence
+pointing to `Bergström Vineyard Pinot Noir` — indication is not a source.
+
+**Reversal.** Delete the three dossiers and their `coverage.py` entries; coverage returns to 57.4%.
+
 ---
 
 ## D-2026-08-05-12 — The canonical integrity sweep is measurement, not adjudication
@@ -374,4 +464,4 @@ prohibited outright**; when no official source exists, record "awaiting material
 
 ## Last Updated
 
-2026-08-05 (updated after Batch 9, partial)
+2026-08-05 (updated after Batch 9 close-out; adds D-2026-08-05-13 and -14)

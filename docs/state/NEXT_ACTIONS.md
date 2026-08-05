@@ -12,38 +12,35 @@
 
 ---
 
-## 1. 🔴 Finish Batch 9 — 3 of 6 delivered, blocked by the monthly spend limit
+## 1. ✅ Batch 9 is closed — 6 of 6
 
-**Batch 8 is closed and committed** (D-2026-08-05-10). **Batch 9 ran and stopped at 3 of 6**
-(D-2026-08-05-11): the **monthly API spend limit** was reached while four agents were mid-run.
+**Batch 8 closed at D-2026-08-05-10; Batch 9 stopped at 3 of 6 (D-2026-08-05-11) and was resumed
+and closed at D-2026-08-05-14.** The three stranded producers were written from their existing
+`_sources` caches at max 2 agents in parallel, with **no new research sweep**.
 
-Coverage now **404 / 704 bottles (57.4%)** across **53 dossiers**. Remaining: **129 producers /
-300 bottles**.
+Coverage now **419 / 704 bottles (59.5%)** across **56 dossiers**. Remaining: **126 producers /
+285 bottles**.
 
-**Delivered** — Harlan Estate (~85%), Clos de Tart (~90%), Armand Heitz (~90%). All three cleared
-the bar; the New World / corporate-estate hypothesis held.
+**All six cleared the bar** — Clos de Tart ~90%, Armand Heitz ~90%, Bergström ~85%, Harlan ~85%,
+Abreu ~82%, Hundred Acre ~78%.
 
-🔴 **Outstanding, and cheap to resume — the research is already done:**
+✅ **The resume estimate was exact**: +15 bottles, 57.4% → 59.5%, writing pass only. **This is now a
+demonstrated pattern — a spend-limit stop mid-batch costs the writing, not the research.** Caches
+were left byte-intact (122 / 42 / 70 files).
 
-| Producer | OBP bottles | `_sources` cached | state |
-|---|---|---|---|
-| **Hundred Acre** | 5 | **122 files** | no dossier written |
-| **Bergström** | 5 | **70 files** | no dossier written |
-| **Abreu** | 5 | **42 files** | no dossier written |
+### Next — Batch 10 candidates (**not approved; do not start**)
 
-**All three agents reported having finished research and were writing the dossier when they were
-killed.** The sources are on disk. **Resuming costs the writing pass only, not the research** — this
-is the highest value-per-token work available and should be step 1 once the limit is raised
-(**+15 bottles → ~59.5%**).
+The 5-bottle tier is now a single producer: `Famille Mousse` (Champagne) — and note it is already
+register entry **`P-2`** (entity split, `Famille Mousse` / `Mousse Fils`, *3 bottles held in false
+unresolved*), so researching it and adjudicating `P-2` are the same piece of work.
 
-⚠️ **They are deliberately excluded from `coverage.py`.** A cached source is not a dossier.
+Below that the tier drops to 4 — Vilmart & Cie, Thierry Allemand, René & Vincent Dauvissat,
+Olivier Leflaive Frères, Louis Roederer, Laurent-Perrier, Henri Giraud, Anne et Hervé Sigaut,
+Château Montelena, Billecart-Salmon, Alvina Pernot.
 
-### Then — Batch 10 candidates (not approved; Batch 10 was explicitly prohibited for this run)
-
-The 5-bottle tier after the above: `Famille Mousse` (Champagne). Below that the tier drops to 4 —
-Vilmart & Cie, Thierry Allemand, René & Vincent Dauvissat, Olivier Leflaive Frères, Louis Roederer,
-Laurent-Perrier, Henri Giraud, Anne et Hervé Sigaut, Château Montelena, Billecart-Salmon,
-Alvina Pernot.
+⚠️ **The coverage curve is now flat.** Twelve producers at 4–5 bottles is ~50 bottles for twelve
+dossiers; the earlier batches averaged 5–7 bottles each. Batches from here cost the same and return
+less. **Shape B or Shape C may now be worth more per token than Batch 10** — Akio's call.
 
 ### Shape B — repair batch (+0 bottles, lifts 6–8 existing dossiers)
 
@@ -191,6 +188,43 @@ One sub-decision remains open:
    so a blanket `de`/`des`/`Les` rule would introduce errors. Any fix must diff against the INAO
    list per appellation. This qualifies the request in §3c-3 and §3b-2.
 
+## 3e. 🔴 Questions added by the Batch 9 resume (research cannot answer these)
+
+1. 🔴 **`CAT-1`…`CAT-9` are still only proposals.** Batch 9 cited **`CAT-3 brand_axis`** for Hundred
+   Acre rather than opening a number — correctly, but that means the brand-axis shape now has
+   **three instances** (Harlan/The Mascot, Hundred Acre/Fortunate Son/Summer Dreams, and the
+   existing `P-6`/`P-7`) and **still no accepted class**. **Adjudicate the §D categories.**
+2. 🔴 **A new shape: attribute provenance — unnumbered.** Canonical gives the Hundred Acre `Ark` a
+   `subregion` of `Napa Valley — Howell Mountain`. Both TTB COLAs and the approved front label
+   declare **`NAPA VALLEY`**, and the string `Howell` appears in **no** producer source and in
+   **none** of 105 TTB records. Every existing family (`P-*` entity, `C-*` naming, `V-*` layer,
+   `S-*` schema, `CAT-*`) describes a *structural* defect; this is a **factually unsourced attribute**
+   sitting in a structurally valid record. **Does it get a number?**
+3. 🔴 **Canonical `region` has no Oregon.** All 79 USA canonical records are `region='California'`.
+   Bergström cannot be promoted without a vocabulary decision, and every future Pacific-Northwest
+   producer hits the same wall. **Vocabulary question — CTO/Akio.**
+4. **Two producers are canonical *gaps*, not conflicts** — Abreu and Bergström are absent entirely,
+   and for Abreu so are all six vineyard names (`Madrona`, `Thorevilos`, `Posadas`, `Cappella`,
+   `Rothwell`, `Tilting` — zero hits each). No register class covers "producer not present."
+   **Confirm that gaps stay out of the register** rather than being forced into it.
+5. 🔴 **`Cabernet Sauvignon` is a menu-side classification for Abreu.** The producer's word for these
+   wines is `single-site Cabernet blends`; `Cabernet Sauvignon` appears **zero times** across all
+   seven official wine pages, and the winemaker rejects varietal percentages. Under 27 CFR §4.23(b)
+   the designation needs ≥75%. **Fourth instance** after Harlan, Mayacamas, Grgich. Recommendation
+   is to hold `grapes` empty — **not executed.**
+6. 🔴 **Three more rows need a physical label**, bringing the floor total to **eight**:
+   **Hundred Acre `'Ark'` 2022** (printed appellation; decides item 2 above — no 2022 COLA exists),
+   **Abreu** (label brand form, cuvée name, type designation — **one photo of a 2019 and a 2021,
+   front and back, settles three escalations at once**), and **Bergström row 5** (`Dundee Hills Pinot
+   Noir`, $440, printed with **no cuvée name at all**; four independent lines point to
+   `Bergström Vineyard Pinot Noir` but **indication is not a source**, so it was left unresolved).
+7. **Abreu's 2021 has no official corroboration.** The producer's site documents only `2019`. Three
+   OBP rows are 2021. Not an error — a silence. Recorded, not resolved.
+8. ⚠️ **TTB COLA availability is unstable.** It was **CAPTCHA-gated** for Harlan and Abreu but
+   **fully open** for Hundred Acre (105 records) and Bergström (108) in the same batch. Execution
+   **declined to bypass the challenge** in both gated cases. Plan around intermittent access; do not
+   treat a gated result as evidence of absence.
+
 ## 3b. 🔴 Two model questions raised by Batch 4 (research cannot answer these)
 
 1. **Per-vintage appellation strings.** Pride Mountain's label appellation changes every year —
@@ -260,4 +294,4 @@ alcohol and disgorgement dates. Not attempted.
 
 ## Last Updated
 
-2026-08-05 (updated after Batch 9, partial)
+2026-08-05 (updated after Batch 9 close-out — 6 of 6)

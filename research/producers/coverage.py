@@ -57,12 +57,20 @@ M={
  "michel-niellon":["Michel Niellon"],
  "domaine-de-l-arlot":["Domaine de L'Arlot"],
  "clos-de-la-coulee-de-serrant":["Clos de la Coulée de Serrant (Nicolas Joly)"],
-    # Batch 9 (partial - 3 of 6 delivered; stopped by the monthly spend limit)
-    # Hundred Acre / Abreu / Bergstrom are NOT here: their _sources caches exist
-    # but no dossier was written, so they must not count toward coverage.
+    # Batch 9 (complete - 6 of 6; the final three were resumed from their
+    # existing _sources caches after the earlier spend-limit stop).
  "harlan-estate":["Harlan Estate"],
  "clos-de-tart":["Clos de Tart"],
  "armand-heitz":["Armand Heitz"],
+    # NOTE: 'Hundred Acre' counts all 5 OBP rows because the dossier documents all
+    # five. But the dossier's finding is that 4 of those 5 are Fortunate Son /
+    # Summer Dreams wines - sibling brands, one of which files under a separate
+    # legal entity. Coverage here means "a sommelier can speak to the row without
+    # lying", NOT "the row is correctly attributed in canonical". See the
+    # brand-axis escalation in hundred-acre.md.
+ "hundred-acre":["Hundred Acre"],
+ "abreu-vineyards":["Abreu"],
+ "bergstrom-wines":["Bergström"],
 }
 def key(r): return r.get('proposed_canonical_producer') or r.get('source_producer_raw')
 c=collections.Counter(key(r) for r in rows)

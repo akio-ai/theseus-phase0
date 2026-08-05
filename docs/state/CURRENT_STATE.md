@@ -48,16 +48,16 @@ with modified icon assets in the working tree.
 
 ## Active workstream — Producer Research Layer
 
-**Status: Batch 8 complete. 🔴 Batch 9 stopped at 3 of 6 — the monthly API spend limit was
-reached mid-run.** Not an execution failure and not a research blocker: the three remaining
-producers have **full source caches already on disk**, so resuming is cheap once the limit is
-raised. See §"Batch 9 (partial)" below.
+**Status: Batch 9 complete — 6 of 6.** The three producers stranded by the earlier spend-limit
+stop (Hundred Acre, Abreu, Bergström) were resumed from their existing `_sources` caches and
+written without re-running research. The prediction held: resuming cost the writing pass only.
+See §"Batch 9 notes" below.
 
 | | |
 |---|---|
-| Dossiers | **53** — `research/producers/*.md` |
-| OBP coverage | **404 / 704 bottles (57.4%)** — Batch 5 **+44**, Batch 6 **+36**, Batch 7 **+34**, Batch 8 **+30**, Batch 9 (partial) **+15** |
-| Remaining | **129 producers / 300 bottles** |
+| Dossiers | **56** — `research/producers/*.md` |
+| OBP coverage | **419 / 704 bottles (59.5%)** — Batch 5 **+44**, Batch 6 **+36**, Batch 7 **+34**, Batch 8 **+30**, Batch 9 **+30** (15 + 15 on resume) |
+| Remaining | **126 producers / 285 bottles** |
 | Conflicts register | `research/canonical_conflicts/REGISTER.md` — 20 true conflicts, 54 false positives separated. **Batches 5–8 wrote no new entries.** Batch 8 added evidence to C-1, C-4 and S-2 and **proposes two new IDs (`C-6`, `P-8`) plus three unnumbered shapes — all awaiting CTO adjudication, none written** |
 | Canonical writes | **Zero.** Read-only throughout |
 
@@ -79,7 +79,7 @@ document use the recomputed basis.**
 | Batch 6 (6) | Domaine Bruno Clair, Domaine d'Eugénie, Domaine des Comtes Lafon, Jean-Claude Ramonet, Pierre-Yves Colin-Morey, Caroline Morey |
 | Batch 7 (6) | Domaine Laroche, Pierre Girardin, Mayacamas Vineyards, DuMOL, Jacques Selosse, Gosset |
 | Batch 8 (6) | Taittinger, Domaine Roulot, Domaine Bachelet-Monnot, Michel Niellon, Domaine de L'Arlot, Clos de la Coulée de Serrant (Famille Joly) |
-| **Batch 9 (3 of 6)** | **Harlan Estate, Clos de Tart, Armand Heitz** — 🔴 **Hundred Acre, Abreu, Bergström not written** (spend limit) |
+| **Batch 9 (6)** | Harlan Estate, Clos de Tart, Armand Heitz, **Hundred Acre, Abreu Vineyards, Bergström Wines** (last three resumed from cache) |
 
 **Batch 4 notes.** Two producers (Pride Mountain, Grgich Hills) had **no canonical producer record at
 all** — 18 OBP bottles were `producer_state = unresolved` purely for that reason. Both US dossiers
@@ -255,15 +255,58 @@ one-subregion-per-cuvée model cannot express; and de Montille's four Corton row
   document are computed from the intake file** via `coverage.py` and are unaffected, but the
   discrepancy needs adjudication before anyone reports "resolved" counts from the store layer.
 
-**Batch 9 notes (partial — 3 of 6 delivered).**
-- **All three delivered dossiers cleared the bar comfortably**: Clos de Tart ~90%, Armand Heitz
-  ~90%, Harlan Estate ~85%. The New World / corporate-estate hypothesis in the Batch 9 proposal
-  held — these producers publish per-vintage technical data, and none of the three needed the
+**Batch 9 notes (complete — 6 of 6).**
+- **All six cleared the bar**: Clos de Tart ~90%, Armand Heitz ~90%, Bergström ~85%, Harlan Estate
+  ~85%, Abreu ~82%, Hundred Acre ~78%. The New World / corporate-estate hypothesis in the Batch 9
+  proposal held — these producers publish per-vintage technical data, and none needed the
   no-website fallback route.
-- 🔴 **Three producers were not written.** `hundred-acre`, `abreu-vineyards` and `bergstrom-wines`
-  have **source caches on disk** (122 / 42 / 70 files in `research/producers/_sources/`) but **no
-  dossier**. Their research is done; only the writing is missing. **They are deliberately absent
-  from `coverage.py`** — a cached source is not a dossier and must not count as coverage.
+- ✅ **The resume prediction was correct.** `hundred-acre`, `abreu-vineyards` and `bergstrom-wines`
+  were written from their existing caches (122 / 42 / 70 files) with **no new research sweep** —
+  only targeted gap-filling. The caches were left byte-intact. This is now a demonstrated pattern:
+  **a spend-limit stop mid-batch costs the writing pass, not the research.**
+- 🔴 **Hundred Acre: 4 of its 5 OBP rows are not Hundred Acre wines.** One company (`One True Vine,
+  LLC`) runs three separately-branded wineries. `'Fortunate Son'` (rows 3–4) is bought-in fruit at
+  a different winery — the proprietor writes verbatim *"Make no mistake this wine is NOT Hundred
+  Acre"*. `'Summer Dreams'` (rows 1–2) files its 2025 labels under a **separate legal entity**,
+  `Summer Dreams Wines LLC`, Healdsburg. **Only row 5 (`'Ark'`) is Hundred Acre.** This is the
+  **second instance** of the Harlan/Mascot brand-axis shape in one batch. Escalated, not fixed.
+- 🔴 **The `Ark` label says `NAPA VALLEY`, not Howell Mountain.** Both TTB COLAs declare the
+  appellation as Napa Valley and the approved front label prints it; the string `Howell` appears in
+  **no** producer source and in **none** of the 105 TTB records. Canonical's
+  `subregion = "Napa Valley — Howell Mountain"` has no primary-source backing — an
+  **attribute-provenance** problem that fits none of `P-1`…`S-4` or `CAT-1`…`CAT-9`.
+- 🔴 **Abreu is absent from canonical entirely, and so is every one of its vineyard names.** 928
+  records / 383 distinct producers: zero hits for `Abreu`, and zero for `Madrona`, `Thorevilos`,
+  `Posadas`, `Cappella`, `Rothwell`, `Tilting`. The matcher never even raised a candidate. Recorded
+  as a **gap, not a conflict** — no register class covers "producer not present", and forcing one
+  would be wrong.
+- **Abreu's `Napa Valley` on Thorevilos is correct, not menu sloppiness.** David Abreu states on the
+  official page that Thorevilos *"doesn't belong to any sub-appellation"* — the vineyard sits
+  between the St. Helena and Howell Mountain AVAs. **No conflict was manufactured.** Two of the
+  three menu cuvée names are abbreviations, though: official forms are **`Las Posadas Howell
+  Mountain`** and **`Madrona Ranch`**.
+- 🔴 **Abreu never calls these wines "Cabernet Sauvignon."** The word appears **zero times** across
+  all seven official wine pages; the self-description is `single-site Cabernet blends`, and the
+  winemaker explicitly rejects varietal percentages. Under 27 CFR §4.23(b) a `Cabernet Sauvignon`
+  designation needs ≥75%. Same shape as Harlan's `Proprietary Blend` and Mayacamas' `Red Wine` —
+  now a **fourth** instance of the menu printing a category word as fact.
+- 🔴 **Bergström's certification question is settled in both directions.** All five vineyard pages
+  carry the producer's own field `Farming Style: 0% conventional, non-certified BD/regenerative-
+  ecological` — *the producer itself says non-certified* — while the marketing copy says "We are
+  Biodynamic farmers". Demeter USA's directory was browsed by letter and **resolves completely for
+  `B` (13 entries, Bergström absent)**, with four other Oregon members present, so this is a
+  **proved negative, not a coverage artefact**. USDA Organic INTEGRITY was a JS shell and the Oregon
+  Wine Board was Cloudflare-gated, so **no claim is made about organic certification**.
+- ⚠️ **Bergström OBP row 5 (`Dundee Hills Pinot Noir`, 2023, $440) carries no cuvée name at all.**
+  Four independent lines point to **`Bergström Vineyard Pinot Noir`** — sole Dundee Hills estate
+  vineyard, sole 2023 Dundee Hills red in the producer's catalogue, and a price within $3 of the
+  measured markup. **It was routed to Open Questions as a physical-bottle task, not written as
+  fact.**
+- **Canonical holds zero Oregon producers.** All 79 USA records are `region='California'`. A
+  vocabulary decision, not a Bergström-specific miss.
+- ✅ **TTB COLA was reachable for both US producers this time** (108 Bergström records, 105 Hundred
+  Acre) — unlike Harlan and Abreu in the same batch, where it returned a CAPTCHA and execution
+  **declined to bypass it**. Same registry, different outcomes; availability is not stable.
 - 🔴 **`Harlan Estate` and `The Mascot` are different legal entities.** `The Mascot, LLC.` is named
   verbatim in its own legal terms, and draws fruit from the **younger vines of three separate
   estates** (Harlan Estate, Promontory, the BOND vineyards), vinified at each winery and combined
@@ -299,13 +342,18 @@ one-subregion-per-cuvée model cannot express; and de Montille's four Corton row
   millésime, so the candidate set is "2013 onward" — **the dossier establishes the ceiling and
   refuses to name a year.** The parcel is **0.0966 ha**. Also confirmed: INAO *and* the producer
   both write **`Perrières` without the article**; only the menu adds `Les`.
-- 🔴 **The intake ↔ mapping divergence is now confirmed three times** — Bachelet-Monnot (Batch 8),
-  Clos de Tart and Armand Heitz (Batch 9). In each case `obp_intake_normalized_20260804.json`
-  reports a cuvée-level `exact` match that `research/out/t-01/mapping.json` does not carry. **Two
-  independent agents flagged it unprompted, one of them pushing back on a briefing premise.** This
-  is systematic, not incidental. **Coverage figures in this document come from the intake file via
-  `coverage.py` and are unaffected**, but no "resolved" count should be quoted without naming its
-  artifact.
+- 🔴 **The intake ↔ mapping divergence is now confirmed four times** — Bachelet-Monnot (Batch 8),
+  Clos de Tart, Armand Heitz, and now Hundred Acre. In the first three,
+  `obp_intake_normalized_20260804.json` reports a cuvée-level `exact` match that
+  `research/out/t-01/mapping.json` does not carry. **Hundred Acre is worse and different in kind**:
+  in this checkout's `research/store/t-01/shells.json` (2026-07-29) the two Summer Dreams rows are
+  **parse-broken** — `producer_or_brand` swallowed the whole line
+  (`"2024\t\t'Summer Dreams, The Sun Also Rises,'"`), `original_raw_line` retains only the tail, and
+  `canonical` is `{}`. So in the snapshot on disk those rows have **no producer at all**, where the
+  intake package reports `producer_state: exact`. **Three independent agents have now flagged this
+  unprompted, two of them pushing back on a briefing premise.** Systematic, not incidental.
+  **Coverage figures in this document come from the intake file via `coverage.py` and are
+  unaffected**, but no "resolved" count should be quoted without naming its artifact.
 - **A fifth look-alike site, and a refusal worth recording.** `themascotwine.com` is a GoDaddy
   parking lander; the real site is **`mascotwine.com`** — a one-letter trap. Separately, when the
   **TTB COLA registry** returned a bot challenge demanding a CAPTCHA, execution **declined to
@@ -334,22 +382,30 @@ Governing workflow: fixed template, **70% completeness bar**, four evidence laye
 Everything below is **waiting on Akio**, not on execution capacity. See
 [`NEXT_ACTIONS.md`](NEXT_ACTIONS.md).
 
-1. **Batch 9 approval** (producer research) — Batch 8 is complete; nothing auto-advances
+1. **Batch 10 approval** (producer research) — Batch 9 is complete; nothing auto-advances
 2. Review / merge of PR #5
-3. **Conflict-register adjudication from Batch 8** — accept or reject proposed `C-6` and `P-8`, and
-   decide whether three unnumbered shapes get numbers: the geographic *climat + sub-parcel* gap
-   (Niellon), a non-year sentinel `vintage = '—'` (Roulot), and classification drift within one
-   cuvée (`Premier Cru` vs `1er Cru`, Bachelet-Monnot)
+3. **Conflict-register adjudication, now spanning Batches 8 and 9** — accept or reject proposed
+   `C-6` and `P-8`; adjudicate the **`CAT-1`…`CAT-9` category proposals in §D**, which are still
+   only proposals (Batch 9 cited `CAT-3 brand_axis` for Hundred Acre precisely because no *accepted*
+   class fits); and decide whether these unnumbered shapes get numbers — the geographic *climat +
+   sub-parcel* gap (Niellon), a non-year sentinel `vintage = '—'` (Roulot), classification drift
+   within one cuvée (Bachelet-Monnot), the producer/cuvée same-string collision (Clos de Tart), and
+   **attribute-provenance** (Hundred Acre `Ark`: a canonical `subregion` with no primary source)
 4. **Unsourced canonical prose in floor-facing copy** — `obp_note` fields carry critic scores and
-   claims contradicted by official sources (Coulée de Serrant, Bachelet-Monnot). Scope unknown; a
-   sweep is warranted before anyone treats `obp_note` as trustworthy
-5. Hero artwork confirmation (ARIADNE)
-6. Schema-change permission (aroma intensity / complexity / 11-family taxonomy — all need migrations)
-7. Fruit Basket: ship or not
-8. `Les Hautes Mottes 2018` — physical bottle or importer sheet needed
-9. **Physical-label checks now blocking four rows** — `Clos de la Maltroie` (Niellon, unsupported by
-   any source), `Clos de` vs `Clos des Bouchères` (Roulot), `La` vs `Clos de la Coulée de Serrant`,
-   and Taittinger row 5 Rosé-vs-BdB 2012. All are floor tasks, not research tasks
+   claims contradicted by official sources (Coulée de Serrant, Bachelet-Monnot, Clos de Tart).
+   Scope unknown; a sweep is warranted before anyone treats `obp_note` as trustworthy
+5. **Canonical `region` vocabulary has no Oregon** — all 79 USA records are `California`. Blocks
+   Bergström promotion and every future Pacific-Northwest producer
+6. Hero artwork confirmation (ARIADNE)
+7. Schema-change permission (aroma intensity / complexity / 11-family taxonomy — all need migrations)
+8. Fruit Basket: ship or not
+9. `Les Hautes Mottes 2018` — physical bottle or importer sheet needed
+10. **Physical-label checks now blocking eight rows** — `Clos de la Maltroie` (Niellon, unsupported
+    by any source), `Clos de` vs `Clos des Bouchères` (Roulot), `La` vs `Clos de la Coulée de
+    Serrant`, Taittinger row 5 Rosé-vs-BdB 2012, Armand Heitz Chevalier `?` vintage, **Hundred Acre
+    `'Ark'` 2022 appellation**, **Abreu label brand/type designation (one photo of a 2019 and a 2021
+    front+back settles three escalations at once)**, and **Bergström row 5's cuvée name**. All are
+    floor tasks, not research tasks
 
 ## Operating constraints in force
 
@@ -363,7 +419,12 @@ Everything below is **waiting on Akio**, not on execution capacity. See
 - `gh` can silently switch active account → `gh auth status` → `gh auth switch --user akio-ai`
   → `gh auth setup-git`.
 - `docs/specifications/` TEMPLATE / style-guide / README are **frozen**; changes require an ADR.
+- **Verify only the scope that changed.** Producer-research verification is limited to dossier
+  structure, required sections, and the untouched-ness of canonical and `REGISTER.md`. Repository-
+  wide git inspection, integrity sweeps, canonical-wide scans and repeated mtime checks are **not**
+  run unless the task explicitly modifies those areas. See `D-2026-08-05-13` and
+  [`../ai-autonomous-execution-policy.md`](../ai-autonomous-execution-policy.md).
 
 ## Last Updated
 
-2026-08-05 (updated after Batch 9, partial)
+2026-08-05 (updated after Batch 9, complete — 6 of 6)
