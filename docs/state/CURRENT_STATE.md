@@ -48,7 +48,19 @@ with modified icon assets in the working tree.
 
 ## Active workstream — Producer Research Layer
 
-**Status: Batch 12 complete — 8 of 8.** The **Bordeaux block**, run as one dedicated batch per
+**Status: Batch 14 complete — 6 of 6.** Batch 14 closed the four producers **Batch 13** had left
+when a monthly spend limit stopped it at 2 of 6, and added two more on restaurant value
+(`D-2026-08-06-07`): **Dom Pérignon, Turley, Dominus Estate, Chappellet, Château-Figeac,
+Promontory**. **All six cleared the 70% bar; zero sub-bar dossiers** — the fourth such batch, after
+4, 10 and 12. Run at **3 concurrent agents** throughout, per `D-2026-08-06-06` §4.
+See §"Batch 14 notes" below, and `NEXT_ACTIONS.md` §0 for the findings and the Phase 15 proposal.
+
+**Coverage: 539 / 704 bottles (76.6%) across 84 dossiers. Remaining: 98 producers / 165 bottles.**
+The binding producer criterion is **84 / 182 (46.2%)**.
+
+---
+
+**(Historical) Batch 12 — 8 of 8.** The **Bordeaux block**, run as one dedicated batch per
 `NEXT_ACTIONS.md` §2: Château Margaux, Château d'Yquem, Château Mouton Rothschild, Château Latour,
 Château Haut-Brion, Château Giscours, Château Palmer, Château Cos d'Estournel. **All eight cleared
 the 70% bar and all eight are Confidence High** — the second batch since Batch 4 with no sub-bar
@@ -62,7 +74,7 @@ maximum of 2. See §"Batch 12 notes" below.
 
 | # | Criterion | State | Measured |
 |---|---|---|---|
-| **1** | Every OBP producer has a dossier | 🔴 **41.8%** | **76 / 182 producers.** 106 remain. This — not the 73.2% bottle figure — is the binding constraint |
+| **1** | Every OBP producer has a dossier | 🔴 **46.2%** | **84 / 182 producers** (was 76/182 when this scorecard was written; Batch 13 +2, Batch 14 +6). **98 remain.** This — not the 76.6% bottle figure — is the binding constraint |
 | **2** | Every OBP bottle is linked to a producer | 🟡 **blocked only by ①** | All **704 / 704** rows carry a well-formed producer name (**0** null, **0** malformed). 550 carry a canonical producer id; the **154** that do not are a *canonical* gap, not a research gap — they include producers already dossiered (Pride Mountain 10, Grgich Hills 8, Ganevat 7, Pol Roger 6). Criterion 2 asks for a **producer**, so the **78** rows awaiting a physical label do **not** block it |
 | **3** | Every producer has a documented confidence level | 🟡 **76 / 76 documented, 4 formats** | **Zero dossiers lack a confidence statement.** But it is expressed four incompatible ways: 58 carry the machine-readable header `reached_70: … / confidence: High`; 71 carry a `## Confidence` **section** (per-section table, not a producer-level rollup); 2 use Japanese `確信度`; `chateau-cos-d-estournel.md` has **neither** the header nor a `## Confidence` section — only per-finding `確信度` rows, so it has no producer-level value. **A formatting fix, not research** |
 
@@ -75,9 +87,9 @@ defect. See §"Batch 12 notes".
 
 | | |
 |---|---|
-| Dossiers | **76** — `research/producers/*.md` |
-| OBP coverage | **515 / 704 bottles (73.2%)** — Batch 5 **+44**, Batch 6 **+36**, Batch 7 **+34**, Batch 8 **+30**, Batch 9 **+30** (15 + 15 on resume), Batch 10 **+25**, Batch 11 **+24**, Batch 12 **+47** |
-| Remaining | **106 producers / 189 bottles** |
+| Dossiers | **84** — `research/producers/*.md` |
+| OBP coverage | **539 / 704 bottles (76.6%)** — Batch 5 **+44**, Batch 6 **+36**, Batch 7 **+34**, Batch 8 **+30**, Batch 9 **+30** (15 + 15 on resume), Batch 10 **+25**, Batch 11 **+24**, Batch 12 **+47**, Batch 13 **+6** (stopped at 2 of 6), Batch 14 **+18** |
+| Remaining | **98 producers / 165 bottles** |
 | Conflicts register | `research/canonical_conflicts/REGISTER.md` — 20 true conflicts, 54 false positives separated. **Batches 5–11 wrote no new entries.** Batch 8 proposes `C-6` and `P-8`; Batch 10 added evidence to `C-1`, `C-4`, `V-1`, `V-2`, `V-3`, `S-2`, **corrected the recorded impact of `P-2` downward** and left five unnumbered shapes; Batch 11 added evidence to `C-4`, `S-2`, `P-1` and **produced a counter-example to `D-2026-08-05-12`'s reading of `'NV'`**, leaving four further unnumbered shapes; **Batch 12 added evidence to `C-1`, `C-4`, `C-5`, `C-6`, `S-2`, `V-1`, `V-2`, `V-3`, proposes `P-9`, and leaves nine further unnumbered shapes** — all awaiting CTO adjudication, none written |
 | Canonical writes | **Zero.** Read-only throughout |
 
@@ -102,7 +114,9 @@ document use the recomputed basis.**
 | Batch 9 (6) | Harlan Estate, Clos de Tart, Armand Heitz, Hundred Acre, Abreu Vineyards, Bergström Wines (last three resumed from cache) |
 | Batch 10 (6) | Famille Moussé, Louis Roederer, Billecart-Salmon, Laurent-Perrier, Chateau Montelena, Olivier Leflaive Frères |
 | Batch 11 (6) | Vilmart & Cie, Henri Giraud, Alvina Pernot, Anne et Hervé Sigaut, René & Vincent Dauvissat, Thierry Allemand |
-| **Batch 12 (8)** | **Château Margaux, Château d'Yquem, Château Mouton Rothschild, Château Latour, Château Haut-Brion, Château Giscours, Château Palmer, Château Cos d'Estournel** — the Bordeaux block |
+| Batch 12 (8) | Château Margaux, Château d'Yquem, Château Mouton Rothschild, Château Latour, Château Haut-Brion, Château Giscours, Château Palmer, Château Cos d'Estournel — the Bordeaux block |
+| Batch 13 (2 of 6) | Krug, Ridge Vineyards — **stopped by a monthly spend limit**, not by a finding |
+| **Batch 14 (6)** | **Dom Pérignon, Turley, Dominus Estate, Chappellet** (Batch 13's remainder, the first two resumed from cache) **+ Château-Figeac, Promontory** (added on restaurant value, `D-2026-08-06-07`) |
 
 **Batch 4 notes.** Two producers (Pride Mountain, Grgich Hills) had **no canonical producer record at
 all** — 18 OBP bottles were `producer_state = unresolved` purely for that reason. Both US dossiers
@@ -941,6 +955,134 @@ one-subregion-per-cuvée model cannot express; and de Montille's four Corton row
   contradicts the producer.**
 - **Physical-label tasks added: 39**, bringing the floor total to **78**. See `NEXT_ACTIONS.md` §3h.
 
+**Batch 13 notes (partial — 2 of 6).** Krug ~86% and Ridge Vineyards ~85%, both High, **+6 bottles**.
+Stopped by a **monthly spend limit, not by a finding**. The four unwritten producers were completed
+in Batch 14. The full findings — the inverse-of-`CDX-1` shape at Krug, the **Krug iD** as a physical
+surrogate key for `V-1`/`CDX-8`, and Ridge's worked confirmation of `3f-10` — are recorded in
+`NEXT_ACTIONS.md` §0b and in the two dossiers.
+
+**Batch 14 notes (complete — 6 of 6).**
+- **All six cleared the bar** — Chappellet ~85% (High), Turley ~80% (High), Dominus Estate ~80%
+  (Medium-High), Promontory ~80% (Medium-High), Dom Pérignon ~78% (Medium-High), Château-Figeac ~75%
+  (Medium-High). **+18 bottles.** Run at **3 concurrent agents**, the cap set by `D-2026-08-06-06`.
+  The last free slot was **deliberately left empty** rather than extended a third time.
+- ✅🔴 **The Batch 9 resume precedent held a third time, and it is now a measured pattern rather than
+  a prediction.** Dom Pérignon (**28 MB / 449 files**) and Turley (**2.4 MB / 14 files**) were
+  written from their existing caches with **no research sweep**, caches left byte-intact. Turley is
+  the sharper demonstration: `page_trade-assets.html`, **already on disk**, held the URLs of the
+  official tech-sheet PDFs for the **exact 2023 vintages printed on the menu**. **A spend-limit stop
+  costs the writing pass, not the research.**
+- 🔴🔴 **The dominant finding: `label = null` handling produces two opposite failures, and this batch
+  caught the second.** Batch 12 measured the matcher **over-proposing** on `label = null` rows (152
+  rows given a cuvée anyway, 147 marked `exact`, always the grand vin). **Promontory is the
+  inverse** — canonical's record has `producer == name == "Promontory"` (the `CDX-18` collision), so
+  producer agreement alone collapses the candidate set to **exactly one correct record**, and the
+  matcher still returned `cuvee: null` / `unresolved` / `confidence 0.0` on all three rows.
+  **Dom Pérignon is a third face**: `_parts` correctly yields `label: null` / `style: "brut"`, yet
+  `normalized_cuvee` becomes `"Brut"` and the matcher searches canonical cuvées for a **style
+  token**. 🔴 **One defect, three faces — and none of them is fixable by repairing canonical.**
+- 🔴 **The inverse-of-`CDX-1` shape is confirmed a second time and is worse than at Krug.**
+  Dom Pérignon's intake evidence claims *"canonical キュヴェ **2 件**"*; canonical holds **15**,
+  including `dom-perignon-2015`, `dom-perignon-2013` and `dom-perignon-p2-2003` — **the
+  exactly-right target for all three rows**, each sitting at `confidence 0.0`. ⚠️ **This is not a
+  gap, and treating it as one would create duplicates.** ✅ **Counter-case in the same batch:**
+  Dominus' *"1 件"* claim was verified **true**. The evidence string is not uniformly wrong; it must
+  be checked per producer.
+- ✅🔴 **`3f-10` now has four independent confirmations, each by a different route, and one of them
+  inverts the rule's own example.** Turley: `'Estate,'` sits in the same quoted vineyard-name slot as
+  `"HAYNE VINEYARD"` and the label prints `TURLEY ESTATE` — **not** a category word. Chappellet:
+  `Signature` **is** the official product name (made permanent in **1984**), but **the word is not
+  printed on the front label** — what is printed is Donn Chappellet's **gold autograph**, so the menu
+  is right and *"it says Signature on the label"* is false. Dominus: `Proprietary Blend` **is** a
+  `CDX-15` instance, but for the **opposite reason** from Ridge — at **95 / 95 / 87%** Cabernet a
+  varietal designation **would** have been lawful under 🏛 **27 CFR §4.23(b)** and the estate simply
+  **declines to name the grape**, whereas Ridge Geyserville (71/19/8/2) legally **could not**.
+  🔴 **Pattern existence remains no evidence. Test every row on its own label.**
+- 🔴 **Three row-groups were deliberately left unresolved, and that is the correct output.**
+  **Dominus** — the estate publishes that Napanook produces three wines, and the official bottle
+  shots show **Dominus and Napanook both printing `napa valley red wine` *and* `estate bottled`**,
+  same vineyard, same appellation, same harvest dates. **Figeac** — `Petit-Figeac` (2018) and
+  `La Grange Neuve de Figeac` (2009) sit in the same AOC. **Promontory** — `CDX-15` left undecided
+  because the front label has not been read. ⚠️ **In every case circumstantial evidence pointed at
+  the grand vin and was refused as circumstantial.** This is the Batch 12 defect being avoided by
+  hand, which is exactly why the fix belongs in the matcher.
+- ✅ **Batch 12's second-wine measurement replicated exactly.** `Petit-Figeac`, `Petit Figeac` and
+  `Grange Neuve` return **0 hits across all 704 rows at both layers**, as all 13 Bordeaux second-wine
+  names did. And `_parts.label` is `null` on **60 of 60** rows in `FRANCE | RED > BORDEAUX` —
+  **section-wide structure, not row defects.** The parser also writes `_parts.rank: "Grand Cru"` by
+  slicing those words out of the **appellation name** `Saint-Émilion Grand Cru`.
+- 🔴 **Statutory questions were settled by enumerating the statute rather than asserting it.**
+  `Pritchard Hill` is **not an AVA** — the string `Pritchard` appears **0 times** across all **288
+  sections of 27 CFR Part 9**, enumerated mechanically from the eCFR title-27 structure API; it is
+  simultaneously a place name and the cuvée-position designation, and the appellation of origin
+  printed is `NAPA VALLEY`. Figeac's 2022 promotion to `Premier Grand Cru Classé "A"` **cannot be
+  backdated to any OBP bottle**: *arrêté du 15 décembre 2022* art. 2 applies *«à compter de la
+  récolte 2022»*, and **four different official wordings** of the rank were recorded (Légifrance /
+  INAO / ODG / the estate) — `CDX-25` holding.
+  ⚠️ **The orchestrator's brief supplied two wrong CFR citations and the agent caught both against
+  eCFR** — St. Helena is **§9.149** and Howell Mountain **§9.94**, not §9.150 / §9.36.
+  **Verify citations; do not inherit them from a brief.**
+- 🔴 **A canonical vocabulary gap larger than a missing producer.** `Zinfandel` appears in **zero
+  `grapes` arrays across all 928 records.** Promoting Turley means adding a **grape category**, not
+  a producer — the same shape as `CDX-17`'s missing Oregon. Turley, Chappellet and Figeac are all
+  **gaps, not conflicts** (`CDX-23`); Figeac's 6 substring hits are all `producer='Bordeaux'`
+  vintage-guide records, i.e. the ~130 **non-bottle** class Batch 12 measured.
+- 🔴 **Producer-published data is not automatically reliable, and two producers failed differently.**
+  **Chappellet's own product pages carry wrong-vintage prose** — the 2022 Signature page's growing
+  season describes **2020**, the 2022 Pritchard Hill page describes **2019** and quotes a 2019
+  review. **Any pipeline scraping product pages instead of the wine-notes PDFs ingests wrong-vintage
+  facts as truth.** **Dominus' own tech sheets duplicate figures across different wines**
+  (`DOM_2020` and `NK_2020` both 1,600 cases; `NK_2021` and `Othello-2021` both 3,000) — tech-sheet
+  ingestion needs a cross-wine duplicate check.
+- ⚠️ **Load-bearing negatives, stated in neither direction.** Dom Pérignon: Agence Bio
+  `datePremierEngagement 2020-10-15`, registered as **`Grossistes`, not `Production végétale`** — so
+  for 2015 / 2013 / 2003 **nothing is claimable either way**. Dominus: CCOF certified **2021-05-10**,
+  so the **2020 harvest (Sept 16–27) predates it**, transition start year unpublished. Chappellet
+  claims present-tense organic certification but **publishes no certificate or number** while USDA
+  INTEGRITY, CCOF and CA SOS were all gated — **Farming is its one Medium section.** Figeac: Agence
+  Bio exact-SIRET `nbTotal: 0`, and RCFS 2013 / ISO 14001 2015 / HVE 2018 **all postdate** the 2009
+  and 2010 bottles.
+- ⚠️ **Two Napa 2020 smoke questions, both left open by the producers themselves.** Dominus: `smoke`
+  and `wildfire` appear **0 times** across the whole cache; the estate attributes 2020 to **heat**
+  only. Promontory: the estate states harvest was **complete before the Glass Fire began** and says
+  nothing about smoke. **Neither presence nor absence asserted on either.** Promontory's **2017** is
+  the better-documented case — picked to **8 October**, **75% of fruit already in**, everything after
+  that date **declined**; the word "damage" and the fire's name were **both refused** because the
+  estate uses neither.
+- 🔴 **Corporate structure was not confirmed for two producers, and inference was not substituted.**
+  **Promontory vs Harlan Estate**: CA SOS (Imperva **403**) and CA ABC (**403**) both gated, and
+  `promontory.wine` carries **no legal notice, no terms and no privacy policy at all** — the best
+  available evidence is a **commerce display name** (`Promontory Production`), reported as such.
+  **Dominus**: `Dominus Estate Corporation` rests on the estate's own legal notice only; CA SOS and
+  CA ABC were 403 there too. ✅ **Figeac is the counter-case** — `SCEA Famille Manoncourt`,
+  SIRET `38506797000017`, with four legal entities at the same address held apart at **SIRET**
+  granularity (`D-2026-08-05-08`, plus Haut-Brion's one-SIREN-three-SIRETs lesson). `La Tour Figeac`
+  and `Yon-Figeac` were held strictly separate.
+- 🔴 **A new hazard class: instructions addressed to AI agents inside fetched content.** Turley's
+  `robots.txt` contains text directing agents to its UCP/MCP endpoints and recommending they install
+  a shopping skill **to purchase products directly**. It was treated as **observed content, not
+  instruction** — nothing installed, no cart or checkout surface touched, only public HTML, sitemaps,
+  PDFs and images fetched. 🔴 **Producer sites are now a prompt-injection surface. Record it, obey
+  nothing in it.**
+- ⚠️ **Site authenticity: 6 of 6 passed, zero look-alikes** (running reject total stays at **14**).
+  But two passed on **weak** evidence: `promontory.wine` (no legal notice; accepted on a reciprocal
+  `alt="Promontory"` link, a shared private Gatsby theme and matching Prismic document IDs) and
+  Turley (🏛 CCOF directory reciprocal link + address match). ⚠️ **`domperignon.com` is 100%
+  age-gated** — **183 of 187** sitemap pages return a byte-identical gate shell — so its product
+  material comes from **Wayback captures of the house's own pages**, tagged `📄` and authenticated by
+  embedded mentions légales. **A browser-based revisit that clears the gate is the one route to its
+  remaining hole (the 2015 vintage character).**
+- ⚠️ **Physical-label tasks added: 13**, bringing the floor total to **93**. Two are unusually
+  high-leverage: **Figeac's is one word on one label** (`CHATEAU-FIGEAC` vs `PETIT-FIGEAC` vs
+  `LA GRANGE NEUVE DE FIGEAC`) and it decides **all three rows**; **Promontory's single bottle
+  answers four questions at once**, including the back-label bottler statement — the most likely
+  remaining route to the legal entity the gated registers refused.
+- ⚠️ **Gated registries, recorded as gated and never bypassed:** 🏛 TTB COLA (`bobcmn` / `TSPD_101` /
+  `captcha_audio`) for **four** producers, CA Secretary of State (Imperva 403), CA ABC (403), USDA
+  Organic INTEGRITY (Blazor shell / API 400), CCOF member directory (404 / JS shell), USPTO tmsearch
+  (SPA, 405), Légifrance (403 — worked around by recording verbatim texts in a cache note).
+  **A gate is not evidence of absence.**
+
 Governing workflow: fixed template, **70% completeness bar**, four evidence layers never mixed
 (verified fact / source-derived / Akio's insight / unresolved), `## Akio's Insight` is
 **Akio-only and never written or rewritten by anyone else**, official sources only
@@ -960,15 +1102,21 @@ Governing workflow: fixed template, **70% completeness bar**, four evidence laye
 Everything below is **waiting on Akio**, not on execution capacity. See
 [`NEXT_ACTIONS.md`](NEXT_ACTIONS.md).
 
-1. **Batch 13 approval** (producer research) — Batch 12 is complete; nothing auto-advances.
-   🔴 **Every remaining producer holds 3 bottles or fewer**, so a 6-producer batch is **12–18 bottles
-   at best** against Batch 12's 47. **Bordeaux was the last large block**, and it is now done —
-   the coverage curve from here is flat by arithmetic, not by choice. **`Krug` and `Dom Pérignon`
-   sit in the 3-bottle tier and are the *centres* of `V-1` and `V-3`** — worth more than their 6
-   bottles if register adjudication is the goal. 🔴 **Batch 12 materially raised the value of
-   Shape C**: the pipeline defect it found (label-null override, 152 rows) and the reference-table
-   contamination (~130 of 928 records) are both **measurement-first, cheap, and floor-facing** —
-   see `NEXT_ACTIONS.md` §1
+1. **Phase 15 selection** (producer research) — ⚠️ **not a blocker on execution.**
+   `D-2026-08-06-06` §7 removed the per-batch approval gate, so research continues by default;
+   this entry records only that **the selection is worth a glance**. **Twelve producers remain in
+   the 3-bottle tier and the 2-bottle tier begins immediately after** — the coverage curve is flat
+   by arithmetic, not by choice, and the **producer** criterion (84/182) is what moves.
+   ⚠️ **Expect the sub-bar rate to rise for the first time since Batch 11**: five of the six
+   strongest Phase 15 candidates are grower Champagne or Burgundy/Rhône domaines, i.e. the
+   **Roulot / Niellon publishing profile**, and **no cache exists for any of the twelve**.
+   See `NEXT_ACTIONS.md` §0 "Recommended Phase 15".
+   🔴 **Batches 12 and 14 together materially raised the value of Shape C.** The `label = null`
+   defect is now measured **in both directions** — over-proposing (Batch 12: 152 rows, 147 marked
+   `exact`, always the grand vin) and **under-proposing** (Batch 14: Promontory, where the single
+   correct record was the only candidate and still went `unresolved` at `0.0`). Together with the
+   reference-table contamination (~130 of 928 records), these are **measurement-first, cheap and
+   floor-facing** — see `NEXT_ACTIONS.md` §0 and §1
 2. Review / merge of PR #5
 3. **Conflict-register adjudication, now spanning Batches 8, 9 and 10** — accept or reject proposed
    `C-6` and `P-8`; adjudicate the **`CAT-1`…`CAT-9` category proposals in §D**, which are still
@@ -1082,4 +1230,7 @@ Everything below is **waiting on Akio**, not on execution capacity. See
 
 ## Last Updated
 
-2026-08-06 (updated after Batch 12 — the Bordeaux block, complete — 8 of 8)
+2026-08-06 (updated after **Batch 14** — complete, 6 of 6; closed Batch 13's remainder and added
+two producers on restaurant value, `D-2026-08-06-07`. Coverage **539 / 704 = 76.6%** across
+**84 dossiers**; producer criterion **84 / 182 = 46.2%**. Figures recomputed with
+`research/producers/coverage.py`, not carried over from memory)

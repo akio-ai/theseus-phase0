@@ -13,6 +13,44 @@
 
 ---
 
+## D-2026-08-06-07 — Batch 14 closed Batch 13's remainder and extended by two on restaurant value
+
+**Date** 2026-08-06 · **Authority** Execution · **Status** Done · **Scope** Batch 14 only
+
+**Decision.** Phase 14 ran **six** producers, not four. The four named in the resume order
+(**Dom Pérignon, Turley, Dominus Estate, Chappellet**) close Batch 13. Two further producers
+(**Château-Figeac, Promontory**) were added to keep the agent pool at its cap rather than idle,
+selected on the standing selection priority — **highest restaurant value first**. Promontory is
+**$10,740 across three rows**, by a wide margin the most expensive producer remaining on the menu;
+Figeac is **$3,920 across three** and extends the Bordeaux block already completed in Batch 12.
+
+**Why this was execution's call, not Akio's.** `D-2026-08-06-06` §7 removed the per-batch approval
+gate, and the instruction for Phase 14 was *continue Producer Research* with a resume **priority
+order**, not a fixed count. Adding producers of the same type, from the same standing selection
+criteria, is continuation rather than scope expansion. It is recorded here so it can be reversed
+deliberately.
+
+**Concurrency.** Held at **3 agents** throughout, per `D-2026-08-06-06` §4. A freed slot was
+refilled twice; after the sixth producer launched, the last free slot was **left empty** rather
+than extended a third time, so the batch closes at a size consistent with Batches 8–13.
+
+**Result.** **6 of 6 cleared the 70% bar. Zero sub-bar dossiers** — the third such batch, after
+Batches 4, 10 and 12. Coverage **521 → 539 / 704 (74.0% → 76.6%)**; dossiers **78 → 84**; the
+binding producer criterion **78/182 → 84/182 (42.9% → 46.2%)**.
+
+**The Batch 9 precedent held for a third time.** Dom Pérignon (28 MB / 449 files) and Turley
+(2.4 MB / 14 files) were written from their existing caches with **no research sweep**, exactly as
+Hundred Acre / Abreu / Bergström were. **A spend-limit stop costs the writing pass, not the
+research.** This is no longer a prediction; it is a measured pattern with two independent
+confirmations. Turley's cache is the sharper demonstration: `page_trade-assets.html`, already on
+disk, held the URLs of the official tech-sheet PDFs for the exact 2023 vintages on the menu.
+
+**Caches were left byte-intact** (Turley's 14 original files retain their 11:08 mtimes). Four new
+caches were built — `dominus-estate` (131 files / 54 MB), `chappellet` (85 / 13 MB),
+`chateau-figeac` (74), `promontory` (51) — so a future stop again costs only writing.
+
+---
+
 ## D-2026-08-06-06 — Research runs to completion; engineering defects go to Codex
 
 **Date** 2026-08-06 · **Authority** Akio · **Status** In force · **Scope** Permanent, from Batch 13
