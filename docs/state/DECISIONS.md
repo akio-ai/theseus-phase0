@@ -13,6 +13,51 @@
 
 ---
 
+## D-2026-08-06-05 — Research Layer completion criteria
+
+**Date** 2026-08-06 · **Authority** Akio · **Status** In force
+
+**Decision.** The Research Layer is complete when, and only when, all three hold:
+
+1. **Every OBP producer has a dossier.**
+2. **Every OBP bottle is linked to a producer.**
+3. **Every producer has a documented confidence level.**
+
+**Unknown information is allowed. Invented information is never allowed.**
+**The objective is completeness of evidence, not completeness of knowledge.**
+
+**Reason.** These criteria are stated over *producers*, not bottles, and criterion 2 requires a
+link to a **producer** — not to a cuvée, not to a vintage, not to a specific wine. That is
+deliberate and it changes the completion path in two directions at once:
+
+- **It removes the hardest blocker.** The 78 rows awaiting a physical label are *wine*-level
+  identification. Criterion 2 does not ask for that, so those rows do not block completion.
+  This ratifies **D-2026-08-06-04** as the general rule rather than a Bordeaux exception.
+- **It moves the headline number down.** The project has been steering by *bottle* coverage
+  (**515 / 704 = 73.2%**). Criterion 1 is *producer* coverage: **76 / 182 = 41.8%**. The
+  remaining 106 producers cost roughly the same per dossier as the first 76 and return 189
+  bottles instead of 515. The curve is flat from here and the criteria say so plainly.
+
+**Relationship to `D-2026-08-04-02`.** Unchanged and orthogonal. The 70% bar governs *how deep a
+single dossier goes*; these criteria govern *when the layer is done*. A layer of 182 dossiers all
+sitting at 70% satisfies these criteria. "Completeness of evidence, not of knowledge" is the same
+principle as the 70% bar, stated at layer scope.
+
+**Consequence for the pipeline defect.** "Invented information is never allowed" is now a
+completion criterion, not only a drafting rule. The Batch 12 finding is therefore in scope and
+measured: the parser correctly detects *no cuvée printed* on **292 / 704** rows; on **152** of
+those the matcher proposes a canonical cuvée anyway, and **147 are marked `exact`**. **0 of the
+152 carry a reviewer note**; only 19 carry any `source_quality_flags`. That is invented data
+published at the highest confidence tier. It sits in intake, not in the dossiers — the dossiers
+are clean — but it feeds the same product and it violates criterion 3's premise.
+
+**Applied as.** Recorded here; `NEXT_ACTIONS.md` and `CURRENT_STATE.md` report against these
+three criteria. No dossier, no canonical record and no intake row was changed by this decision.
+
+**Reversal.** Delete this entry; the layer reverts to being measured by bottle coverage alone.
+
+---
+
 ## D-2026-08-05-01 — Research Layer is committed; canonical is not
 
 **Date** 2026-08-05 · **Authority** Akio · **Status** Applied
@@ -730,4 +775,4 @@ prohibited outright**; when no official source exists, record "awaiting material
 
 ## Last Updated
 
-2026-08-06 (updated after Batch 12 close-out; adds D-2026-08-06-02, -03, -04)
+2026-08-06 (updated after Batch 12 close-out; adds D-2026-08-06-02, -03, -04, **-05**)

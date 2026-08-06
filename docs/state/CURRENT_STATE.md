@@ -55,6 +55,24 @@ the 70% bar and all eight are Confidence High** — the second batch since Batch
 dossier, and the first ever at eight producers. Run at **8 concurrent agents**, up from Batch 10–11's
 maximum of 2. See §"Batch 12 notes" below.
 
+### Completion criteria scorecard — `D-2026-08-06-05`
+
+> Measured 2026-08-06 against `obp_intake_normalized_20260804.json` (704 rows) and
+> `research/producers/*.md` (76 files). **Nothing below is carried over from memory.**
+
+| # | Criterion | State | Measured |
+|---|---|---|---|
+| **1** | Every OBP producer has a dossier | 🔴 **41.8%** | **76 / 182 producers.** 106 remain. This — not the 73.2% bottle figure — is the binding constraint |
+| **2** | Every OBP bottle is linked to a producer | 🟡 **blocked only by ①** | All **704 / 704** rows carry a well-formed producer name (**0** null, **0** malformed). 550 carry a canonical producer id; the **154** that do not are a *canonical* gap, not a research gap — they include producers already dossiered (Pride Mountain 10, Grgich Hills 8, Ganevat 7, Pol Roger 6). Criterion 2 asks for a **producer**, so the **78** rows awaiting a physical label do **not** block it |
+| **3** | Every producer has a documented confidence level | 🟡 **76 / 76 documented, 4 formats** | **Zero dossiers lack a confidence statement.** But it is expressed four incompatible ways: 58 carry the machine-readable header `reached_70: … / confidence: High`; 71 carry a `## Confidence` **section** (per-section table, not a producer-level rollup); 2 use Japanese `確信度`; `chateau-cos-d-estournel.md` has **neither** the header nor a `## Confidence` section — only per-finding `確信度` rows, so it has no producer-level value. **A formatting fix, not research** |
+
+🔴 **The one live violation of "invented information is never allowed."** Not in the dossiers —
+in intake. The parser correctly detects *no cuvée printed* on **292 / 704** rows; on **152** of
+those the matcher proposes a canonical cuvée anyway, and **147 are marked `exact`**. **0 of the
+152 carry a reviewer note**; only **19** carry any `source_quality_flags`. Under `D-2026-08-06-05`
+this is in scope for completion, and no amount of canonical repair fixes it — it is a matcher
+defect. See §"Batch 12 notes".
+
 | | |
 |---|---|
 | Dossiers | **76** — `research/producers/*.md` |
