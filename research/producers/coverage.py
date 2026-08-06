@@ -105,6 +105,38 @@ M={
     # transposition); the key below is the proposed_canonical_producer, which the
     # matcher resolved correctly at producer_state='alias'.
  "thierry-allemand":["Thierry Allemand"],
+    # Batch 12 - the Bordeaux block, run as one dedicated batch per NEXT_ACTIONS.md
+    # section 2. All 47 rows print the APPELLATION where other sections print a
+    # cuvee, so every key below is a producer key only; NONE of these rows can be
+    # resolved to grand vin vs second wine from menu data. Measured across the
+    # intake file: _parts.label is null on 69 of 69 Bordeaux rows, and a regex
+    # sweep for every second/third-wine name in the block (Pavillon, Forts de,
+    # Petit Mouton, Aile d, Clarence, Clarte, Bahans, Alter Ego, Sirene, Pagodes,
+    # Goulee, Labory, Ygrec, Carruades) returns ZERO hits in all 704 rows at
+    # either layer. Coverage here means "a sommelier can speak to the row without
+    # lying" (D-2026-08-04-02), NOT "the row is attributed to a single wine".
+    # 39 of the 47 rows carry a physical-label task for exactly that reason.
+ "chateau-margaux":["Château Margaux"],
+ "chateau-d-yquem":["Château d'Yquem"],
+ "chateau-mouton-rothschild":["Château Mouton-Rothschild"],
+    # 'Chateau Latour' must not be folded together with 'Louis Latour', which is a
+    # separate Burgundy negociant with its own dossier - different SIREN, different
+    # departement. Canonical shares the id prefix 'latour-' across both producers
+    # (latour-blagny-2019 etc. are Louis Latour), which is the D-2026-08-05-08
+    # substring defect sitting inside the id scheme rather than in a name field.
+ "chateau-latour":["Château Latour"],
+    # Haut-Brion qualifies the disambiguation rule the project relies on: Chateau
+    # Haut-Brion, La Mission Haut-Brion and La Tour Haut-Brion are three SIRETs of
+    # ONE SIREN (572179026), so SIREN separation fails for three of the five
+    # Haut-Brion brands. Quintus and Les Carmes do separate cleanly by SIREN.
+ "chateau-haut-brion":["Château Haut-Brion"],
+ "chateau-giscours":["Château Giscours"],
+ "chateau-palmer":["Château Palmer"],
+    # Two of the four Cos rows are printed in the WHITE section under a red-only
+    # AOC (Saint-Estephe, decret 14 Nov 1936). They are counted because the dossier
+    # documents both candidate whites; the appellation printed on those two rows is
+    # legally impossible either way. Escalated, not fixed.
+ "chateau-cos-d-estournel":["Château Cos d'Estournel"],
 }
 def key(r): return r.get('proposed_canonical_producer') or r.get('source_producer_raw')
 c=collections.Counter(key(r) for r in rows)

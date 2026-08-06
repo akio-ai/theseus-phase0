@@ -356,6 +356,76 @@ of those files and their `coverage.py` entries; coverage returns to 59.5%. Nothi
 
 ---
 
+## D-2026-08-06-04 — Coverage counts a Bordeaux row without resolving which wine it is
+
+**Date** 2026-08-06 · **Authority** Execution · **Status** Applied
+
+**Decision.** Count all 47 Bordeaux rows as covered even though **not one of them can be resolved to
+grand vin vs second vs third wine** from any available source.
+
+**Reason.** The bar is `D-2026-08-04-02`: *a sommelier can speak about the producer on the floor
+without saying anything false.* Every dossier states the ambiguity explicitly, names the candidate
+wines, and routes the identification to a physical-label task. **Saying "this is one of Château
+Palmer, Alter Ego or the white, and here is how to tell" is not false; saying "this is Château
+Palmer" would be.** Counting these rows measures dossier coverage, **not** row attribution — the
+same distinction already recorded for Hundred Acre (4 of 5 rows are sibling brands) and Famille
+Moussé (one house, two menu spellings).
+
+**Applied as.** `research/producers/coverage.py`, Batch 12 block, with the reasoning in a comment so
+the number cannot be misread later. **515 / 704 (73.2%), 76 dossiers.**
+
+**Reversal.** Remove the eight Batch 12 keys from the map; coverage returns to 468 / 704 (66.5%).
+
+---
+
+## D-2026-08-06-03 — Producer research runs at 8 concurrent agents
+
+**Date** 2026-08-06 · **Authority** Execution · **Status** In force · **Supersedes** the max-2 practice
+
+**Decision.** Run producer research at up to **8 concurrent agents**, one producer per agent, with no
+shared state and no cross-reading between agents.
+
+**Reason.** Batches 10 and 11 ran at a maximum of 2. Batch 12 ran 8 and delivered **8 of 8 above the
+bar, all Confidence High**, with no cross-contamination. **The parallelism also produced evidence a
+serial run could not**: three agents independently converged on the same matcher defect from three
+different angles (Mouton via a zero-overlap token-set evidence string, Palmer via the same shape
+stated as *false* rather than *absent* information, Haut-Brion and Giscours via the store-layer
+collapse). Independent convergence is corroboration; sequential discovery would have been one
+agent's claim.
+
+**Traded away.** Nothing structural. The one cost was a briefing defect amplified 8× — see
+`D-2026-08-06-02`.
+
+**Reversal.** Lower the agent count in the batch brief. No artifact depends on it.
+
+---
+
+## D-2026-08-06-02 — The batch brief must state the intake artifact's absolute path
+
+**Date** 2026-08-06 · **Authority** Execution · **Status** In force
+
+**Decision.** Every producer-research brief must give the absolute path of the intake package —
+`~/Desktop/obp_intake_20260804/obp_intake_normalized_20260804.json` (704 rows) — and state that it
+is the source of `match_state`, `confidence` and `source_quality_flags`, and the artifact
+`research/producers/coverage.py` computes coverage from.
+
+**Reason.** The intake package lives **outside the repository**. Batch 12's brief quoted values from
+it without saying where it was, and **four of eight agents independently concluded the values did not
+exist**, each having found the store layer's separate `flags` field inside the repo and reasoned from
+its emptiness. Two went on to assert in writing that the pipeline does not detect a defect it does
+detect. **All four were corrected; the fault was the briefing's, not the agents'.** The standing rule
+that every count must name its artifact (Batch 8, Bachelet-Monnot) is necessary but insufficient if
+the brief itself does not say where the artifact is.
+
+**Applied as.** `NEXT_ACTIONS.md` §1 "Workflow fixes Batch 12 earned", item 1.
+
+**Corollary, recorded because it nearly cost the batch a real finding.** The flag vocabulary is real:
+11 tokens over 704 rows, of which **all 6 `format_in_name` rows are d'Yquem** and **2 of 3
+`section_colour_conflict` rows are Cos d'Estournel**. The correct reading is not "the pipeline is
+blind" but **"the pipeline detects it at intake and loses it before the store layer."**
+
+---
+
 ## D-2026-08-06-01 — Batch 11 runs the six producers already selected; stop after 11
 
 **Date** 2026-08-06 · **Authority** Akio · **Status** Applied
@@ -660,4 +730,4 @@ prohibited outright**; when no official source exists, record "awaiting material
 
 ## Last Updated
 
-2026-08-06 (updated after Batch 11 close-out; adds D-2026-08-06-01)
+2026-08-06 (updated after Batch 12 close-out; adds D-2026-08-06-02, -03, -04)

@@ -48,17 +48,19 @@ with modified icon assets in the working tree.
 
 ## Active workstream — Producer Research Layer
 
-**Status: Batch 11 complete — 6 of 6.** Vilmart & Cie, Henri Giraud, Alvina Pernot, Anne et Hervé
-Sigaut, René & Vincent Dauvissat, Thierry Allemand. **Four cleared the 70% bar; two are
-deliberately below it** and marked `awaiting material from the team`. Run at a maximum of
-**2 concurrent agents** throughout. See §"Batch 11 notes" below.
+**Status: Batch 12 complete — 8 of 8.** The **Bordeaux block**, run as one dedicated batch per
+`NEXT_ACTIONS.md` §2: Château Margaux, Château d'Yquem, Château Mouton Rothschild, Château Latour,
+Château Haut-Brion, Château Giscours, Château Palmer, Château Cos d'Estournel. **All eight cleared
+the 70% bar and all eight are Confidence High** — the second batch since Batch 4 with no sub-bar
+dossier, and the first ever at eight producers. Run at **8 concurrent agents**, up from Batch 10–11's
+maximum of 2. See §"Batch 12 notes" below.
 
 | | |
 |---|---|
-| Dossiers | **68** — `research/producers/*.md` |
-| OBP coverage | **468 / 704 bottles (66.5%)** — Batch 5 **+44**, Batch 6 **+36**, Batch 7 **+34**, Batch 8 **+30**, Batch 9 **+30** (15 + 15 on resume), Batch 10 **+25**, Batch 11 **+24** |
-| Remaining | **114 producers / 236 bottles** |
-| Conflicts register | `research/canonical_conflicts/REGISTER.md` — 20 true conflicts, 54 false positives separated. **Batches 5–11 wrote no new entries.** Batch 8 proposes `C-6` and `P-8`; Batch 10 added evidence to `C-1`, `C-4`, `V-1`, `V-2`, `V-3`, `S-2`, **corrected the recorded impact of `P-2` downward** and left five unnumbered shapes; Batch 11 added evidence to `C-4`, `S-2`, `P-1` and **produced a counter-example to `D-2026-08-05-12`'s reading of `'NV'`**, leaving four further unnumbered shapes — all awaiting CTO adjudication, none written |
+| Dossiers | **76** — `research/producers/*.md` |
+| OBP coverage | **515 / 704 bottles (73.2%)** — Batch 5 **+44**, Batch 6 **+36**, Batch 7 **+34**, Batch 8 **+30**, Batch 9 **+30** (15 + 15 on resume), Batch 10 **+25**, Batch 11 **+24**, Batch 12 **+47** |
+| Remaining | **106 producers / 189 bottles** |
+| Conflicts register | `research/canonical_conflicts/REGISTER.md` — 20 true conflicts, 54 false positives separated. **Batches 5–11 wrote no new entries.** Batch 8 proposes `C-6` and `P-8`; Batch 10 added evidence to `C-1`, `C-4`, `V-1`, `V-2`, `V-3`, `S-2`, **corrected the recorded impact of `P-2` downward** and left five unnumbered shapes; Batch 11 added evidence to `C-4`, `S-2`, `P-1` and **produced a counter-example to `D-2026-08-05-12`'s reading of `'NV'`**, leaving four further unnumbered shapes; **Batch 12 added evidence to `C-1`, `C-4`, `C-5`, `C-6`, `S-2`, `V-1`, `V-2`, `V-3`, proposes `P-9`, and leaves nine further unnumbered shapes** — all awaiting CTO adjudication, none written |
 | Canonical writes | **Zero.** Read-only throughout |
 
 ⚠️ **Coverage figure corrected.** The pre-Batch-5 number was recorded as **256 / 704 (36.4%)**.
@@ -81,7 +83,8 @@ document use the recomputed basis.**
 | Batch 8 (6) | Taittinger, Domaine Roulot, Domaine Bachelet-Monnot, Michel Niellon, Domaine de L'Arlot, Clos de la Coulée de Serrant (Famille Joly) |
 | Batch 9 (6) | Harlan Estate, Clos de Tart, Armand Heitz, Hundred Acre, Abreu Vineyards, Bergström Wines (last three resumed from cache) |
 | Batch 10 (6) | Famille Moussé, Louis Roederer, Billecart-Salmon, Laurent-Perrier, Chateau Montelena, Olivier Leflaive Frères |
-| **Batch 11 (6)** | **Vilmart & Cie, Henri Giraud, Alvina Pernot, Anne et Hervé Sigaut, René & Vincent Dauvissat, Thierry Allemand** |
+| Batch 11 (6) | Vilmart & Cie, Henri Giraud, Alvina Pernot, Anne et Hervé Sigaut, René & Vincent Dauvissat, Thierry Allemand |
+| **Batch 12 (8)** | **Château Margaux, Château d'Yquem, Château Mouton Rothschild, Château Latour, Château Haut-Brion, Château Giscours, Château Palmer, Château Cos d'Estournel** — the Bordeaux block |
 
 **Batch 4 notes.** Two producers (Pride Mountain, Grgich Hills) had **no canonical producer record at
 all** — 18 OBP bottles were `producer_state = unresolved` purely for that reason. Both US dossiers
@@ -664,6 +667,262 @@ one-subregion-per-cuvée model cannot express; and de Montille's four Corton row
   were quoted where the pair was ambiguous.
 - **Physical-label tasks added: 21**, bringing the floor total to **39**. See `NEXT_ACTIONS.md` §3g.
 
+**Batch 12 notes (complete — 8 of 8). The Bordeaux block.**
+- **All eight cleared the bar and all eight are Confidence High** — Margaux ~88%, d'Yquem ~88%,
+  Mouton Rothschild ~88%, Latour ~88%, Haut-Brion ~88%, Giscours ~88%, Cos d'Estournel ~88%,
+  Palmer ~85%. **+47 bottles; the estimate was exact.** Coverage **468 → 515 / 704 (66.5% → 73.2%)**.
+  🔴 **This is the largest single-batch gain since Batch 5, and it came from the block every batch
+  since Batch 5 had deferred.** The deferral reason (`NEXT_ACTIONS.md` §2) was that Bordeaux needs
+  `facts.subregion` matching and is more efficient as one dedicated batch — which is what it got.
+- ⚙️ **Run at 8 concurrent agents against Batches 10–11's maximum of 2, one producer per agent, no
+  shared state.** No agent read another's producer. The parallelism held: no cross-contamination
+  appeared, and **three agents independently converged on the same matcher defect from three
+  different angles** (see below), which is corroboration a serial run would not have produced.
+- 🔴🔴 **The dominant finding, and it is a pipeline defect rather than a data defect: the intake
+  parser detects that no cuvée name was printed, and the matcher proposes one anyway.**
+  Every OBP Bordeaux row prints the **appellation** in the wine-name column — `Margaux`, `Pauillac`,
+  `Pessac-Léognan`, `Saint-Estèphe`, `Sauternes` — and the parser records this correctly:
+  `_parts.label` is `null` on **69 of 69 Bordeaux rows** and on **292 of 704 rows corpus-wide**.
+  🔴 **But 152 of those label-null rows still emit a `proposed_canonical_cuvee`, and 147 of the 152
+  are marked `cuvee_state: exact`.**
+  🔴🔴 **And the proposed cuvée is not an echo of the appellation — it is the grand vin.** For
+  Giscours, `normalized_cuvee` holds `Margaux` while `proposed_canonical_cuvee` holds
+  **`Château Giscours`** (`cuvee:chateau-giscours-chateau-giscours`); the six rows read `unresolved`
+  only through `vintage_state`, never through `cuvee_state`. **So the matcher does not merely invent
+  a cuvée from an appellation — it silently resolves grand-vin-versus-second-wine, on zero evidence,
+  in favour of the grand vin, for exactly the rows this batch proves are undecidable from official
+  sources.** Every château in the block bottles a second wine in the same appellation at a fraction
+  of the price. Three independent demonstrations, none of which knew about the others:
+  - **Mouton** — all six rows carry the evidence string
+    `名称トークン集合一致: 'pauillac' ≡ 'Château Mouton-Rothschild'`. **The token sets share zero
+    members.** `cuvee_state` is `exact` regardless, and two rows reach `confidence 1.0` on nothing
+    but "a row with that vintage exists."
+  - **Palmer** — the same shape (`{margaux}` vs `{château, palmer}`, zero overlap) with the
+    distinction stated precisely: **`C-6` is evidence carrying *no* information; this is evidence
+    carrying *false* information**, which actively misleads a reviewer rather than merely failing to
+    help one.
+  - **Haut-Brion / Giscours** — the store layer then preserves the empty `product_name` correctly
+    and collapses the rows into a single shell keyed **without vintage**.
+  → 🔴 **Detect → override → collapse, across three layers.** Fixing canonical cannot fix these rows.
+  This is the sharpest available evidence for the **`C-6` premise split** Batch 10 asked for.
+  🔴 **The override is unhedged in 96.7% of cases** (147 `exact`, 3 `alias`, 2 `candidate`), and
+  `source_quality_flags` is **empty on every affected row**, so nothing warns a reviewer.
+- 🔴 **A consequence that should be stated wherever match states are consumed: `exact` is not a
+  stronger identification than `unresolved` here.** All six Haut-Brion rows are `producer_state:
+  exact` **and** `cuvee_state: exact`; only `vintage_state` differs. **The 1993 and 1987 rows that
+  read `match_state = exact` at `confidence 1.0` matched their cuvée on the same false token-set
+  claim as the four `unresolved` rows** — the difference between them is purely whether canonical
+  happens to hold that vintage. This is the fourth and sharpest instance of Batch 11's finding that
+  **`match_state` measures canonical agreement, not existence.**
+- 🔴 **The store-layer collapse is now measured, and it destroys price and vintage.** Haut-Brion:
+  **$14,940 of listings in one shell** (`rs:pro:7e4577c3f98cf640`). Yquem: **six vintages and three
+  prices in one shell** (`rs:pro:434164aa9498d56f`), vintage absent from shell identity, only the
+  2017 transcription retained. Cos: `rs:rel:1354e538b20bd449` merges the **WHITE $680** and
+  **RED $900** rows and **discards the $900 price**. **141 of 1047 shells are multi-line.**
+  This is the **fifth-plus instance** of the intake↔store divergence (Bachelet-Monnot, Clos de Tart,
+  Armand Heitz, Hundred Acre) and the first where the discarded axis had **already been flagged
+  upstream**.
+- ⚠️ **The intake `source_quality_flags` vocabulary is real, populated, and was nearly written off.**
+  Eleven tokens over 704 rows: `missing_price` 28, `producer_spelling` 13, `cross_section_duplicate`
+  8, `cuvee_spelling` 7, `canonical_model_note` 6, `format_in_name` 6, `disgorgement_in_name` 4,
+  `section_colour_conflict` 3, `section_region_conflict` 2, `malformed_vintage` 2,
+  `disgorgement_unknown` 1. 🔴 **Two flags are almost entirely Batch 12's**: all **6** `format_in_name`
+  rows are Yquem, and **2 of the 3** `section_colour_conflict` rows are Cos d'Estournel.
+  🔴 **Four of eight agents independently reported these flags as non-existent** — because the intake
+  package lives **outside the repo** at `~/Desktop/obp_intake_20260804/obp_intake_normalized_20260804.json`
+  and each defaulted to the store layer's separate `flags` field inside it. **That was a defect in the
+  batch briefing, not in the agents**, and all four were corrected. → workflow fix recorded in
+  `NEXT_ACTIONS.md` §1.
+- 🔴🔴 **Canonical is storing reference tables as wine records, and the scale is now measured at
+  roughly 130 of 928 (~14%).** Three disjoint populations found independently:
+  - **61 records** carry `1855 Médoc Classification · Nème Grand Cru Classé` and break down
+    **5 / 14 / 14 / 10 / 18 — exactly the official 1855 red-list structure.** Canonical is holding
+    the classification table itself. (Margaux corroborates from the other side: a **second**
+    classification-string schema, `Premier Grand Cru Classé (1855)`, 5 records, attaches **only** to
+    real bottles — so shell and bottle are distinguishable, and Lafite and Château Margaux are the
+    only two premiers crus with **zero** bottle records.)
+  - **37 records (4.0%)** whose provenance is a **third-party critic's reference book** — 34
+    `Vintage Reference — Parker's Bordeaux` carrying `producer: "Bordeaux"` and **real year values**,
+    2 `Château Profile`, 1 `Appellation Reference`. 🔴 **They carry `type: "Wine"`, `color`,
+    `obp_format`, `glassware`, `serving_temp` and `food_pairings` — schema-indistinguishable from a
+    sellable bottle.**
+  - **35 records** hold a **region or appellation name in the `producer` field.**
+  🔴 **Worse than inert: the shells are load-bearing.** `haut-brion-1855` is `vintage: "—"` and
+  resolves to `vintage: {}`, yet it is the `_stub` source for cuvée facts — **its wrong values
+  default onto the four vintages that have no record of their own.**
+- 🔴 **The canonical base rate held for producers 15–22, but the shape is now more precisely
+  characterised.** Failure counts: Margaux 18/33, Cos 21/33, Latour 20/40, Giscours 23/34,
+  Mouton 23/48, Haut-Brion 34/61, Palmer 15/27, d'Yquem (2 records fully checked, 8 contradicted +
+  8 unsourced of 38). ⚠️ **But Mouton supplies a real counter-example and it should temper the
+  claim**: its **51-entry artist-label archive 1973–2023 matches the official list exactly, all 51**,
+  and geography passes cleanly. **Failures concentrate in numeric specs, not enumerations** —
+  *"canonical is wrong on numbers"* is what the evidence supports; *"canonical is wrong"* overstates it.
+- 🔴 **A new failure direction: typed field and prose contradict each other *inside one record*, and
+  the prose is the correct one.** `mouton-rothschild-1855` stores `aging: 24 months` while its own
+  `obp_note` says ~20 months, which matches the château's *"about twenty months"*. **This inverts
+  Batch 10's finding**, and means a "trust the typed field, drop the prose" migration would make
+  this record actively worse. Unnumbered.
+- 🔴 **Verbatim string duplication reappears in typed fields, twice.** `grapes` `CS45/M37/CF18` is
+  **byte-identical** on `haut-brion-1855` and `haut-brion-1993` — official 1993 is
+  **`Merlot 53 / CS 29 / CF 18`**, so the principal variety is inverted and every value is wrong;
+  `aging "24 months (new oak 100%)"` is byte-identical across all three Haut-Brion records against an
+  official *"dix-huit à vingt mois"* and an adaptive new-oak share measured at 62–90%. Yquem's
+  `terroir` (103 ha vs the producer's 113/104/100) and `serving_temp` are duplicated across all nine
+  of its records. **Same shape as Roederer's `house_style` and Allemand's `description`.**
+- 🔴 **Statutory impossibilities found in three canonical records.**
+  (a) `yquem-ygrec-2017.classification = "Sauternes — Dry White"` — the AOC Sauternes CDC requires
+  **≥45 g/L fermentable sugar** and the château's own Y sheet says **7 g/L**; a dry wine cannot be
+  AOC Sauternes. The same record's `obp_note` (JA, correctly dry) and `obp_note_en` (109 g/L, sweet)
+  **describe two different wines.**
+  (b) `haut-brion-1855.classification = "1855 **Médoc** Classification"` — falsified on three layers
+  (INAO consolidated CDC, arrêté 10 déc 2024, says *« Premier Grand Cru » du classement des vins de
+  Bordeaux de 1855*; the château says *la Classification des Vins de la Gironde*; four real labels
+  print only `Premier Grand Cru Classé en 1855`). **The record contradicts itself** — its own
+  `description` says "the only non-Médoc château". **`Cru Classé de Graves` is absent from all three
+  records** though the château calls it a "double distinction".
+  (c) The two WHITE Cos d'Estournel rows print **`Saint-Estèphe`**, which 🏛 the INAO CDC reserves
+  *« aux vins tranquilles rouges »* (décret 14 Nov 1936, six black varieties, no white).
+- 🔴 **The single most consequential floor fact of the batch: not one of the 47 rows can be resolved
+  to a specific wine from menu data, and this is provable rather than merely unattempted.** Every
+  château in the block bottles a second (and often third) wine in the **same appellation** — and a
+  corpus-wide regex sweep for **every** such name (`Pavillon`, `Forts de`, `Petit Mouton`, `Aile d`,
+  `Clarence`, `Clarté`, `Bahans`, `Alter Ego`, `Sirène`, `Pagodes`, `Goulée`, `Labory`, `Ygrec`,
+  `Carruades`) returns **zero hits across all 704 rows at both the intake and store layers.**
+  **Elimination-by-absence therefore fails for every producer in the block.** Two estates make it
+  acute: **Latour's third wine is `Le Pauillac de Château Latour` — the cuvée name *is* the
+  appellation**, and the château states it was designed *« pour le proposer en priorité à la
+  restauration »*; **Margaux's third wine is `Margaux du Château Margaux`.** 🔴 **This is a four-way
+  collision — producer / cuvée / AOC / commune — strictly worse than Batch 9's Clos de Tart shape,
+  where the same string was *redundant* (one referent); here it is *ambiguous* (three referents).**
+  → **39 of the 47 rows carry a physical-label task for this reason alone.**
+  ✅ **Three producers were nonetheless resolved on producer evidence**: all six Haut-Brion rows are
+  the grand vin rouge, all six d'Yquem rows are the grand vin (none is Ygrec, none a non-declared
+  year), and all five Palmer rows are the grand vin — each confirmed against the château's own
+  per-vintage fiches.
+- ✅ **Two producer-published discriminators were found that make the label task cheaper.**
+  **Giscours: the grand vin contains zero Cabernet Franc in all six vintages; `La Sirène` contains
+  CF in all six** — a back-label reading settles it. **Latour and Palmer both run producer-operated
+  bottle authentication** (Latour Prooftag from vintage 2007, Palmer QR from 2009), so 2009–2017
+  bottles are resolvable through the producer's own tool; only 1996 and 2000 need visual inspection.
+  Margaux adds a third: **the 2015 grand vin carries a screen print applied directly to the glass in
+  place of paper labels**, so that row is identifiable on sight.
+- 🔴 **`D-2026-08-05-08` fired in every producer, and Haut-Brion qualifies the disambiguation rule
+  the project relies on.** 🔴 **SIREN is not granular enough**: `Château Haut-Brion`,
+  `Château La Mission Haut-Brion` and `La Tour Haut-Brion` are **three SIRETs of one SIREN**
+  (`572179026`), while Quintus (389905811) and Les Carmes (341826170) *do* separate cleanly.
+  **Identity keys need SIRET granularity.** Measured false-positive rates on naive substring
+  matching: Margaux **53 hits, precision 1/53** (including Château Lagrange in Saint-Julien, not even
+  in the appellation); Cos **10 hits for 2 real records (80% false)**, one of them a Burgundy record
+  hit via a winemaker's CV line; Giscours **7 of 8 false (87.5%)**, with a new variant — **the
+  producer name is also a street name** (`ROUTE DE GISCOURS`), which pollutes the company register
+  itself. 🔴 **And canonical's id scheme carries the defect too**: `latour-blagny-2019`,
+  `latour-vignes-franches-2022` and `latour-epenots-2022` are **Louis Latour**, a different producer
+  with its own dossier, sharing the `latour-` prefix with Château Latour.
+- 🔴 **A domain trap of a kind not previously recorded, and it is the most dangerous one yet.**
+  `mouton-rothschild.com` — the most obvious-looking domain — **redirects to
+  `chateau-darmailhac.com`, a sibling château owned by the same group.** Not parking, not a fan page,
+  not a look-alike: **the genuine owner serves a different estate's content from the obvious
+  address.** Trusting it would have written Château d'Armailhac's material into this dossier under a
+  clean authenticity check. Zero words used. **It must never enter a canonical `url` field.**
+  Also rejected: `chateau-latour.fr` (invalid TLS, 139-byte nginx 404 — *more* obvious-looking than
+  the real domain), and 🔴 `chateau-giscours.fr`, whose AFNIC holder is
+  **`SOC D'EXPLOITATION DU CHATEAU GISCOURS` — the estate itself** — serving nothing with **0 Wayback
+  captures. Third-party sites still cite it as official; they are wrong.** That is the Batch 11
+  "domain owned but never published" shape (Alvina Pernot), now recurring.
+  ✅ **Overall the block was clean: 7 of 8 producers adopted a domain that passed §2a on first
+  inspection**, and `gcc-1855.fr` was independently authenticity-verified by four agents
+  (SIRET `48484166300012`).
+- ⚠️ **`Cru Classé` is not one string, and no single form is "correct".** Mouton: 🏛 the 1855 rank is
+  **not in the AOC Pauillac cahier des charges at all** (its étiquetage clause reads *"Pas de
+  disposition particulière"*); the legal basis is **Décret du 19 août 1921, art. 13 3° b)**, which
+  permits **both** `cru classé` and `grand cru classé`. 🔴 **And the front label prints no
+  classification whatsoever** — verified on 1996, 2001 and 2019 labels spanning the whole OBP range,
+  which closes off "older vintages carried it". The château itself uses two forms (EN
+  `Premier Cru Classé`, FR `Premier grand cru classé`). Proposed as **`P-9`** — a three-way naming
+  split between the classifying body, the producer and canonical.
+- ✅ **Mouton's 1973 promotion and the 1855 ranks are attested from a statutory instrument, not
+  folklore** — the INAO CDC text itself reads *« dont les premiers Lafite-Rothschild, Latour en 1855
+  et Mouton-Rothschild en 1973 »*. ⚠️ The **Journal officiel** original of the 1973 decree could not
+  be retrieved: **Légifrance is Cloudflare bot-gated (HTTP 403)**. Recorded as **gated, not evidence
+  of absence**; no bypass attempted. Same for `crus-classes.com` (DNS-dead) and
+  `inao.gouv.fr/produit/saint-estephe-16807` (403 WAF).
+- 🔴 **The §2c INAO filename trap fired again and produced a new failure mode: a struck-through
+  *list item*, not a number.** Palmer established that the **in-force** consolidated CDC (homologué
+  **31 March 2023**, JORF 5 April 2023) lists **four** communes for AOC Margaux —
+  `Arsac, Labarde, Margaux-Cantenac et Soussans` — and that **the five-commune reading is a PNO
+  strikethrough extraction artifact**, because the deleted `Cantenac` survives text extraction.
+  🏛 `geo.api.gouv.fr/communes/33268` confirms `Margaux-Cantenac` with `anciensCodes: ["33091"]`:
+  **the commune of Cantenac no longer exists.** ⚠️ **So the trap is not confined to merged numeric
+  pairs (`40 50 hl`, `115160 hectares`) — it corrupts enumerations too**, and Giscours had already
+  recorded two mutually inconsistent five-commune readings from a 2009 décret and a 2022 PNO before
+  the in-force text settled it. Also confirmed: `3-CDC-Margaux.pdf` and `PNOCDCMargaux.pdf` are
+  **both** PNO drafts; all three Latour CDC guesses returned **HTTP 200 with 8,354 bytes of HTML**.
+- ⚠️ **Producers contradict themselves, and both readings were kept every time.** 🔴 The sharpest:
+  **Haut-Brion's own HTML and its own downloadable fiche technique disagree on the 2018 and 2019
+  blends — the two Cabernets' figures are swapped** (2018: CF 11.9 / CS 38.7 vs CS 11.9 / CF 38.7).
+  FR and EN agree *within* each medium, so **the split is by medium, not language**; verified against
+  PDF word coordinates, so it is not an extraction artefact, and both readings sum to 100.0%.
+  Also: Mouton's **84 ha vs 90 ha on the same page**, three harvest-date mismatches, and its own
+  artist list containing **four non-artist years** (1953, 1977, 2000, 2003) against its "a different
+  artist every year since 1945" claim; Cos's two canonical records contradicting **each other** on
+  hectares, blend and new oak.
+- ⚠️ **"Practised vs certified" and the temporal trap decided Farming for all eight, and the trap
+  fired hardest yet.** **Palmer** is the extreme case: it holds **three** registrations
+  (🏛 Agence Bio/Ecocert `numeroBio 157054`, `datePremierEngagement 2011-09-08`; 🏛 Demeter France;
+  🏛 Biodyvin) and its own timeline runs 2009 trial → *« intégralement converti à la biodynamie à
+  partir du millésime 2014 »* — 🔴 **yet not one of its five OBP bottles can carry any of the three
+  labels** (1996 predates the first trial by 13 years; 2012/2013 sit inside the partial conversion).
+  **Mouton**: the group SA *is* registered (`numeroBio 1816`, engagement 2019-09-04) but **Le Pouyalet
+  is not among its four registered `lieux d'activité`**, and exact-SIRET queries on both the vineyard
+  establishment and the label's proprietor GFA return **`nbTotal: 0` — proved negatives**; the
+  château's own site returns **zero hits for all 13 certification terms**. **Haut-Brion**: exact-SIRET
+  `nbTotal: 0` on **all seven SIRETs**; the group's organic registration belongs to a **different
+  legal person** (`CLARENCE DILLON WINES`, SIREN 480805639, engagement 2023-03-10) whose only organic
+  wine is Klara, Sud de la France. **Giscours**: `est_bio: true` sits on a **different legal person
+  with the wrong scope at the same address** — recorded as an unnumbered shape.
+  🔴 **In every one of these cases both "organic" and "not organic" are on the must-not-say list.**
+- 🔴 **`awaiting material from the team` gained a seventh shape — and it is the opposite of the other
+  six.** Château Margaux publishes a **live, deep, actively-maintained site** (358 URLs, a page per
+  vintage back to 1900) that contains **no technical winemaking content at all**. Not a dead domain,
+  not a frozen site, not archive-recoverable in the Giraud sense: **a rich site with one deliberately
+  empty section.** d'Yquem shows the Batch 11 "publishing stopped, site still live" shape instead —
+  the current `yquem.fr` is a **6-URL brochure whose `sitemap.xml` emits `http://localhost/` for every
+  `<loc>`** — and **archive recovery worked**, yielding vintage pages 1893–2014.
+- 🔴 **Counter-examples to "the menu is the defective side" reached ten in one batch, the largest
+  count yet.** d'Yquem: **four vintages absent from canonical but proven to exist from the château's
+  own fiches** — the menu is right, canonical is missing them. Haut-Brion: the front label was
+  **redesigned at the 2004 vintage** and no longer prints the appellation, so four of six OBP bottles
+  carry **no `Pessac-Léognan` on the front** while the menu prints it correctly — **the menu is right
+  and the label moved it.** Giscours: the single word `Margaux` **correctly excludes** the estate's
+  Haut-Médoc third wine — **the column works**; what it cannot do is separate grand vin from second.
+  Latour: 🔴 **neither side is defective** — an appellation-only Bordeaux list is a standard
+  restaurant convention, not damage, which is a **third direction** beyond the two worked examples
+  Batches 10–11 established.
+- 🔴 **Canonical claims refuted outright by the producer, worth listing because they are
+  floor-facing.** `giscours-1855` states the owner "also owns Château du Tertre" — **refuted by both
+  the producer (AJ Domaines = Giscours + Caiarossa only) and the register** (du Tertre's operating
+  company SIREN 894341353, associés Les Grands Chais de France / Terres Bordelaises) — **and the
+  false claim is duplicated across four fields**. It also says "Eric owns since 1995" (he died 2018)
+  and calls the estate a "pioneer of rosé" against the producer's own "2019, newest in the range".
+  `palmer-1855` calls **Alter Ego a "second wine"** — the château's terms are
+  *« L'autre grand vin »* / *"THE OTHER WINE"*, and `second vin` / `second wine` / `deuxième vin`
+  return **0 hits across 67 FR + 2 EN pages**; it presents `CS 47 / Merlot 47 / PV 6` as the estate's
+  permanent encépagement when that string is **verbatim the official 2016 vintage assemblage** and
+  the château publishes no planting percentages at all (**a value with a time axis stored in a field
+  that has none** — unnumbered); and it garbles the Historical wine (`Blend`→**`Wine`**,
+  **15%**→**10% syrah**, and an unsourced "Vin de France"). `latour-1855`'s `lutte raisonnée` is
+  **stale by a decade** and understates biodynamics **~4.7×**, and it **inverts** the official
+  *"the oldest document dates from 1331"* into "records go back to *before* 1331".
+- ⚠️ **Two producer-side facts that will be asked about and have no official source.** Giscours:
+  a widely-repeated mid-2000s regulatory episode — 🏛 **Légifrance juri search returns 15 decisions,
+  all unrelated** (succession / GFA / lease; one candidate checked and confirmed to concern a
+  different Bommes estate). **Recorded as a third-party claim with no official source, placed on the
+  must-not-say list with a scripted floor response.** Mouton: the **1993 Balthus label** — the
+  château's own account is the **opposite of the folklore** (the BATF *had approved* it; the Baroness
+  withdrew the US bottles herself and asked for the approval to be rescinded). **"Banned in America"
+  contradicts the producer.**
+- **Physical-label tasks added: 39**, bringing the floor total to **78**. See `NEXT_ACTIONS.md` §3h.
+
 Governing workflow: fixed template, **70% completeness bar**, four evidence layers never mixed
 (verified fact / source-derived / Akio's insight / unresolved), `## Akio's Insight` is
 **Akio-only and never written or rewritten by anyone else**, official sources only
@@ -683,14 +942,15 @@ Governing workflow: fixed template, **70% completeness bar**, four evidence laye
 Everything below is **waiting on Akio**, not on execution capacity. See
 [`NEXT_ACTIONS.md`](NEXT_ACTIONS.md).
 
-1. **Batch 12 approval** (producer research) — Batch 11 is complete; nothing auto-advances.
-   🔴 **The 4-bottle tier is now fully exhausted.** Every remaining producer holds **3 bottles or
-   fewer**, so a 6-producer batch is **12–18 bottles at best** against Batch 11's 24 and Batch 5's
-   44. ⚠️ **Batch 11 confirmed the risk warning empirically** — two of six fell below the bar, the
-   first sub-bar dossiers since Batch 8, and the cause in both cases was that the producer has
-   never published anything. **`Krug` and `Dom Pérignon` sit in the 3-bottle tier and are the
-   *centres* of `V-1` and `V-3`** — worth more than their 6 bottles if register adjudication is the
-   goal. **Shape C remains the higher-value shape** — see `NEXT_ACTIONS.md` §1
+1. **Batch 13 approval** (producer research) — Batch 12 is complete; nothing auto-advances.
+   🔴 **Every remaining producer holds 3 bottles or fewer**, so a 6-producer batch is **12–18 bottles
+   at best** against Batch 12's 47. **Bordeaux was the last large block**, and it is now done —
+   the coverage curve from here is flat by arithmetic, not by choice. **`Krug` and `Dom Pérignon`
+   sit in the 3-bottle tier and are the *centres* of `V-1` and `V-3`** — worth more than their 6
+   bottles if register adjudication is the goal. 🔴 **Batch 12 materially raised the value of
+   Shape C**: the pipeline defect it found (label-null override, 152 rows) and the reference-table
+   contamination (~130 of 928 records) are both **measurement-first, cheap, and floor-facing** —
+   see `NEXT_ACTIONS.md` §1
 2. Review / merge of PR #5
 3. **Conflict-register adjudication, now spanning Batches 8, 9 and 10** — accept or reject proposed
    `C-6` and `P-8`; adjudicate the **`CAT-1`…`CAT-9` category proposals in §D**, which are still
@@ -706,8 +966,17 @@ Everything below is **waiting on Akio**, not on execution capacity. See
    (`Napa Valley Chardonnay` — the inverse of `C-4`); and a **cross-producer collective
    designation embedded in a name** (`Special Club`). It also **corrects `P-2`'s recorded impact
    from 3 bottles to 1** and supplies the official entity confirmation `P-2` asked for
-4. 🔴 **Canonical's stored values contradict producer-official sources — 13 of 14 producers
-   examined.** No longer confined to `obp_note` prose: Batch 10 found the same failure in **typed
+4. 🔴 **Canonical's stored values contradict producer-official sources — 21 of 22 producers
+   examined.** 🔴 **Batch 12 adds eight and reframes the item: alongside wrong values, canonical is
+   carrying ~130 of 928 records (~14%) that are not bottles at all** — 61 encoding the 1855
+   classification table (breaking down 5/14/14/10/18, the exact official structure), 37 whose
+   provenance is a **third-party critic's reference book** and which are **schema-indistinguishable
+   from sellable bottles**, and 35 holding a region or appellation in the `producer` field.
+   **They are not inert**: `haut-brion-1855` is `vintage: "—"`, resolves to `vintage: {}`, and is the
+   `_stub` supplying cuvée facts — so its wrong values **default onto the four vintages with no
+   record of their own**. ⚠️ **Mouton supplies the first real counter-example and it should temper
+   the wording**: its 51-entry artist archive matches officially **51/51**, and geography passes —
+   **failures concentrate in numeric specs, not enumerations.** No longer confined to `obp_note` prose: Batch 10 found the same failure in **typed
    fields** (`grapes`, `dosage`, `aging`, `founded_year`), including **19 contradicted items across
    Billecart-Salmon's four records** and **one false `house_style` string duplicated verbatim across
    all 16 Roederer records**. 🔴 **Batch 11 separates three failure modes that had been collapsed
@@ -724,7 +993,25 @@ Everything below is **waiting on Akio**, not on execution capacity. See
 7. Schema-change permission (aroma intensity / complexity / 11-family taxonomy — all need migrations)
 8. Fruit Basket: ship or not
 9. `Les Hautes Mottes 2018` — physical bottle or importer sheet needed
-10. **Physical-label checks now blocking thirty-nine rows** — **Batch 11 adds twenty-one**: Vilmart
+10. **Physical-label checks now blocking seventy-eight rows** — 🔴 **Batch 12 adds thirty-nine, and
+    they are structurally different from the previous thirty-nine.** The earlier tasks each settle a
+    *spelling, an appellation or an identity detail*. **All 47 Bordeaux rows share one question —
+    grand vin, second wine, or third? — and 39 of them cannot be answered from any online source**,
+    because the distinguishing string was never printed on the menu and appears nowhere in the
+    corpus (0 hits / 704 rows, both layers, for all 13 second-wine names). ⚠️ **These are the most
+    expensive rows on the list** ($280–$6,890; Margaux alone is eight bottles between $2,440 and
+    $6,890). ✅ **Three producer-published shortcuts cut the cost sharply**: Giscours is settled by
+    a back label (**zero Cabernet Franc in the grand vin across all six vintages; CF in every
+    `La Sirène`**); **Latour (Prooftag, vintages 2007+) and Palmer (QR, 2009+) both run
+    producer-operated bottle authentication**, so 2009–2017 resolve through the producer's own tool
+    and only 1996/2000 need visual inspection; and **Margaux 2015 is identifiable on sight** (screen
+    print applied directly to the glass, no paper label). The remaining eight are ordinary reads:
+    d'Yquem 375 mL capacity marking and the Ygrec appellation line, Haut-Brion's 1987 label
+    (decides whether it is the last Graves-form or first Pessac-Léognan-form bottle), Cos
+    d'Estournel's two WHITE-row appellation lines, Palmer's Historical XIXth Century Wine
+    designation and white-wine name, and Mouton's classification wording.
+    ⚠️ **Several settle multiple escalations per photo.** The original thirty-nine follow —
+    **Batch 11 added twenty-one**: Vilmart
     ×2 (row 4 `Les Blanches Voies` — cuvée-name stacking, missing millésime, the never-published
     `Extra Brut`, RM/NM code; and whether `Coeur de Cuvée 2016` exists at all, since OBP holds it
     in stock at $440 while no official 2016 fiche could be found), Henri Giraud ×4 (rows 2 and 4
@@ -777,4 +1064,4 @@ Everything below is **waiting on Akio**, not on execution capacity. See
 
 ## Last Updated
 
-2026-08-06 (updated after Batch 11, complete — 6 of 6)
+2026-08-06 (updated after Batch 12 — the Bordeaux block, complete — 8 of 8)
