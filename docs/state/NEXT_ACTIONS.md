@@ -12,6 +12,90 @@
 
 ---
 
+## 0. 🟡 Batch 13 stopped at 2 of 6 — resume from cache
+
+**Stopped 2026-08-06 by a monthly spend limit, not by a finding.** Commit `ebb65cb`.
+Coverage **515 → 521 / 704 (73.2% → 74.0%)**; dossiers **76 → 78**; producer criterion
+**76/182 → 78/182 (41.8% → 42.9%)**. Remaining: **104 producers / 183 bottles**.
+
+Batch 13 is the first batch run under `D-2026-08-06-06` — 3 concurrent agents, defects recorded
+in one line and filed to [`CODEX_TASKS.md`](CODEX_TASKS.md), never investigated.
+
+| Producer | State | Cache | Resume cost |
+|---|---|---|---|
+| **Krug** | ✅ `reached_70: YES (~86%)` / High | 15 MB | — |
+| **Ridge Vineyards** | ✅ `reached_70: YES (~85%)` / High | 9.1 MB | — |
+| **Dom Pérignon** | 🔴 no dossier | **28 MB / 449 files** — legal notice, INAO CDC PDF, TTB, Agence Bio, Biodyvin, Demeter, LVMH, Wayback | **writing pass only** |
+| **Turley** | 🔴 no dossier | **2.4 MB / 14 files** — site, sitemaps, robots, legal/terms (authenticity check underway) | **writing pass + a research sweep** |
+| **Dominus Estate** | 🔴 no dossier | **none** — died before its first fetch | full |
+| **Chappellet** | ⚪ not started | — | full |
+
+✅ **The Batch 9 precedent holds again and is now confirmed twice: a spend-limit stop costs the
+writing pass, not the research.** Dom Pérignon in particular is nearly a pure writing task — its
+cache already contains the authenticity evidence, the statutory sources and the archive captures.
+**Do not re-run its research sweep. Leave the caches byte-intact and write from them**, filling only
+genuine gaps, exactly as Batch 9 did for Hundred Acre / Abreu / Bergström.
+
+⚠️ **`research/producers/_sources/` is gitignored** (`D-2026-08-05-02`), so these caches exist **only
+in this working copy**. They are not recoverable from git if deleted.
+
+**Resume order**: Dom Pérignon (cheapest, highest ready-state) → Turley → Dominus Estate →
+Chappellet.
+
+### Findings already banked from the two that closed
+
+1. 🔴 **A new matcher shape, and it is the inverse of `CDX-1`: the candidate set handed to the
+   matcher is smaller than canonical.** Krug's intake evidence asserts *"'Krug' の canonical キュヴェ
+   **2 件**"*; canonical actually holds **13** records with `producer == "Krug"`, **including
+   `krug-grande-cuvee-171` / `-172` / `-173` with the correct base years already stored.** All three
+   OBP rows therefore sit at `cuvee_state: unresolved` / `confidence 0.0` **against records that
+   exist and are correct**. `CDX-1` is an override on *absent* evidence; this is a failure to see
+   evidence that is present. Filed under `### Batch 13 additions`; not investigated further.
+2. ✅ **`CDX-8`'s missing surrogate key already exists physically.** Krug publishes the **Krug iD**,
+   *"un code à six chiffres apposé sur la contre-étiquette de chaque bouteille"*, since 2011 — and
+   states the Édition number *"corresponds to the number of years in the House of Krug the founder's
+   dream has been re-created"*, assigned from 2016 and printed on the label. Base vintages settled
+   from the house's own Champagne Notes: **173 = 2017, 172 = 2016, 171 = 2015**. Any `V-1`
+   adjudication now has a producer-authored identifier to point at.
+3. 🔴 **`CDX-5` held again — 7 of 21 verifiable stored claims fail, and the failures are in *typed*
+   fields.** Krug canonical asserts `dosage: "6 g/L"` where the house publishes **no dosage figure at
+   all** (`g/L` = 0 hits); `No MLF` where the house says malolactic *"n'est pas provoquée. Toutefois,
+   si celle-ci se produit naturellement, elle n'est pas interrompue"*; `minimum 6 years on lees`
+   against the house's `sept années au minimum`; `45 lieux-dits` (0 hits); `9–11°C` against the
+   official `9 et 12°C`; `Pinot Meunier` where both the house and INAO write `Meunier`. **Base years,
+   grape splits, wine counts and oldest-reserve years all passed** — the failures cluster in exactly
+   the fields floor staff quote.
+4. ✅🔴 **`NEXT_ACTIONS.md` §3f-10 is confirmed by a worked example — pattern existence is not
+   evidence.** Three Ridge rows looked like `CDX-15` "category word printed as a cuvée name"
+   candidates. **Only one is.** Ridge publishes its own label grammar: **`ESTATE` is a real
+   front-label designation the winery itself defines** (100% owned/leased land, same AVA as the
+   winery), and **Ridge added `VINEYARD` to the Geyserville front label at the 2024 vintage
+   specifically**, in its own words *"to differentiate the historic Geyserville Vineyard from the town
+   of Geyserville"* — so on that row **the menu is the accurate side**. Only `Proprietary Blend`
+   (absent from label and site; 71/19/8/2, no variety ≥75%) is an instance.
+5. ⚠️ **A disambiguation trap on Ridge row 1.** Ridge ships **two** 2023 Santa Cruz Mountains
+   Cabernets — `Estate Cabernet Sauvignon` (estate fruit, "Organically Grown") and a **revived**
+   `Santa Cruz Mountains Cabernet Sauvignon` (purchased fruit, **no** organic claim). The menu string
+   contains both names; **only the word `Estate` separates them.** Blend is **exactly 75% CS** —
+   27 CFR §4.23(b) met at the threshold, with no margin.
+6. ⚠️ **Krug's farming is a load-bearing negative.** The house **never** says organic or biodynamic
+   (0 hits for `biodynam` / `agriculture biologique` / `Demeter` / `Ecocert` / `HVE` / `Terra Vitis`);
+   its own term is `viticulture durable`. Agence Bio returns an **exact-SIRET positive** on the MHCS
+   siège — but scoped `Préparation / Distribution / Importation` with **no `Production`**, engaged
+   **2022-07-02**, i.e. *after* all three base harvests. **Nothing may be said in either direction.**
+   Ridge is the opposite case and unusually strong: **USDA NOP certificate `23-0793`**, initial
+   effective **2011-09-03**, certifier Organic Certifiers, hosted on the producer's own domain —
+   **all three OBP vintages verified inside the certified window, per bottle.**
+7. ⚠️ **Two physical-label tasks added (floor total now 80).** Krug: `Brut` appears **0 times** across
+   every official page and the 172 Champagne Notes while OBP prints it — **explicitly not called a
+   menu defect**, because the label's statutory sugar declaration is unverified. Ridge: no back label
+   obtained, and Ridge's back label is this producer's signature artefact (ingredient list since 2011)
+   — needed for the SO₂ wording, `ESTATE BOTTLED` presence, and the allergen statement.
+8. ⚠️ **TTB COLA was CAPTCHA-gated again** (`bobcmn` / `TSPD_101`). Recorded as gated; **no bypass
+   attempted**; not treated as evidence of absence. Availability remains unstable, as in Batches 9–10.
+
+---
+
 ## 1. ✅ Batch 12 is closed — 8 of 8. The Bordeaux block is done.
 
 **Batch 12 ran the Bordeaux block as one dedicated batch**, which is what §2 below had proposed and

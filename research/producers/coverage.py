@@ -132,6 +132,27 @@ M={
  "chateau-haut-brion":["Château Haut-Brion"],
  "chateau-giscours":["Château Giscours"],
  "chateau-palmer":["Château Palmer"],
+    # Batch 13 (partial - stopped at 2 of 6 by a monthly spend limit, not by a
+    # finding). Selection changed basis here: under D-2026-08-06-05 the binding
+    # criterion is PRODUCER count (76/182), so bottle yield no longer drives the
+    # pick. Both of these are 3-bottle producers.
+    #
+    # 'Krug' resolves producer_state=exact on all three rows but cuvee_state=
+    # unresolved at confidence 0.0, because the matcher was handed a candidate set
+    # of 2 canonical cuvees when canonical actually holds 13 Krug records -
+    # INCLUDING krug-grande-cuvee-171/-172/-173 with the correct base years already
+    # stored. That is the inverse of CDX-1 (which overrides on absent evidence);
+    # filed as a Batch 13 addition in docs/state/CODEX_TASKS.md, not investigated.
+    # Counted because the dossier lets a sommelier speak to all three rows without
+    # saying anything false (D-2026-08-04-02).
+ "krug":["Krug"],
+    # The menu prints 'Ridge'; the matcher resolves it to 'Ridge Vineyards'. Only
+    # 1 of the 3 rows is a CDX-15 'category word as cuvee name' instance
+    # ('Proprietary Blend', row 3). 'Estate' is a real front-label designation Ridge
+    # itself defines, and Ridge added 'VINEYARD' to the Geyserville front label at
+    # the 2024 vintage specifically - so on that row the MENU is the accurate side.
+    # Worked confirmation of NEXT_ACTIONS.md 3f-10.
+ "ridge-vineyards":["Ridge Vineyards"],
     # Two of the four Cos rows are printed in the WHITE section under a red-only
     # AOC (Saint-Estephe, decret 14 Nov 1936). They are counted because the dossier
     # documents both candidate whites; the appellation printed on those two rows is
