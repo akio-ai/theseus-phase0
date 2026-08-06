@@ -48,17 +48,17 @@ with modified icon assets in the working tree.
 
 ## Active workstream — Producer Research Layer
 
-**Status: Batch 10 complete — 6 of 6.** Famille Moussé, Louis Roederer, Billecart-Salmon,
-Laurent-Perrier, Chateau Montelena, Olivier Leflaive Frères. **All six cleared the 70% bar**, all
-six at Confidence High. Run at a maximum of **2 concurrent agents** throughout. See §"Batch 10
-notes" below.
+**Status: Batch 11 complete — 6 of 6.** Vilmart & Cie, Henri Giraud, Alvina Pernot, Anne et Hervé
+Sigaut, René & Vincent Dauvissat, Thierry Allemand. **Four cleared the 70% bar; two are
+deliberately below it** and marked `awaiting material from the team`. Run at a maximum of
+**2 concurrent agents** throughout. See §"Batch 11 notes" below.
 
 | | |
 |---|---|
-| Dossiers | **62** — `research/producers/*.md` |
-| OBP coverage | **444 / 704 bottles (63.1%)** — Batch 5 **+44**, Batch 6 **+36**, Batch 7 **+34**, Batch 8 **+30**, Batch 9 **+30** (15 + 15 on resume), Batch 10 **+25** |
-| Remaining | **120 producers / 260 bottles** |
-| Conflicts register | `research/canonical_conflicts/REGISTER.md` — 20 true conflicts, 54 false positives separated. **Batches 5–10 wrote no new entries.** Batch 8 proposes `C-6` and `P-8`; Batch 10 added evidence to `C-1`, `C-4`, `V-1`, `V-2`, `V-3`, `S-2` and **corrected the recorded impact of `P-2` downward**, and leaves **five further unnumbered shapes** — all awaiting CTO adjudication, none written |
+| Dossiers | **68** — `research/producers/*.md` |
+| OBP coverage | **468 / 704 bottles (66.5%)** — Batch 5 **+44**, Batch 6 **+36**, Batch 7 **+34**, Batch 8 **+30**, Batch 9 **+30** (15 + 15 on resume), Batch 10 **+25**, Batch 11 **+24** |
+| Remaining | **114 producers / 236 bottles** |
+| Conflicts register | `research/canonical_conflicts/REGISTER.md` — 20 true conflicts, 54 false positives separated. **Batches 5–11 wrote no new entries.** Batch 8 proposes `C-6` and `P-8`; Batch 10 added evidence to `C-1`, `C-4`, `V-1`, `V-2`, `V-3`, `S-2`, **corrected the recorded impact of `P-2` downward** and left five unnumbered shapes; Batch 11 added evidence to `C-4`, `S-2`, `P-1` and **produced a counter-example to `D-2026-08-05-12`'s reading of `'NV'`**, leaving four further unnumbered shapes — all awaiting CTO adjudication, none written |
 | Canonical writes | **Zero.** Read-only throughout |
 
 ⚠️ **Coverage figure corrected.** The pre-Batch-5 number was recorded as **256 / 704 (36.4%)**.
@@ -80,7 +80,8 @@ document use the recomputed basis.**
 | Batch 7 (6) | Domaine Laroche, Pierre Girardin, Mayacamas Vineyards, DuMOL, Jacques Selosse, Gosset |
 | Batch 8 (6) | Taittinger, Domaine Roulot, Domaine Bachelet-Monnot, Michel Niellon, Domaine de L'Arlot, Clos de la Coulée de Serrant (Famille Joly) |
 | Batch 9 (6) | Harlan Estate, Clos de Tart, Armand Heitz, Hundred Acre, Abreu Vineyards, Bergström Wines (last three resumed from cache) |
-| **Batch 10 (6)** | **Famille Moussé, Louis Roederer, Billecart-Salmon, Laurent-Perrier, Chateau Montelena, Olivier Leflaive Frères** |
+| Batch 10 (6) | Famille Moussé, Louis Roederer, Billecart-Salmon, Laurent-Perrier, Chateau Montelena, Olivier Leflaive Frères |
+| **Batch 11 (6)** | **Vilmart & Cie, Henri Giraud, Alvina Pernot, Anne et Hervé Sigaut, René & Vincent Dauvissat, Thierry Allemand** |
 
 **Batch 4 notes.** Two producers (Pride Mountain, Grgich Hills) had **no canonical producer record at
 all** — 18 OBP bottles were `producer_state = unresolved` purely for that reason. Both US dossiers
@@ -503,6 +504,166 @@ one-subregion-per-cuvée model cannot express; and de Montille's four Corton row
   is a real modelling question — **described, not decided.**
 - **Physical-label tasks added: 10**, bringing the floor total to **18**. See `NEXT_ACTIONS.md` §3f.
 
+**Batch 11 notes (complete — 6 of 6).**
+- **Four cleared the bar** — Vilmart & Cie ~85% (High), Anne et Hervé Sigaut ~78% (Medium-High),
+  Henri Giraud ~76% (Medium), Alvina Pernot ~74% (Medium). **Two are deliberately below it and
+  marked `awaiting material from the team`** — René & Vincent Dauvissat ~64%, Thierry Allemand ~62%.
+  **+24 bottles; the estimate was exact.** The batch ran at a **maximum of 2 concurrent agents**
+  throughout.
+- ✅ **`NEXT_ACTIONS.md`'s risk warning was correct and is now measured.** The six remaining
+  4-bottle producers were flagged as carrying the Roulot / Niellon profile, and the batch produced
+  the **first sub-bar dossiers since Batch 8** — but only two of six, not all six. **The yield held
+  (+24, exactly as projected) while the quality dropped**, which is the trade the warning described.
+- 🔴🔴 **The dominant methodological finding: "the producer publishes nothing" is not one condition
+  but at least six, and they need different responses.** Batch 8 proved absence for Roulot (OVH
+  placeholder), Bachelet-Monnot (MX-only) and Niellon (no domain). Batch 11 adds **four more
+  distinct shapes in a single batch**:
+  - **Publishing stopped, site still live** (Henri Giraud) — `champagne-giraud.com` is now a splash
+    + legal site: 8 pages, 4 PDFs, all 2025 event programmes, **zero fiches techniques**.
+  - **Site frozen at a past vintage** (Sigaut) — all 11 wine pages stop at **2019**, last news item
+    **2020-12-29**. Every OBP row (2022, 2023) is a vintage the domaine has never documented.
+  - **Domain owned but never published** (Alvina Pernot) — `alvinapernot.com` has a live A record
+    and MX, registered one month after incorporation, and `GET /` returns **9 bytes** (`<!-- -->`).
+    The sole Wayback capture is byte-identical.
+  - **Domain never registered at all** (Thierry Allemand) — `.com` ×3 → Verisign RDAP 404, `.fr` ×2
+    → AFNIC `NOT_FOUND_DOMAIN_NAME_WITH_NAME`, Wayback returns HTTP **200** with
+    `archived_snapshots: {}` (a resolving negative, not a gate).
+  - A fifth register-side variant: **Agence Bio holding a `Site Officiel` record whose `url` is an
+    empty string** (Dauvissat) — neither Roulot's `[]` nor Pernot's blank body.
+  🔴 **Consequence: `awaiting material from the team` is too coarse a status.** Giraud's and
+  Sigaut's material *existed and was published*; Dauvissat's and Allemand's never did. The first
+  two are recoverable by archive work, the last two only by procurement.
+- ✅ **Internet-Archive recovery of a producer's own former pages is now an established route.**
+  Henri Giraud's entire cuvée substance came from archived copies of the house's own pages,
+  **authenticated by the mentions-légales block embedded in each capture** and tagged `📄`
+  throughout, kept strictly distinct from `✅` live content. ⚠️ Wayback returned **HTTP 429** for
+  one agent in the same batch — **a gate is not evidence of absence.**
+- 🔴🔴 **Site authenticity: nine look-alikes rejected in one batch — more than the previous five
+  batches combined, and one of them was in the briefing.** `vilmart.fr` (**Dovendi** domain-for-sale
+  parking, the same operator as Batch 6's `ramonet.fr`), `champagnegiraud.com` (Afternic parking,
+  **one character** from the real domain), `apwines.com` (**Andrew Peace Wines, Australia**),
+  `dauvissat.fr` (Dovendi for-sale, WHOIS holder `Nomio24` — **the same registrant as the Vilmart
+  catch**), `dauvissat.com` (redirects to a personal LinkedIn), `domaine-dauvissat.fr` (**a
+  genuinely different estate, at Beine**), `allemand.fr` (unrelated Wix 404). **Zero words were
+  used from any of them.**
+  🔴 **`vilmart.fr` was supplied to the agent by the orchestrator as the likely official domain.**
+  The pre-check caught it. **This is the strongest evidence yet that `D-2026-08-05-09` must run even
+  when the domain looks obvious — including when the briefing asserts it.**
+- 🔴 **`D-2026-08-05-08` (substring matching on a name) fired in five of six producers**, and the
+  entity counts are larger than any previous batch: **11 distinct registered `Dauvissat` entities**
+  (the subject is three co-located legal persons, and **`Dauvissat-Camus` is the land-holding GFA,
+  not a wine brand**); **three Vilmart entities in one village**; a separate
+  **`DOMAINE ELISA SIGAUT`** (SIREN 917436057) in Chambolle; a separate **`THEO ALLEMAND`** sole
+  trader at the same address and NAF as the subject; and `ALLEMAND INVEST` / `GARAGE ALLEMAND` in
+  the register. 🔴 **A new place for it to fire: Agence Bio's own search API returns `LALLEMAND`
+  entries for a `nom=allemand` query** — which is precisely why **only an exact-SIRET negative
+  counts as a proved negative.**
+- 🔴 **A non-vintage Cornas is a counter-example to `D-2026-08-05-12`'s reading of `'NV'`.** That
+  sweep measured 88 `'NV'` records and held them **legitimate for non-vintage Champagne**.
+  `allemand-chaillot-nv` is a **Cornas** — the INAO CDC reserves the appellation for
+  *vins tranquilles rouges*, records "Pas de disposition particulière" for complementary geographic
+  mentions, and anchors the whole claim regime to the `déclaration de récolte`. **So the 88 cannot
+  be treated as a homogeneous legitimate class; the reading needs restating per appellation.**
+  The record is **distinct, not a phantom**: it uniquely carries `dosage: "N/A — Still Wine"` — a
+  **Champagne field on a Rhône record** — alongside `vintage: "NV"`, plus three sibling divergences
+  (`name` embeds the appellation, `subregion`, `classification`). Template-derived. The
+  `"Chaillot" Cornas` name shape is the **inverse of `C-4`** (Batch 10's Montelena finding).
+  **No number opened.**
+- 🔴 **`S-2` gains its sharpest evidence yet, and it explains why the count reached 175.** At Alvina
+  Pernot the matcher's own `evidence` strings read `'La Garenne' ≡ '"La Garenne"'` at
+  **`confidence: 1.0`** — **the quote-mark corruption is invisible to matching**, so
+  *"it matches, therefore the record is healthy"* fails for this entire family. Thierry Allemand
+  shows the same defect rendered **two different ways within four rows of one producer**: the
+  Reynard rows propagate the quotes downstream into `proposed_canonical_cuvee`, the Chaillot rows
+  normalise them away. **Evidence added; no new number.**
+- 🔴 **Blanket article/accent normalisation is now refuted by a concrete counter-example, not just
+  cautioned against.** Dauvissat's `La Forest` appears **0 times** in either INAO Chablis cahier;
+  the legal forms are `Forêts` / `Les Forêts` (under the `Montmains` umbrella) and BIVB prints a
+  third form, `Forêt`. 🔴 **And `La Forêt` and `Sur la Forêt` genuinely exist under a *different*
+  umbrella (`Vau Ligneau`) — so naive normalisation lands `La Forest` on the wrong vineyard.**
+  This needs an **explicit alias**, the Batch 8 `Les Champs Gains` precedent. Related floor-facing
+  catch: **`Les Clos` is the only one of the seven Chablis Grand Cru climats carrying an article —
+  do not strip it.** Sigaut independently reproduced INAO self-inconsistency inside a single
+  24-row list, including one row where INAO prints two spellings itself
+  (`Les Feusselottes (ou Les Feusselotes)`).
+- 🔴 **Canonical's stored values: the count is now 13 of 14 producers, and Batch 11 separates three
+  distinct failure modes that had been collapsed into one.** Thierry Allemand carries all three at
+  once: **contradicted** (`vintage: NV`; a `Biodynamic` tag with **no certification of any kind**;
+  a Chaillot-subject `description` **byte-identical across all five records including both Reynard
+  ones** — the Roederer duplication shape), **unsourced** (`aging "18+ months"`, `winemaking`,
+  `tasting`, `points: 95`, `drinking_window`, vine ages), and **absent as key** (`grapes` missing
+  on both Reynard records though present and INAO-correct on the Chaillot ones; `obp_note` present
+  **only** on the impossible NV record and absent from all four rows actually on the menu).
+  🔴 **Alvina Pernot is the exception and it is instructive: all four of her records are bare
+  shells** — `grapes`, `aging`, `founded_year`, `description`, `obp_note`, `winemaking`, `tasting`,
+  `points` absent **as keys**, so field-verification was unexecutable on 10 of 10 fields. **Canonical
+  is not wrong there; it is empty** — while all four rows read `match_state = exact` at
+  `confidence 1.0` against a $360 / $640 / $720 / $720 lineup. **A distinct shape, unnumbered.**
+- 🔴 **A fourth counter-example to "the menu is the defective side" — and, for the first time since
+  the caution was written, a clean case where the menu *is* the defective side.**
+  Counter-example: INAO ×2 and BIVB all print `La Pièce sous le Bois` with **lowercase *sous***;
+  OBP matches them exactly; **canonical alone** writes `"La Pièce Sous le Bois"`.
+  The genuine menu defect: **OBP misspells `Theirry Allemand` on all four Rhône rows** (i/r
+  transposition), against INSEE/Sirene's `THIERRY ALLEMAND` (SIREN 432434637).
+  ⚠️ **Both directions now have worked examples. The caution is about not assuming — not about
+  never blaming the menu.**
+- 🔴 **`match_state = exact` is repeatedly under-specified rather than correct.** Sigaut row 1 binds
+  a $240 village Chambolle to a cuvée id carrying **no lieu-dit**, while the domaine bottles
+  **three** village-level Chambolles (`village`, `Derrière le Four`, `Les Bussières`) — a `C-4`-shaped
+  sink. Henri Giraud row 1 is `exact` at `confidence 1.0` while the **menu says `Brut Nature`,
+  canonical says `Brut`, and the house says neither** — the dosage axis is simply not compared.
+  Vilmart inverts it: **the only row intake marked resolved (`Coeur de Cuvée 2016`) is the only row
+  that could not be confirmed officially**, while the `unresolved` 2017 has a full fiche.
+  **`match_state` measures canonical agreement, not existence.**
+- 🔴 **A cross-producer binding hazard, `P-1`-shaped.** `arlaud-les-sentiers-2021` is the **same
+  climat under a different producer** as Sigaut's row 4. A producer-relaxing matcher would bind the
+  row to Domaine Arlaud. Dauvissat has the identical shape:
+  `raveneau-montee-de-tonnerre-2021` is the same climat **and the same vintage** as its row 3 —
+  which is why that row is a **producer-level** gap, not a cuvée-level one.
+- ⚠️ **"Practised vs certified" landed in four more distinct configurations, and the temporal trap
+  is now the recurring one.** Giraud: 🏛 Agence Bio `ENGAGEE` but **`etatProduction: C2`** (second
+  conversion year), `activites: [Production]` only — **the exact inverse of Billecart's
+  `Préparation`-only** — so both OBP vintages (2016, 2022) predate the current cycle and **neither
+  "organic" nor "no organic registration" may be said.** Dauvissat: Ecocert `FR-BIO-01`,
+  **`datePremierEngagement 2021-04-27`**, scope `Agriculteur (production végétale)` — **farming
+  only, not winemaking** — so 2019 predates certification entirely and 2021 is conversion year one.
+  Allemand: **no certification of any kind**, proved three ways (exact-SIRET ×3 → `nbTotal: 0`;
+  the **Biodyvin 2025 member list, 224 names, fully resolving** → no `ALLEMAND`, no `CORNAS`; and
+  **Demeter France's 2024 CDC p.16 makes organic certification a `condition préalable`**, so Demeter
+  is structurally impossible) — **which contradicts canonical's `Biodynamic` tag outright.**
+  Pernot and Sigaut: proved negatives by exact SIRET (`nbTotal: 0`, ×4 entities for Sigaut).
+  🔴 **The temporal trap now has three instances** (Moussé, Giraud, Dauvissat): **a current
+  certification says nothing about a bottle whose vintage predates it.**
+- 🔴 **Thierry Allemand's most-asked question was refused, deliberately.** The sulphur regime for
+  1998 / 1999 / 2001 / 2006 has **no producer source for any year**, and third-party accounts
+  disagree among themselves. **No blanket claim was made in either direction** — it is the first
+  item on the must-not-say list and a physical-label task. These are the batch's most expensive
+  bottles ($1,600–$2,600).
+- ✅ **Cadastral evidence settled a below-INAO-granularity question.** `Chaillot` and `Reynard`
+  occur **0 times** in the Cornas cahier — the Batch 8 Niellon `Truffière` shape — but DGFiP/Etalab
+  confirms both as **real cadastral lieux-dits of commune 07070** (Chaillot ~17.8 ha, Reynard
+  ~23.7 ha, abutting), and CDC XII.2°a) **explicitly permits a smaller unit on the label if it is a
+  lieu-dit cadastré on the harvest declaration.** Unlike Chassagne, **Cornas has a general legal
+  pathway** — and no premier cru or climat system at all.
+- 🔴 **`Les Blanches Voies` is a parcel name, not a cuvée name.** Read off Vilmart's own bottle
+  shots: `BLANC DE BLANCS 2011 / LES BLANCHES VOIES` and `BLANC DE NOIRS 2017 / LES BLANCHES VOIES`.
+  The house calls these part of *"quatre cuvées millésimées"* and **no NV Blanc de Blancs exists in
+  the range**, while the menu prints the row `NV` — and the house **never writes "Extra Brut"
+  anywhere** (0 hits across all HTML + 12 fiches). A new menu-side shape — **a label's parcel
+  sub-line printed as the cuvée name** — adjacent to `C-4` but distinct from the "category word as
+  cuvée name" family. Routed to a physical-label task rather than declared a menu defect.
+- ⚠️ **The INAO filename trap fired four more times and produced a *third* naming convention.**
+  Working: `PNOCDCChablis.pdf`, `PNOCDCChablisGrandCru.pdf` (fully concatenated — every hyphenated
+  Grand Cru variant is a decoy), `PNOCDC-Chambolle-Musigny.pdf` (**hyphen after `PNOCDC`**), and
+  🔴 **`PNO2023AOPCornas.pdf` — the form `PNO<year>AOP<Name>.pdf`, unlike anything on record.**
+  Failing guesses returned **HTTP 200 with HTML** (7 of 9 for Dauvissat, 9 of 9 for Allemand).
+  🔴 **New caveat, found independently by three agents: several of these are opposition-procedure
+  (PNO) drafts that merge struck-through old values with new ones in the extracted text**
+  (`40 50 hl`, `171 180 g`, `20092021`, `115160 hectares`). **Bare number extraction would silently
+  quote superseded figures** — only unmerged single values were used, and no yield or sugar figures
+  were quoted where the pair was ambiguous.
+- **Physical-label tasks added: 21**, bringing the floor total to **39**. See `NEXT_ACTIONS.md` §3g.
+
 Governing workflow: fixed template, **70% completeness bar**, four evidence layers never mixed
 (verified fact / source-derived / Akio's insight / unresolved), `## Akio's Insight` is
 **Akio-only and never written or rewritten by anyone else**, official sources only
@@ -522,11 +683,14 @@ Governing workflow: fixed template, **70% completeness bar**, four evidence laye
 Everything below is **waiting on Akio**, not on execution capacity. See
 [`NEXT_ACTIONS.md`](NEXT_ACTIONS.md).
 
-1. **Batch 11 approval** (producer research) — Batch 10 is complete; nothing auto-advances.
-   ⚠️ **The 4-bottle tier is now exhausted of producers that publish anything**: the six that
-   remain at 4 bottles (Vilmart & Cie, Thierry Allemand, René & Vincent Dauvissat, Henri Giraud,
-   Anne et Hervé Sigaut, Alvina Pernot) carry the Roulot / Niellon risk profile. **Shape C is now
-   the better-value shape** — see `NEXT_ACTIONS.md` §1
+1. **Batch 12 approval** (producer research) — Batch 11 is complete; nothing auto-advances.
+   🔴 **The 4-bottle tier is now fully exhausted.** Every remaining producer holds **3 bottles or
+   fewer**, so a 6-producer batch is **12–18 bottles at best** against Batch 11's 24 and Batch 5's
+   44. ⚠️ **Batch 11 confirmed the risk warning empirically** — two of six fell below the bar, the
+   first sub-bar dossiers since Batch 8, and the cause in both cases was that the producer has
+   never published anything. **`Krug` and `Dom Pérignon` sit in the 3-bottle tier and are the
+   *centres* of `V-1` and `V-3`** — worth more than their 6 bottles if register adjudication is the
+   goal. **Shape C remains the higher-value shape** — see `NEXT_ACTIONS.md` §1
 2. Review / merge of PR #5
 3. **Conflict-register adjudication, now spanning Batches 8, 9 and 10** — accept or reject proposed
    `C-6` and `P-8`; adjudicate the **`CAT-1`…`CAT-9` category proposals in §D**, which are still
@@ -542,19 +706,43 @@ Everything below is **waiting on Akio**, not on execution capacity. See
    (`Napa Valley Chardonnay` — the inverse of `C-4`); and a **cross-producer collective
    designation embedded in a name** (`Special Club`). It also **corrects `P-2`'s recorded impact
    from 3 bottles to 1** and supplies the official entity confirmation `P-2` asked for
-4. 🔴 **Canonical's stored values contradict producer-official sources — 10 of 10 producers
+4. 🔴 **Canonical's stored values contradict producer-official sources — 13 of 14 producers
    examined.** No longer confined to `obp_note` prose: Batch 10 found the same failure in **typed
    fields** (`grapes`, `dosage`, `aging`, `founded_year`), including **19 contradicted items across
    Billecart-Salmon's four records** and **one false `house_style` string duplicated verbatim across
-   all 16 Roederer records**. **The scope is still unmeasured, and measurement is cheap** — this is
-   the highest-severity open item, because the text is what floor staff read
+   all 16 Roederer records**. 🔴 **Batch 11 separates three failure modes that had been collapsed
+   into one — *contradicted*, *unsourced*, and *absent as key* — and finds all three inside a single
+   producer** (Thierry Allemand, which also reproduces the Roederer duplication shape: one
+   Chaillot-subject `description` byte-identical across five records including both Reynard ones).
+   ⚠️ **Alvina Pernot is the one exception and it sharpens the item rather than softening it: all
+   four of her records are bare shells** — 8 fields absent *as keys* — **while every row reads
+   `match_state = exact` at `confidence 1.0`.** **The scope is still unmeasured, and measurement is
+   cheap** — this is the highest-severity open item, because the text is what floor staff read
 5. **Canonical `region` vocabulary has no Oregon** — all 79 USA records are `California`. Blocks
    Bergström promotion and every future Pacific-Northwest producer
 6. Hero artwork confirmation (ARIADNE)
 7. Schema-change permission (aroma intensity / complexity / 11-family taxonomy — all need migrations)
 8. Fruit Basket: ship or not
 9. `Les Hautes Mottes 2018` — physical bottle or importer sheet needed
-10. **Physical-label checks now blocking eighteen rows** — the original eight (`Clos de la
+10. **Physical-label checks now blocking thirty-nine rows** — **Batch 11 adds twenty-one**: Vilmart
+    ×2 (row 4 `Les Blanches Voies` — cuvée-name stacking, missing millésime, the never-published
+    `Extra Brut`, RM/NM code; and whether `Coeur de Cuvée 2016` exists at all, since OBP holds it
+    in stock at $440 while no official 2016 fiche could be found), Henri Giraud ×4 (rows 2 and 4
+    identity; 🔴 **whether row 4's "2022" is a `MILLÉSIME` or an MV-style base year — this single
+    check decides `V-1` vs an ordinary vintage**; whether the Esprit Nature back label says
+    `Brut Nature`; whether Argonne carries `2016` and a bottle number), Alvina Pernot ×5 (which
+    name row 2's label bears, `La Pièce sous le Bois` vs `Blagny`; official existence of the 2023
+    `Les Vignes de Mon Père`; which of the four `Les Folatières` lieudits; the `(en partie)`
+    portion of PSB; and 🔴 **the `mis en bouteille` wording — the only thing that can resolve the
+    `46.90Z` domaine-vs-négoce question**), Sigaut ×4 (lieu-dit / `Vieilles Vignes` on row 1's
+    label; producer form on rows 2–4; `mis en bouteille` + importer; ABV on all four, absent from
+    every official source), Dauvissat ×1 consolidated (settles the `La Forest` alias target,
+    whether row 1's village Chablis carries a cuvée name, and the canonical producer name),
+    Thierry Allemand ×5 (🔴 **the sulfites declaration — the single most-asked question about these
+    $1,600–$2,600 bottles, and unanswerable from any public source**; the name spelling across
+    three conflicting renderings; the cuvée-name label form; ABV against the 13.5% cap; and whether
+    any vintage-less Chaillot physically exists, which bears directly on `allemand-chaillot-nv`).
+    The original eight (`Clos de la
     Maltroie` (Niellon, unsupported by any source), `Clos de` vs `Clos des Bouchères` (Roulot),
     `La` vs `Clos de la Coulée de Serrant`, Taittinger row 5 Rosé-vs-BdB 2012, Armand Heitz
     Chevalier `?` vintage, Hundred Acre `'Ark'` 2022 appellation, Abreu label brand/type
@@ -589,4 +777,4 @@ Everything below is **waiting on Akio**, not on execution capacity. See
 
 ## Last Updated
 
-2026-08-05 (updated after Batch 10, complete — 6 of 6)
+2026-08-06 (updated after Batch 11, complete — 6 of 6)

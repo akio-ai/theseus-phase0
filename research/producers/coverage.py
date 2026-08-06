@@ -86,6 +86,25 @@ M={
     # string. Do NOT fold it into 'Domaine Leflaive': four separate SIRENs exist
     # and substring matching on 'Leflaive' is the exact D-2026-08-05-08 defect.
  "olivier-leflaive":["Olivier Leflaive Frères"],
+    # Batch 11. All six are 4-bottle producers, selected in NEXT_ACTIONS.md as the
+    # remainder of the 4-bottle tier. Four cleared the bar; Dauvissat (~64%) and
+    # Thierry Allemand (~62%) are deliberately below it and marked
+    # 'awaiting material from the team' - both publish nothing at all. They are
+    # still counted: the dossier exists and a sommelier can speak from it without
+    # saying anything false, which is what the bar measures (D-2026-08-04-02).
+ "vilmart-et-cie":["Vilmart & Cie"],
+ "henri-giraud":["Henri Giraud"],
+ "alvina-pernot":["Alvina Pernot"],
+ "domaine-anne-et-herve-sigaut":["Domaine Anne et Hervé Sigaut"],
+    # 'Rene & Vincent Dauvissat' has no proposed_canonical_producer - the producer is
+    # absent from canonical entirely (0 hits across all 928 records), so this key is
+    # the raw menu string and key() falls back to source_producer_raw. Recorded as a
+    # GAP, not a conflict - the Abreu precedent (D-2026-08-05-14).
+ "rene-et-vincent-dauvissat":["René & Vincent Dauvissat"],
+    # The menu misspells this producer 'Theirry Allemand' on all four rows (i/r
+    # transposition); the key below is the proposed_canonical_producer, which the
+    # matcher resolved correctly at producer_state='alias'.
+ "thierry-allemand":["Thierry Allemand"],
 }
 def key(r): return r.get('proposed_canonical_producer') or r.get('source_producer_raw')
 c=collections.Counter(key(r) for r in rows)
