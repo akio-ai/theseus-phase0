@@ -48,17 +48,17 @@ with modified icon assets in the working tree.
 
 ## Active workstream — Producer Research Layer
 
-**Status: Batch 9 complete — 6 of 6.** The three producers stranded by the earlier spend-limit
-stop (Hundred Acre, Abreu, Bergström) were resumed from their existing `_sources` caches and
-written without re-running research. The prediction held: resuming cost the writing pass only.
-See §"Batch 9 notes" below.
+**Status: Batch 10 complete — 6 of 6.** Famille Moussé, Louis Roederer, Billecart-Salmon,
+Laurent-Perrier, Chateau Montelena, Olivier Leflaive Frères. **All six cleared the 70% bar**, all
+six at Confidence High. Run at a maximum of **2 concurrent agents** throughout. See §"Batch 10
+notes" below.
 
 | | |
 |---|---|
-| Dossiers | **56** — `research/producers/*.md` |
-| OBP coverage | **419 / 704 bottles (59.5%)** — Batch 5 **+44**, Batch 6 **+36**, Batch 7 **+34**, Batch 8 **+30**, Batch 9 **+30** (15 + 15 on resume) |
-| Remaining | **126 producers / 285 bottles** |
-| Conflicts register | `research/canonical_conflicts/REGISTER.md` — 20 true conflicts, 54 false positives separated. **Batches 5–8 wrote no new entries.** Batch 8 added evidence to C-1, C-4 and S-2 and **proposes two new IDs (`C-6`, `P-8`) plus three unnumbered shapes — all awaiting CTO adjudication, none written** |
+| Dossiers | **62** — `research/producers/*.md` |
+| OBP coverage | **444 / 704 bottles (63.1%)** — Batch 5 **+44**, Batch 6 **+36**, Batch 7 **+34**, Batch 8 **+30**, Batch 9 **+30** (15 + 15 on resume), Batch 10 **+25** |
+| Remaining | **120 producers / 260 bottles** |
+| Conflicts register | `research/canonical_conflicts/REGISTER.md` — 20 true conflicts, 54 false positives separated. **Batches 5–10 wrote no new entries.** Batch 8 proposes `C-6` and `P-8`; Batch 10 added evidence to `C-1`, `C-4`, `V-1`, `V-2`, `V-3`, `S-2` and **corrected the recorded impact of `P-2` downward**, and leaves **five further unnumbered shapes** — all awaiting CTO adjudication, none written |
 | Canonical writes | **Zero.** Read-only throughout |
 
 ⚠️ **Coverage figure corrected.** The pre-Batch-5 number was recorded as **256 / 704 (36.4%)**.
@@ -79,7 +79,8 @@ document use the recomputed basis.**
 | Batch 6 (6) | Domaine Bruno Clair, Domaine d'Eugénie, Domaine des Comtes Lafon, Jean-Claude Ramonet, Pierre-Yves Colin-Morey, Caroline Morey |
 | Batch 7 (6) | Domaine Laroche, Pierre Girardin, Mayacamas Vineyards, DuMOL, Jacques Selosse, Gosset |
 | Batch 8 (6) | Taittinger, Domaine Roulot, Domaine Bachelet-Monnot, Michel Niellon, Domaine de L'Arlot, Clos de la Coulée de Serrant (Famille Joly) |
-| **Batch 9 (6)** | Harlan Estate, Clos de Tart, Armand Heitz, **Hundred Acre, Abreu Vineyards, Bergström Wines** (last three resumed from cache) |
+| Batch 9 (6) | Harlan Estate, Clos de Tart, Armand Heitz, Hundred Acre, Abreu Vineyards, Bergström Wines (last three resumed from cache) |
+| **Batch 10 (6)** | **Famille Moussé, Louis Roederer, Billecart-Salmon, Laurent-Perrier, Chateau Montelena, Olivier Leflaive Frères** |
 
 **Batch 4 notes.** Two producers (Pride Mountain, Grgich Hills) had **no canonical producer record at
 all** — 18 OBP bottles were `producer_state = unresolved` purely for that reason. Both US dossiers
@@ -363,6 +364,145 @@ one-subregion-per-cuvée model cannot express; and de Montille's four Corton row
   `clos-de-tart.com` publishes **no `robots.txt` and no sitemap**, and every unknown URL returns a
   183 KB soft-404 at HTTP 200 — URL structure had to be read off the homepage navigation.
 
+**Batch 10 notes (complete — 6 of 6).**
+- **All six cleared the bar and all six are Confidence High** — Roederer ~88%, Billecart-Salmon
+  ~88%, Olivier Leflaive ~82%, Famille Moussé ~80%, Laurent-Perrier ~80%, Chateau Montelena ~80%.
+  This is the **first batch since Batch 4 with no sub-bar dossier**, and the reason is selection:
+  every one of the six is a commercially substantial house that publishes **fiches techniques**.
+  The batch ran at a **maximum of 2 concurrent agents** throughout.
+- 🔴🔴 **The dominant finding, and it is now a base rate rather than a sample: canonical's stored
+  values contradict producer-official sources for all six producers.** Batches 8–9 recorded this as
+  *unsourced prose* in `obp_note` / `description` for four producers. Batch 10 shows it **extends
+  into typed structured fields** — `grapes`, `dosage`, `aging`, `founded_year`, `subregion`.
+  Ten of ten producers examined this way have now failed:
+  - **Billecart-Salmon — 19 contradicted items across all 4 records.** Grape splits inverted,
+    dosages `5 / 6 / 7 g/L` against official **3.9 / 3.8 / Extra Brut**, `founded 1816` against
+    **1818**, an **invented parcel ("Mont Blanche")**, an "1830s rosé tradition" against the
+    domaine's official **1970s**, and unsourced MLF and hand-disgorgement claims.
+  - **Louis Roederer — one `house_style` string duplicated verbatim across all 16 records**,
+    asserting (i) rosé "via **saignée** … with red wine" and (ii) fruit "**Demeter-certified**".
+    **Both are false.** The house's own word is `infusion`; `saignée` appears in no official source,
+    and Demeter France returns zero results. The same field also carries **96–98 point scores that
+    exist nowhere official.**
+  - **Laurent-Perrier** — `saignée` and `MLF performed` asserted where the house says `macération`
+    exclusively; `Ch 55 / PN 45` matching **neither** official figure; "#26 is the latest release"
+    when **Nº27 shipped January 2026**.
+  - **Famille Moussé** — `grapes = Pinot Meunier 100%` against official **80% Meunier / 20% Pinot
+    Noir**; `dosage 3 g/L` against **2.5** and **0.5**.
+  - **Chateau Montelena** — `100% CS` against **94.1 / 99 / 99** across the three vintages;
+    "restrained new oak" against **45% new**; a *Bottle Shock* film claim appearing in **zero**
+    producer sources.
+  - **Olivier Leflaive** — the **intake** `evidence` string asserts a négociant arm "separated in
+    1984"; **both halves are unsupported by any official source.**
+  🔴 **This is the highest-severity finding of the batch, and it is floor-facing text.** It is
+  measurement, not adjudication, that is missing — nobody has swept the field.
+- 🔴 **The matcher never reads the menu section heading, and Roederer proves it.** The intake
+  `evidence` string is **byte-identical across all four Roederer rows including the ROSÉ one.**
+  Canonical is **not** missing the colour axis here: it carries four Cristal cuvées, and row 4's
+  correct target `cristal-rose-2014` **already exists and is factually correct**. **Billecart-Salmon
+  is a second counter-example** — four records, prestige white and prestige rosé already split.
+  ⚠️ **Consequence for `C-6`: its premise needs splitting.** Canonical structure and matcher input
+  are two different defects, and **fixing canonical alone does not fix the row.** Evidence added to
+  `C-6`'s second recommendation only; the direct family for these rows is **`C-4`**.
+- 🔴 **`V-1` is sharper than the register records, and Laurent-Perrier is why.** Grand Siècle's
+  three base vintages **overlap between itérations** — 2008/2007 in both Nº25 and Nº26, 2012 in both
+  Nº26 and Nº27. So unlike Krug, **`base_year` does not even work as a surrogate key: there is no
+  correct value for the `vintage` field.** A "fix the vintage field" migration would not merely
+  mangle this data — **it has nothing to write.** Worse, adding Nº27 under the present schema makes
+  **`(cuvée, vintage="NV")` non-unique inside canonical**, so the schema blocks its own gap fill.
+  Roederer's `Collection 246` (= the house's **246th assemblage**, base vintage **2021**) would be a
+  further notation; a re-measurement of the current export found **26 records / 7 notations** against
+  the register's 24 / 5 — **noted, not adjudicated.**
+  ⚠️ **`Grande Cuvée` is Krug's cuvée name.** Any normalisation rule mapping the menu's
+  `Grande Cuvée No. 26` onto the official `Itération Nº26` **would collide with the producer at the
+  centre of `V-1`.**
+- 🔴 **`V-2` is undercounted and `V-3` extends.** Four magnum records exist, **three with no
+  standard-bottle sibling**, and format is **double-encoded** in `name` *and* in the existing
+  `obp_format` field. Grand Siècle `Les Réserves` releases the **same itération number twice** as
+  undisgorged magnums, so identity needs **itération × format × disgorgement state** — two keys are
+  insufficient, not just one.
+- 🔴 **`P-2`'s recorded impact is wrong, and downward.** The register states 3 OBP bottles held in
+  false unresolved. **Measured: 1.** Canonical holds a single Fortes Terres record
+  (`mousse-fortes-terres-2018`); OBP has 2018 / 2019 / 2020, so an entity merge resolves **2018
+  only**. **`P-2` decomposes into 1 entity-split + 2 vintage gaps.**
+  ✅ **The official confirmation `P-2` asked for has been obtained.** Agence Bio operator
+  `numeroBio 44958` carries **one SIRET `449 670 702 00025`** bearing **both** names —
+  `raisonSociale = SARL CHAMPAGNE MOUSSÉ FILS` and `denominationcourante = SARL FAMILLE MOUSSÉ`,
+  gérant Cédric Moussé. **One house, two names.** Merging remains **the CTO's call, not executed**;
+  `REGISTER.md` was not written to.
+- 🔴 **A new brand-axis sub-shape, and it is harder than the three known instances: the axis lives
+  *inside* the cuvée string.** Olivier Leflaive's **`Récolte du Domaine`** distinguishes estate fruit
+  from bought fruit at **identical producer, appellation and vintage** — 8 cuvées carry it in 2023,
+  proven three ways (page `<h2>`, official fiche PDF title line, and the EN page leaving it
+  untranslated). Unlike Harlan/The Mascot or `P-6`/`P-7`, **there is no separate entity to point
+  at.** Cited to the **proposed** `CAT-3`, which names this producer verbatim and is still
+  unadjudicated. **No number opened.**
+- 🔴 **`D-2026-08-05-08`'s failure condition was demonstrated live.** Olivier Leflaive is absent from
+  canonical **at the producer layer**. Of the **16 records matching `leflaive`: 7 are Domaine
+  Leflaive, 0 are Olivier Leflaive, and 9 matched only because "Leflaive" appears in *other
+  producers'* prose** (Mortet, d'Auvenay, Lafon ×2, La Pierre Ronde ×2, Sauzet ×2, Ramonet).
+  🏛 **Four distinct SIRENs confirmed** — Olivier Leflaive Frères `332 160 092` (NAF 11.02B),
+  Domaine Leflaive `778 245 316` (NAF 01.21Z, different street), Domaines Leflaive `490 715 836`,
+  Valentin Leflaive `808 335 251`. **Substring matching on `Leflaive` is exactly the defect that
+  corrupted the coverage figure by 11 bottles.**
+- **Canonical gaps widened across the batch** — Roederer's whole `Collection` line, `cristal-2016`
+  and essentially the entire non-Cristal range; Laurent-Perrier's Nº27 and Alexandra 2012 (7 of 9
+  official cuvées absent); Montelena's Chardonnay and non-Estate Cabernet (**one** record total, and
+  it carries `vintage='—'`, so rows 3 and 4 cannot both resolve to it); Moussé's 7 of 10 cuvées.
+  **These stay out of the register as gaps.**
+- ⚠️ **Laurent-Perrier row 2 is *not* a gap** — `laurent-perrier-grand-siecle-26` exists and is
+  **unreachable**, because the identifier is spelled three ways. **Treating it as a gap would have
+  created a duplicate record.** The gap/unreachable distinction is load-bearing.
+- 🔴 **The menu is not reliably the defective side — three counter-examples in one batch, and the
+  "category word as cuvée name" pattern did not recur.** (1) Billecart's `Le Réserve` **is** the
+  producer's own current name: the house has renamed its NV range (`Brut Réserve`→`Le Réserve`,
+  `Brut Rosé`→`Le Rosé`) and moved the Collection to Extra Brut dosage — the residue is **a rename
+  in progress that canonical has no way to express** (new shape, unnumbered). (2) Montelena rows 1–2
+  print the producer's **actual product names**, and rows 3–4 reproduce the **label's gold banner**;
+  the menu is **more faithful to the label than `montelena.com`**, which uses three different forms
+  of the same wine's name on one page — **the instability is the producer's, not the menu's.**
+  (3) Montelena's canonical `subregion = "Napa Valley — Calistoga"` **is** primary-source backed
+  (label reads `CALISTOGA · NAPA VALLEY`; Calistoga **27 CFR §9.209** sits inside Napa Valley
+  §9.23, established by **T.D. TTB-83, 74 FR 64612**, petitioned by Chateau Montelena's own Bo
+  Barrett) — **a clean counter-example to Batch 9's attribute-provenance shape.**
+  **Pattern existence is not evidence that a given row is another instance.**
+- ⚠️ **"Practised vs certified" decided the Farming section for all six, landing differently every
+  time.** Moussé: Ecocert `FR-BIO-01`, **first engagement 2022-09-01** — **all three OBP vintages
+  predate conversion**, so these bottles must not be called organic, and the site never mentions
+  certification at all. Roederer: **135 ha certified organic** (Ecocert, engagement 2018-03-12,
+  `mixité: Oui`), **Demeter France returns zero** — its biodynamic language stops at *practice*.
+  Billecart: an active Ecocert certification **the official site never mentions**, but scoped to
+  **`Préparation` only** — so **both** "Billecart is organic" and "Billecart has no certification"
+  are false, and the must-not-say list blocks both directions. Montelena: the producer publishes
+  **nothing** — Farming is **Low** and marked so, and a distributor's "solar power / conscious
+  farming" claims were **routed to must-not-say rather than used**. Olivier Leflaive: organic
+  absence **proved** (Agence Bio `nbTotal: 0`, `est_bio: false`), with **HVE 3 on 15 of 74 cuvées
+  and `Raisonnée` on 58** — and the marker and the certification **do not coincide** (the 8
+  `Récolte du Domaine` wines are all HVE 3, but 7 further HVE 3 wines do not carry the name).
+  **No rule was invented; it went to Open Questions.**
+- **Site authenticity: 6 of 6 passed and zero look-alikes were encountered** — the first batch with
+  no reject since the check became standing (`D-2026-08-05-09`). Two adjacency risks were held
+  strictly separate: Roederer's sibling estates (Deutz, Delas, Pichon Comtesse, Roederer Estate …)
+  and the four Leflaive legal entities — **`domaine-leflaive.com` and `leflaive.fr` were never
+  opened.** `billecart-salmon.com` is **NXDOMAIN** (an IP Twins defensive registration) — unusable,
+  **not fraudulent**. ⚠️ Roederer's own `/fr/sitemap.xml` emits **148 entries pointing at a staging
+  host** (`roederer-site.pp.mzrn.net`) — **a config leak on the genuine site, not an impostor**;
+  nothing was fetched from it.
+- ⚠️ **Traps, re-confirmed and extended.** The **INAO filename trap fired again**:
+  `PNOCDC-Pernand-Vergelesses.pdf` and `PNOCDC-Batard-Montrachet.pdf` return **HTTP 200 with HTML**;
+  the working names are `PNOCDCPernand-Vergelesses.pdf` / `PNOCDCBatard-Montrachet.pdf`. **TTB COLA
+  was CAPTCHA-gated for Montelena and fully open for Billecart in the same batch** — availability
+  remains unstable and **the challenge was not bypassed**; Montelena's label data came from
+  producer-published bottle-shot imagery and is flagged as such. **Alcohol age gates are
+  self-declarations, not bot challenges** (Moussé, Roederer, US wineries) and were entered via each
+  site's own link.
+- ⚠️ **`Special Club` has no basis in the producer's own sources.** Canonical's cuvée name embeds
+  it, but `club` / `spécial` / `special` occur **0 times** across 69,221 characters of Moussé's
+  official site, and `mousse` occurs **0 times** in the Club Trésors de Champagne roster of 25
+  members. Whether a **cross-producer collective designation** belongs inside a name string at all
+  is a real modelling question — **described, not decided.**
+- **Physical-label tasks added: 10**, bringing the floor total to **18**. See `NEXT_ACTIONS.md` §3f.
+
 Governing workflow: fixed template, **70% completeness bar**, four evidence layers never mixed
 (verified fact / source-derived / Akio's insight / unresolved), `## Akio's Insight` is
 **Akio-only and never written or rewritten by anyone else**, official sources only
@@ -382,30 +522,52 @@ Governing workflow: fixed template, **70% completeness bar**, four evidence laye
 Everything below is **waiting on Akio**, not on execution capacity. See
 [`NEXT_ACTIONS.md`](NEXT_ACTIONS.md).
 
-1. **Batch 10 approval** (producer research) — Batch 9 is complete; nothing auto-advances
+1. **Batch 11 approval** (producer research) — Batch 10 is complete; nothing auto-advances.
+   ⚠️ **The 4-bottle tier is now exhausted of producers that publish anything**: the six that
+   remain at 4 bottles (Vilmart & Cie, Thierry Allemand, René & Vincent Dauvissat, Henri Giraud,
+   Anne et Hervé Sigaut, Alvina Pernot) carry the Roulot / Niellon risk profile. **Shape C is now
+   the better-value shape** — see `NEXT_ACTIONS.md` §1
 2. Review / merge of PR #5
-3. **Conflict-register adjudication, now spanning Batches 8 and 9** — accept or reject proposed
+3. **Conflict-register adjudication, now spanning Batches 8, 9 and 10** — accept or reject proposed
    `C-6` and `P-8`; adjudicate the **`CAT-1`…`CAT-9` category proposals in §D**, which are still
    only proposals (Batch 9 cited `CAT-3 brand_axis` for Hundred Acre precisely because no *accepted*
    class fits); and decide whether these unnumbered shapes get numbers — the geographic *climat +
    sub-parcel* gap (Niellon), a non-year sentinel `vintage = '—'` (Roulot), classification drift
    within one cuvée (Bachelet-Monnot), the producer/cuvée same-string collision (Clos de Tart), and
-   **attribute-provenance** (Hundred Acre `Ark`: a canonical `subregion` with no primary source)
-4. **Unsourced canonical prose in floor-facing copy** — `obp_note` fields carry critic scores and
-   claims contradicted by official sources (Coulée de Serrant, Bachelet-Monnot, Clos de Tart).
-   Scope unknown; a sweep is warranted before anyone treats `obp_note` as trustworthy
+   **attribute-provenance** (Hundred Acre `Ark`: a canonical `subregion` with no primary source).
+   🔴 **Batch 10 adds five more unnumbered shapes** — attribute *values* (not just prose)
+   contradicting producer-official sources; no way to express a **superseded cuvée name during a
+   rename** (Billecart); the **brand axis inside the cuvée string** (`Récolte du Domaine`); the
+   matcher **over-splitting a product name that legitimately contains its appellation**
+   (`Napa Valley Chardonnay` — the inverse of `C-4`); and a **cross-producer collective
+   designation embedded in a name** (`Special Club`). It also **corrects `P-2`'s recorded impact
+   from 3 bottles to 1** and supplies the official entity confirmation `P-2` asked for
+4. 🔴 **Canonical's stored values contradict producer-official sources — 10 of 10 producers
+   examined.** No longer confined to `obp_note` prose: Batch 10 found the same failure in **typed
+   fields** (`grapes`, `dosage`, `aging`, `founded_year`), including **19 contradicted items across
+   Billecart-Salmon's four records** and **one false `house_style` string duplicated verbatim across
+   all 16 Roederer records**. **The scope is still unmeasured, and measurement is cheap** — this is
+   the highest-severity open item, because the text is what floor staff read
 5. **Canonical `region` vocabulary has no Oregon** — all 79 USA records are `California`. Blocks
    Bergström promotion and every future Pacific-Northwest producer
 6. Hero artwork confirmation (ARIADNE)
 7. Schema-change permission (aroma intensity / complexity / 11-family taxonomy — all need migrations)
 8. Fruit Basket: ship or not
 9. `Les Hautes Mottes 2018` — physical bottle or importer sheet needed
-10. **Physical-label checks now blocking eight rows** — `Clos de la Maltroie` (Niellon, unsupported
-    by any source), `Clos de` vs `Clos des Bouchères` (Roulot), `La` vs `Clos de la Coulée de
-    Serrant`, Taittinger row 5 Rosé-vs-BdB 2012, Armand Heitz Chevalier `?` vintage, **Hundred Acre
-    `'Ark'` 2022 appellation**, **Abreu label brand/type designation (one photo of a 2019 and a 2021
-    front+back settles three escalations at once)**, and **Bergström row 5's cuvée name**. All are
-    floor tasks, not research tasks
+10. **Physical-label checks now blocking eighteen rows** — the original eight (`Clos de la
+    Maltroie` (Niellon, unsupported by any source), `Clos de` vs `Clos des Bouchères` (Roulot),
+    `La` vs `Clos de la Coulée de Serrant`, Taittinger row 5 Rosé-vs-BdB 2012, Armand Heitz
+    Chevalier `?` vintage, Hundred Acre `'Ark'` 2022 appellation, Abreu label brand/type
+    designation, Bergström row 5's cuvée name) **plus ten from Batch 10**: Moussé ×3 (does the
+    bottle bear `Spécial Club`; the mandatory RM/NM/RC matriculation code, absent from the site;
+    three unconfirmed vintages), Roederer ×1 (the ROSÉ-section 2014 — both `Cristal 2014` and
+    `Cristal Rosé 2014` exist officially), Billecart ×1 (row 3: `Brut Rosé` or `Le Rosé`, `Brut` or
+    `Extra Brut`), Laurent-Perrier ×1 (`Itération Nº27/Nº26` or `Grande Cuvée No. 27/26` — the only
+    evidence separating a menu typo from a market-specific label), Montelena ×1 (back label:
+    `ESTATE BOTTLED` per 27 CFR §4.26 — the front label does not carry it), Olivier Leflaive ×3
+    (which of two Bâtard-Montrachet 2023; Meursault 2023 bare vs 5 lieu-dits; whether
+    `Récolte du Domaine` appears on the bottle at all). All are floor tasks, not research tasks.
+    ⚠️ **Several settle multiple escalations per photo**
 
 ## Operating constraints in force
 
@@ -427,4 +589,4 @@ Everything below is **waiting on Akio**, not on execution capacity. See
 
 ## Last Updated
 
-2026-08-05 (updated after Batch 9, complete — 6 of 6)
+2026-08-05 (updated after Batch 10, complete — 6 of 6)

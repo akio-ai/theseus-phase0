@@ -278,6 +278,84 @@ pointing to `Bergström Vineyard Pinot Noir` — indication is not a source.
 
 ---
 
+## D-2026-08-05-15 — Batch 10 runs on the proposed producers at max 2 concurrent agents; stop after 10
+
+**Date** 2026-08-05 · **Authority** Akio · **Status** Applied
+
+**Decision.** Run **Batch 10** on the producers already proposed in `NEXT_ACTIONS.md`, resolving any
+priority ambiguity by (1) highest remaining OBP bottle coverage, (2) restaurant importance,
+(3) availability of official sources, (4) existing source cache. **Maximum 2 concurrent producer
+agents — never more without explicit approval.** Verify only the scope the batch changed
+(`D-2026-08-05-13`): after each producer, dossier structure, required sections, canonical untouched.
+**No repository-wide integrity sweeps and no repository-wide git inspection.** All standing research
+rules remain in force: the 70% bar, official sources only, technical-sheet PDFs whenever available,
+preserve uncertainty, never invent, `## Akio's Insight` left empty, canonical read-only, canonical
+conflicts escalated only, **`REGISTER.md` not modified**, **ADR-002 not started**, **Bordeaux batch
+not started**. Commit completed work; **do not push**. **Stop automatically after Batch 10.**
+
+**Composition.** Famille Moussé (5 bottles), Louis Roederer, Billecart-Salmon, Laurent-Perrier,
+Chateau Montelena, Olivier Leflaive Frères (4 each). The other six 4-bottle candidates — Vilmart &
+Cie, Thierry Allemand, René & Vincent Dauvissat, Henri Giraud, Anne et Hervé Sigaut, Alvina Pernot —
+were **deliberately excluded on criterion (3)**: none has a known producer-authored web source, so
+all six carry the Roulot / Niellon profile. Selecting *for* published fiches techniques was the
+batch's explicit hypothesis.
+
+**Outcome.** 6 dossiers, **+25 OBP bottles (419 → 444 of 704; 59.5% → 63.1%)**, **62 dossiers**.
+Remaining: 120 producers / 260 bottles. **All six cleared the bar and all six are Confidence High** —
+Roederer ~88%, Billecart ~88%, Olivier Leflaive ~82%, Moussé ~80%, Laurent-Perrier ~80%,
+Montelena ~80%. **The first batch since Batch 4 with no sub-bar dossier**, and the +25 estimate was
+exact. Canonical untouched (`db_wine_canonical.json` mtime unchanged at 2026-07-28 14:12);
+`REGISTER.md` untouched (mtime 2026-08-04 22:02). Site authenticity **6 of 6 passed with zero
+look-alikes** — the first clean batch since `D-2026-08-05-09`.
+
+**What Batch 10 changed methodologically.** The batch was composed to test whether *selecting for
+producers that publish technical sheets* removes the sub-bar problem. **It does** — but the finding
+that matters is the opposite one: the better the producer's own documentation, **the more clearly
+canonical is shown to be wrong.** Every one of the six contradicted canonical, which is why the
+count now stands at **10 of 10 producers examined across Batches 8–10.** Also established as
+routine: reading a public-register `liste_id_bio` / SIRET pairing to find certifications a producer's
+own site never mentions (Billecart), and using multiple SIRENs to prove entity separation before
+trusting a name (four Leflaive companies; one Moussé company under two names).
+
+**Escalated, not resolved.** Recorded in full in `NEXT_ACTIONS.md` §3f. The load-bearing items:
+- 🔴 **Canonical's stored values contradict producer-official sources, and it is not confined to
+  prose** — Billecart carries **19 contradicted items across four records**; a single false
+  `house_style` string is **duplicated verbatim across all 16 Roederer records**, asserting a Demeter
+  certification the house does not hold and a rosé method it explicitly does not use. Includes
+  **typed fields** (`grapes`, `dosage`, `aging`, `founded_year`) and an **invented parcel name**.
+- 🔴 **The matcher never reads the menu section heading** — proven by a **byte-identical intake
+  `evidence` string across all four Roederer rows including the ROSÉ one.** Roederer and Billecart
+  are both **counter-examples to `C-6` as written**: canonical already carries the colour axis, so
+  **fixing canonical alone does not fix the row.** `C-6` needs restating, not just accepting.
+- 🔴 **`V-1` admits no surrogate key.** Grand Siècle's three base vintages **overlap between
+  itérations**, so there is **no correct value for the `vintage` field** — a "fix the vintage field"
+  migration has nothing to write. Adding Nº27 also makes **`(cuvée, vintage="NV")` non-unique inside
+  canonical.** `V-2` is undercounted (4 magnums, 3 with no sibling); `V-3` needs
+  **itération × format × disgorgement state**.
+- ✅🔴 **`P-2` is answered and its recorded impact is wrong.** One SIRET (`449 670 702 00025`) bears
+  both `SARL CHAMPAGNE MOUSSÉ FILS` and `SARL FAMILLE MOUSSÉ` — **one house, two names**. But the
+  measured impact is **1 bottle, not 3**: `P-2` = 1 entity-split + 2 vintage gaps. **Not executed.**
+- 🔴 **Four new unnumbered shapes** — a superseded cuvée name during a rename (Billecart); the
+  **brand axis inside the cuvée string** (`Récolte du Domaine`, with no separate entity to point at);
+  over-splitting a product name that legitimately contains its appellation (**the inverse of `C-4`**);
+  and a cross-producer collective designation embedded in a name (`Special Club`, supported by
+  **zero** occurrences in the producer's site or the Club's own roster).
+- 🔴 **`D-2026-08-05-08`'s failure condition demonstrated live** — of 16 canonical records matching
+  `leflaive`, **0 are Olivier Leflaive** and **9 match only on other producers' prose**.
+- ⚠️ **The menu is not reliably the defective side.** Three counter-examples, and the "category word
+  as cuvée name" pattern **did not recur**. Montelena's `subregion` **is** label-backed — a
+  counter-example to Batch 9's attribute-provenance shape. **Pattern existence is not evidence.**
+
+**Ten physical-label tasks added**, bringing the floor total to **eighteen**.
+
+**Applied as.** Six dossiers under `research/producers/`, plus the Batch 10 map in
+`research/producers/coverage.py`. One structural correction was made by the orchestrator: the
+`olivier-leflaive.md` dossier carried an extra `##` heading before `## Identity`, which was demoted
+to `###` so the fixed template sequence holds; **no content was changed.** **Reversal** is deletion
+of those files and their `coverage.py` entries; coverage returns to 59.5%. Nothing else was touched.
+
+---
+
 ## D-2026-08-05-12 — The canonical integrity sweep is measurement, not adjudication
 
 **Date** 2026-08-05 · **Authority** Execution · **Status** Applied · **Reversible**
@@ -464,4 +542,4 @@ prohibited outright**; when no official source exists, record "awaiting material
 
 ## Last Updated
 
-2026-08-05 (updated after Batch 9 close-out; adds D-2026-08-05-13 and -14)
+2026-08-05 (updated after Batch 10 close-out; adds D-2026-08-05-15)

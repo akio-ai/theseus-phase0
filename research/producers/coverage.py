@@ -71,6 +71,21 @@ M={
  "hundred-acre":["Hundred Acre"],
  "abreu-vineyards":["Abreu"],
  "bergstrom-wines":["Bergström"],
+    # Batch 10.
+    # 'Famille Mousse' counts all 5 OBP rows: the menu prints the same house two
+    # ways ('Famille Musse' in BLANC DE NOIRS, 'Musse Famille' in SPECIAL CLUB)
+    # and the dossier documents both. One house, proven by a single SIRET
+    # carrying both names - see the P-2 evidence in famille-mousse.md.
+ "famille-mousse":["Famille Mousse"],
+ "louis-roederer":["Louis Roederer"],
+ "billecart-salmon":["Billecart-Salmon"],
+ "laurent-perrier":["Laurent-Perrier"],
+ "chateau-montelena":["Chateau Montelena"],
+    # 'Olivier Leflaive Freres' has no proposed_canonical_producer at all - it is
+    # absent from canonical at the producer layer - so this key is the raw menu
+    # string. Do NOT fold it into 'Domaine Leflaive': four separate SIRENs exist
+    # and substring matching on 'Leflaive' is the exact D-2026-08-05-08 defect.
+ "olivier-leflaive":["Olivier Leflaive Frères"],
 }
 def key(r): return r.get('proposed_canonical_producer') or r.get('source_producer_raw')
 c=collections.Counter(key(r) for r in rows)
