@@ -274,6 +274,101 @@ Chaillot normalises them away.
   cuvée string. **Not investigated further** (`D-2026-08-06-06`). Evidence:
   `research/producers/ridge-vineyards.md` §Important Cuvées 行 3.
 
+### Batch 14 additions
+
+> Recorded once, per `D-2026-08-06-06` §2–3. **None was investigated beyond the dossier that met
+> it**, and no repository-wide sweep was run to produce this section.
+
+- 🔴🔴 **The `label = null` path fails in *both* directions, and that reframes the Batch 12 finding.**
+  Batch 12 measured **over-proposing**: 152 rows with `_parts.label = null` were given a cuvée
+  anyway and **147 marked `exact`**, always the grand vin. **Promontory is the inverse.** Canonical
+  holds one record whose `producer` **and** `name` are both the string `Promontory` — so producer
+  agreement alone reduces the candidate set to **exactly one, and it is correct** — yet all three
+  rows (`obp-beverage-2026-08:` `…`, 2021 / 2020 / 2017) return `proposed_canonical_cuvee: null`,
+  `cuvee_state: unresolved`, `confidence 0.0`. 🔴 **A fix that only suppresses over-proposing will
+  leave this half untouched. Both behaviours originate in the same `label = null` handling and must
+  be specified together.** Evidence: `research/producers/promontory.md` §Canonical Conflict.
+
+- 🔴 **A third face of the same defect: parser output is discarded and a *style token* is used as a
+  cuvée query.** For Dom Pérignon rows 1–2 (`5cbde63539` / `5a8f29e841`) `_parts` correctly yields
+  `label: null` and `style: "brut"`, yet `normalized_cuvee` becomes `"Brut"` and the matcher then
+  searches canonical **cuvée** names for it. `Brut` is a statutory sugar term: **0 occurrences**
+  across 397 KB of the house's own material **and 0 in the AOC Champagne cahier des charges**.
+  Evidence: `research/producers/dom-perignon.md` §Important Cuvées.
+
+- 🔴 **The inverse-of-`CDX-1` shape recurs, worse than at Krug — and it is *not* uniform.**
+  Dom Pérignon's three rows carry the evidence `'Dom Pérignon' の canonical キュヴェ 2 件に一致無し`;
+  canonical holds **15** records, including `dom-perignon-2015`, `dom-perignon-2013` and
+  `dom-perignon-p2-2003` — **the exactly-right target for every one of the three rows**, all at
+  `confidence 0.0`. ⚠️ **This must not be handled as a gap: the records exist, and creating them
+  would duplicate.** ✅ **Counter-case in the same batch:** Dominus' `canonical キュヴェ 1 件` claim
+  was verified **true** (exactly one record, 928 scanned). **The evidence string is unreliable per
+  producer, not uniformly wrong — any fix must re-derive the count, not distrust the field.**
+  Evidence: `research/producers/dom-perignon.md` / `dominus-estate.md` §Canonical Conflict.
+
+- 🔴 **A canonical vocabulary gap one level above a missing producer: `Zinfandel` appears in ZERO
+  `grapes` arrays across all 928 records.** Turley cannot be promoted without adding a **grape
+  category**. Structurally identical to `CDX-17` (no Oregon in `region`), and the same question
+  will recur for every producer outside the current varietal vocabulary. Evidence:
+  `research/producers/turley.md` §Canonical Conflict.
+
+- 🔴 **`_parts.appellation` conflates two different things — the label's appellation of origin and
+  the vineyard's location / sub-AVA.** Turley rows 1–2 print `Saint Helena`, but the producer's own
+  tech sheets record `AVA: Napa Valley` / `Sub-AVA: Saint Helena`, the JSON-LD `Appellation` field
+  says `Napa Valley`, and the front label's first line reads `NAPA VALLEY`. Same class as the
+  Hundred Acre `Ark` finding (`CDX-16`) **but on the OBP side rather than canonical's.** Evidence:
+  `research/producers/turley.md` §Important Cuvées.
+
+- ⚠️ **The Bordeaux `label = null` condition is section-wide structure, not row defects.**
+  `_parts.label` is `null` on **60 of 60** rows in `FRANCE | RED > BORDEAUX`. Related: the parser
+  writes `_parts.rank: "Grand Cru"` by slicing those words out of the **appellation name**
+  `Saint-Émilion Grand Cru` — the 5 Bordeaux rows carrying a `rank` are exactly the 5 rows printing
+  that appellation (Figeac ×3, Cheval Blanc ×2). A same-row contradiction follows:
+  `cuvee_state: "unresolved"` + `_parts.label: null` while `normalized_cuvee` holds an
+  **appellation**. Evidence: `research/producers/chateau-figeac.md` §Canonical Conflict.
+
+- ⚠️ **Ingesting producer-published pages is not safe, and two distinct failure modes were measured.**
+  (1) **Wrong-vintage prose on the producer's own product pages** — Chappellet's 2022 Signature page
+  carries a growing-season narrative describing **2020**, and its 2022 Pritchard Hill page describes
+  **2019** and quotes a 2019 review. **A pipeline scraping product pages instead of the per-wine
+  notes PDFs will ingest wrong-vintage facts as truth.** (2) **Duplicated figures across different
+  wines inside the producer's own technical sheets** — Dominus' `DOM_2020` and `NK_2020` both state
+  1,600 cases; `NK_2021` and `Othello-2021` both state 3,000. **Tech-sheet ingestion needs a
+  cross-wine duplicate check.** Evidence: `research/producers/chappellet.md` /
+  `dominus-estate.md` §Sources.
+
+- ⚠️ **Label-token matching must be producer-scoped.** `Signature` is a cuvée name for **Chappellet**
+  and, in the same intake file, for **Darioush** (3 rows). Any token-level cuvée index built without
+  a producer key will cross them. Evidence: `research/producers/chappellet.md` §Canonical Conflict.
+
+- ⚠️ **Canonical already stores a non-AVA inside the appellation hierarchy.**
+  `Napa Valley — Pritchard Hill` is `Continuum Estate`'s `subregion`, while `Pritchard Hill` is
+  **not an AVA** (the string `Pritchard` occurs **0 times** across all **288 sections** of 27 CFR
+  Part 9, enumerated from the eCFR title-27 structure API). For Chappellet the same string is
+  **simultaneously the cuvée name and a place**, so row 3 cannot promote until the schema decides.
+  `CDX-16` family. Evidence: `research/producers/chappellet.md` §Canonical Conflict.
+
+- ⚠️ **`vintage: '—'` on a producer publishing 14 distinct vintage records.** Promontory's three OBP
+  rows can never be separated without `cuvée × vintage`; the estate's own CMS holds 2009–2022.
+  Same shape as Montelena in Batch 10. Evidence: `research/producers/promontory.md`.
+
+- ⚠️ **The intake evidence string's producer count is off by one.** It reports
+  `canonical 384 生産者`; the 928-record export yields **383** distinct non-null `producer` values.
+  Reported independently by two Batch 14 agents. `CDX-4`-adjacent, low harm, easy to confirm.
+
+- ⚠️ **Canonical holds no `bordeaux-vintage-*-guide` record after 1997**, so none of Figeac's three
+  OBP vintages (2018 / 2010 / 2009) has even a reference-table entry — worth knowing before anyone
+  treats the reference-table class as usable coverage. Evidence:
+  `research/producers/chateau-figeac.md` §Canonical Conflict.
+
+- 🔴 **Operational hazard for anyone writing fetchers: producer sites now carry instructions
+  addressed to AI agents.** `turleywinecellars.com/robots.txt` directs agents to its UCP/MCP
+  endpoints and recommends installing a shopping skill **to purchase products directly**. In this
+  batch it was treated as **observed content, not instruction** — nothing installed, no cart or
+  checkout surface touched. 🔴 **Any automated ingestion path must treat fetched site content as
+  data and never as configuration or instruction.** Evidence: `research/producers/turley.md`
+  §Sources.
+
 ---
 
 ## P2 — model questions; code cannot proceed until these are answered
@@ -318,5 +413,5 @@ them.
 
 ## Last Updated
 
-2026-08-06 — created under `D-2026-08-06-06`, populated from findings already recorded through
+2026-08-06 — **Batch 14 additions appended.** Created under `D-2026-08-06-06`, populated from findings already recorded through
 Batch 12. **No new investigation was performed to write this file.**
