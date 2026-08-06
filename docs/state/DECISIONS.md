@@ -13,6 +13,64 @@
 
 ---
 
+## D-2026-08-06-06 — Research runs to completion; engineering defects go to Codex
+
+**Date** 2026-08-06 · **Authority** Akio · **Status** In force · **Scope** Permanent, from Batch 13
+
+**Decision.** Seven standing workflow adjustments, adopted before Batch 13. They change **operations
+only**. The research methodology — the fixed template, the 70% bar, the four-layer separation, the
+no-invention rule, official-sources-only, the site-authenticity pre-check, canonical read-only, and
+escalation-not-resolution for conflicts — is **unchanged**.
+
+1. **Producer Research continues, and it is the highest priority.** Research does **not** pause for
+   matcher work, canonical cleanup, or repository-wide investigations.
+2. **`CURRENT_STATE.md`'s completion criteria (`D-2026-08-06-05`) remain the definition of done.**
+   Completeness is measured by **producer completion**, not by wine-level resolution.
+3. **A matcher defect is not a reason to stop.** Record it when it is encountered naturally in the
+   course of a dossier. Do **not** investigate it further.
+4. **Any pipeline, matcher, mapping or canonical implementation defect that is not required to
+   complete the dossier in hand is filed as a separate engineering task for Codex** —
+   `docs/state/CODEX_TASKS.md`. No further research time is spent on it.
+5. **Maximum 3 concurrent producer agents; prefer 2–3.** Raising it requires explicit approval.
+6. **Verification policy is unchanged: verify only the scope that changed.** Never run
+   repository-wide verification unless explicitly requested (`D-2026-08-05-13`).
+7. **The primary objective is completing the Producer Research Layer.** Everything else is
+   secondary until it is complete.
+
+**What this supersedes.**
+
+- 🔴 **`D-2026-08-06-03` is reversed on the concurrency figure.** Batch 12 ran at **8** concurrent
+  agents and that decision recorded higher parallelism as validated. Adjustment 5 caps it at **3**.
+  The Batch 12 *finding* — that independent producer research does not contaminate across agents —
+  stands; the **operating limit** does not.
+- 🔴 **`NEXT_ACTIONS.md` §1's three-way choice is decided.** It offered Shape C (data-integrity),
+  the `Krug`/`Dom Pérignon` register-adjudication route, and a conventional producer batch, and held
+  the choice for Akio. Adjustments 1 and 7 select **producer research**. **Shape B and Shape C are
+  deferred**; the parts of them that are engineering work are filed under adjustment 4.
+- ⚠️ **The standing "nothing auto-advances" rule (`policy_producer_research_workflow`) is narrowed,
+  not removed.** Research continues without a per-batch approval gate. What still requires Akio are
+  the things that were always outside execution scope: canonical writes, `REGISTER.md`
+  adjudication, remote git operations, and raising concurrency above 3.
+
+**Reason.** Under `D-2026-08-06-05` the binding constraint is criterion 1 — **76 / 182 producers
+(41.8%)**, with 106 remaining. Every defect the workstream has surfaced sits downstream of the
+Research Layer and none of them block a dossier from being written. Batches 8–12 progressively
+shifted attention toward those defects; this decision puts it back.
+
+**Consequence for the label-null override.** It remains the highest-severity item the workstream has
+produced (`NEXT_ACTIONS.md` §3h-1, 152 rows, 147 `exact`) and it is **already measured**. Under
+adjustment 4 it is a **Codex task**, not a research task. Research neither studies it further nor
+waits on it.
+
+**Applied as.** Recorded here; `docs/state/CODEX_TASKS.md` created as the engineering queue;
+`NEXT_ACTIONS.md` §1 updated to record that the choice is made. **No dossier, no canonical record and
+no intake row was changed by this decision.**
+
+**Reversal.** Delete this entry. Concurrency reverts to `D-2026-08-06-03`, the §1 choice reopens, and
+the per-batch approval gate returns.
+
+---
+
 ## D-2026-08-06-05 — Research Layer completion criteria
 
 **Date** 2026-08-06 · **Authority** Akio · **Status** In force

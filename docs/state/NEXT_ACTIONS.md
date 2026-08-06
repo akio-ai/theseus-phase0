@@ -58,11 +58,30 @@ Consequences worth stating where match states are consumed:
   multi-line. Fifth-plus instance of the intake↔store divergence, and the first where the discarded
   axis had **already been flagged upstream**.
 
-### 🔴 Next — Bordeaux was the last large block
+### ✅ Next — decided. Research runs to completion; engineering defects go to Codex
+
+🔴 **`D-2026-08-06-06` (2026-08-06, Akio) closes the three-way choice below.** **Producer Research
+continues and is the highest priority.** It does **not** pause for matcher work, canonical cleanup or
+repository-wide investigation. **Shape B and Shape C are deferred.** Every pipeline, matcher, mapping
+and canonical defect not required to finish the dossier in hand is now filed in
+[`CODEX_TASKS.md`](CODEX_TASKS.md) — **25 tasks, all already measured** — and research neither studies
+them further nor waits on them.
+
+Two operating changes come with it: **concurrency is capped at 3 agents (prefer 2–3)**, reversing
+`D-2026-08-06-03`'s figure of 8; and **the per-batch approval gate is lifted** for research itself.
+Canonical writes, `REGISTER.md` adjudication, remote git operations and raising concurrency above 3
+still require Akio.
+
+**Selection is now driven by producer count, not bottle count.** Under `D-2026-08-06-05` criterion 1
+the binding number is **76 / 182 producers (41.8%)**, and a 1-bottle producer closes it exactly as
+much as a 3-bottle one.
+
+*The three options are retained below because the reasoning is still the record of why Shape C was
+the strongest alternative.*
 
 **Every remaining producer holds 3 bottles or fewer.** A 6-producer batch is **12–18 bottles**
-against Batch 12's 47. The curve is now flat by arithmetic. Three options, and **which one runs is
-Akio's call — nothing auto-advances**:
+against Batch 12's 47. The curve is now flat by arithmetic. Three options ~~and which one runs is
+Akio's call~~ — **decided: option 3**:
 
 1. 🔴 **Shape C is now clearly the highest-value shape, and Batch 12 supplied two cheap,
    measurement-first targets.** (a) The **label-null override** above — 152 rows, already measured,
