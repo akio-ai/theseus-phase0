@@ -1,0 +1,3248 @@
+[
+  {
+    "source_line_no": 19,
+    "original_raw_line": "Kameizumi, ‘Le Grande Voyage’\t\t\t\t\t\t170",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "cuvee"
+    ],
+    "detail": {
+      "cuvee": "生産者が未確定のため、銘柄が一致しても確定しない"
+    },
+    "candidates": {
+      "cuvee": [
+        {
+          "entity_id": "cuvee:domaine-du-pas-de-l-escalette-le-grand-pas",
+          "name": "Le Grand Pas",
+          "score": 0.7143,
+          "why": "fuzzy name, producer unknown"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 94,
+    "original_raw_line": "Eiheiji Hakuryu, ‘Black,’ Junmai Daiginjo\t\t\t\t\t720",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "cuvee"
+    ],
+    "detail": {
+      "cuvee": "生産者が未確定のため、銘柄が一致しても確定しない"
+    },
+    "candidates": {
+      "cuvee": [
+        {
+          "entity_id": "cuvee:domaine-de-la-grange-des-peres-blanc",
+          "name": "Blanc",
+          "score": 0.8,
+          "why": "fuzzy name, producer unknown"
+        },
+        {
+          "entity_id": "cuvee:domaine-pedres-blanques-blanc",
+          "name": "Blanc",
+          "score": 0.8,
+          "why": "fuzzy name, producer unknown"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 126,
+    "original_raw_line": "\t\t‘Special Cuvée,’ Brut\t\t\t\t\t\t\t300",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "cuvee"
+    ],
+    "detail": {
+      "cuvee": "Bollinger の中に近い銘柄が 1 件 — 確定は人間が行う"
+    },
+    "candidates": {
+      "cuvee": [
+        {
+          "entity_id": "cuvee:bollinger-special-cuvee-brut",
+          "name": "Special Cuvée Brut",
+          "score": 0.8387,
+          "why": "fuzzy within producer"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 129,
+    "original_raw_line": "\t‘Bulles de Comptoir #12, Caché dans l’Evidence,’ Extra Brut\t280",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "cuvee"
+    ],
+    "detail": {
+      "cuvee": "Charles Dufour の中に近い銘柄が 1 件 — 確定は人間が行う"
+    },
+    "candidates": {
+      "cuvee": [
+        {
+          "entity_id": "cuvee:charles-dufour-bulles-de-comptoir-12-cache-dans-l-evidence-extra-brut",
+          "name": "Bulles de Comptoir #12 \"Caché dans l'Évidence\" Extra Brut",
+          "score": 0.8866,
+          "why": "fuzzy within producer"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 132,
+    "original_raw_line": "2012\t\t‘L’Aphrodisiaque,’ Premier Cru Brut Nature\t\t\t\t900",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "cuvee"
+    ],
+    "detail": {
+      "cuvee": "David Léclapart の中に近い銘柄が 1 件 — 確定は人間が行う"
+    },
+    "candidates": {
+      "cuvee": [
+        {
+          "entity_id": "cuvee:david-leclapart-l-aphrodisiaque-premier-cru",
+          "name": "L'Aphrodisiaque Premier Cru",
+          "score": 0.7143,
+          "why": "fuzzy within producer"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 141,
+    "original_raw_line": "2012\t\t‘Grand Sendrée,’ Brut\t\t\t\t\t\t\t400",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "cuvee"
+    ],
+    "detail": {
+      "cuvee": "Drappier の中に近い銘柄が 1 件 — 確定は人間が行う"
+    },
+    "candidates": {
+      "cuvee": [
+        {
+          "entity_id": "cuvee:drappier-grande-sendree-brut",
+          "name": "Grande Sendrée Brut",
+          "score": 0.8125,
+          "why": "fuzzy within producer"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 142,
+    "original_raw_line": "2010\t\t‘Grand Sendrée,’ Brut\t\t\t\t\t\t\t395",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "cuvee"
+    ],
+    "detail": {
+      "cuvee": "Drappier の中に近い銘柄が 1 件 — 確定は人間が行う"
+    },
+    "candidates": {
+      "cuvee": [
+        {
+          "entity_id": "cuvee:drappier-grande-sendree-brut",
+          "name": "Grande Sendrée Brut",
+          "score": 0.8125,
+          "why": "fuzzy within producer"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 144,
+    "original_raw_line": "2007\t\t‘Réserve de L’Oenothèque,’ Brut\t\t\t\t\t460",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "cuvee"
+    ],
+    "detail": {
+      "cuvee": "Drappier の中に近い銘柄が 1 件 — 確定は人間が行う"
+    },
+    "candidates": {
+      "cuvee": [
+        {
+          "entity_id": "cuvee:drappier-reserve-de-l-oenotheque-brut",
+          "name": "Réserve de l'Oenothèque Brut",
+          "score": 0.902,
+          "why": "fuzzy within producer"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 163,
+    "original_raw_line": "\t\t‘Grand Réserve,’ Brut\t\t\t\t\t\t\t200",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "cuvee"
+    ],
+    "detail": {
+      "cuvee": "Gosset の中に近い銘柄が 1 件 — 確定は人間が行う"
+    },
+    "candidates": {
+      "cuvee": [
+        {
+          "entity_id": "cuvee:gosset-grand-reserve-brut",
+          "name": "Grand Réserve Brut",
+          "score": 0.8387,
+          "why": "fuzzy within producer"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 164,
+    "original_raw_line": "2016\t\t‘Grand Millésime,’ Brut\t\t\t\t\t\t340",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "cuvee"
+    ],
+    "detail": {
+      "cuvee": "Gosset の中に近い銘柄が 1 件 — 確定は人間が行う"
+    },
+    "candidates": {
+      "cuvee": [
+        {
+          "entity_id": "cuvee:gosset-grand-millesime-brut",
+          "name": "Grand Millésime Brut",
+          "score": 0.8571,
+          "why": "fuzzy within producer"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 167,
+    "original_raw_line": "\t\t’21 Ans de Cave a Minima,’ Brut\t\t\t\t\t1200",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "cuvee"
+    ],
+    "detail": {
+      "cuvee": "Gosset の中に近い銘柄が 2 件 — 確定は人間が行う"
+    },
+    "candidates": {
+      "cuvee": [
+        {
+          "entity_id": "cuvee:gosset-15-ans-de-cave-a-minima-brut",
+          "name": "15 Ans de Cave à Minima Brut",
+          "score": 0.8627,
+          "why": "fuzzy within producer"
+        },
+        {
+          "entity_id": "cuvee:gosset-21-ans-de-cave-a-minima-extra-brut",
+          "name": "21 Ans de Cave à Minima Extra-Brut",
+          "score": 0.807,
+          "why": "fuzzy within producer"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 180,
+    "original_raw_line": "2023\t\t‘La Closerie, Les Beguines,’ Extra Brut\t\t\t\t920",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "cuvee"
+    ],
+    "detail": {
+      "cuvee": "Jérôme Prévost の中に近い銘柄が 1 件 — 確定は人間が行う"
+    },
+    "candidates": {
+      "cuvee": [
+        {
+          "entity_id": "cuvee:jerome-prevost-la-closerie-les-beguines-extra-brut",
+          "name": "La Closerie Les Béguines Extra Brut",
+          "score": 0.8136,
+          "why": "fuzzy within producer"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 191,
+    "original_raw_line": "2019\t\t‘Les Empreintes,’ Extra Brut\t\t\t\t\t\t335",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "cuvee"
+    ],
+    "detail": {
+      "cuvee": "Laherte Frères の中に近い銘柄が 1 件 — 確定は人間が行う"
+    },
+    "candidates": {
+      "cuvee": [
+        {
+          "entity_id": "cuvee:laherte-freres-les-empreintes-extra-brut",
+          "name": "Les Empreintes Extra Brut",
+          "score": 0.7179,
+          "why": "fuzzy within producer"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 192,
+    "original_raw_line": "2017\t\t‘Les Empreintes,’ Extra Brut\t\t\t\t\t\t300",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "cuvee"
+    ],
+    "detail": {
+      "cuvee": "Laherte Frères の中に近い銘柄が 1 件 — 確定は人間が行う"
+    },
+    "candidates": {
+      "cuvee": [
+        {
+          "entity_id": "cuvee:laherte-freres-les-empreintes-extra-brut",
+          "name": "Les Empreintes Extra Brut",
+          "score": 0.7179,
+          "why": "fuzzy within producer"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 207,
+    "original_raw_line": "2016\t\t‘Cristal,’ Brut\t\t\t\t\t\t\t\t1120",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "cuvee"
+    ],
+    "detail": {
+      "cuvee": "Louis Roederer の中に近い銘柄が 1 件 — 確定は人間が行う"
+    },
+    "candidates": {
+      "cuvee": [
+        {
+          "entity_id": "cuvee:louis-roederer-cristal-brut",
+          "name": "Cristal Brut",
+          "score": 0.7368,
+          "why": "fuzzy within producer"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 208,
+    "original_raw_line": "2015\t\t‘Cristal,’ Brut\t\t\t\t\t\t\t\t1200",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "cuvee"
+    ],
+    "detail": {
+      "cuvee": "Louis Roederer の中に近い銘柄が 1 件 — 確定は人間が行う"
+    },
+    "candidates": {
+      "cuvee": [
+        {
+          "entity_id": "cuvee:louis-roederer-cristal-brut",
+          "name": "Cristal Brut",
+          "score": 0.7368,
+          "why": "fuzzy within producer"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 217,
+    "original_raw_line": "2014\t\t‘Clos des Goisses,’ Extra Brut\t\t\t\t\t1080",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "cuvee"
+    ],
+    "detail": {
+      "cuvee": "Philipponnat の中に近い銘柄が 1 件 — 確定は人間が行う"
+    },
+    "candidates": {
+      "cuvee": [
+        {
+          "entity_id": "cuvee:philipponnat-clos-des-goisses-extra-brut",
+          "name": "Clos des Goisses Extra Brut",
+          "score": 0.7442,
+          "why": "fuzzy within producer"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 220,
+    "original_raw_line": "\t\t‘Réserve,’ Brut\t\t\t\t\t\t\t230",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "producer"
+    ],
+    "detail": {
+      "producer": "'Pol Roger' に近い生産者が 1 件 — 確定は人間が行う"
+    },
+    "candidates": {
+      "producer": [
+        {
+          "entity_id": "producer:la-rogerie",
+          "name": "La Rogerie",
+          "score": 0.7368,
+          "why": "fuzzy name"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 221,
+    "original_raw_line": "2018\t\t‘Vintage,’ Brut\t\t\t\t\t\t\t415",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "producer"
+    ],
+    "detail": {
+      "producer": "'Pol Roger' に近い生産者が 1 件 — 確定は人間が行う"
+    },
+    "candidates": {
+      "producer": [
+        {
+          "entity_id": "producer:la-rogerie",
+          "name": "La Rogerie",
+          "score": 0.7368,
+          "why": "fuzzy name"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 222,
+    "original_raw_line": "2004\t\t‘Cuvée de Réserve, Vinothéque,’ Brut\t\t\t\t980",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "producer"
+    ],
+    "detail": {
+      "producer": "'Pol Roger' に近い生産者が 1 件 — 確定は人間が行う"
+    },
+    "candidates": {
+      "producer": [
+        {
+          "entity_id": "producer:la-rogerie",
+          "name": "La Rogerie",
+          "score": 0.7368,
+          "why": "fuzzy name"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 223,
+    "original_raw_line": "2018\t\t‘Cuvée Sir Winston Churchill,’ Brut\t\t\t\t\t1155",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "producer"
+    ],
+    "detail": {
+      "producer": "'Pol Roger' に近い生産者が 1 件 — 確定は人間が行う"
+    },
+    "candidates": {
+      "producer": [
+        {
+          "entity_id": "producer:la-rogerie",
+          "name": "La Rogerie",
+          "score": 0.7368,
+          "why": "fuzzy name"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 224,
+    "original_raw_line": "2002\t\t‘Cuvée Sir Winston Churchill, Vinothéque,’ Brut\t\t\t2920",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "producer"
+    ],
+    "detail": {
+      "producer": "'Pol Roger' に近い生産者が 1 件 — 確定は人間が行う"
+    },
+    "candidates": {
+      "producer": [
+        {
+          "entity_id": "producer:la-rogerie",
+          "name": "La Rogerie",
+          "score": 0.7368,
+          "why": "fuzzy name"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 227,
+    "original_raw_line": "\t\t‘Y by Yoshiki,’ Brut\t\t\t\t\t\t\t675",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "cuvee"
+    ],
+    "detail": {
+      "cuvee": "生産者が未確定のため、銘柄が一致しても確定しない"
+    },
+    "candidates": {
+      "cuvee": [
+        {
+          "entity_id": "cuvee:y-by-yoshiki-pommery-y-by-yoshiki-brut",
+          "name": "Y by Yoshiki Brut",
+          "score": 0.8276,
+          "why": "fuzzy name, producer unknown"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 240,
+    "original_raw_line": "2013\t\t“Quintile,” Grand Cru Extra Brut\t\t\t\t\t420",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "cuvee"
+    ],
+    "detail": {
+      "cuvee": "生産者が未確定のため、銘柄が一致しても確定しない"
+    },
+    "candidates": {
+      "cuvee": [
+        {
+          "entity_id": "cuvee:quintessa-quintessa",
+          "name": "Quintessa",
+          "score": 0.7059,
+          "why": "fuzzy name, producer unknown"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 257,
+    "original_raw_line": "\t\t‘Les Vignes de Bisseuil,’ Premier Cru Extra Brut\t\t\t400",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "cuvee"
+    ],
+    "detail": {
+      "cuvee": "Egly-Ouriet の中に近い銘柄が 1 件 — 確定は人間が行う"
+    },
+    "candidates": {
+      "cuvee": [
+        {
+          "entity_id": "cuvee:egly-ouriet-les-vignes-de-bisseuil-extra-brut",
+          "name": "Les Vignes de Bisseuil Extra Brut",
+          "score": 0.8,
+          "why": "fuzzy within producer"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 263,
+    "original_raw_line": "2018\t\t‘Les Chênes,’ Premier Cru Brut Nature\t\t\t\t920",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "producer",
+      "cuvee"
+    ],
+    "detail": {
+      "producer": "'George Laval' に近い生産者が 1 件 — 確定は人間が行う",
+      "cuvee": "生産者が未確定のため、銘柄が一致しても確定しない"
+    },
+    "candidates": {
+      "producer": [
+        {
+          "entity_id": "producer:georges-laval",
+          "name": "Georges Laval",
+          "score": 0.96,
+          "why": "fuzzy name"
+        }
+      ],
+      "cuvee": [
+        {
+          "entity_id": "cuvee:domaine-hudelot-baillet-les-charmes",
+          "name": "\"Les Charmes\"",
+          "score": 0.7619,
+          "why": "fuzzy name, producer unknown"
+        },
+        {
+          "entity_id": "cuvee:frederic-savart-les-noues",
+          "name": "Les Noues",
+          "score": 0.7368,
+          "why": "fuzzy name, producer unknown"
+        },
+        {
+          "entity_id": "cuvee:domaine-arlaud-les-sentiers",
+          "name": "\"Les Sentiers\"",
+          "score": 0.7273,
+          "why": "fuzzy name, producer unknown"
+        },
+        {
+          "entity_id": "cuvee:stephane-bernaudeau-les-ongles",
+          "name": "\"Les Onglés\"",
+          "score": 0.7,
+          "why": "fuzzy name, producer unknown"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 297,
+    "original_raw_line": "2016\t\tBrut\t\t\t\t\t\t\t\t\t505",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "producer"
+    ],
+    "detail": {
+      "producer": "'Pol Roger' に近い生産者が 1 件 — 確定は人間が行う"
+    },
+    "candidates": {
+      "producer": [
+        {
+          "entity_id": "producer:la-rogerie",
+          "name": "La Rogerie",
+          "score": 0.7368,
+          "why": "fuzzy name"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 338,
+    "original_raw_line": "2015\t\t‘PN VZ15,’ Brut\t\t\t\t\t\t\t380",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "cuvee"
+    ],
+    "detail": {
+      "cuvee": "Bollinger の中に近い銘柄が 1 件 — 確定は人間が行う"
+    },
+    "candidates": {
+      "cuvee": [
+        {
+          "entity_id": "cuvee:bollinger-pn-vz19",
+          "name": "PN VZ19",
+          "score": 0.8571,
+          "why": "fuzzy within producer"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 341,
+    "original_raw_line": "2020\t\t‘Roses de Jeanne, Côte de Val Vilaine,’ Brut Nature\t\t\t800",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "cuvee"
+    ],
+    "detail": {
+      "cuvee": "Cédric Bouchard の中に近い銘柄が 1 件 — 確定は人間が行う"
+    },
+    "candidates": {
+      "cuvee": [
+        {
+          "entity_id": "cuvee:cedric-bouchard-roses-de-jeanne-val-vilaine-brut-nature",
+          "name": "Roses de Jeanne Val Vilaine Brut Nature",
+          "score": 0.7297,
+          "why": "fuzzy within producer"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 347,
+    "original_raw_line": "\t\t‘Les Vignes de Vrigny,’ Premier Cru Extra Brut\t\t\t350",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "cuvee"
+    ],
+    "detail": {
+      "cuvee": "Egly-Ouriet の中に近い銘柄が 1 件 — 確定は人間が行う"
+    },
+    "candidates": {
+      "cuvee": [
+        {
+          "entity_id": "cuvee:egly-ouriet-les-vignes-de-vrigny-premier-cru-brut",
+          "name": "Les Vignes de Vrigny Premier Cru Brut",
+          "score": 0.7018,
+          "why": "fuzzy within producer"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 369,
+    "original_raw_line": "\t\t‘Le Bout du Clos,’ Grand Cru Extra Brut (disgorged 2025)\t\t2840",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "cuvee"
+    ],
+    "detail": {
+      "cuvee": "Jacques Selosse の中に近い銘柄が 1 件 — 確定は人間が行う"
+    },
+    "candidates": {
+      "cuvee": [
+        {
+          "entity_id": "cuvee:jacques-selosse-le-bout-du-clos-ambonnay",
+          "name": "Le Bout du Clos — Ambonnay",
+          "score": 0.7815,
+          "why": "fuzzy within producer"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 406,
+    "original_raw_line": "\t\t‘Rosé de Meunier,’ Extra Brut\t\t\t\t\t175",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "cuvee"
+    ],
+    "detail": {
+      "cuvee": "Laherte Frères の中に近い銘柄が 1 件 — 確定は人間が行う"
+    },
+    "candidates": {
+      "cuvee": [
+        {
+          "entity_id": "cuvee:laherte-freres-rose-de-meunier-extra-brut",
+          "name": "Rosé de Meunier Extra Brut",
+          "score": 0.7317,
+          "why": "fuzzy within producer"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 409,
+    "original_raw_line": " \t‘Cuvée Rosé,’ Brut\t\t\t\t\t\t\t250",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "cuvee"
+    ],
+    "detail": {
+      "cuvee": "Laurent-Perrier の中に近い銘柄が 1 件 — 確定は人間が行う"
+    },
+    "candidates": {
+      "cuvee": [
+        {
+          "entity_id": "cuvee:laurent-perrier-cuvee-rose-brut",
+          "name": "Cuvée Rosé Brut",
+          "score": 0.8,
+          "why": "fuzzy within producer"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 416,
+    "original_raw_line": "2014\t\t‘Cristal,’ Brut\t\t\t\t\t\t\t\t1985",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "cuvee"
+    ],
+    "detail": {
+      "cuvee": "Louis Roederer の中に近い銘柄が 1 件 — 確定は人間が行う"
+    },
+    "candidates": {
+      "cuvee": [
+        {
+          "entity_id": "cuvee:louis-roederer-cristal-brut",
+          "name": "Cristal Brut",
+          "score": 0.7368,
+          "why": "fuzzy within producer"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 419,
+    "original_raw_line": "2012\t\t‘1522,’ Grand Cru Extra Brut\t\t\t\t\t\t800",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "producer"
+    ],
+    "detail": {
+      "producer": "'Philipponat' に近い生産者が 1 件 — 確定は人間が行う"
+    },
+    "candidates": {
+      "producer": [
+        {
+          "entity_id": "producer:philipponnat",
+          "name": "Philipponnat",
+          "score": 0.9565,
+          "why": "fuzzy name"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 452,
+    "original_raw_line": "2020\t\t‘Les Fortes Terres,’ Extra Brut\t\t\t\t\t400",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "producer",
+      "cuvee"
+    ],
+    "detail": {
+      "producer": "同じ名前の canonical 行が 2 件ある — 自動では選ばない",
+      "cuvee": "生産者が未確定のため、銘柄が一致しても確定しない"
+    },
+    "candidates": {
+      "producer": [
+        {
+          "entity_id": "producer:famille-mousse",
+          "name": "Famille Mousse",
+          "score": 1.0,
+          "why": "exact name, not unique"
+        },
+        {
+          "entity_id": "producer:mousse-fils",
+          "name": "Mousse Fils",
+          "score": 1.0,
+          "why": "exact name, not unique"
+        }
+      ],
+      "cuvee": [
+        {
+          "entity_id": "cuvee:alvina-pernot-les-folatieres",
+          "name": "\"Les Folatières\"",
+          "score": 0.7097,
+          "why": "fuzzy name, producer unknown"
+        },
+        {
+          "entity_id": "cuvee:domaine-bachelet-monnot-les-folatieres",
+          "name": "\"Les Folatières\"",
+          "score": 0.7097,
+          "why": "fuzzy name, producer unknown"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 453,
+    "original_raw_line": "2019\t\t‘Les Fortes Terres,’ Extra Brut\t\t\t\t\t360",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "producer",
+      "cuvee"
+    ],
+    "detail": {
+      "producer": "同じ名前の canonical 行が 2 件ある — 自動では選ばない",
+      "cuvee": "生産者が未確定のため、銘柄が一致しても確定しない"
+    },
+    "candidates": {
+      "producer": [
+        {
+          "entity_id": "producer:famille-mousse",
+          "name": "Famille Mousse",
+          "score": 1.0,
+          "why": "exact name, not unique"
+        },
+        {
+          "entity_id": "producer:mousse-fils",
+          "name": "Mousse Fils",
+          "score": 1.0,
+          "why": "exact name, not unique"
+        }
+      ],
+      "cuvee": [
+        {
+          "entity_id": "cuvee:alvina-pernot-les-folatieres",
+          "name": "\"Les Folatières\"",
+          "score": 0.7097,
+          "why": "fuzzy name, producer unknown"
+        },
+        {
+          "entity_id": "cuvee:domaine-bachelet-monnot-les-folatieres",
+          "name": "\"Les Folatières\"",
+          "score": 0.7097,
+          "why": "fuzzy name, producer unknown"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 454,
+    "original_raw_line": "2018\t\t‘Les Fortes Terres,’ Extra Brut\t\t\t\t\t360",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "producer",
+      "cuvee"
+    ],
+    "detail": {
+      "producer": "同じ名前の canonical 行が 2 件ある — 自動では選ばない",
+      "cuvee": "生産者が未確定のため、銘柄が一致しても確定しない"
+    },
+    "candidates": {
+      "producer": [
+        {
+          "entity_id": "producer:famille-mousse",
+          "name": "Famille Mousse",
+          "score": 1.0,
+          "why": "exact name, not unique"
+        },
+        {
+          "entity_id": "producer:mousse-fils",
+          "name": "Mousse Fils",
+          "score": 1.0,
+          "why": "exact name, not unique"
+        }
+      ],
+      "cuvee": [
+        {
+          "entity_id": "cuvee:alvina-pernot-les-folatieres",
+          "name": "\"Les Folatières\"",
+          "score": 0.7097,
+          "why": "fuzzy name, producer unknown"
+        },
+        {
+          "entity_id": "cuvee:domaine-bachelet-monnot-les-folatieres",
+          "name": "\"Les Folatières\"",
+          "score": 0.7097,
+          "why": "fuzzy name, producer unknown"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 510,
+    "original_raw_line": "2023\t\t‘Champs Gains,’ Chassagne-Montrachet Premier Cru\t\t740",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "cuvee"
+    ],
+    "detail": {
+      "cuvee": "生産者が未確定のため、銘柄が一致しても確定しない"
+    },
+    "candidates": {
+      "cuvee": [
+        {
+          "entity_id": "cuvee:domaine-marquis-d-angerville-champans",
+          "name": "\"Champans\"",
+          "score": 0.8,
+          "why": "fuzzy name, producer unknown"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 511,
+    "original_raw_line": "2017\t\t‘Les Chaumées,’ Chassagne-Montrachet Premier Cru\t\t1080",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "cuvee"
+    ],
+    "detail": {
+      "cuvee": "生産者が未確定のため、銘柄が一致しても確定しない"
+    },
+    "candidates": {
+      "cuvee": [
+        {
+          "entity_id": "cuvee:domaine-hudelot-baillet-les-charmes",
+          "name": "\"Les Charmes\"",
+          "score": 0.8696,
+          "why": "fuzzy name, producer unknown"
+        },
+        {
+          "entity_id": "cuvee:domaine-laroche-les-fourchaumes",
+          "name": "\"Les Fourchaumes\"",
+          "score": 0.8148,
+          "why": "fuzzy name, producer unknown"
+        },
+        {
+          "entity_id": "cuvee:domaine-hudelot-noellat-le-charme",
+          "name": "\"Le Charme\"",
+          "score": 0.7619,
+          "why": "fuzzy name, producer unknown"
+        },
+        {
+          "entity_id": "cuvee:chateau-de-bonnezeaux-les-coqueries",
+          "name": "\"Les Coqueries\"",
+          "score": 0.72,
+          "why": "fuzzy name, producer unknown"
+        },
+        {
+          "entity_id": "cuvee:domaine-hudelot-baillet-les-cras",
+          "name": "\"Les Cras\"",
+          "score": 0.7,
+          "why": "fuzzy name, producer unknown"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 529,
+    "original_raw_line": "2009\t\t‘Clos de la Barre,’ Meursault\t\t\t\t\t\t1500",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "cuvee"
+    ],
+    "detail": {
+      "cuvee": "生産者が未確定のため、銘柄が一致しても確定しない"
+    },
+    "candidates": {
+      "cuvee": [
+        {
+          "entity_id": "cuvee:clos-de-la-coulee-de-serrant-nicolas-joly-clos-de-la-bergerie",
+          "name": "Clos de la Bergerie",
+          "score": 0.8571,
+          "why": "fuzzy name, producer unknown"
+        },
+        {
+          "entity_id": "cuvee:domaine-armand-rousseau-clos-de-la-roche",
+          "name": "Clos de la Roche",
+          "score": 0.8125,
+          "why": "fuzzy name, producer unknown"
+        },
+        {
+          "entity_id": "cuvee:domaine-dujac-clos-de-la-roche",
+          "name": "Clos de la Roche",
+          "score": 0.8125,
+          "why": "fuzzy name, producer unknown"
+        },
+        {
+          "entity_id": "cuvee:domaine-j-f-mugnier-clos-de-la-marechale",
+          "name": "\"Clos de la Maréchale\"",
+          "score": 0.7778,
+          "why": "fuzzy name, producer unknown"
+        },
+        {
+          "entity_id": "cuvee:jean-baptiste-hardy-clos-de-lozangere",
+          "name": "\"Clos de Lozangère\"",
+          "score": 0.7273,
+          "why": "fuzzy name, producer unknown"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 530,
+    "original_raw_line": "2007\t\t‘Clos de la Barre,’ Meursault\t\t\t\t\t\t1500",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "cuvee"
+    ],
+    "detail": {
+      "cuvee": "生産者が未確定のため、銘柄が一致しても確定しない"
+    },
+    "candidates": {
+      "cuvee": [
+        {
+          "entity_id": "cuvee:clos-de-la-coulee-de-serrant-nicolas-joly-clos-de-la-bergerie",
+          "name": "Clos de la Bergerie",
+          "score": 0.8571,
+          "why": "fuzzy name, producer unknown"
+        },
+        {
+          "entity_id": "cuvee:domaine-armand-rousseau-clos-de-la-roche",
+          "name": "Clos de la Roche",
+          "score": 0.8125,
+          "why": "fuzzy name, producer unknown"
+        },
+        {
+          "entity_id": "cuvee:domaine-dujac-clos-de-la-roche",
+          "name": "Clos de la Roche",
+          "score": 0.8125,
+          "why": "fuzzy name, producer unknown"
+        },
+        {
+          "entity_id": "cuvee:domaine-j-f-mugnier-clos-de-la-marechale",
+          "name": "\"Clos de la Maréchale\"",
+          "score": 0.7778,
+          "why": "fuzzy name, producer unknown"
+        },
+        {
+          "entity_id": "cuvee:jean-baptiste-hardy-clos-de-lozangere",
+          "name": "\"Clos de Lozangère\"",
+          "score": 0.7273,
+          "why": "fuzzy name, producer unknown"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 531,
+    "original_raw_line": "2010\t\t‘Les Charmes,’ Meursault Premier Cru\t\t\t\t2500",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "cuvee"
+    ],
+    "detail": {
+      "cuvee": "生産者が未確定のため、銘柄が一致しても確定しない"
+    },
+    "candidates": {
+      "cuvee": [
+        {
+          "entity_id": "cuvee:domaine-hudelot-baillet-les-charmes",
+          "name": "\"Les Charmes\"",
+          "score": 1.0,
+          "why": "fuzzy name, producer unknown"
+        },
+        {
+          "entity_id": "cuvee:domaine-hudelot-noellat-le-charme",
+          "name": "\"Le Charme\"",
+          "score": 0.9,
+          "why": "fuzzy name, producer unknown"
+        },
+        {
+          "entity_id": "cuvee:domaine-laroche-les-fourchaumes",
+          "name": "\"Les Fourchaumes\"",
+          "score": 0.7692,
+          "why": "fuzzy name, producer unknown"
+        },
+        {
+          "entity_id": "cuvee:domaine-hudelot-baillet-les-cras",
+          "name": "\"Les Cras\"",
+          "score": 0.7368,
+          "why": "fuzzy name, producer unknown"
+        },
+        {
+          "entity_id": "cuvee:domaine-simon-bize-et-fils-les-champlains",
+          "name": "\"Les Champlains\"",
+          "score": 0.72,
+          "why": "fuzzy name, producer unknown"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 623,
+    "original_raw_line": "2022\t\t‘Château de Blagny,’ Meursault-Blagny Premier Cru\t\t350",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "cuvee"
+    ],
+    "detail": {
+      "cuvee": "生産者が未確定のため、銘柄が一致しても確定しない"
+    },
+    "candidates": {
+      "cuvee": [
+        {
+          "entity_id": "cuvee:louis-latour-chateau-de-blagny",
+          "name": "\"Château de Blagny\"",
+          "score": 1.0,
+          "why": "fuzzy name, producer unknown"
+        },
+        {
+          "entity_id": "cuvee:chateau-la-lagune-chateau-la-lagune",
+          "name": "Château La Lagune",
+          "score": 0.7647,
+          "why": "fuzzy name, producer unknown"
+        },
+        {
+          "entity_id": "cuvee:chateau-simone-chateau-simone-blanc",
+          "name": "Château Simone Blanc",
+          "score": 0.7568,
+          "why": "fuzzy name, producer unknown"
+        },
+        {
+          "entity_id": "cuvee:chateau-d-issan-chateau-d-issan",
+          "name": "Château d'Issan",
+          "score": 0.75,
+          "why": "fuzzy name, producer unknown"
+        },
+        {
+          "entity_id": "cuvee:chateau-lagrange-chateau-lagrange",
+          "name": "Château Lagrange",
+          "score": 0.7273,
+          "why": "fuzzy name, producer unknown"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 637,
+    "original_raw_line": "2022\t\t‘Clos de la Maltroie,’ Chassagne-Montrachet Premier Cru\t\t520",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "cuvee"
+    ],
+    "detail": {
+      "cuvee": "生産者が未確定のため、銘柄が一致しても確定しない"
+    },
+    "candidates": {
+      "cuvee": [
+        {
+          "entity_id": "cuvee:domaine-armand-rousseau-clos-de-la-roche",
+          "name": "Clos de la Roche",
+          "score": 0.8,
+          "why": "fuzzy name, producer unknown"
+        },
+        {
+          "entity_id": "cuvee:domaine-dujac-clos-de-la-roche",
+          "name": "Clos de la Roche",
+          "score": 0.8,
+          "why": "fuzzy name, producer unknown"
+        },
+        {
+          "entity_id": "cuvee:domaine-j-f-mugnier-clos-de-la-marechale",
+          "name": "\"Clos de la Maréchale\"",
+          "score": 0.7692,
+          "why": "fuzzy name, producer unknown"
+        },
+        {
+          "entity_id": "cuvee:clos-de-la-coulee-de-serrant-nicolas-joly-clos-de-la-bergerie",
+          "name": "Clos de la Bergerie",
+          "score": 0.7368,
+          "why": "fuzzy name, producer unknown"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 638,
+    "original_raw_line": "2022\t\t‘Clos Saint Jean,’ Chassagne-Montrachet Premier Cru\t\t520",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "cuvee"
+    ],
+    "detail": {
+      "cuvee": "生産者が未確定のため、銘柄が一致しても確定しない"
+    },
+    "candidates": {
+      "cuvee": [
+        {
+          "entity_id": "cuvee:domaine-dujac-clos-saint-denis",
+          "name": "Clos Saint-Denis",
+          "score": 0.8387,
+          "why": "fuzzy name, producer unknown"
+        },
+        {
+          "entity_id": "cuvee:domaine-armand-rousseau-clos-saint-jacques",
+          "name": "\"Clos Saint-Jacques\"",
+          "score": 0.7879,
+          "why": "fuzzy name, producer unknown"
+        },
+        {
+          "entity_id": "cuvee:domaine-fourrier-clos-saint-jacques",
+          "name": "\"Clos Saint-Jacques\"",
+          "score": 0.7879,
+          "why": "fuzzy name, producer unknown"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 639,
+    "original_raw_line": "2022\t\t‘Les Champs Gains,’ Chassagne-Montrachet Premier Cru\t\t520",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "cuvee"
+    ],
+    "detail": {
+      "cuvee": "生産者が未確定のため、銘柄が一致しても確定しない"
+    },
+    "candidates": {
+      "cuvee": [
+        {
+          "entity_id": "cuvee:domaine-simon-bize-et-fils-les-champlains",
+          "name": "\"Les Champlains\"",
+          "score": 0.8667,
+          "why": "fuzzy name, producer unknown"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 642,
+    "original_raw_line": "2022\t\t‘Les Chenevottes,’ Chassagne-Montrachet Premier Cru\t\t520",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "cuvee"
+    ],
+    "detail": {
+      "cuvee": "生産者が未確定のため、銘柄が一致しても確定しない"
+    },
+    "candidates": {
+      "cuvee": [
+        {
+          "entity_id": "cuvee:domaine-georges-mugneret-gibourg-les-chaignots",
+          "name": "\"Les Chaignots\"",
+          "score": 0.7143,
+          "why": "fuzzy name, producer unknown"
+        },
+        {
+          "entity_id": "cuvee:domaine-georges-mugneret-gibourg-les-feusselottes",
+          "name": "\"Les Feusselottes\"",
+          "score": 0.7097,
+          "why": "fuzzy name, producer unknown"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 645,
+    "original_raw_line": "2016\t\t‘Perrières,’ Meursault Premier Cru\t\t\t\t\t700",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "producer",
+      "cuvee"
+    ],
+    "detail": {
+      "producer": "'Michelot' に近い生産者が 1 件 — 確定は人間が行う",
+      "cuvee": "生産者が未確定のため、銘柄が一致しても確定しない"
+    },
+    "candidates": {
+      "producer": [
+        {
+          "entity_id": "producer:michel-gonet",
+          "name": "Michel Gonet",
+          "score": 0.8,
+          "why": "fuzzy name"
+        }
+      ],
+      "cuvee": [
+        {
+          "entity_id": "cuvee:domaine-coche-dury-les-perrieres",
+          "name": "\"Les Perrières\"",
+          "score": 0.8182,
+          "why": "fuzzy name, producer unknown"
+        },
+        {
+          "entity_id": "cuvee:domaine-des-comtes-lafon-les-perrieres",
+          "name": "\"Les Perrières\"",
+          "score": 0.8182,
+          "why": "fuzzy name, producer unknown"
+        },
+        {
+          "entity_id": "cuvee:domaine-roulot-les-perrieres",
+          "name": "\"Les Perrières\"",
+          "score": 0.8182,
+          "why": "fuzzy name, producer unknown"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 657,
+    "original_raw_line": "2023\t\t‘Clos Saint Jean,’ Chassagne-Montrachet Premier Cru\t\t545",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "cuvee"
+    ],
+    "detail": {
+      "cuvee": "生産者が未確定のため、銘柄が一致しても確定しない"
+    },
+    "candidates": {
+      "cuvee": [
+        {
+          "entity_id": "cuvee:domaine-dujac-clos-saint-denis",
+          "name": "Clos Saint-Denis",
+          "score": 0.8387,
+          "why": "fuzzy name, producer unknown"
+        },
+        {
+          "entity_id": "cuvee:domaine-armand-rousseau-clos-saint-jacques",
+          "name": "\"Clos Saint-Jacques\"",
+          "score": 0.7879,
+          "why": "fuzzy name, producer unknown"
+        },
+        {
+          "entity_id": "cuvee:domaine-fourrier-clos-saint-jacques",
+          "name": "\"Clos Saint-Jacques\"",
+          "score": 0.7879,
+          "why": "fuzzy name, producer unknown"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 660,
+    "original_raw_line": "2024\t\t‘Éclat de Calcaire,’ Bourgogne\t\t\t\t\t170",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "producer"
+    ],
+    "detail": {
+      "producer": "'Pierre Giradin' に近い生産者が 1 件 — 確定は人間が行う"
+    },
+    "candidates": {
+      "producer": [
+        {
+          "entity_id": "producer:pierre-girardin",
+          "name": "Pierre Girardin",
+          "score": 0.9655,
+          "why": "fuzzy name"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 661,
+    "original_raw_line": "2023\t\t‘Les Grandes Épenotes,’ Beaune Premier Cru\t\t\t360",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "producer"
+    ],
+    "detail": {
+      "producer": "'Pierre Giradin' に近い生産者が 1 件 — 確定は人間が行う"
+    },
+    "candidates": {
+      "producer": [
+        {
+          "entity_id": "producer:pierre-girardin",
+          "name": "Pierre Girardin",
+          "score": 0.9655,
+          "why": "fuzzy name"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 662,
+    "original_raw_line": "2023\t\t‘Les Grands Charrons,’ Meursault\t\t\t\t\t465",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "producer"
+    ],
+    "detail": {
+      "producer": "'Pierre Giradin' に近い生産者が 1 件 — 確定は人間が行う"
+    },
+    "candidates": {
+      "producer": [
+        {
+          "entity_id": "producer:pierre-girardin",
+          "name": "Pierre Girardin",
+          "score": 0.9655,
+          "why": "fuzzy name"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 663,
+    "original_raw_line": "2023\t\t‘Les Bressandes,’ Corton Grand Cru\t\t\t\t\t700",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "producer",
+      "cuvee"
+    ],
+    "detail": {
+      "producer": "'Pierre Giradin' に近い生産者が 1 件 — 確定は人間が行う",
+      "cuvee": "生産者が未確定のため、銘柄が一致しても確定しない"
+    },
+    "candidates": {
+      "producer": [
+        {
+          "entity_id": "producer:pierre-girardin",
+          "name": "Pierre Girardin",
+          "score": 0.9655,
+          "why": "fuzzy name"
+        }
+      ],
+      "cuvee": [
+        {
+          "entity_id": "cuvee:domaine-des-croix-beaune-les-bressandes",
+          "name": "Beaune \"Les Bressandes\"",
+          "score": 0.8,
+          "why": "fuzzy name, producer unknown"
+        },
+        {
+          "entity_id": "cuvee:domaine-des-comtes-lafon-les-duresses",
+          "name": "\"Les Duresses\"",
+          "score": 0.7692,
+          "why": "fuzzy name, producer unknown"
+        },
+        {
+          "entity_id": "cuvee:domaine-billaud-simon-les-preuses",
+          "name": "\"Les Preuses\"",
+          "score": 0.72,
+          "why": "fuzzy name, producer unknown"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 664,
+    "original_raw_line": "2023\t\tCorton-Charlemagne Grand Cru\t\t\t\t\t1300",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "producer"
+    ],
+    "detail": {
+      "producer": "'Pierre Giradin' に近い生産者が 1 件 — 確定は人間が行う"
+    },
+    "candidates": {
+      "producer": [
+        {
+          "entity_id": "producer:pierre-girardin",
+          "name": "Pierre Girardin",
+          "score": 0.9655,
+          "why": "fuzzy name"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 665,
+    "original_raw_line": "2021\t\tBâtard-Montrachet Grand Cru\t\t\t\t\t3280",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "producer"
+    ],
+    "detail": {
+      "producer": "'Pierre Giradin' に近い生産者が 1 件 — 確定は人間が行う"
+    },
+    "candidates": {
+      "producer": [
+        {
+          "entity_id": "producer:pierre-girardin",
+          "name": "Pierre Girardin",
+          "score": 0.9655,
+          "why": "fuzzy name"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 668,
+    "original_raw_line": "2022\t\t‘Perrières,’ Meursault Premier Cru\t\t\t\t\t1040",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "cuvee"
+    ],
+    "detail": {
+      "cuvee": "生産者が未確定のため、銘柄が一致しても確定しない"
+    },
+    "candidates": {
+      "cuvee": [
+        {
+          "entity_id": "cuvee:domaine-coche-dury-les-perrieres",
+          "name": "\"Les Perrières\"",
+          "score": 0.8182,
+          "why": "fuzzy name, producer unknown"
+        },
+        {
+          "entity_id": "cuvee:domaine-des-comtes-lafon-les-perrieres",
+          "name": "\"Les Perrières\"",
+          "score": 0.8182,
+          "why": "fuzzy name, producer unknown"
+        },
+        {
+          "entity_id": "cuvee:domaine-roulot-les-perrieres",
+          "name": "\"Les Perrières\"",
+          "score": 0.8182,
+          "why": "fuzzy name, producer unknown"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 678,
+    "original_raw_line": "2021\t\t‘Montée de Tonnerre’ Chablis Premier Cru\t\t\t\t780",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "cuvee"
+    ],
+    "detail": {
+      "cuvee": "生産者が未確定のため、銘柄が一致しても確定しない"
+    },
+    "candidates": {
+      "cuvee": [
+        {
+          "entity_id": "cuvee:domaine-francois-raveneau-montee-de-tonnerre",
+          "name": "\"Montée de Tonnerre\"",
+          "score": 1.0,
+          "why": "fuzzy name, producer unknown"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 679,
+    "original_raw_line": "2021\t\t‘Les Clos,’ Chablis Grand Cru\t\t\t\t\t1560",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "cuvee"
+    ],
+    "detail": {
+      "cuvee": "生産者が未確定のため、銘柄が一致しても確定しない"
+    },
+    "candidates": {
+      "cuvee": [
+        {
+          "entity_id": "cuvee:domaine-hudelot-baillet-les-cras",
+          "name": "\"Les Cras\"",
+          "score": 0.75,
+          "why": "fuzzy name, producer unknown"
+        },
+        {
+          "entity_id": "cuvee:domaine-hudelot-noellat-les-suchots",
+          "name": "\"Les Suchots\"",
+          "score": 0.7368,
+          "why": "fuzzy name, producer unknown"
+        },
+        {
+          "entity_id": "cuvee:drappier-eclose",
+          "name": "Éclose",
+          "score": 0.7143,
+          "why": "fuzzy name, producer unknown"
+        },
+        {
+          "entity_id": "cuvee:frederic-savart-les-noues",
+          "name": "Les Noues",
+          "score": 0.7059,
+          "why": "fuzzy name, producer unknown"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 720,
+    "original_raw_line": "2020\t\t‘Les Varrons’ Côtes du Jura\t\t\t\t\t\t560",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "cuvee"
+    ],
+    "detail": {
+      "cuvee": "生産者が未確定のため、銘柄が一致しても確定しない"
+    },
+    "candidates": {
+      "cuvee": [
+        {
+          "entity_id": "cuvee:robert-chevillon-les-vaucrains",
+          "name": "\"Les Vaucrains\"",
+          "score": 0.75,
+          "why": "fuzzy name, producer unknown"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 731,
+    "original_raw_line": "2023\t\t‘Clos de la Coulée de Serrant,’ Savennières\t\t\t\t500",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "cuvee"
+    ],
+    "detail": {
+      "cuvee": "生産者が未確定のため、銘柄が一致しても確定しない"
+    },
+    "candidates": {
+      "cuvee": [
+        {
+          "entity_id": "cuvee:clos-de-la-coulee-de-serrant-nicolas-joly-coulee-de-serrant",
+          "name": "Coulée de Serrant",
+          "score": 0.7556,
+          "why": "fuzzy name, producer unknown"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 732,
+    "original_raw_line": "2019\t\t‘Clos de la Coulée de Serrant,’ Savennières\t\t\t\t400",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "cuvee"
+    ],
+    "detail": {
+      "cuvee": "生産者が未確定のため、銘柄が一致しても確定しない"
+    },
+    "candidates": {
+      "cuvee": [
+        {
+          "entity_id": "cuvee:clos-de-la-coulee-de-serrant-nicolas-joly-coulee-de-serrant",
+          "name": "Coulée de Serrant",
+          "score": 0.7556,
+          "why": "fuzzy name, producer unknown"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 733,
+    "original_raw_line": "2012\t\t‘Clos de la Coulée de Serrant,’ Savennières\t\t\t\t600",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "cuvee"
+    ],
+    "detail": {
+      "cuvee": "生産者が未確定のため、銘柄が一致しても確定しない"
+    },
+    "candidates": {
+      "cuvee": [
+        {
+          "entity_id": "cuvee:clos-de-la-coulee-de-serrant-nicolas-joly-coulee-de-serrant",
+          "name": "Coulée de Serrant",
+          "score": 0.7556,
+          "why": "fuzzy name, producer unknown"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 736,
+    "original_raw_line": "2023\t\t‘Les Caillottes,’ Sancerre\t\t\t\t\t\t210",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "cuvee"
+    ],
+    "detail": {
+      "cuvee": "生産者が未確定のため、銘柄が一致しても確定しない"
+    },
+    "candidates": {
+      "cuvee": [
+        {
+          "entity_id": "cuvee:domaine-yvon-clerget-les-caillerets",
+          "name": "\"Les Caillerets\"",
+          "score": 0.7857,
+          "why": "fuzzy name, producer unknown"
+        },
+        {
+          "entity_id": "cuvee:domaine-georges-mugneret-gibourg-les-chaignots",
+          "name": "\"Les Chaignots\"",
+          "score": 0.7407,
+          "why": "fuzzy name, producer unknown"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 737,
+    "original_raw_line": "2024\t\t‘Les Monts Damnes,’ Sancerre\t\t\t\t\t280",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "cuvee"
+    ],
+    "detail": {
+      "cuvee": "生産者が未確定のため、銘柄が一致しても確定しない"
+    },
+    "candidates": {
+      "cuvee": [
+        {
+          "entity_id": "cuvee:domaine-bailly-reverdy-sancerre-les-monts-damnes",
+          "name": "Sancerre \"Les Monts Damnés\"",
+          "score": 0.7805,
+          "why": "fuzzy name, producer unknown"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 765,
+    "original_raw_line": "2014\t\t‘Les Charmes,’ Chambolle-Musigny Premier Cru\t\t\t1180",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "producer",
+      "cuvee"
+    ],
+    "detail": {
+      "producer": "'Alain Hudelot-Noellat' に近い生産者が 1 件 — 確定は人間が行う",
+      "cuvee": "生産者が未確定のため、銘柄が一致しても確定しない"
+    },
+    "candidates": {
+      "producer": [
+        {
+          "entity_id": "producer:domaine-hudelot-noellat",
+          "name": "Domaine Hudelot-Noëllat",
+          "score": 0.8636,
+          "why": "fuzzy name"
+        }
+      ],
+      "cuvee": [
+        {
+          "entity_id": "cuvee:domaine-hudelot-baillet-les-charmes",
+          "name": "\"Les Charmes\"",
+          "score": 1.0,
+          "why": "fuzzy name, producer unknown"
+        },
+        {
+          "entity_id": "cuvee:domaine-hudelot-noellat-le-charme",
+          "name": "\"Le Charme\"",
+          "score": 0.9,
+          "why": "fuzzy name, producer unknown"
+        },
+        {
+          "entity_id": "cuvee:domaine-laroche-les-fourchaumes",
+          "name": "\"Les Fourchaumes\"",
+          "score": 0.7692,
+          "why": "fuzzy name, producer unknown"
+        },
+        {
+          "entity_id": "cuvee:domaine-hudelot-baillet-les-cras",
+          "name": "\"Les Cras\"",
+          "score": 0.7368,
+          "why": "fuzzy name, producer unknown"
+        },
+        {
+          "entity_id": "cuvee:domaine-simon-bize-et-fils-les-champlains",
+          "name": "\"Les Champlains\"",
+          "score": 0.72,
+          "why": "fuzzy name, producer unknown"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 782,
+    "original_raw_line": "2022\t\t‘Clos des Ruchottes,’ Ruchottes-Chambertin Grand Cru\t\t3555",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "cuvee"
+    ],
+    "detail": {
+      "cuvee": "Domaine Armand Rousseau の中に近い銘柄が 1 件 — 確定は人間が行う"
+    },
+    "candidates": {
+      "cuvee": [
+        {
+          "entity_id": "cuvee:domaine-armand-rousseau-clos-de-la-roche",
+          "name": "Clos de la Roche",
+          "score": 0.7059,
+          "why": "fuzzy within producer"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 787,
+    "original_raw_line": "2023\t\t‘Les Véroilles,’ Chambolle-Musigny\t\t\t\t\t475",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "cuvee"
+    ],
+    "detail": {
+      "cuvee": "生産者が未確定のため、銘柄が一致しても確定しない"
+    },
+    "candidates": {
+      "cuvee": [
+        {
+          "entity_id": "cuvee:domaine-ghislaine-barthod-les-veroilles",
+          "name": "\"Les Véroilles\"",
+          "score": 1.0,
+          "why": "fuzzy name, producer unknown"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 788,
+    "original_raw_line": "2023\t\t‘Les Charmes,’ Chambolle-Musigny Premier Cru\t\t\t935",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "cuvee"
+    ],
+    "detail": {
+      "cuvee": "生産者が未確定のため、銘柄が一致しても確定しない"
+    },
+    "candidates": {
+      "cuvee": [
+        {
+          "entity_id": "cuvee:domaine-hudelot-baillet-les-charmes",
+          "name": "\"Les Charmes\"",
+          "score": 1.0,
+          "why": "fuzzy name, producer unknown"
+        },
+        {
+          "entity_id": "cuvee:domaine-hudelot-noellat-le-charme",
+          "name": "\"Le Charme\"",
+          "score": 0.9,
+          "why": "fuzzy name, producer unknown"
+        },
+        {
+          "entity_id": "cuvee:domaine-laroche-les-fourchaumes",
+          "name": "\"Les Fourchaumes\"",
+          "score": 0.7692,
+          "why": "fuzzy name, producer unknown"
+        },
+        {
+          "entity_id": "cuvee:domaine-hudelot-baillet-les-cras",
+          "name": "\"Les Cras\"",
+          "score": 0.7368,
+          "why": "fuzzy name, producer unknown"
+        },
+        {
+          "entity_id": "cuvee:domaine-simon-bize-et-fils-les-champlains",
+          "name": "\"Les Champlains\"",
+          "score": 0.72,
+          "why": "fuzzy name, producer unknown"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 792,
+    "original_raw_line": "2020\t\t‘Très Girard,’ Morey-Saint-Denis\t\t\t\t\t1920",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "producer"
+    ],
+    "detail": {
+      "producer": "'Cécile Tremblay' に近い生産者が 1 件 — 確定は人間が行う"
+    },
+    "candidates": {
+      "producer": [
+        {
+          "entity_id": "producer:bessin-tremblay",
+          "name": "Bessin-Tremblay",
+          "score": 0.7333,
+          "why": "fuzzy name"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 793,
+    "original_raw_line": "2018\t\t‘Les Murgers,’ Nuits-Saint-Georges Premier Cru\t\t\t2640",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "producer",
+      "cuvee"
+    ],
+    "detail": {
+      "producer": "'Cécile Tremblay' に近い生産者が 1 件 — 確定は人間が行う",
+      "cuvee": "生産者が未確定のため、銘柄が一致しても確定しない"
+    },
+    "candidates": {
+      "producer": [
+        {
+          "entity_id": "producer:bessin-tremblay",
+          "name": "Bessin-Tremblay",
+          "score": 0.7333,
+          "why": "fuzzy name"
+        }
+      ],
+      "cuvee": [
+        {
+          "entity_id": "cuvee:maison-chantereves-les-morgeots",
+          "name": "\"Les Morgeots\"",
+          "score": 0.7826,
+          "why": "fuzzy name, producer unknown"
+        },
+        {
+          "entity_id": "cuvee:domaine-bachelet-monnot-les-referts",
+          "name": "\"Les Referts\"",
+          "score": 0.7273,
+          "why": "fuzzy name, producer unknown"
+        },
+        {
+          "entity_id": "cuvee:domaine-georges-and-christophe-roumier-les-amoureuses",
+          "name": "\"Les Amoureuses\"",
+          "score": 0.72,
+          "why": "fuzzy name, producer unknown"
+        },
+        {
+          "entity_id": "cuvee:frederic-savart-les-noues",
+          "name": "Les Noues",
+          "score": 0.7,
+          "why": "fuzzy name, producer unknown"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 804,
+    "original_raw_line": "2022\t\t‘La Forge de Tart,’ Morey-Saint-Denis Premier Cru\t\t\t1040",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "cuvee"
+    ],
+    "detail": {
+      "cuvee": "Clos de Tart の中に近い銘柄が 1 件 — 確定は人間が行う"
+    },
+    "candidates": {
+      "cuvee": [
+        {
+          "entity_id": "cuvee:clos-de-tart-clos-de-tart",
+          "name": "Clos de Tart",
+          "score": 0.7143,
+          "why": "fuzzy within producer"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 805,
+    "original_raw_line": "2021\t\t‘La Forge de Tart,’ Morey-Saint-Denis Premier Cru\t\t\t1020",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "cuvee"
+    ],
+    "detail": {
+      "cuvee": "Clos de Tart の中に近い銘柄が 1 件 — 確定は人間が行う"
+    },
+    "candidates": {
+      "cuvee": [
+        {
+          "entity_id": "cuvee:clos-de-tart-clos-de-tart",
+          "name": "Clos de Tart",
+          "score": 0.7143,
+          "why": "fuzzy within producer"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 810,
+    "original_raw_line": "2019\t\t‘Les Duresses,’ Monthélie Premier Cru\t\t\t\t260",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "cuvee"
+    ],
+    "detail": {
+      "cuvee": "生産者が未確定のため、銘柄が一致しても確定しない"
+    },
+    "candidates": {
+      "cuvee": [
+        {
+          "entity_id": "cuvee:domaine-des-comtes-lafon-les-duresses",
+          "name": "\"Les Duresses\"",
+          "score": 1.0,
+          "why": "fuzzy name, producer unknown"
+        },
+        {
+          "entity_id": "cuvee:domaine-billaud-simon-les-preuses",
+          "name": "\"Les Preuses\"",
+          "score": 0.7826,
+          "why": "fuzzy name, producer unknown"
+        },
+        {
+          "entity_id": "cuvee:domaine-georges-and-christophe-roumier-les-amoureuses",
+          "name": "\"Les Amoureuses\"",
+          "score": 0.7692,
+          "why": "fuzzy name, producer unknown"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 811,
+    "original_raw_line": "2020\t\t‘Santenots du Milieu,’ Volnay Premier Cru\t\t\t\t580",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "cuvee"
+    ],
+    "detail": {
+      "cuvee": "生産者が未確定のため、銘柄が一致しても確定しない"
+    },
+    "candidates": {
+      "cuvee": [
+        {
+          "entity_id": "cuvee:domaine-des-comtes-lafon-santenots-du-milieu",
+          "name": "\"Santenots du Milieu\"",
+          "score": 1.0,
+          "why": "fuzzy name, producer unknown"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 814,
+    "original_raw_line": "2009\t\t‘Aux Cras,’ Nuits-Saint-Georges Premier Cru\t\t\t3980",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "producer",
+      "cuvee"
+    ],
+    "detail": {
+      "producer": "'Comte Liger-Belair' に近い生産者が 2 件 — 確定は人間が行う",
+      "cuvee": "生産者が未確定のため、銘柄が一致しても確定しない"
+    },
+    "candidates": {
+      "producer": [
+        {
+          "entity_id": "producer:louis-liger-belair",
+          "name": "Louis Liger-Belair",
+          "score": 0.7778,
+          "why": "fuzzy name"
+        },
+        {
+          "entity_id": "producer:domaine-du-comte-liger-belair",
+          "name": "Domaine du Comte Liger-Bélair",
+          "score": 0.766,
+          "why": "fuzzy name"
+        }
+      ],
+      "cuvee": [
+        {
+          "entity_id": "cuvee:domaine-du-comte-liger-belair-aux-cras",
+          "name": "\"Aux Cras\"",
+          "score": 1.0,
+          "why": "fuzzy name, producer unknown"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 815,
+    "original_raw_line": "2011\t\t‘Reignots,’ Vosne-Romanée Premier Cru\t\t\t\t11580",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "producer"
+    ],
+    "detail": {
+      "producer": "'Comte Liger-Belair' に近い生産者が 2 件 — 確定は人間が行う"
+    },
+    "candidates": {
+      "producer": [
+        {
+          "entity_id": "producer:louis-liger-belair",
+          "name": "Louis Liger-Belair",
+          "score": 0.7778,
+          "why": "fuzzy name"
+        },
+        {
+          "entity_id": "producer:domaine-du-comte-liger-belair",
+          "name": "Domaine du Comte Liger-Bélair",
+          "score": 0.766,
+          "why": "fuzzy name"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 822,
+    "original_raw_line": "2023\t\t‘Clos de Roi,’ Corton Grand Cru\t\t\t\t\t900",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "cuvee"
+    ],
+    "detail": {
+      "cuvee": "Domaine de Montille の中に近い銘柄が 1 件 — 確定は人間が行う"
+    },
+    "candidates": {
+      "cuvee": [
+        {
+          "entity_id": "cuvee:domaine-de-montille-clos-du-roi",
+          "name": "\"Clos du Roi\"",
+          "score": 0.9091,
+          "why": "fuzzy within producer"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 823,
+    "original_raw_line": "2022\t\t‘Clos de Roi,’ Corton Grand Cru\t\t\t\t\t835",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "cuvee"
+    ],
+    "detail": {
+      "cuvee": "Domaine de Montille の中に近い銘柄が 1 件 — 確定は人間が行う"
+    },
+    "candidates": {
+      "cuvee": [
+        {
+          "entity_id": "cuvee:domaine-de-montille-clos-du-roi",
+          "name": "\"Clos du Roi\"",
+          "score": 0.9091,
+          "why": "fuzzy within producer"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 824,
+    "original_raw_line": "2021\t\t‘Clos de Roi,’ Corton Grand Cru\t\t\t\t\t840",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "cuvee"
+    ],
+    "detail": {
+      "cuvee": "Domaine de Montille の中に近い銘柄が 1 件 — 確定は人間が行う"
+    },
+    "candidates": {
+      "cuvee": [
+        {
+          "entity_id": "cuvee:domaine-de-montille-clos-du-roi",
+          "name": "\"Clos du Roi\"",
+          "score": 0.9091,
+          "why": "fuzzy within producer"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 825,
+    "original_raw_line": "2020\t\t‘Clos de Roi,’ Corton Grand Cru\t\t\t\t\t735",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "cuvee"
+    ],
+    "detail": {
+      "cuvee": "Domaine de Montille の中に近い銘柄が 1 件 — 確定は人間が行う"
+    },
+    "candidates": {
+      "cuvee": [
+        {
+          "entity_id": "cuvee:domaine-de-montille-clos-du-roi",
+          "name": "\"Clos du Roi\"",
+          "score": 0.9091,
+          "why": "fuzzy within producer"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 866,
+    "original_raw_line": "1996\t\t‘Les Beau Monts,’ Vosne-Romanée Premier Cru\t\t\t3600",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "cuvee"
+    ],
+    "detail": {
+      "cuvee": "Domaine Dujac の中に近い銘柄が 1 件 — 確定は人間が行う"
+    },
+    "candidates": {
+      "cuvee": [
+        {
+          "entity_id": "cuvee:domaine-dujac-les-beaux-monts",
+          "name": "\"Les Beaux Monts\"",
+          "score": 0.9655,
+          "why": "fuzzy within producer"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 903,
+    "original_raw_line": "2017\t\t‘Les Véroilles,’ Chambolle-Musigny Premier Cru\t\t\t1000",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "producer",
+      "cuvee"
+    ],
+    "detail": {
+      "producer": "'Ghislaine Berthod' に近い生産者が 1 件 — 確定は人間が行う",
+      "cuvee": "生産者が未確定のため、銘柄が一致しても確定しない"
+    },
+    "candidates": {
+      "producer": [
+        {
+          "entity_id": "producer:domaine-ghislaine-barthod",
+          "name": "Domaine Ghislaine Barthod",
+          "score": 0.7619,
+          "why": "fuzzy name"
+        }
+      ],
+      "cuvee": [
+        {
+          "entity_id": "cuvee:domaine-ghislaine-barthod-les-veroilles",
+          "name": "\"Les Véroilles\"",
+          "score": 1.0,
+          "why": "fuzzy name, producer unknown"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 911,
+    "original_raw_line": "2023\t\t‘Clos des Fourches,’ Nuits-Saint-Georges\t\t\t\t435",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "cuvee"
+    ],
+    "detail": {
+      "cuvee": "生産者が未確定のため、銘柄が一致しても確定しない"
+    },
+    "candidates": {
+      "cuvee": [
+        {
+          "entity_id": "cuvee:domaine-roulot-clos-de-boucheres",
+          "name": "\"Clos de Bouchères\"",
+          "score": 0.8235,
+          "why": "fuzzy name, producer unknown"
+        },
+        {
+          "entity_id": "cuvee:chateau-des-quarts-clos-des-quarts",
+          "name": "\"Clos des Quarts\"",
+          "score": 0.75,
+          "why": "fuzzy name, producer unknown"
+        },
+        {
+          "entity_id": "cuvee:domaine-laroche-les-fourchaumes",
+          "name": "\"Les Fourchaumes\"",
+          "score": 0.75,
+          "why": "fuzzy name, producer unknown"
+        },
+        {
+          "entity_id": "cuvee:domaine-armand-rousseau-clos-de-la-roche",
+          "name": "Clos de la Roche",
+          "score": 0.7273,
+          "why": "fuzzy name, producer unknown"
+        },
+        {
+          "entity_id": "cuvee:domaine-du-clos-des-fees-le-clos-des-fees",
+          "name": "Le Clos des Fées",
+          "score": 0.7273,
+          "why": "fuzzy name, producer unknown"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 912,
+    "original_raw_line": "2022\t\t‘Clos de la Maréchale,’ Nuits-Saint-Georges Premier Cru\t\t515",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "cuvee"
+    ],
+    "detail": {
+      "cuvee": "生産者が未確定のため、銘柄が一致しても確定しない"
+    },
+    "candidates": {
+      "cuvee": [
+        {
+          "entity_id": "cuvee:domaine-j-f-mugnier-clos-de-la-marechale",
+          "name": "\"Clos de la Maréchale\"",
+          "score": 1.0,
+          "why": "fuzzy name, producer unknown"
+        },
+        {
+          "entity_id": "cuvee:domaine-armand-rousseau-clos-de-la-roche",
+          "name": "Clos de la Roche",
+          "score": 0.8333,
+          "why": "fuzzy name, producer unknown"
+        },
+        {
+          "entity_id": "cuvee:domaine-dujac-clos-de-la-roche",
+          "name": "Clos de la Roche",
+          "score": 0.8333,
+          "why": "fuzzy name, producer unknown"
+        },
+        {
+          "entity_id": "cuvee:clos-de-la-coulee-de-serrant-nicolas-joly-clos-de-la-bergerie",
+          "name": "Clos de la Bergerie",
+          "score": 0.7179,
+          "why": "fuzzy name, producer unknown"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 913,
+    "original_raw_line": "2013\t\t‘Clos de la Maréchale,’ Nuits-Saint-Georges Premier Cru\t\t515",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "cuvee"
+    ],
+    "detail": {
+      "cuvee": "生産者が未確定のため、銘柄が一致しても確定しない"
+    },
+    "candidates": {
+      "cuvee": [
+        {
+          "entity_id": "cuvee:domaine-j-f-mugnier-clos-de-la-marechale",
+          "name": "\"Clos de la Maréchale\"",
+          "score": 1.0,
+          "why": "fuzzy name, producer unknown"
+        },
+        {
+          "entity_id": "cuvee:domaine-armand-rousseau-clos-de-la-roche",
+          "name": "Clos de la Roche",
+          "score": 0.8333,
+          "why": "fuzzy name, producer unknown"
+        },
+        {
+          "entity_id": "cuvee:domaine-dujac-clos-de-la-roche",
+          "name": "Clos de la Roche",
+          "score": 0.8333,
+          "why": "fuzzy name, producer unknown"
+        },
+        {
+          "entity_id": "cuvee:clos-de-la-coulee-de-serrant-nicolas-joly-clos-de-la-bergerie",
+          "name": "Clos de la Bergerie",
+          "score": 0.7179,
+          "why": "fuzzy name, producer unknown"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 914,
+    "original_raw_line": "2010\t\t‘Clos de la Maréchale,’ Nuits-Saint-Georges Premier Cru\t\t1040",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "cuvee"
+    ],
+    "detail": {
+      "cuvee": "生産者が未確定のため、銘柄が一致しても確定しない"
+    },
+    "candidates": {
+      "cuvee": [
+        {
+          "entity_id": "cuvee:domaine-j-f-mugnier-clos-de-la-marechale",
+          "name": "\"Clos de la Maréchale\"",
+          "score": 1.0,
+          "why": "fuzzy name, producer unknown"
+        },
+        {
+          "entity_id": "cuvee:domaine-armand-rousseau-clos-de-la-roche",
+          "name": "Clos de la Roche",
+          "score": 0.8333,
+          "why": "fuzzy name, producer unknown"
+        },
+        {
+          "entity_id": "cuvee:domaine-dujac-clos-de-la-roche",
+          "name": "Clos de la Roche",
+          "score": 0.8333,
+          "why": "fuzzy name, producer unknown"
+        },
+        {
+          "entity_id": "cuvee:clos-de-la-coulee-de-serrant-nicolas-joly-clos-de-la-bergerie",
+          "name": "Clos de la Bergerie",
+          "score": 0.7179,
+          "why": "fuzzy name, producer unknown"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 915,
+    "original_raw_line": "2023\t\t‘Les Fuées,’ Chambolle-Musigny Premier Cru\t\t\t1635",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "cuvee"
+    ],
+    "detail": {
+      "cuvee": "生産者が未確定のため、銘柄が一致しても確定しない"
+    },
+    "candidates": {
+      "cuvee": [
+        {
+          "entity_id": "cuvee:frederic-savart-les-noues",
+          "name": "Les Noues",
+          "score": 0.7778,
+          "why": "fuzzy name, producer unknown"
+        },
+        {
+          "entity_id": "cuvee:chateau-de-bonnezeaux-les-coqueries",
+          "name": "\"Les Coqueries\"",
+          "score": 0.7273,
+          "why": "fuzzy name, producer unknown"
+        },
+        {
+          "entity_id": "cuvee:domaine-georges-mugneret-gibourg-les-feusselottes",
+          "name": "\"Les Feusselottes\"",
+          "score": 0.72,
+          "why": "fuzzy name, producer unknown"
+        },
+        {
+          "entity_id": "cuvee:domaine-bachelet-monnot-les-referts",
+          "name": "\"Les Referts\"",
+          "score": 0.7,
+          "why": "fuzzy name, producer unknown"
+        },
+        {
+          "entity_id": "cuvee:domaine-billaud-simon-les-preuses",
+          "name": "\"Les Preuses\"",
+          "score": 0.7,
+          "why": "fuzzy name, producer unknown"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 930,
+    "original_raw_line": "2023\t\t‘Clos des Forets Saint Georges,’ Nuits-Saint-Georges Premier Cru\t515",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "cuvee"
+    ],
+    "detail": {
+      "cuvee": "生産者が未確定のため、銘柄が一致しても確定しない"
+    },
+    "candidates": {
+      "cuvee": [
+        {
+          "entity_id": "cuvee:domaine-de-l-arlot-clos-des-forets-saint-georges",
+          "name": "\"Clos des Forêts Saint Georges\"",
+          "score": 1.0,
+          "why": "fuzzy name, producer unknown"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 931,
+    "original_raw_line": "2021\t\t‘Clos des Forets Saint Georges,’ Nuits-Saint-Georges Premier Cru\t515",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "cuvee"
+    ],
+    "detail": {
+      "cuvee": "生産者が未確定のため、銘柄が一致しても確定しない"
+    },
+    "candidates": {
+      "cuvee": [
+        {
+          "entity_id": "cuvee:domaine-de-l-arlot-clos-des-forets-saint-georges",
+          "name": "\"Clos des Forêts Saint Georges\"",
+          "score": 1.0,
+          "why": "fuzzy name, producer unknown"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 932,
+    "original_raw_line": "2019\t\t‘Clos des Forets Saint Georges,’ Nuits-Saint-Georges Premier Cru\t550",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "cuvee"
+    ],
+    "detail": {
+      "cuvee": "生産者が未確定のため、銘柄が一致しても確定しない"
+    },
+    "candidates": {
+      "cuvee": [
+        {
+          "entity_id": "cuvee:domaine-de-l-arlot-clos-des-forets-saint-georges",
+          "name": "\"Clos des Forêts Saint Georges\"",
+          "score": 1.0,
+          "why": "fuzzy name, producer unknown"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 936,
+    "original_raw_line": "2009\t\tFixin\t\t\t\t\t\t\t\t\t1600",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "producer"
+    ],
+    "detail": {
+      "producer": "同じ名前の canonical 行が 2 件ある — 自動では選ばない"
+    },
+    "candidates": {
+      "producer": [
+        {
+          "entity_id": "producer:domaine-leroy",
+          "name": "Domaine Leroy",
+          "score": 1.0,
+          "why": "exact name, not unique"
+        },
+        {
+          "entity_id": "producer:maison-leroy",
+          "name": "Maison Leroy",
+          "score": 1.0,
+          "why": "exact name, not unique"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 939,
+    "original_raw_line": "2023\t\t‘Vieilles Vignes,’ Morey-Saint-Denis\t\t\t\t280",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "cuvee"
+    ],
+    "detail": {
+      "cuvee": "生産者が未確定のため、銘柄が一致しても確定しない"
+    },
+    "candidates": {
+      "cuvee": [
+        {
+          "entity_id": "cuvee:domaine-dugat-py-vieilles-vignes",
+          "name": "\"Vieilles Vignes\"",
+          "score": 1.0,
+          "why": "fuzzy name, producer unknown"
+        },
+        {
+          "entity_id": "cuvee:domaine-alain-voge-cornas-les-vieilles-vignes",
+          "name": "Cornas Les Vieilles Vignes",
+          "score": 0.7317,
+          "why": "fuzzy name, producer unknown"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 940,
+    "original_raw_line": "2020\t\t‘Les Faconnières,’ Morey-Saint-Denis Premier Cru\t\t\t400",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "cuvee"
+    ],
+    "detail": {
+      "cuvee": "生産者が未確定のため、銘柄が一致しても確定しない"
+    },
+    "candidates": {
+      "cuvee": [
+        {
+          "entity_id": "cuvee:alvina-pernot-les-folatieres",
+          "name": "\"Les Folatières\"",
+          "score": 0.7586,
+          "why": "fuzzy name, producer unknown"
+        },
+        {
+          "entity_id": "cuvee:domaine-bachelet-monnot-les-folatieres",
+          "name": "\"Les Folatières\"",
+          "score": 0.7586,
+          "why": "fuzzy name, producer unknown"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 945,
+    "original_raw_line": "2022\t\t‘Vignes Franches,’ Beaune Premier Cru\t\t\t\t250",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "cuvee"
+    ],
+    "detail": {
+      "cuvee": "生産者が未確定のため、銘柄が一致しても確定しない"
+    },
+    "candidates": {
+      "cuvee": [
+        {
+          "entity_id": "cuvee:louis-latour-vignes-franches",
+          "name": "\"Vignes Franches\"",
+          "score": 1.0,
+          "why": "fuzzy name, producer unknown"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 948,
+    "original_raw_line": "2022\t\t‘Epenots,’ Pommard Premier Cru\t\t\t\t\t455",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "cuvee"
+    ],
+    "detail": {
+      "cuvee": "生産者が未確定のため、銘柄が一致しても確定しない"
+    },
+    "candidates": {
+      "cuvee": [
+        {
+          "entity_id": "cuvee:louis-latour-epenots",
+          "name": "\"Épenots\"",
+          "score": 1.0,
+          "why": "fuzzy name, producer unknown"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 952,
+    "original_raw_line": "2022\t\t‘Les Charmes,’ Chambolle-Musigny Premier Cru\t\t\t520",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "cuvee"
+    ],
+    "detail": {
+      "cuvee": "生産者が未確定のため、銘柄が一致しても確定しない"
+    },
+    "candidates": {
+      "cuvee": [
+        {
+          "entity_id": "cuvee:domaine-hudelot-baillet-les-charmes",
+          "name": "\"Les Charmes\"",
+          "score": 1.0,
+          "why": "fuzzy name, producer unknown"
+        },
+        {
+          "entity_id": "cuvee:domaine-hudelot-noellat-le-charme",
+          "name": "\"Le Charme\"",
+          "score": 0.9,
+          "why": "fuzzy name, producer unknown"
+        },
+        {
+          "entity_id": "cuvee:domaine-laroche-les-fourchaumes",
+          "name": "\"Les Fourchaumes\"",
+          "score": 0.7692,
+          "why": "fuzzy name, producer unknown"
+        },
+        {
+          "entity_id": "cuvee:domaine-hudelot-baillet-les-cras",
+          "name": "\"Les Cras\"",
+          "score": 0.7368,
+          "why": "fuzzy name, producer unknown"
+        },
+        {
+          "entity_id": "cuvee:domaine-simon-bize-et-fils-les-champlains",
+          "name": "\"Les Champlains\"",
+          "score": 0.72,
+          "why": "fuzzy name, producer unknown"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 963,
+    "original_raw_line": "2022\t\t‘Belissand,’ Beaune Premier Cru\t\t\t\t\t240",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "producer",
+      "cuvee"
+    ],
+    "detail": {
+      "producer": "'Louis Liger Leblanc' に近い生産者が 1 件 — 確定は人間が行う",
+      "cuvee": "生産者が未確定のため、銘柄が一致しても確定しない"
+    },
+    "candidates": {
+      "producer": [
+        {
+          "entity_id": "producer:louis-liger-belair",
+          "name": "Louis Liger-Belair",
+          "score": 0.8108,
+          "why": "fuzzy name"
+        }
+      ],
+      "cuvee": [
+        {
+          "entity_id": "cuvee:louis-liger-belair-belissand",
+          "name": "\"Belissand\"",
+          "score": 1.0,
+          "why": "fuzzy name, producer unknown"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 964,
+    "original_raw_line": "2013\t\t‘Le Millandes,’ Morey-Saint-Denis Premier Cru\t\t\t300",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "producer",
+      "cuvee"
+    ],
+    "detail": {
+      "producer": "'Louis Liger Leblanc' に近い生産者が 1 件 — 確定は人間が行う",
+      "cuvee": "生産者が未確定のため、銘柄が一致しても確定しない"
+    },
+    "candidates": {
+      "producer": [
+        {
+          "entity_id": "producer:louis-liger-belair",
+          "name": "Louis Liger-Belair",
+          "score": 0.8108,
+          "why": "fuzzy name"
+        }
+      ],
+      "cuvee": [
+        {
+          "entity_id": "cuvee:louis-liger-belair-le-millandes",
+          "name": "\"Le Millandes\"",
+          "score": 1.0,
+          "why": "fuzzy name, producer unknown"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 1128,
+    "original_raw_line": "2001\t\t‘Chaillot,’ Cornas\t\t\t\t\t\t\t2000",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "producer",
+      "cuvee"
+    ],
+    "detail": {
+      "producer": "'Theirry Allemand' に近い生産者が 1 件 — 確定は人間が行う",
+      "cuvee": "生産者が未確定のため、銘柄が一致しても確定しない"
+    },
+    "candidates": {
+      "producer": [
+        {
+          "entity_id": "producer:thierry-allemand",
+          "name": "Thierry Allemand",
+          "score": 0.9375,
+          "why": "fuzzy name"
+        }
+      ],
+      "cuvee": [
+        {
+          "entity_id": "cuvee:thierry-allemand-chaillot",
+          "name": "Chaillot",
+          "score": 1.0,
+          "why": "fuzzy name, producer unknown"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 1129,
+    "original_raw_line": "1999\t\t‘Chaillot,’ Cornas\t\t\t\t\t\t\t2400",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "producer",
+      "cuvee"
+    ],
+    "detail": {
+      "producer": "'Theirry Allemand' に近い生産者が 1 件 — 確定は人間が行う",
+      "cuvee": "生産者が未確定のため、銘柄が一致しても確定しない"
+    },
+    "candidates": {
+      "producer": [
+        {
+          "entity_id": "producer:thierry-allemand",
+          "name": "Thierry Allemand",
+          "score": 0.9375,
+          "why": "fuzzy name"
+        }
+      ],
+      "cuvee": [
+        {
+          "entity_id": "cuvee:thierry-allemand-chaillot",
+          "name": "Chaillot",
+          "score": 1.0,
+          "why": "fuzzy name, producer unknown"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 1130,
+    "original_raw_line": "2006\t\t‘Reynard,’ Cornas\t\t\t\t\t\t\t1600",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "producer",
+      "cuvee"
+    ],
+    "detail": {
+      "producer": "'Theirry Allemand' に近い生産者が 1 件 — 確定は人間が行う",
+      "cuvee": "生産者が未確定のため、銘柄が一致しても確定しない"
+    },
+    "candidates": {
+      "producer": [
+        {
+          "entity_id": "producer:thierry-allemand",
+          "name": "Thierry Allemand",
+          "score": 0.9375,
+          "why": "fuzzy name"
+        }
+      ],
+      "cuvee": [
+        {
+          "entity_id": "cuvee:thierry-allemand-reynard",
+          "name": "\"Reynard\"",
+          "score": 1.0,
+          "why": "fuzzy name, producer unknown"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 1131,
+    "original_raw_line": "1998\t\t‘Reynard,’ Cornas\t\t\t\t\t\t\t2600",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "producer",
+      "cuvee"
+    ],
+    "detail": {
+      "producer": "'Theirry Allemand' に近い生産者が 1 件 — 確定は人間が行う",
+      "cuvee": "生産者が未確定のため、銘柄が一致しても確定しない"
+    },
+    "candidates": {
+      "producer": [
+        {
+          "entity_id": "producer:thierry-allemand",
+          "name": "Thierry Allemand",
+          "score": 0.9375,
+          "why": "fuzzy name"
+        }
+      ],
+      "cuvee": [
+        {
+          "entity_id": "cuvee:thierry-allemand-reynard",
+          "name": "\"Reynard\"",
+          "score": 1.0,
+          "why": "fuzzy name, producer unknown"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 1153,
+    "original_raw_line": "2023\t\t‘Signature,’ Napa Valley Chardonnay\t\t\t\t230",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "cuvee"
+    ],
+    "detail": {
+      "cuvee": "生産者が未確定のため、銘柄が一致しても確定しない"
+    },
+    "candidates": {
+      "cuvee": [
+        {
+          "entity_id": "cuvee:henri-giraud-esprit-nature",
+          "name": "Esprit Nature",
+          "score": 0.7273,
+          "why": "fuzzy name, producer unknown"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 1172,
+    "original_raw_line": "2023\t\tNapa Valley Chardonnay\t\t\t\t\t\t450",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "producer"
+    ],
+    "detail": {
+      "producer": "'Kongsgaard' に近い生産者が 1 件 — 確定は人間が行う"
+    },
+    "candidates": {
+      "producer": [
+        {
+          "entity_id": "producer:kongsgaard-wine",
+          "name": "Kongsgaard Wine",
+          "score": 0.8,
+          "why": "fuzzy name"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 1192,
+    "original_raw_line": "2024\t\t‘Les Noisetiers,’ Russian River Valley Chardonnay\t\t\t210",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "cuvee"
+    ],
+    "detail": {
+      "cuvee": "Kistler Vineyards の中に近い銘柄が 1 件 — 確定は人間が行う"
+    },
+    "candidates": {
+      "cuvee": [
+        {
+          "entity_id": "cuvee:kistler-vineyards-les-noisetiers-chardonnay",
+          "name": "Les Noisetiers Chardonnay",
+          "score": 0.7179,
+          "why": "fuzzy within producer"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 1203,
+    "original_raw_line": "2023\t\t‘Estate,’ Dundee Hills Pinot Gris\t\t\t\t\t125",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "producer"
+    ],
+    "detail": {
+      "producer": "'Eyrie Vineyards' に近い生産者が 5 件 — 確定は人間が行う"
+    },
+    "candidates": {
+      "producer": [
+        {
+          "entity_id": "producer:ridge-vineyards",
+          "name": "Ridge Vineyards",
+          "score": 0.8667,
+          "why": "fuzzy name"
+        },
+        {
+          "entity_id": "producer:beringer-vineyards",
+          "name": "Beringer Vineyards",
+          "score": 0.8485,
+          "why": "fuzzy name"
+        },
+        {
+          "entity_id": "producer:shafer-vineyards",
+          "name": "Shafer Vineyards",
+          "score": 0.7742,
+          "why": "fuzzy name"
+        },
+        {
+          "entity_id": "producer:kistler-vineyards",
+          "name": "Kistler Vineyards",
+          "score": 0.75,
+          "why": "fuzzy name"
+        },
+        {
+          "entity_id": "producer:caymus-vineyards",
+          "name": "Caymus Vineyards",
+          "score": 0.7097,
+          "why": "fuzzy name"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 1228,
+    "original_raw_line": "2022\t\t“Signature,” Napa Valley Cabernet Sauvignon\t\t\t280",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "cuvee"
+    ],
+    "detail": {
+      "cuvee": "生産者が未確定のため、銘柄が一致しても確定しない"
+    },
+    "candidates": {
+      "cuvee": [
+        {
+          "entity_id": "cuvee:henri-giraud-esprit-nature",
+          "name": "Esprit Nature",
+          "score": 0.7273,
+          "why": "fuzzy name, producer unknown"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 1229,
+    "original_raw_line": "2021\t\t“Signature,” Napa Valley Cabernet Sauvignon\t\t\t280",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "cuvee"
+    ],
+    "detail": {
+      "cuvee": "生産者が未確定のため、銘柄が一致しても確定しない"
+    },
+    "candidates": {
+      "cuvee": [
+        {
+          "entity_id": "cuvee:henri-giraud-esprit-nature",
+          "name": "Esprit Nature",
+          "score": 0.7273,
+          "why": "fuzzy name, producer unknown"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 1237,
+    "original_raw_line": "2022\t\t‘Signature,’ Napa Valley Cabernet Sauvignon\t\t\t420",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "cuvee"
+    ],
+    "detail": {
+      "cuvee": "生産者が未確定のため、銘柄が一致しても確定しない"
+    },
+    "candidates": {
+      "cuvee": [
+        {
+          "entity_id": "cuvee:henri-giraud-esprit-nature",
+          "name": "Esprit Nature",
+          "score": 0.7273,
+          "why": "fuzzy name, producer unknown"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 1238,
+    "original_raw_line": "2023\t\t‘Signature,’ Napa Valley Merlot\t\t\t\t\t280",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "cuvee"
+    ],
+    "detail": {
+      "cuvee": "生産者が未確定のため、銘柄が一致しても確定しない"
+    },
+    "candidates": {
+      "cuvee": [
+        {
+          "entity_id": "cuvee:henri-giraud-esprit-nature",
+          "name": "Esprit Nature",
+          "score": 0.7273,
+          "why": "fuzzy name, producer unknown"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 1355,
+    "original_raw_line": "2022\t\t‘The Eyrie,’ Dundee Hills Pinot Noir\t\t\t\t\t280",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "producer"
+    ],
+    "detail": {
+      "producer": "'Eyrie Vineyards' に近い生産者が 5 件 — 確定は人間が行う"
+    },
+    "candidates": {
+      "producer": [
+        {
+          "entity_id": "producer:ridge-vineyards",
+          "name": "Ridge Vineyards",
+          "score": 0.8667,
+          "why": "fuzzy name"
+        },
+        {
+          "entity_id": "producer:beringer-vineyards",
+          "name": "Beringer Vineyards",
+          "score": 0.8485,
+          "why": "fuzzy name"
+        },
+        {
+          "entity_id": "producer:shafer-vineyards",
+          "name": "Shafer Vineyards",
+          "score": 0.7742,
+          "why": "fuzzy name"
+        },
+        {
+          "entity_id": "producer:kistler-vineyards",
+          "name": "Kistler Vineyards",
+          "score": 0.75,
+          "why": "fuzzy name"
+        },
+        {
+          "entity_id": "producer:caymus-vineyards",
+          "name": "Caymus Vineyards",
+          "score": 0.7097,
+          "why": "fuzzy name"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  },
+  {
+    "source_line_no": 1356,
+    "original_raw_line": "2014\t\t‘Original Vines,’ Dundee Hills Pinot Noir\t\t\t\t400",
+    "reason": "fuzzy_candidate",
+    "levels": [
+      "producer"
+    ],
+    "detail": {
+      "producer": "'Eyrie Vineyards' に近い生産者が 5 件 — 確定は人間が行う"
+    },
+    "candidates": {
+      "producer": [
+        {
+          "entity_id": "producer:ridge-vineyards",
+          "name": "Ridge Vineyards",
+          "score": 0.8667,
+          "why": "fuzzy name"
+        },
+        {
+          "entity_id": "producer:beringer-vineyards",
+          "name": "Beringer Vineyards",
+          "score": 0.8485,
+          "why": "fuzzy name"
+        },
+        {
+          "entity_id": "producer:shafer-vineyards",
+          "name": "Shafer Vineyards",
+          "score": 0.7742,
+          "why": "fuzzy name"
+        },
+        {
+          "entity_id": "producer:kistler-vineyards",
+          "name": "Kistler Vineyards",
+          "score": 0.75,
+          "why": "fuzzy name"
+        },
+        {
+          "entity_id": "producer:caymus-vineyards",
+          "name": "Caymus Vineyards",
+          "score": 0.7097,
+          "why": "fuzzy name"
+        }
+      ]
+    },
+    "note": "候補が存在するため shell を作らない — 既存行の重複になりうる。人間が裁定する"
+  }
+]

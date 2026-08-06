@@ -23,6 +23,15 @@ venv/
 .mypy_cache/
 .ruff_cache/
 
+# Research Layer: raw source cache (296MB of third-party HTML/PDF captures).
+# Provenance lives in each dossier's ## Sources section as URLs; the local cache
+# is reproducible from those. Kept out of history deliberately — see
+# docs/state/DECISIONS.md (2026-08-05).
+research/producers/_sources/
+
+# Canonical DB — never committed from this branch.
+migration/
+
 # Editor
 .vscode/
 .idea/
