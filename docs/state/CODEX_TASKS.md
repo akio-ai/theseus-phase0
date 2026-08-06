@@ -244,6 +244,36 @@ records whose names contain a legitimate French elision** (`L'Esprit`, `Réserve
 producer (Thierry Allemand), Reynard propagates the quotes into `proposed_canonical_cuvee` while
 Chaillot normalises them away.
 
+### Batch 13 additions
+
+- 🔴 **The matcher's per-producer candidate set is smaller than canonical.** All three Krug rows
+  (`obp-beverage-2026-08:6576a45bb2` / `7ea95401c0` / `b82ab723da`) carry the intake evidence
+  `'Krug' の canonical キュヴェ 2 件に一致無し`, yet `migration/out/export/db_wine_canonical.json`
+  holds **13 records with `producer == "Krug"`**, including `krug-grande-cuvee-171`, `-172` and
+  `-173` — **exact counterparts of all three rows, with the correct base years already stored**.
+  The 13 records collapse to exactly **2 cuvée families** (`Grande Cuvée` ×12, `Rosé` ×1), so the
+  "2" is plausibly a family count reaching the matcher where a record count was needed. **Not
+  investigated further** (`D-2026-08-06-06`). Evidence: `research/producers/krug.md` §Canonical
+  Conflict ①.
+
+- 🔴 **`CDX-20` now has a case where the over-split string is a real product name *and* collides
+  with a second real product in the same vintage.** Ridge rows 1 and 2
+  (`obp-beverage-2026-08:43436ec6c8` / `f70b019945`) are decomposed into
+  `appellation='santa cruz mountains'` + `varietal='cabernet sauvignon'`. Ridge ships **two**
+  distinct 2023 wines: `Estate Cabernet Sauvignon` (estate-farmed, Monte Bello, `Organically
+  Grown`) and `Santa Cruz Mountains Cabernet Sauvignon` (**revived in 2023 for purchased fruit**,
+  no organic claim). The only token separating them is `Estate`, which the split discards into
+  `_parts.label`. **Not investigated further** (`D-2026-08-06-06`). Evidence:
+  `research/producers/ridge-vineyards.md` §Important Cuvées 行 1.
+
+- ⚠️ **`_parts.varietal` is a typed field but accepts non-varieties.** Ridge row 3
+  (`obp-beverage-2026-08:717413779c`) stores `varietal = "proprietary blend"`. The producer's own
+  label-grammar page uses `Proprietary Name` and `field blend`; `Proprietary Blend` appears on
+  neither the front label (`71% ZINFANDEL, 19% CARIGNANE, 8% PETITE SIRAH, 2% ALICANTE BOUSCHET`)
+  nor anywhere on `ridgewine.com`. Related to `CDX-15` but the harm is the typed field, not the
+  cuvée string. **Not investigated further** (`D-2026-08-06-06`). Evidence:
+  `research/producers/ridge-vineyards.md` §Important Cuvées 行 3.
+
 ---
 
 ## P2 — model questions; code cannot proceed until these are answered
